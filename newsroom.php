@@ -12,6 +12,8 @@
 
       <?php include('preloader.php'); ?>
 
+      <?php include('home-modal.php'); ?>
+
       <?php include('header.php'); ?>
 
 

@@ -12,7 +12,10 @@
 
       <?php include('preloader.php'); ?>
 
+      <?php include('home-modal.php'); ?>
+
       <?php include('header.php'); ?>
+
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
