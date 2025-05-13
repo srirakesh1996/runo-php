@@ -24,7 +24,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
 
                                     <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
                                     <!-- Trigger: Request a Demo -->
