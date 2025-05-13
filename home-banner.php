@@ -6,7 +6,7 @@
             <div class="header-sticky">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container" style="width: 1100px;">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="https://runo.in">
                             <img src="img/logo.png" alt="Logo" style="width: 100px;">
                         </a>
 

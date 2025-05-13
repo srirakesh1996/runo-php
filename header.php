@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://runo.in">Home</a></li>
                             <li class="nav-item submenu">
                                 <a class="nav-link">Products</a>
                                 <ul class="submenu-list">
