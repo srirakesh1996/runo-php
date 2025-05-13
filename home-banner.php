@@ -33,11 +33,9 @@
                                     </li>
 
                                     <div class="app-header-icons">
+                                        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"> <img src="img/app-ico.png" width="40px"></a>
 
-
-                                        <img src="img/app-ico.png" width="40px">
-
-                                        <img src="img/play-ico.png" width="40px">
+                                        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"> <img src="img/play-ico.png" width="40px"></a>
                                     </div>
                                 </ul>
                             </div>
