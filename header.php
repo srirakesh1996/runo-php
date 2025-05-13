@@ -8,7 +8,6 @@
                     <img src="img/logo.png" alt="Logo" style="width: 100px;">
                 </a>
                 <!-- Logo End -->
-
                 <!-- Main Menu Start -->
                 <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">

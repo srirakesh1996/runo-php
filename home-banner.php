@@ -9,7 +9,6 @@
                         <a class="navbar-brand" href="https://runo.in">
                             <img src="img/logo.png" alt="Logo" style="width: 100px;">
                         </a>
-
                         <div class="collapse navbar-collapse main-menu" id="home-menu">
                             <div class="nav-menu-wrapper">
                                 <ul class="navbar-nav mr-auto" id="menu">
