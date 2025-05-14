@@ -40,7 +40,7 @@
                      <div class="news-description">
                         RUNO, a CRM startup, secures $1.5M in a Pre-Series A round to expand its product and market reach across various industries.
                      </div>
-                     <a href="https://www.thehindubusinessline.com/info-tech/crm-startup-runo-raises-15-million-in-pre-series-a/article68093390.ece" target="_blank" class="btn btn-default btn-highlighted">View More</a>
+                     <a href="https://www.thehindubusinessline.com/info-tech/crm-startup-runo-raises-15-million-in-pre-series-a/article68093390.ece" target="_blank" class="btn-orange mt-20">View More</a>
                   </div>
                </div>
             </div>
@@ -53,7 +53,7 @@
                      <div class="news-description">
                         Runo attracted $500K in a funding round led by Unicorn India Ventures to enhance its tech stack and scale its operations.
                      </div>
-                     <a href="https://economictimes.indiatimes.com/tech/startups/runo-raises-500000-in-pre-series-a-from-unicorn-india-ventures/articleshow/89488783.cms?from=mdr" target="_blank" class="btn btn-default btn-highlighted">View More</a>
+                     <a href="https://economictimes.indiatimes.com/tech/startups/runo-raises-500000-in-pre-series-a-from-unicorn-india-ventures/articleshow/89488783.cms?from=mdr" target="_blank" class="btn-orange mt-20">View More</a>
                   </div>
                </div>
             </div>

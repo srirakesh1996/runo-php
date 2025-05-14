@@ -72,11 +72,11 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int1.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int1.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
                      <!-- Floating Images -->
-                     <img src="img/int2.png" alt="Left Floating Box"
+                     <img src="img/int2.webp" alt="Left Floating Box"
                         class="side-image left-image wow fadeInLeft" data-wow-delay="0.4s">
-                     <img src="img/int3.png" alt="Right Floating Box"
+                     <img src="img/int3.webp" alt="Right Floating Box"
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
                </div>
@@ -103,11 +103,11 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int4.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int4.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
                      <!-- Floating Images -->
-                     <img src="img/int5.png" alt="Left Floating Box"
+                     <img src="img/int5.webp" alt="Left Floating Box"
                         class="side-image left-image wow fadeInLeft" data-wow-delay="0.4s">
-                     <img src="img/int6.png" alt="Right Floating Box"
+                     <img src="img/int6.webp" alt="Right Floating Box"
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
                </div>
@@ -212,8 +212,8 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int4.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
-                     <img src="img/int7.png" alt="Right Floating Box"
+                     <img src="img/int4.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int7.webp" alt="Right Floating Box"
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
                </div>
@@ -241,9 +241,9 @@
             <div class="col-lg-6">
                <div class="image-wrapper">
                   <!-- Main Image with FadeIn -->
-                  <img src="img/int8.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                  <img src="img/int8.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
                   <!-- Floating Images -->
-                  <img src="img/int9.png" alt="Right Floating Box"
+                  <img src="img/int9.webp" alt="Right Floating Box"
                      class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                </div>
             </div>
@@ -294,7 +294,7 @@
       <div class="container">
          <div class="row align-items-center">
             <div class="col-md-6 demo-img text-center mb-4 mb-md-0">
-               <img src="img/cta-pic.png" alt="Woman pointing">
+               <img src="img/cta-pic.webp" alt="Woman pointing">
             </div>
             <div class="col-md-6 demo-text">
                <h2 class="wow fadeInUp" data-wow-delay="0.4s">
@@ -434,7 +434,7 @@
             </div>
             <!-- Image Section -->
             <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
-               <img src="img/mobile.png" alt="App Preview" class="img-fluid" style="width:80%">
+               <img src="img/mobile.webp" alt="App Preview" class="img-fluid" style="width:80%">
             </div>
             <!-- App Icons Section -->
             <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">

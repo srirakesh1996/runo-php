@@ -39,22 +39,22 @@
       <div class="col-md-6">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
-            <img src="img/deal1.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 1 Image">
+            <img src="img/deal1.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 1 Image">
           </div>
           <div class="tab-pane fade" id="tab2">
-            <img src="img/deal2.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 2 Image">
+            <img src="img/deal2.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 2 Image">
           </div>
           <div class="tab-pane fade" id="tab3">
-            <img src="img/deal3.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 3 Image">
+            <img src="img/deal3.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 3 Image">
           </div>
           <div class="tab-pane fade" id="tab4">
-            <img src="img/deal4.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 4 Image">
+            <img src="img/deal4.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 4 Image">
           </div>
           <div class="tab-pane fade" id="tab5">
-            <img src="img/deal5.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 5 Image">
+            <img src="img/deal5.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 5 Image">
           </div>
           <div class="tab-pane fade" id="tab6">
-            <img src="img/deal6.png" class="img-preview" data-wow-delay="0.4s" alt=" Tab 6 Image">
+            <img src="img/deal6.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 6 Image">
           </div>
         </div>
       </div>

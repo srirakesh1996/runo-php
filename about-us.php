@@ -73,21 +73,21 @@
                </div>
                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                   <div class="about-us-content">
-                     <div class="section-title">
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">
-                           Traditional systems were cumbersome, costly, and often required a massive capital investment. What we envisioned was a solution that would be accessible to businesses of all sizes, completely eliminating the need for extensive hardware and reducing operational costs.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.6s">
-                           <b>Runo was born out of this vision.</b>
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.7s">
-                           We set out to create the best SIM-based Call Management CRM, allowing businesses to run their calling processes directly from their phones. Our platform offers an integrated CRM, real-time performance analytics, advanced caller ID, and seamless integration with external CRMs, WhatsApp, and email.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.8s"><b>So, what sets us apart?</b></p>
-                        <p class="wow fadeInUp" data-wow-delay="0.9s">
-                           We are dedicated to changing the way businesses handle calls, deeply focusing on simplicity, scalability, and security. Our solution allows businesses to scale up or down instantly with changing team sizes, ensuring high contact ratios and low recurring costs.
-                        </p>
-                     </div>
+
+                     <p class="wow fadeInUp" data-wow-delay="0.5s">
+                        Traditional systems were cumbersome, costly, and often required a massive capital investment. What we envisioned was a solution that would be accessible to businesses of all sizes, completely eliminating the need for extensive hardware and reducing operational costs.
+                     </p>
+                     <p class="wow fadeInUp" data-wow-delay="0.6s">
+                        <b>Runo was born out of this vision.</b>
+                     </p>
+                     <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        We set out to create the best SIM-based Call Management CRM, allowing businesses to run their calling processes directly from their phones. Our platform offers an integrated CRM, real-time performance analytics, advanced caller ID, and seamless integration with external CRMs, WhatsApp, and email.
+                     </p>
+                     <p class="wow fadeInUp" data-wow-delay="0.8s"><b>So, what sets us apart?</b></p>
+                     <p class="wow fadeInUp" data-wow-delay="0.9s">
+                        We are dedicated to changing the way businesses handle calls, deeply focusing on simplicity, scalability, and security. Our solution allows businesses to scale up or down instantly with changing team sizes, ensuring high contact ratios and low recurring costs.
+                     </p>
+
                   </div>
                </div>
             </div>
@@ -128,7 +128,7 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-md-6 demo-img text-center mb-4 mb-md-0">
-                  <img src="img/cta-pic.png" alt="Woman pointing">
+                  <img src="img/cta-pic.webp" alt="Woman pointing">
                </div>
                <div class="col-md-6 demo-text">
                   <h2 class="wow fadeInUp" data-wow-delay="0.4s">

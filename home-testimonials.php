@@ -10,7 +10,7 @@
       </div>
       <!-- Right Image -->
       <div class="col-md-5 text-md-end text-center security-badges wow fadeInRight" data-wow-delay="0.2s">
-        <img src="img/security.png" alt="ISO Badge" class="img-fluid">
+        <img src="img/security.webp" alt="ISO Badge" class="img-fluid">
       </div>
     </div>
   </section>
