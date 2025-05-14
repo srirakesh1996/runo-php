@@ -2,21 +2,14 @@
 
 <head>
    <title>Cancellation and Refund Policy - Runo by Rutakshi Technologies Pvt Ltd</title>
-
    <?php include('head.php'); ?>
-
-
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('home-modal.php'); ?>
-
       <?php include('header.php'); ?>
-
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -36,7 +29,6 @@
          </div>
       </div>
       <!-- Page Header End -->
-
       <!-- Cancellation and Refund Policy Section Start -->
       <section class="py-5">
          <div class="container legal-content">
@@ -44,13 +36,11 @@
                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
                   <p>Our watch-word is total customer satisfaction. In case you are not satisfied with the services provided, your money will be refunded, after due investigation and provided the reasons attributed by you are genuine.</p>
                   <p>The fine print provides all relevant details about the Product or Services which you purchase, and we request you to go through the fine print carefully before your procurement.</p>
-
                   <h4>Cancellation Policy</h4>
                   <p>For cancellation of your Order, please check in our App for the “contact us” link, quoting a valid reason AND also by providing your unique reference number.</p>
                   <p>Please note that renewal after the validity period is NOT automatic, unless payment is made in advance, and the same is realized/received by our Company.</p>
                   <p>Request for renewal received later than 3 business days prior to the end of the current contract/service period will result in a cancellation of services for the next renewal/service period.</p>
                   <p>However, the Contract will be renewed within 3 working days on receipt of your Request and on receipt of specified Service Charges.</p>
-
                   <h4>Refund Policy</h4>
                   <p>We will try our best to create suitable design concepts for our Clients, within the frame of our Company Policy on the subject.</p>
                   <p>In any case, if you are not satisfied with our product/services, we will try our best to measure up to your level of expectation, and still, if dissatisfaction persists, we will provide a refund, within two weeks of agreement for such Refund.</p>
@@ -61,16 +51,13 @@
                      <li>Through Cheque / DD, a refund will be made by way of a crossed Cheque in your favour.</li>
                   </ul>
                   <p>Note: For any further clarifications on the subject, we request you to seek clarification/s, in writing, before making your final decision to procure the product/services.</p>
-
                   <p>2024 © Rutakshi Technologies Private Limited. All Rights Reserved.</p>
                </div>
             </div>
          </div>
       </section>
       <!-- Cancellation and Refund Policy Section End -->
-
       <?php include('footer.php'); ?>
-
       <?php include('footerjs.php'); ?>
    </div>
 </body>

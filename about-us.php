@@ -2,20 +2,35 @@
 
 <head>
    <title>About Us</title>
-
    <?php include('head.php'); ?>
 
+   <style>
+      .demo-section {
+         padding: 60px 0;
+         background-color: #fff6f6;
+      }
+
+      .demo-text h2 {
+         font-weight: 700;
+         color: #2e0e3a;
+      }
+
+      .demo-text p {
+         color: #5a3e5e;
+         font-size: 18px;
+      }
+
+      .demo-img img {
+         max-width: 100%;
+      }
+   </style>
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('home-modal.php'); ?>
-
       <?php include('header.php'); ?>
-
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -35,7 +50,6 @@
          </div>
       </div>
       <!-- Page Header End -->
-
       <!-- About Tag Section -->
       <section class="about-tag">
          <div class="container">
@@ -46,7 +60,6 @@
             </div>
          </div>
       </section>
-
       <!-- Page About Section 1 -->
       <div class="page-about">
          <div class="container">
@@ -80,7 +93,6 @@
             </div>
          </div>
       </div>
-
       <!-- Page About Section 2 -->
       <div class="page-about">
          <div class="container">
@@ -111,7 +123,6 @@
             </div>
          </div>
       </div>
-
       <!-- Demo CTA Section -->
       <section class="demo-section wow fadeInUp" data-wow-delay="0.3s">
          <div class="container">
@@ -138,45 +149,10 @@
             </div>
          </div>
       </section>
-
       <!-- Optional custom styles -->
-      <style>
-         .demo-section {
-            padding: 60px 0;
-            background-color: #fff6f6;
-         }
-
-         .demo-text h2 {
-            font-weight: 700;
-            color: #2e0e3a;
-         }
-
-         .demo-text p {
-            color: #5a3e5e;
-            font-size: 18px;
-         }
-
-         .demo-img img {
-            max-width: 100%;
-         }
-      </style>
-
-      <!-- Sticky Header Script -->
-      <script>
-         window.addEventListener('scroll', function() {
-            const header = document.querySelector('.header-sticky');
-            if (window.scrollY > 100) {
-               header.classList.add('active');
-            } else {
-               header.classList.remove('active');
-            }
-         });
-      </script>
-
 
    </div>
    <?php include('footer.php'); ?>
-
    <?php include('footerjs.php'); ?>
 </body>
 

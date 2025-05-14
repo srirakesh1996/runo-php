@@ -1,14 +1,12 @@
 <section class="features-section">
-
   <div class="container">
     <!-- Section Title -->
     <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
       <h2>Built for Doers, Dreamers, and
-        Deal Closers: Peep In.</h2>
+        Deal Closers: Peep In.
+      </h2>
       <p class="feat-text">Manage calls, track insights, and close deals, everything from your mobile phone</p>
     </div>
-
-
     <!-- Desktop Layout -->
     <!-- Desktop Layout -->
     <div class="row d-none d-md-flex">
@@ -85,8 +83,6 @@
         <p class="feat-text">Visually manage your sales pipeline and easily move deals between stages</p>
       </div>
     </div>
-
-
     <!-- Mobile Swiper Layout -->
     <!-- Mobile Swiper Layout (14 Features) -->
     <div class="swiper-container d-block d-md-none mt-4">
@@ -163,8 +159,6 @@
           <p class="feat-text">Visually manage your sales pipeline and easily move deals between stages</p>
         </div>
       </div>
-
-
       <!-- Custom navigation buttons below -->
       <div class="swiper-nav-buttons text-center">
         <button class="swiper-custom-prev">
@@ -175,9 +169,7 @@
         </button>
       </div>
     </div>
-
   </div>
-
   </div>
 </section>
 <script>
@@ -195,10 +187,8 @@
     },
   });
 </script>
-
 <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
   <div class="container">
-
     <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
       Get a personalized walkthrough<br>
       of Runo in action
@@ -206,6 +196,5 @@
     <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
       Schedule Your Demo
     </button>
-
   </div>
 </section>

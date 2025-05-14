@@ -16,11 +16,11 @@
                                     <li class="nav-item submenu">
                                         <a class="nav-link">Products</a>
                                         <ul>
-                                            <li class="nav-item"><a class="nav-link" href="index.html">Call Management CRM</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="index.html">Lead Management CRM</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="index-image.html">Auto Dialer</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="index-image.html">Call Center App</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="index-image.html">Telecaller App</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
@@ -65,7 +65,7 @@
                     <!-- Hero Buttons -->
                     <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.6s" data-wow-duration="1s">
                         <div class="hero-btn">
-                            <a href="contact.html" class="btn-plain">Book a Demo</a>
+                            <a href="contact" class="btn-plain">Book a Demo</a>
                             <p class="banner-btn1">&nbsp;</p>
                         </div>
                         <div class="hero-btn">
@@ -90,9 +90,9 @@
                         <!-- Images -->
                         <div class="col-lg-8 order-2 order-lg-1 wow fadeInLeft text-center" data-wow-delay="0.6s">
                             <div class="images-wrapper">
-                                <img id="webImage" src="img/web.png" alt="Runo Dashboard"
+                                <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image shadow rounded" />
-                                <img id="mobileImage" src="img/mobi.png" alt="Runo Mobile App"
+                                <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
                                     class="img-fluid mobile-image shadow rounded float-animation" />
                             </div>
                         </div>
@@ -102,75 +102,75 @@
                         const features = [{
                                 icon: "1.svg",
                                 text: "AI Call Summaries",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "2.svg",
                                 text: "AI Sentiment Analysis",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "3.svg",
                                 text: "AI Assistant",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "4.svg",
                                 text: "Call Recording",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "5.svg",
                                 text: "Live Team Status",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "6.svg",
                                 text: "Advanced Caller ID",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "7.svg",
                                 text: "Follow-Up Reminder",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "8.svg",
                                 text: "Auto Dialer",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "9.svg",
                                 text: "Auto Lead Allocation",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
 
                             {
                                 icon: "11.svg",
                                 text: "Live Intuitive Dashboard",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "10.svg",
                                 text: "Call Analytics",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
                             {
                                 icon: "12.svg",
                                 text: "Biz Whatsapp Integration",
-                                mobileImg: "img/mobi.png",
-                                webImg: "img/web.png"
+                                mobileImg: "img/mobi.webp",
+                                webImg: "img/web.webp"
                             },
 
                         ];

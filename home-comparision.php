@@ -5,7 +5,6 @@
       <div class="section-title text-center wow animate__fadeInUp" data-wow-delay="0.2s">
         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
       </div>
-
       <div class="col-lg-10 wow animate__fadeInUp" data-wow-delay="0.3s">
         <div class="row g-0 table-wrapper">
           <div class="col-md-4 bg-white rest wow animate__fadeInLeft" data-wow-delay="0.4s">
@@ -17,7 +16,6 @@
             <div class="feature-cell">Price</div>
             <div class="feature-cell">Reliability</div>
           </div>
-
           <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.5s">
             <div class="highlight-box h-100">
               <div class="highlight-inner d-flex flex-column h-100">
@@ -31,7 +29,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-md-4 bg-white rest wow animate__fadeInRight" data-wow-delay="0.6s">
             <div class="rest-cell" style="background:#230115;color:#fff;border-radius: 20px 20px 0px 0px;">The Rest</div>
             <div class="rest-cell">&gt;30 days</div>
@@ -44,7 +41,6 @@
         </div>
       </div>
     </div>
-
     <div class="text-center mt-70 overlap" id="credit">
       <div class="mt-4 wow animate__fadeInUp" data-wow-delay="0.8s">
         <button class="btn-default btn-highlighted">Start 10-day free trial</button>
@@ -53,22 +49,15 @@
     </div>
   </div>
 </section>
-
-
 <!-- Mobile Comparison Section -->
-
 <div class="compare-mob">
-
   <div class="container text-center">
-
     <div class="section-title text-center">
-
       <h2>
         Upgrade Your Workflow:
         Runo vs The Rest
       </h2>
     </div>
-
     <div class="row2">
       <div class="card2" style="background:#ff5730;color:#fff;font-size:20px">
         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
@@ -85,8 +74,6 @@
         </div>
       </div>
     </div>
-
-
     <h2 class="compm-head">Setup Time</h2>
     <div class="row2">
       <div class="card2">
@@ -104,7 +91,6 @@
         </div>
       </div>
     </div>
-
     <h2 class="compm-head">Call Connect Rate</h2>
     <div class="row2">
       <div class="card2">
@@ -122,7 +108,6 @@
         </div>
       </div>
     </div>
-
     <h2 class="compm-head">Follow-Up Reminder</h2>
     <div class="row2">
       <div class="card2">
@@ -140,7 +125,6 @@
         </div>
       </div>
     </div>
-
     <h2 class="compm-head">Customization</h2>
     <div class="row2">
       <div class="card2">
@@ -158,7 +142,6 @@
         </div>
       </div>
     </div>
-
     <h2 class="compm-head">Price</h2>
     <div class="row2">
       <div class="card2">
@@ -176,7 +159,6 @@
         </div>
       </div>
     </div>
-
     <h2 class="compm-head">Reliability</h2>
     <div class="row2">
       <div class="card2">
@@ -194,14 +176,11 @@
         </div>
       </div>
     </div>
-
-
     <div class="text-center overlap" id="credit">
       <div class="mt-4 wow fadeInUp" data-wow-delay="0.8s">
         <button class="btn-default btn-highlighted">Start 10-day free trial</button>
         <p>No Credit Card Required</p>
       </div>
     </div>
-
   </div>
 </div>

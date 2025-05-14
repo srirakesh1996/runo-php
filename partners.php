@@ -3,21 +3,13 @@
 <head>
    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
    <?php include('head.php'); ?>
-
-
-
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('home-modal.php'); ?>
-
       <?php include('header.php'); ?>
-
-
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -37,14 +29,10 @@
          </div>
       </div>
       <!-- Page Header End -->
-
-
-
       <!-- Page Contact Us Start -->
       <div class="page-contact-us">
          <div class="container">
             <div class="row align-items-center">
-
                <div class="col-lg-6 py-3">
                   <!-- Contact Us Content Start -->
                   <div class="contact-us-content wow fadeInLeft" data-wow-delay="0.2s">
@@ -54,7 +42,6 @@
                            We would love to see you partner with us in the growth story of future of outbound cloud telephony.
                         </p>
                      </div>
-
                      <ul class="list-unstyled">
                         <li class="d-flex align-items-start mb-2">
                            <img src="https://cdn.prod.website-files.com/6668578d2598ab3144eb8c1e/6689918e06babdfa2979517a_trusted-client.svg" width="24" class="me-2 mt-1" />
@@ -76,7 +63,6 @@
                   </div>
                   <!-- Contact Us Content End -->
                </div>
-
                <div class="col-lg-6">
                   <!-- Contact Form Start -->
                   <div class="contact-form wow fadeInRight" data-wow-delay="0.4s">
@@ -87,21 +73,16 @@
                               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                               <div class="help-block with-errors"></div>
                            </div>
-
                            <div class="form-group col-md-12 mb-4">
                               <label for="email">Your Email</label>
                               <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
                               <div class="help-block with-errors"></div>
                            </div>
-
                            <div class="form-group col-md-12 mb-4">
                               <label for="phone">Your Phone</label>
                               <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone" required>
                               <div class="help-block with-errors"></div>
                            </div>
-
-
-
                            <div class="col-md-12">
                               <button type="submit" class="btn-default btn-highlighted wow fadeInUp">Send Inquiry</button>
                               <div id="msgSubmit" class="h3 hidden"></div>
@@ -115,17 +96,10 @@
          </div>
       </div>
       <!-- Page Contact Us End -->
-
    </div>
-
-
    </div>
-
    <?php include('footer.php'); ?>
-
    <?php include('footerjs.php'); ?>
-
-
 </body>
 
 </html>
