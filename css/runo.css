@@ -1,6 +1,21 @@
 .bg-dark {
   background-color: #191919 !important;
 }
+.freechat-icon {
+  font-size: 10px !important;
+}
+
+.freechat-bottom-cta {
+  padding: 4px 10px !important;
+  border-radius: 15px;
+  font-size: 12px !important;
+}
+
+#freechatpopup {
+  margin-bottom: 30px !important;
+
+  margin-right: 20px !important;
+}
 
 .mt-5 {
   margin-top: 10px;

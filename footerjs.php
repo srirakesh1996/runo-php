@@ -1,3 +1,33 @@
+<script type="text/javascript" src="https://popupsmart.com/freechat.js"></script>
+<script>
+   window.start.init({
+      title: "Hi there ✌️",
+      message: "How can we help you? Just send us a message now to get assistance.",
+      color: "#F9754E",
+      position: "right",
+      placeholder: "Enter your message",
+      withText: "Write with",
+      viaWhatsapp: "Or write us directly via Whatsapp",
+      gty: "Go to your",
+      awu: "and write us",
+      connect: "Connect now",
+      button: "Write us",
+      device: "everywhere",
+      logo: "https://d2r80wdbkwti6l.cloudfront.net/YaOSMtQDnhkgfH0fvFI3UkBR8O9UbXl5.jpg",
+      person: "https://d2r80wdbkwti6l.cloudfront.net/opKdomdwIJtWVF8damvTe0EtjBat61UA.jpg",
+      services: [{
+         "name": "whatsapp",
+         "content": "+918179880074"
+      }, {
+         "name": "mail",
+         "content": "care@runo.in"
+      }, {
+         "name": "phone",
+         "content": "+918179880074"
+      }]
+   })
+</script>
+
 <!-- Jquery Library File -->
 <script src="js/jquery-3.7.1.min.js"></script>
 <!-- SlickNav js file -->
