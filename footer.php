@@ -70,17 +70,16 @@
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
                 <h6 class="text-white fw-semibold mb-20">Get the app</h6>
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank"><img src="img/ios.webp" alt="App Store" style="width: 130px;"></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank"><img src="img/google-play.webp" alt="Google Play" style="width: 130px;"></a>
+                <div class="footer-app-icons">
+                    <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover" target="_blank"><img src="img/ios.webp" alt="App Store" style="width: 130px;"></a>
+                    <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover" target="_blank"><img src="img/google-play.webp" alt="Google Play" style="width: 130px;"></a>
+                </div>
             </div>
             <div class="col-md-3">
                 <h6 class="fw-semibold text-white mb-20">Follow Us</h6>
-
-
                 <!-- Footer Social Link Start -->
                 <div class="footer-social-links">
                     <ul>
-
                         <li><a href="https://www.facebook.com/runo.in/"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a href="https://www.instagram.com/runo.in/#"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCff-NGVdfGJgMLtyZlzVGIA"><i class="fa-brands fa-youtube"></i></a></li>
