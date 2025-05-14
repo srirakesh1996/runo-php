@@ -139,10 +139,10 @@
                   </p>
                   <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
                      <div class="hero-btn">
-                        <a href="contact.html" class="btn-orange">Book a Demo</a>
+                        <a href="contact" class="btn-orange">Book a Demo</a>
                      </div>
                      <div class="hero-btn">
-                        <a href="contact.html" class="btn-default btn-highlighted">Start 10-day free trial</a>
+                        <a href="contact" class="btn-default btn-highlighted">Start 10-day free trial</a>
                      </div>
                   </div>
                </div>
