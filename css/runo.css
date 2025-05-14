@@ -362,13 +362,13 @@
   font-weight: 500;
   text-align: center;
   font-size: 11px;
-  transition: 0.3s;
+  transition: 0.5s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 6px;
   height: 85px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .feature-btn i {
@@ -381,6 +381,7 @@
   border: 2px solid #ff5722;
   background: #fff3ef;
   color: #ff5722;
+  transform: scale(1.1);
 }
 
 .images-wrapper {
@@ -445,7 +446,7 @@
 }
 
 #feature-buttons .col-4 {
-  padding: 7px !important;
+  padding: 8px !important;
 }
 
 .float-animation {
@@ -512,8 +513,9 @@
 }
 
 .nav-item .header-btn:hover {
-  color: #fff !important;
-  background: #ff5730 !important;
+  color: #f44336 !important;
+  background: #fff !important;
+  border: 1px solid #f44336;
   box-shadow: 0 8px 20px rgba(255, 87, 48, 0.4);
 }
 
@@ -1319,8 +1321,6 @@ th {
 
 .deals-content {
   position: relative;
-
-  padding: 20px;
   display: flex;
   align-items: center;
   border-radius: 30px;
@@ -1954,7 +1954,6 @@ label {
 .home-app-cta h2 {
   color: #fff !important;
 }
-
 .btn-schedule {
   background-color: white;
   color: #d84323;
@@ -1963,6 +1962,18 @@ label {
   border-radius: 8px;
   margin: 30px 0;
   border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.btn-schedule:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(216, 67, 35, 0.35);
+  background-color: #d84323;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .store-buttons img {

@@ -617,11 +617,15 @@ header.main-header .header-sticky.active {
     padding: 10px 15px !important;
   }
 }
-
 .header-sticky.active .main-menu ul li a {
   color: #fff !important;
 }
-
+.header-sticky.active .main-menu ul li .header-btn {
+  color: #fff !important;
+}
+.header-sticky.active .main-menu ul li .header-btn:hover {
+  color: #f44336 !important;
+}
 .main-menu ul li.submenu > a:after {
   content: "\f107";
   font-family: "FontAwesome";

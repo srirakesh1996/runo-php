@@ -33,9 +33,9 @@
                                     </li>
 
                                     <div class="app-header-icons">
-                                        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"> <img src="img/app-ico.png" width="40px"></a>
+                                        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
 
-                                        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"> <img src="img/play-ico.png" width="40px"></a>
+                                        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
                                     </div>
                                 </ul>
                             </div>
@@ -153,15 +153,14 @@
                                 mobileImg: "img/mobi.webp",
                                 webImg: "img/web.webp"
                             },
-
                             {
-                                icon: "11.svg",
+                                icon: "10.svg",
                                 text: "Live Intuitive Dashboard",
                                 mobileImg: "img/mobi.webp",
                                 webImg: "img/web.webp"
                             },
                             {
-                                icon: "10.svg",
+                                icon: "11.svg",
                                 text: "Call Analytics",
                                 mobileImg: "img/mobi.webp",
                                 webImg: "img/web.webp"
@@ -172,12 +171,15 @@
                                 mobileImg: "img/mobi.webp",
                                 webImg: "img/web.webp"
                             },
-
                         ];
 
                         const container = document.getElementById("feature-buttons");
                         const mobileImage = document.getElementById("mobileImage");
                         const webImage = document.getElementById("webImage");
+
+                        let firstButton;
+                        let defaultMobile = "img/mobi.webp";
+                        let defaultWeb = "img/web.webp";
 
                         features.forEach((feature, index) => {
                             const col = document.createElement("div");
@@ -187,22 +189,47 @@
 
                             const button = document.createElement("button");
                             button.className = "feature-btn";
+                            button.innerHTML = `
+                        <img src="img/hero-icons/${feature.icon}" alt="${feature.text}" width="20" class="align-middle">
+                        ${feature.text}
+                    `;
+
                             if (index === 0) {
                                 button.classList.add("active");
-                                mobileImage.src = feature.mobileImg;
-                                webImage.src = feature.webImg;
+                                firstButton = button;
+                                mobileImage.src = defaultMobile = feature.mobileImg;
+                                webImage.src = defaultWeb = feature.webImg;
                             }
 
-                            button.innerHTML = `
-            <img src="img/hero-icons/${feature.icon}" alt="${feature.text}" width="20" class="align-middle">
-            ${feature.text}
-        `;
-
                             button.addEventListener("click", () => {
-                                document.querySelectorAll(".feature-btn").forEach((btn) => btn.classList.remove("active"));
+                                document.querySelectorAll(".feature-btn").forEach(btn => btn.classList.remove("active"));
                                 button.classList.add("active");
                                 mobileImage.src = feature.mobileImg;
                                 webImage.src = feature.webImg;
+
+                                // Update the new default
+                                defaultMobile = feature.mobileImg;
+                                defaultWeb = feature.webImg;
+                                firstButton = button;
+                            });
+
+                            // Hover logic: temporarily change image and deactivate first
+                            button.addEventListener("mouseover", () => {
+                                if (button !== firstButton) {
+                                    firstButton.classList.remove("active");
+                                    mobileImage.src = feature.mobileImg;
+                                    webImage.src = feature.webImg;
+                                }
+                            });
+
+                            // Restore default if no button is active
+                            button.addEventListener("mouseleave", () => {
+                                const anyActive = document.querySelector(".feature-btn.active");
+                                if (!anyActive) {
+                                    firstButton.classList.add("active");
+                                    mobileImage.src = defaultMobile;
+                                    webImage.src = defaultWeb;
+                                }
                             });
 
                             col.appendChild(button);

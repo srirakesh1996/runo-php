@@ -16,7 +16,7 @@
             <div class="feature-cell">Price</div>
             <div class="feature-cell">Reliability</div>
           </div>
-          <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.5s">
+          <div class="col-md-4 zoom-hover wow animate__fadeInUp" data-wow-delay="0.5s">
             <div class="highlight-box h-100">
               <div class="highlight-inner d-flex flex-column h-100">
                 <div class="highlight-cell" style="background:#F44336;border-radius: 17px 17px 0px 0px;"> <img src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
