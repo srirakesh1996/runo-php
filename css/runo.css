@@ -1522,7 +1522,7 @@ th {
   background: none;
   border: 1px solid #ff6541;
   color: #2d3748;
-  border-radius: 50px;
+  border-radius: 12px !important;
   position: relative;
   display: inline-block;
   font-size: 14px;
@@ -1533,6 +1533,11 @@ th {
   overflow: hidden;
   transition: all 0.4s ease-in-out;
   z-index: 1;
+}
+
+.btn-orange:hover {
+  background: #ff6541;
+  color: #fff;
 }
 
 h2 button {
