@@ -54,7 +54,7 @@
                     <div class="people">
                       <div class="author-image wow zoomIn" data-wow-delay="0.5s">
                         <figure class="image-anime">
-                          <img src="images/author-1.jpg" alt="">
+                          <img src="img/review2.webp" alt="">
                         </figure>
                       </div>
                       <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
@@ -77,7 +77,7 @@
                     <div class="people">
                       <div class="author-image wow zoomIn" data-wow-delay="0.5s">
                         <figure class="image-anime">
-                          <img src="images/author-2.jpg" alt="">
+                          <img src="img/review1.webp" alt="">
                         </figure>
                       </div>
                       <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
@@ -92,20 +92,19 @@
               <div class="swiper-slide">
                 <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
                   <div class="testimonial-header">
-                    <p>As a fast growing organization in edu-tech, always felt the need to manage business calls for enhanced customer experience.</p>
-                    <p>We did reach out to a few cloud based service providers, but somehow, due to very high pricing and calls originating from virtual numbers, was not very convincing.</p>
+                    <p>Great app! It helps track my telesales team's calls and live status, and the custom CRM is very useful. The support team responds quickly. We can now manage our leads easily. Thanks, Runo Call Manager.</p>
                   </div>
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
                     <div class="people">
                       <div class="author-image wow zoomIn" data-wow-delay="0.5s">
                         <figure class="image-anime">
-                          <img src="images/author-2.jpg" alt="">
+                          <img src="img/review3.webp" alt="">
                         </figure>
                       </div>
                       <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
-                        <h3>ISHAN GUPTA</h3>
-                        <p>Founder, Q-in-1</p>
+                        <h3>Skylinks Consultancy</h3>
+                        <p>Founder, Skylinks Consultancy</p>
                       </div>
                     </div>
                   </div>
