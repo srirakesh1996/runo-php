@@ -1573,6 +1573,21 @@ th {
 h2 button {
   color: #2d3748 !important;
 }
+.footer-app-icons {
+  display: flex;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-app-icons {
+    justify-content: center;
+  }
+  .review img {
+    width: 250px;
+    margin: 20px auto;
+    display: block;
+  }
+}
 
 .footer-links li {
   list-style-type: none !important;
