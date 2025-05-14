@@ -1583,7 +1583,7 @@ h2 button {
     justify-content: center;
   }
   .review img {
-    width: 250px;
+    width: 250px !important;
     margin: 20px auto;
     display: block;
   }
