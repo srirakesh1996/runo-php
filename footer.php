@@ -110,7 +110,7 @@
                         <ul>
                             <li><a href="terms-and-conditions">Terms & Conditions</a></li>
                             <li><a href="privacy-policy">Privacy Policy</a></li>
-                            <li><a href="privacy-policy">Usage Policy</a></li>
+                            <li><a href="cancellation-and-refund-policy">Usage Policy</a></li>
                             <li><a href="data-security">Data Security</a></li>
                         </ul>
                     </div>
