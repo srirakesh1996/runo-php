@@ -642,6 +642,9 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* Add these for broader compatibility */
+  background-clip: text;
+  color: transparent;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -749,6 +752,14 @@
 .features-section {
   padding: 40px 0;
   /*background-color: #fff6f6 !important;*/
+}
+
+.zoom-hover img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-hover:hover img {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 600px) {
