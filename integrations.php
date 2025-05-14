@@ -4,18 +4,13 @@
    <title>Boost Productivity with Runo’s Seamless Integrations
    </title>
    <?php include('head.php'); ?>
-
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('home-modal.php'); ?>
-
       <?php include('header.php'); ?>
-
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -175,7 +170,6 @@
                </div>
             </div>
             <div class="row align-items-center">
-
                <div class="col-lg-6">
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
@@ -215,12 +209,10 @@
                   </div>
                   <!-- Our Approach Content End -->
                </div>
-
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
                      <img src="img/int4.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
-
                      <img src="img/int7.png" alt="Right Floating Box"
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
@@ -251,7 +243,6 @@
                   <!-- Main Image with FadeIn -->
                   <img src="img/int8.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
                   <!-- Floating Images -->
-
                   <img src="img/int9.png" alt="Right Floating Box"
                      class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                </div>
@@ -294,14 +285,10 @@
                </div>
                <!-- Our Approach Content End -->
             </div>
-
-
          </div>
       </div>
    </div>
    <!-- Our Approach Section End -->
-
-
    <!-- Demo CTA Section -->
    <section class="demo-section wow fadeInUp" data-wow-delay="0.3s">
       <div class="container">
@@ -312,12 +299,9 @@
             <div class="col-md-6 demo-text">
                <h2 class="wow fadeInUp" data-wow-delay="0.4s">
                   Unlock Effortless Integrations: Connect & Go!
-
                </h2>
                <p class="mt-4 wow fadeInUp" data-wow-delay="0.5s">
                   Connect. Automate. Grow with Runo.
-
-
                </p>
                <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
                   <div class="hero-btn">
@@ -331,9 +315,6 @@
          </div>
       </div>
    </section>
-
-
-
    <!-- Our Faqs Section Start -->
    <div class="our-faqs">
       <div class="container">
@@ -350,7 +331,6 @@
                </div>
                <!-- Our Faq Content End -->
             </div>
-
             <!-- Right Column -->
             <div class="col-lg-6">
                <!-- FAQ Accordion Start -->
@@ -369,7 +349,6 @@
                      </div>
                   </div>
                   <!-- FAQ Item End -->
-
                   <!-- FAQ Item Start -->
                   <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
                      <h2 class="accordion-header" id="heading2">
@@ -384,7 +363,6 @@
                      </div>
                   </div>
                   <!-- FAQ Item End -->
-
                   <!-- FAQ Item Start -->
                   <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
                      <h2 class="accordion-header" id="heading3">
@@ -399,7 +377,6 @@
                      </div>
                   </div>
                   <!-- FAQ Item End -->
-
                   <!-- FAQ Item Start -->
                   <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
                      <h2 class="accordion-header" id="heading4">
@@ -414,7 +391,6 @@
                      </div>
                   </div>
                   <!-- FAQ Item End -->
-
                   <!-- FAQ Item Start -->
                   <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
                      <h2 class="accordion-header" id="heading5">
@@ -436,13 +412,9 @@
       </div>
    </div>
    <!-- Our Faqs Section End -->
-
-
-
    <section class="app-section py-5 text-white">
       <div class="container">
          <div class="row align-items-center text-center text-md-start">
-
             <!-- Text Section -->
             <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.2s">
                <div class="d-flex gap-5 justify-content-center justify-content-md-start">
@@ -460,12 +432,10 @@
                   </div>
                </div>
             </div>
-
             <!-- Image Section -->
             <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
                <img src="img/mobile.png" alt="App Preview" class="img-fluid" style="width:80%">
             </div>
-
             <!-- App Icons Section -->
             <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">
                <div class="d-flex flex-column align-items-center gap-3">
@@ -477,13 +447,9 @@
                   </a>
                </div>
             </div>
-
          </div>
       </div>
    </section>
-
-
-
    </div>
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>

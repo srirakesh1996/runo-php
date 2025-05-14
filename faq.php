@@ -3,14 +3,11 @@
 <head>
    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
    <?php include('head.php'); ?>
-
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('header.php'); ?>
       <!-- Page Header Start -->
       <div class="page-title">
@@ -309,9 +306,7 @@
    </div>
    <!-- Page Faq End -->
    </div>
-
    <?php include('footer.php'); ?>
-
    <?php include('footerjs.php'); ?>
 </body>
 

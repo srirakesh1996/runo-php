@@ -3,20 +3,13 @@
 <head>
    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
    <?php include('head.php'); ?>
-
-
 </head>
 
 <body>
    <div>
-
       <?php include('preloader.php'); ?>
-
       <?php include('home-modal.php'); ?>
-
       <?php include('header.php'); ?>
-
-
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -36,12 +29,8 @@
          </div>
       </div>
       <!-- Page Header End -->
-
-
       <div class="container" style="margin:40px auto">
          <div class="row g-4">
-
-
             <div class="col-md-1"></div>
             <div class="col-md-5 wow animate__animated animate__fadeInUp">
                <div class="news-card bg-white">
@@ -55,7 +44,6 @@
                   </div>
                </div>
             </div>
-
             <!-- Card 2 -->
             <div class="col-md-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                <div class="news-card bg-white">
@@ -72,15 +60,9 @@
             <div class="col-md-1"></div>
          </div>
       </div>
-
-
-
       <?php include('footer.php'); ?>
-
-
       <?php include('footerjs.php'); ?>
    </div>
-
 </body>
 
 </html>
