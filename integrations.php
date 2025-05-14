@@ -111,7 +111,7 @@
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-lg-6 mt-5">
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
                      <!-- Mission Vision Items -->
@@ -247,7 +247,7 @@
                      class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5">
                <!-- Our Approach Content Start -->
                <div class="our-approach-content">
                   <!-- Mission Vision Items -->
