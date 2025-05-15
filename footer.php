@@ -12,10 +12,10 @@
                 </ul>
                 <h6 class="fw-bold mt-4 mb-2 text-white">Contact</h6>
                 <a href="mailto:care@runo.in">
-                    <p class="mb-1 text-white"><i class="fas fa-envelope me-2"></i> care@runo.in</p>
+                    <p class="mb-1 text-white ptb-5"><i class="fas fa-envelope me-2"></i> care@runo.in</p>
                 </a>
                 <a href="tel:+91 8179880074">
-                    <p class="text-white"><i class="fas fa-phone-alt me-2"></i> +91 8179880074</p>
+                    <p class="text-white ptb-5"><i class="fas fa-phone-alt me-2"></i> +91 8179880074</p>
                 </a>
             </div>
 
@@ -56,7 +56,7 @@
                 <img src="img/reviews/1.webp" alt="G2 Review" class="img-fluid rounded mt-20">
                 <img src="img/reviews/2.webp" alt="Capterra" class="img-fluid rounded mt-20">
                 <img src="img/reviews/3.webp" alt="Crozdesk Rating" class="img-fluid rounded mt-20">
-                <img src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-20" style="width:100px;">
+                <img src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-20 badge-ico" style="width:100px;">
 
             </div>
         </div>
