@@ -84,7 +84,7 @@
                             <h3 class="fw-semibold mb-4 text-center">Get a Demo Focused On Your Needs</h3>
                             <div class="row g-2" id="feature-buttons"></div>
                             <div class="text-center mt-4">
-                                <a href="#features" class="btn-default btn-highlighted wow fadeInRight" data-wow-delay="0.8s">See Features Live</a>
+                                <a href="#features" class="btn-default btn-highlighted">See Features Live</a>
                             </div>
                         </div>
 
@@ -92,9 +92,9 @@
                         <div class="col-lg-8 order-2 order-lg-1 wow fadeInLeft text-center" data-wow-delay="0.6s">
                             <div class="images-wrapper">
                                 <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
-                                    class="img-fluid web-image shadow rounded" />
+                                    class="img-fluid web-image rounded" style="border-radius: 20px !important;" />
                                 <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
-                                    class="img-fluid mobile-image shadow rounded float-animation" />
+                                    class="img-fluid mobile-image rounded float-animation" />
                             </div>
                         </div>
                     </div>
@@ -184,8 +184,8 @@
 
                         features.forEach((feature, index) => {
                             const col = document.createElement("div");
-                            col.className = "col-4 wow fadeInUpCustom";
-                            col.setAttribute("data-wow-delay", `${index * 0.1 + 0.3}s`);
+                            col.className = "col-4";
+
                             col.setAttribute("data-wow-duration", "0.8s");
 
                             const button = document.createElement("button");

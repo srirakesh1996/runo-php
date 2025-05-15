@@ -1,7 +1,7 @@
 <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
     <div class="container">
         <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-            One App To Manage Calls, Follow-ups, and Sales
+            One App To Manage Calls, <br> Follow-ups, and Sales
         </h2>
         <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
             Schedule Your Demo
