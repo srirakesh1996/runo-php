@@ -9,10 +9,6 @@
 <meta name="language" content="English">
 <!-- Favicon Icon -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes='16*16'>
-<!-- Google Fonts Css-->
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet">
 <!-- SlickNav Css -->
 <link href="css/slicknav.min.css" rel="stylesheet">
 <!-- Swiper Css -->
