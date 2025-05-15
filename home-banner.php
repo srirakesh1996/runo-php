@@ -58,7 +58,8 @@
                             <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
                                 AI-Powered SIM-Based Call Management CRM
                             </h1>
-                            <p>78% Calls Get Answered. 2x Deals Get Closed.</p>
+                            <p>2x Calling Outcome in Just 2 Weeks. Earn Trust on Every Call.
+                            </p>
                         </div>
                     </div>
 
