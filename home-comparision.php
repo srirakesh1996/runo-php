@@ -5,10 +5,10 @@
       <div class="section-title text-center wow animate__fadeInUp" data-wow-delay="0.2s">
         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
       </div>
-      <div class="col-lg-10 wow animate__fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-9 wow animate__fadeInUp" data-wow-delay="0.3s">
         <div class="row g-0 table-wrapper">
-          <div class="col-md-4 bg-white rest wow animate__fadeInLeft" data-wow-delay="0.4s">
-            <div class="feature-cell">Features</div>
+          <div class="col-md-4 bg-white rest" style="z-index:0;margin-top: 45px;">
+
             <div class="feature-cell">Setup Time</div>
             <div class="feature-cell">Call Connect Rate</div>
             <div class="feature-cell">Customization</div>
@@ -16,7 +16,7 @@
             <div class="feature-cell">Price</div>
             <div class="feature-cell">Reliability</div>
           </div>
-          <div class="col-md-4 zoom-hover wow animate__fadeInUp" data-wow-delay="0.5s">
+          <div class="col-md-4 zoom-hover">
             <div class="highlight-box h-100">
               <div class="highlight-inner d-flex flex-column h-100">
                 <div class="highlight-cell" style="background:#F44336;border-radius: 17px 17px 0px 0px;"> <img src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
@@ -29,8 +29,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 bg-white rest wow animate__fadeInRight" data-wow-delay="0.6s">
-            <div class="rest-cell" style="background:#230115;color:#fff;border-radius: 20px 20px 0px 0px;">The Rest</div>
+          <div class="col-md-4 bg-white rest" style="margin-top: -15px;">
+            <div class="rest-cell" style="background:#230115;color:#fff;font-size:22px;border-radius: 20px 20px 0px 0px;">The Rest</div>
             <div class="rest-cell">&gt;30 days</div>
             <div class="rest-cell">&lt;30%</div>
             <div class="rest-cell">Rigid</div>

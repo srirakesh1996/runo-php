@@ -11,7 +11,7 @@
             <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="img/google-play.webp" alt="Google Play"></a>
         </div>
         <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
-            <span>1.6k Reviews</span>
+
             <span class="stars">★★★★★</span>
             <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
         </div>

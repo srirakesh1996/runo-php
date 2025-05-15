@@ -10,12 +10,12 @@
                 <p>Runo Integrates with all available lead sources and top CRMs</p>
             </div>
             <!-- Video Wrapper -->
-            <div class="wow zoomIn" data-wow-delay="0.4s">
+            <div>
                 <img src="img/home-lead.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
             </div>
             <!-- Hero Button -->
             <div class="hero-btn demo-btn text-center wow fadeInUp" data-wow-delay="0.6s">
-                <a href="contact.html" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+                <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
             </div>
         </div>
     </div>

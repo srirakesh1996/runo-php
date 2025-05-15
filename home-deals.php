@@ -1,7 +1,7 @@
 <section class="deals-section" id="dealsSection">
   <div class="container">
     <div class="row deals-content">
-      <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+      <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
         <h2>Whooosh…That’s the Sound of Closing Deals Faster</h2>
       </div>
       <div class="col-md-6">
@@ -9,27 +9,27 @@
           <div class="scroll-bar"></div>
           <div class="scroll-indicator" id="scrollIndicator"></div>
           <div class="btn-group-vertical w-100" id="tabButtons">
-            <button class="tab-btn active wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab1">
+            <button class="tab-btn active" data-bs-target="#tab1">
               <span>Boost Call Connect Rate With SIM-Based Calling</span>
               <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
             </button>
-            <button class="tab-btn wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab2">
+            <button class="tab-btn" data-bs-target="#tab2">
               <span>Improve Call Efficiency With AI Call Scoring & Evaluation</span>
               <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
             </button>
-            <button class="tab-btn wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab3">
+            <button class="tab-btn" data-bs-target="#tab3">
               <span>Never Miss Follow-Ups With Smart Reminders</span>
               <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
             </button>
-            <button class="tab-btn wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab4">
+            <button class="tab-btn" data-bs-target="#tab4">
               <span>Get Instant Visibility With Live Team Tracking</span>
               <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
             </button>
-            <button class="tab-btn wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab5">
+            <button class="tab-btn" data-bs-target="#tab5">
               <span>Improve CRM Adoption With User-Friendly Interface</span>
               <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
             </button>
-            <button class="tab-btn wow animate__animated animate__fadeInRight" data-wow-delay="0.4s" data-bs-target="#tab6">
+            <button class="tab-btn" data-bs-target="#tab6">
               <span>Get Started With 30-Minute Quick Setup</span>
               <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
             </button>
@@ -39,22 +39,22 @@
       <div class="col-md-6">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
-            <img src="img/deal1.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 1 Image">
+            <img src="img/deal1.webp" class="img-preview" alt=" Tab 1 Image">
           </div>
           <div class="tab-pane fade" id="tab2">
-            <img src="img/deal2.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 2 Image">
+            <img src="img/deal2.webp" class="img-preview" alt=" Tab 2 Image">
           </div>
           <div class="tab-pane fade" id="tab3">
-            <img src="img/deal3.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 3 Image">
+            <img src="img/deal3.webp" class="img-preview" alt=" Tab 3 Image">
           </div>
           <div class="tab-pane fade" id="tab4">
-            <img src="img/deal4.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 4 Image">
+            <img src="img/deal4.webp" class="img-preview" alt=" Tab 4 Image">
           </div>
           <div class="tab-pane fade" id="tab5">
-            <img src="img/deal5.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 5 Image">
+            <img src="img/deal5.webp" class="img-preview" alt=" Tab 5 Image">
           </div>
           <div class="tab-pane fade" id="tab6">
-            <img src="img/deal6.webp" class="img-preview" data-wow-delay="0.4s" alt=" Tab 6 Image">
+            <img src="img/deal6.webp" class="img-preview" alt=" Tab 6 Image">
           </div>
         </div>
       </div>
