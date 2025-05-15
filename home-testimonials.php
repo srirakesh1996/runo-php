@@ -1,22 +1,22 @@
 <!-- Testimonial Section -->
 <div class="our-tesimonial">
   <!-- Security Section with WOW animations -->
-  <section class="security-section">
+  <section class="security-section wow fadeInUp" data-wow-delay="0.2s">
     <div class="row align-items-center">
       <!-- Left Text -->
-      <div class="col-md-7 security-text wow fadeInLeft" data-wow-delay="0.1s">
+      <div class="col-md-7 security-text">
         <h2>Enterprise-grade security</h2>
         <p>Have peace of mind that your company’s data is fully secure and compliant with the latest industry standard certifications.</p>
       </div>
       <!-- Right Image -->
-      <div class="col-md-5 text-md-end text-center security-badges wow fadeInRight" data-wow-delay="0.2s">
+      <div class="col-md-5 text-md-end text-center security-badges">
         <img src="img/security.webp" alt="ISO Badge" class="img-fluid">
       </div>
     </div>
   </section>
   <div class="container">
     <!-- Section Title Row with Navigation -->
-    <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
       <div class="col-md-8">
         <div class="section-title" style="text-align:left;width:100%">
           <h2>
@@ -27,10 +27,10 @@
       </div>
       <div class="col-md-4 text-md-end mt-3 mt-md-0" id="arrow-ico">
         <div class="testimonial-nav-buttons gap-2">
-          <button class="testimonial-prev-btn wow fadeInLeft" data-wow-delay="0.2s">
+          <button class="testimonial-prev-btn">
             <i class="fas fa-chevron-left"></i>
           </button>
-          <button class="testimonial-next-btn wow fadeInRight" data-wow-delay="0.2s">
+          <button class="testimonial-next-btn">
             <i class="fas fa-chevron-right"></i>
           </button>
         </div>
@@ -52,12 +52,12 @@
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
                     <div class="people">
-                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                      <div class="author-image">
                         <figure class="image-anime">
                           <img src="img/review2.webp" alt="">
                         </figure>
                       </div>
-                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                      <div class="author-content">
                         <h3>Dr. Surendranath Reddy Kaswa</h3>
                         <p>Founder - Plato Digi Education</p>
                       </div>
@@ -75,12 +75,12 @@
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
                     <div class="people">
-                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                      <div class="author-image">
                         <figure class="image-anime">
                           <img src="img/review1.webp" alt="">
                         </figure>
                       </div>
-                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                      <div class="author-content">
                         <h3>ISHAN GUPTA</h3>
                         <p>Founder, Q-in-1</p>
                       </div>
@@ -97,12 +97,12 @@
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
                     <div class="people">
-                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                      <div class="author-image">
                         <figure class="image-anime">
                           <img src="img/review3.webp" alt="">
                         </figure>
                       </div>
-                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                      <div class="author-content">
                         <h3>Skylinks Consultancy</h3>
                         <p>Founder, Skylinks Consultancy</p>
                       </div>

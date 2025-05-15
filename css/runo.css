@@ -354,6 +354,7 @@
 }
 
 .feature-btn {
+  color: #212121 !important;
   width: 100%;
   padding: 0px 5px;
   background: #f9f9f9;
@@ -946,24 +947,28 @@
 }
 
 /* home comparision section */
-
 .table-wrapper {
   border-radius: 20px;
-  overflow: hidden;
+  padding: 30px 0px;
   display: flex;
   align-items: center;
 }
 
 .highlight-box {
+  transform: scale(1.09);
+  position: relative;
+  z-index: 0; /* keep this lower than 9999 */
   border-radius: 20px;
   padding: 5px;
   background: #f44336;
   box-shadow: 0 4px 15px rgba(244, 67, 54, 0.5);
   /* using #F44336 with 50% opacity */
 }
-
 .highlight-box:hover {
-  box-shadow: 0 6px 15px rgba(244, 67, 54, 0.7);
+  box-shadow: 0 6px 20px rgba(244, 67, 54, 0.6);
+}
+.compare-web .row > * {
+  padding: 0px !important;
 }
 
 .highlight-inner {
@@ -980,16 +985,20 @@
   padding: 15px;
   text-align: center;
   font-weight: 500;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ffd3c9;
 }
 
+.highlight-cell {
+  font-weight: 700 !important;
+}
+/*
 .feature-cell:first-child,
 .rest-cell:first-child,
 .highlight-cell:first-child {
   font-weight: 700;
   font-size: 1.5rem;
 }
-
+*/
 .feature-cell:last-child,
 .rest-cell:last-child,
 .highlight-cell:last-child {
