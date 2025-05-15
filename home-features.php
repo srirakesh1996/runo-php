@@ -1,4 +1,4 @@
-<section class="features-section">
+<section class="features-section" id="features">
   <div class="container">
     <!-- Section Title -->
     <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">

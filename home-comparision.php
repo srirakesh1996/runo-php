@@ -31,12 +31,12 @@
           </div>
           <div class="col-md-4 bg-white rest" style="margin-top: -15px;">
             <div class="rest-cell" style="background:#230115;color:#fff;font-size:22px;border-radius: 20px 20px 0px 0px;">The Rest</div>
-            <div class="rest-cell">&gt;30 days</div>
-            <div class="rest-cell">&lt;30%</div>
-            <div class="rest-cell">Rigid</div>
-            <div class="rest-cell">Manual</div>
-            <div class="rest-cell">Expensive</div>
-            <div class="rest-cell">Unstable</div>
+            <div class="rest-cell lite-color">&gt;30 days</div>
+            <div class="rest-cell lite-color">&lt;30%</div>
+            <div class="rest-cell lite-color">Rigid</div>
+            <div class="rest-cell lite-color">Manual</div>
+            <div class="rest-cell lite-color">Expensive</div>
+            <div class="rest-cell lite-color">Unstable</div>
           </div>
         </div>
       </div>

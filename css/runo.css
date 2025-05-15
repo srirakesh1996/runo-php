@@ -400,12 +400,12 @@
   position: relative;
 
   padding: 10px;
-  /* Creates the stroke effect */
-  background-color: #cdc9c9;
-  /* Light gray for the stroke-like border */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  /* Soft gray shadow */
-  border-radius: 8px;
+
+  /*background-color: #cdc9c9;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
+
+  border-radius: 8px !important;
   /* Optional: Rounded corners for modern style */
 }
 
@@ -418,13 +418,13 @@
   max-height: 420px;
   border-radius: 30px !important;
   padding: 5px;
-  background-image: linear-gradient(#e0e0e0, #e0e0e0);
+  /*-image: linear-gradient(#e0e0e0, #e0e0e0);
 
-  /* 10px high top stroke */
+
   background-repeat: no-repeat;
   background-position: top;
 
-  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);*/
   /* Soft shadow only on top */
 }
 
@@ -592,12 +592,12 @@
 .scroll-bar {
   position: absolute;
   left: 0;
-  top: 20px;
+  top: 35px;
   width: 6px;
-  background-color: #fff;
+  background-color: #ede9e9;
   border-radius: 5px;
   z-index: 1;
-  height: calc(100% - 40px);
+  height: calc(100% - 75px);
 }
 
 .scroll-indicator {
@@ -958,16 +958,22 @@
   align-items: center;
 }
 
+.lite-color {
+  color: #777777 !important;
+}
+
 .highlight-box {
-  transform: scale(1.09);
+  margin-top: -20px;
+
   position: relative;
   z-index: 0; /* keep this lower than 9999 */
   border-radius: 20px;
-  padding: 5px;
+  padding: 15px 6px 6px 6px;
   background: #f44336;
   box-shadow: 0 4px 15px rgba(244, 67, 54, 0.5);
   /* using #F44336 with 50% opacity */
 }
+
 .highlight-box:hover {
   box-shadow: 0 6px 20px rgba(244, 67, 54, 0.6);
 }
