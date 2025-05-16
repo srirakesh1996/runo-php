@@ -82,7 +82,7 @@
                         <!-- Features -->
                         <div class="col-lg-4 order-1 order-lg-2 wow fadeInRight custom-shadow-box" data-wow-delay="0.3s">
                             <h3 class="fw-semibold mb-4 text-center">Get a Demo Focused On Your Needs</h3>
-                            <div class="row g-2" id="feature-buttons"></div>
+                            <div class="row" id="feature-buttons"></div>
                             <div class="text-center mt-4">
                                 <a href="#features" class="btn-default btn-highlighted">See Features Live</a>
                             </div>

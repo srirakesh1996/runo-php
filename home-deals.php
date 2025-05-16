@@ -39,22 +39,22 @@
       <div class="col-md-6">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
-            <img src="img/deal1.webp" class="img-preview" alt=" Tab 1 Image">
+            <img src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
           </div>
           <div class="tab-pane fade" id="tab2">
-            <img src="img/deal2.webp" class="img-preview" alt=" Tab 2 Image">
+            <img src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
           </div>
           <div class="tab-pane fade" id="tab3">
-            <img src="img/deal3.webp" class="img-preview" alt=" Tab 3 Image">
+            <img src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
           </div>
           <div class="tab-pane fade" id="tab4">
-            <img src="img/deal4.webp" class="img-preview" alt=" Tab 4 Image">
+            <img src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
           </div>
           <div class="tab-pane fade" id="tab5">
-            <img src="img/deal5.webp" class="img-preview" alt=" Tab 5 Image">
+            <img src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
           </div>
           <div class="tab-pane fade" id="tab6">
-            <img src="img/deal6.webp" class="img-preview" alt=" Tab 6 Image">
+            <img src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
           </div>
         </div>
       </div>
@@ -62,6 +62,9 @@
   </div>
 </section>
 <!-- Tab Script -->
+
+
+
 <script>
   const tabs = document.querySelectorAll(".tab-btn");
   const panes = document.querySelectorAll(".tab-pane");
@@ -115,28 +118,36 @@
 
     if (!nextPane || currentPane === nextPane) return;
 
-    // Remove active class from all tabs
+    // Deactivate all tabs
     tabs.forEach(tab => tab.classList.remove("active"));
     nextTab.classList.add("active");
 
-    // Fade out current pane
-    currentPane.classList.remove("active");
+    const currentImg = currentPane.querySelector("img");
+    const nextImg = nextPane.querySelector("img");
+
+    // Start fade out current image
+    currentImg.style.opacity = 0;
+
     setTimeout(() => {
-      currentPane.classList.remove("show");
+      // Hide the current pane completely
+      currentPane.classList.remove("show", "active");
+      currentPane.style.display = "none";
 
-      // Show next pane
-      nextPane.classList.add("show");
+      // Prepare next pane
+      nextPane.style.display = "block";
+      nextPane.classList.add("show", "active");
 
-      // Slight delay to trigger fade-in
+      // Fade in next image
+      nextImg.style.opacity = 0;
       setTimeout(() => {
-        nextPane.classList.add("active");
+        nextImg.style.opacity = 1;
 
-        const img = nextPane.querySelector("img");
-        if (img && img.classList.contains("wow")) {
-          resetWowAnimation(img);
+        if (nextImg.classList.contains("wow")) {
+          resetWowAnimation(nextImg);
         }
-      }, 10);
-    }, 300); // Match fade-out duration
+      }, 50);
+
+    }, 1000); // matches the fade-out duration
 
     updateScrollIndicator(i);
     index = i;
