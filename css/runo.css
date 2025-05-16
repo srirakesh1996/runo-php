@@ -143,12 +143,10 @@
   transition: all 0.3s ease-in-out;
   text-align: left;
 }
-
 #home-menu ul li.submenu ul {
   width: 230px;
-  background: #2d3748;
+  background: hwb(0 13% 87%) !important;
 }
-
 #home-menu ul li.submenu:first-child ul {
   width: 230px;
   background: #2d3748;
@@ -225,7 +223,7 @@
 }
 
 .submenu-list {
-  background: #212121 !important;
+  background: hwb(0 13% 87%) !important;
   border-radius: 10px;
 }
 
