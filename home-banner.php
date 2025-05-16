@@ -329,7 +329,6 @@
                                     webImage.src = defaultWeb;
                                 }
                             });
-
                             col.appendChild(button);
                             container.appendChild(col);
                         });
