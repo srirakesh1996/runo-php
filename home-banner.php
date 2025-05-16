@@ -1,49 +1,51 @@
-<!-- Hero Section Start -->
+<!-- 
+<header class="main-header">
+    <div class="header-sticky">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container" style="width: 1100px;">
+                <a class="navbar-brand" href="https://runo.in">
+                    <img src="img/logo.png" alt="Logo" style="width: 100px;">
+                </a>
+                <div class="collapse navbar-collapse main-menu" id="home-menu">
+                    <div class="nav-menu-wrapper">
+                        <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item submenu">
+                                <a class="nav-link">Products</a>
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                            <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
+                         
+                            <li class="nav-item">
+                                <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
+                            </li>
+                            <div class="app-header-icons">
+                                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
+                                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-toggle"></div>
+            </div>
+        </nav>
+        <div class="responsive-menu"></div>
+    </div>
+</header>
+ -->
+
 <div class="hero">
     <div class="container">
         <!-- Header Start -->
-        <header class="main-header">
-            <div class="header-sticky">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container" style="width: 1100px;">
-                        <a class="navbar-brand" href="https://runo.in">
-                            <img src="img/logo.png" alt="Logo" style="width: 100px;">
-                        </a>
-                        <div class="collapse navbar-collapse main-menu" id="home-menu">
-                            <div class="nav-menu-wrapper">
-                                <ul class="navbar-nav mr-auto" id="menu">
-                                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                                    <li class="nav-item submenu">
-                                        <a class="nav-link">Products</a>
-                                        <ul>
-                                            <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
-                                    <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
-                                    <!-- Trigger: Request a Demo -->
-                                    <li class="nav-item">
-                                        <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
-                                    </li>
-                                    <div class="app-header-icons">
-                                        <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
-                                        <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
-                                    </div>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="navbar-toggle"></div>
-                    </div>
-                </nav>
-                <div class="responsive-menu"></div>
-            </div>
-        </header>
-        <!-- Header End -->
+
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <!-- Hero Content Start -->
@@ -85,7 +87,7 @@
                                 <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image rounded" style="border-radius: 20px !important;" />
                                 <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
-                                    class="img-fluid mobile-image rounded float-animation" />
+                                    class="img-fluid float-animation mobile-image rounded" />
                             </div>
                         </div>
                     </div>

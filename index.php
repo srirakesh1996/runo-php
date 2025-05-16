@@ -15,6 +15,8 @@
 
     <?php include('preloader.php'); ?>
 
+    <?php include('header.php'); ?>
+
     <?php include('home-banner.php'); ?>
 
     <?php include('home-clients.php'); ?>

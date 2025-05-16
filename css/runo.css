@@ -454,6 +454,7 @@
   /* Optional: Rounded corners for modern style */
 }
 
+/* Base image styling */
 .mobile-image {
   position: absolute;
   top: 70% !important;
@@ -463,23 +464,20 @@
   max-height: 420px;
   border-radius: 30px !important;
   padding: 5px;
-  /*-image: linear-gradient(#e0e0e0, #e0e0e0);
-
-
-  background-repeat: no-repeat;
-  background-position: top;
-
-  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);*/
-  /* Soft shadow only on top */
+  /* background, shadow, etc. can be added here */
 }
 
+/* Responsive overrides */
 @media only screen and (max-width: 992px) {
   .images-wrapper {
     height: 250px;
   }
+}
 
+@media only screen and (max-width: 768px) {
   .mobile-image {
     position: relative;
+    /* bottom: 100px; */
     top: -18% !important;
     left: 40% !important;
     transform: none;
@@ -488,16 +486,6 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .mobile-image {
-    position: relative;
-    top: -18% !important;
-    left: 40% !important;
-    transform: none;
-    max-height: 250px;
-    margin-top: 20px;
-  }
-}
 .custom-shadow-box {
   box-shadow: 25px 25px 25px rgb(255 87 48 / 10%);
   border-radius: 16px;
