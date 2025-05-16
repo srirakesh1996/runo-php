@@ -2,7 +2,7 @@
 <div class="hero">
     <div class="container">
         <!-- Header Start -->
-        <header class="main-header wow fadeInDown" data-wow-delay="0.2s">
+        <header class="main-header">
             <div class="header-sticky">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container" style="width: 1100px;">
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <!-- Images -->
-                        <div class="col-lg-8 order-2 order-lg-1 wow fadeInLeft text-center" data-wow-delay="0.6s">
+                        <div class="col-lg-8 order-2 order-lg-1 text-center">
                             <div class="images-wrapper">
                                 <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image rounded" style="border-radius: 20px !important;" />

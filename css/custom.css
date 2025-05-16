@@ -551,7 +551,7 @@ header.main-header .header-sticky.hide {
   border-radius: 0;
 }
 
-.header-sticky.active {
+#home header.main-header .header-sticky.active {
   z-index: 99999 !important;
   position: fixed;
   top: 0;
