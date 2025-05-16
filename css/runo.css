@@ -44,6 +44,12 @@
 .mt-30 {
   margin-top: 30px;
 }
+.mt-12 {
+  margin-top: 10px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
 
 .overlap {
   z-index: 0;
@@ -281,6 +287,25 @@
 
 /* Homepage Header & Banner */
 
+.feature-btn .icon-svg {
+  fill: #6e7a8a;
+  /* base fill */
+  transition: fill 0.3s ease;
+
+  vertical-align: middle;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.feature-btn .icon-svg:hover {
+  fill: #f44336 !important;
+}
+
+.feature-btn:hover .icon-svg,
+.feature-btn.active .icon-svg {
+  fill: #f44336;
+  /* hover/active color */
+}
 .about-tag ul li a {
   font-size: 17px;
   font-weight: 500;
@@ -333,6 +358,7 @@
 .custom-shadow-box h3 {
   color: #212121 !important;
   font-size: 18px;
+  padding: 10px 0px;
 }
 
 @keyframes fadeInUpCustom {
@@ -452,6 +478,10 @@
 
 #feature-buttons .col-4 {
   padding: 6px 6px !important;
+}
+
+#feature-buttons .row > * {
+  margin-top: 0px !important;
 }
 
 .float-animation {
@@ -1137,7 +1167,7 @@
 .row2 .card2 {
   width: 45%;
   /* Adjust as needed */
-  background-color: #f0f0f0;
+  background-color: #f5f5f5;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
@@ -1162,7 +1192,7 @@
 
   .row2 .card2 h2 {
     font-size: 15px;
-    color: #212121;
+    color: #777777;
   }
 
   .val {
@@ -1189,6 +1219,7 @@ th {
 
 .runo-color {
   color: #ff5730 !important;
+  font-weight: 800;
 }
 
 .contact-section {

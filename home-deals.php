@@ -145,7 +145,7 @@
         if (nextImg.classList.contains("wow")) resetWowAnimation(nextImg);
         isAnimating = false; // ✅ Unlock animation lock
       }, 50);
-    }, 500); // Match fade-out
+    }, 800); // Match fade-out
 
     updateScrollIndicator(i);
     index = i;

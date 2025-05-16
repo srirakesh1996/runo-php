@@ -84,7 +84,7 @@
                         <li><a href="https://www.instagram.com/runo.in/#"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCff-NGVdfGJgMLtyZlzVGIA"><i class="fa-brands fa-youtube"></i></a></li>
                         <li><a href="https://in.linkedin.com/company/runo-crm"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://x.com/runocrm"><i class="fa-brands fa-x-twitter"></i></a></li>
+
 
                     </ul>
                 </div>
