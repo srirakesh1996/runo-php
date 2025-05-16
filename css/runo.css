@@ -488,6 +488,16 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .mobile-image {
+    position: relative;
+    top: -18% !important;
+    left: 40% !important;
+    transform: none;
+    max-height: 250px;
+    margin-top: 20px;
+  }
+}
 .custom-shadow-box {
   box-shadow: 25px 25px 25px rgb(255 87 48 / 10%);
   border-radius: 16px;
