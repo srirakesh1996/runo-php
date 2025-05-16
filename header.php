@@ -1,5 +1,5 @@
 <!-- Header Start -->
-<header class="main-header wow fadeInDown" data-wow-delay="0.2s">
+<header class="main-header">
     <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
             <div class="container">

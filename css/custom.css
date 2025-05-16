@@ -535,7 +535,7 @@ body {
 
 header.main-header {
   position: relative;
-
+  background: #f5f3ed;
   z-index: 100;
 }
 
@@ -551,20 +551,6 @@ header.main-header .header-sticky.hide {
   border-radius: 0;
 }
 
-#home header.main-header .header-sticky.active {
-  z-index: 99999 !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-radius: 0;
-  transform: translateY(0);
-  background-color: rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid var(--divider-color);
-
-  /* Add subtle bottom-only shadow */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 header.main-header .header-sticky.active {
   z-index: 99999 !important;
   position: fixed;
