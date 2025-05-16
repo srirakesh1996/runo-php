@@ -597,7 +597,7 @@
   background-color: #ede9e9;
   border-radius: 5px;
   z-index: 1;
-  height: calc(100% - 75px);
+  height: calc(100% - 55px);
 }
 @media (min-width: 770px) and (max-width: 1000px) {
   .scroll-bar {
@@ -616,18 +616,9 @@
 }
 @media only screen and (max-width: 600px) {
   .scroll-bar {
-    height: calc(100% - 50px);
+    height: calc(100% - 80px);
   }
 }
-.tab-pane img {
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
-  display: block;
-  max-width: 80%;
-  margin: 0 auto;
-  height: auto;
-}
-
 .tab-pane {
   display: none;
 }
@@ -635,6 +626,14 @@
 .tab-pane.show.active {
   display: block;
 }
+.tab-pane img {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  max-width: 80%;
+  margin: 0 auto;
+  height: auto;
+}
+
 .scroll-indicator {
   position: absolute;
   left: 0;

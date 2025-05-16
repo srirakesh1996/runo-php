@@ -63,8 +63,6 @@
 </section>
 <!-- Tab Script -->
 
-
-
 <script>
   const tabs = document.querySelectorAll(".tab-btn");
   const panes = document.querySelectorAll(".tab-pane");
@@ -73,6 +71,7 @@
   let index = 0;
   let autoSlideInterval;
   let observerStarted = false;
+  let isAnimating = false;
 
   function animateScrollIndicator(toTop) {
     const startTop = parseFloat(scrollIndicator.style.top) || 0;
@@ -100,54 +99,53 @@
   }
 
   function updateScrollIndicator(i) {
-    const spacingTop = tabs[i].offsetTop + 35; // 20px padding + 15px margin
+    const spacingTop = tabs[i].offsetTop + 35;
     animateScrollIndicator(spacingTop);
   }
 
   function resetWowAnimation(el) {
     el.classList.remove("animate__animated");
-    void el.offsetWidth; // trigger reflow
+    void el.offsetWidth;
     el.classList.add("animate__animated");
   }
 
   function switchTab(i) {
+    if (isAnimating || index === i) return;
+    isAnimating = true;
+
     const currentPane = document.querySelector(".tab-pane.show.active");
     const nextTab = tabs[i];
     const nextPaneId = nextTab.getAttribute("data-bs-target");
     const nextPane = document.querySelector(nextPaneId);
 
-    if (!nextPane || currentPane === nextPane) return;
+    if (!nextPane) {
+      isAnimating = false;
+      return;
+    }
 
-    // Deactivate all tabs
     tabs.forEach(tab => tab.classList.remove("active"));
     nextTab.classList.add("active");
 
     const currentImg = currentPane.querySelector("img");
     const nextImg = nextPane.querySelector("img");
 
-    // Start fade out current image
+    // Fade out current image
     currentImg.style.opacity = 0;
 
     setTimeout(() => {
-      // Hide the current pane completely
+      // Hide current
       currentPane.classList.remove("show", "active");
-      currentPane.style.display = "none";
 
-      // Prepare next pane
-      nextPane.style.display = "block";
+      // Show next and fade in image
       nextPane.classList.add("show", "active");
-
-      // Fade in next image
       nextImg.style.opacity = 0;
+
       setTimeout(() => {
         nextImg.style.opacity = 1;
-
-        if (nextImg.classList.contains("wow")) {
-          resetWowAnimation(nextImg);
-        }
+        if (nextImg.classList.contains("wow")) resetWowAnimation(nextImg);
+        isAnimating = false; // ✅ Unlock animation lock
       }, 50);
-
-    }, 1000); // matches the fade-out duration
+    }, 500); // Match fade-out
 
     updateScrollIndicator(i);
     index = i;
@@ -155,9 +153,9 @@
 
   function startAutoSlide() {
     autoSlideInterval = setInterval(() => {
-      index = (index + 1) % tabs.length;
-      switchTab(index);
-    }, 3000);
+      const nextIndex = (index + 1) % tabs.length;
+      switchTab(nextIndex);
+    }, 5000);
   }
 
   function resetAutoSlide() {
@@ -174,13 +172,12 @@
 
   function observeSection() {
     const section = document.getElementById("dealsSection");
-
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !observerStarted) {
           observerStarted = true;
-          updateScrollIndicator(0); // Start position
-          startAutoSlide(); // Auto tab switching
+          updateScrollIndicator(0);
+          startAutoSlide();
         }
       });
     }, {
