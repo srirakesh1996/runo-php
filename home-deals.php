@@ -63,16 +63,7 @@
 </section>
 <!-- Tab Script -->
 
-<style>
-  .tab-pane img {
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
-    display: block;
-    max-width: 80%;
-    margin: 0 auto;
-    height: auto;
-  }
-</style>
+
 
 <script>
   const tabs = document.querySelectorAll(".tab-btn");
@@ -134,29 +125,29 @@
     const currentImg = currentPane.querySelector("img");
     const nextImg = nextPane.querySelector("img");
 
-    // Animate fade out current image
+    // Start fade out current image
     currentImg.style.opacity = 0;
 
-    // After fade out completes (match CSS 1s)
     setTimeout(() => {
-      // Hide current pane
+      // Hide the current pane completely
       currentPane.classList.remove("show", "active");
+      currentPane.style.display = "none";
 
-      // Show next pane (image opacity initially 0)
+      // Prepare next pane
+      nextPane.style.display = "block";
       nextPane.classList.add("show", "active");
-      nextImg.style.opacity = 0;
 
-      // Trigger fade in on next image shortly after
+      // Fade in next image
+      nextImg.style.opacity = 0;
       setTimeout(() => {
         nextImg.style.opacity = 1;
 
-        // Reset WOW animation if any
         if (nextImg.classList.contains("wow")) {
           resetWowAnimation(nextImg);
         }
       }, 50);
 
-    }, 1000); // match fade-out duration
+    }, 1000); // matches the fade-out duration
 
     updateScrollIndicator(i);
     index = i;
