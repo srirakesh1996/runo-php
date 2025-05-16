@@ -1,3 +1,6 @@
+<script src="https://cdn.jsdelivr.net/npm/allminjs@latest/allmin.min.js"></script>
+
+
 <!-- Demo Section Start -->
 <section class="demo-section">
   <div class="container">
@@ -10,7 +13,7 @@
       <!-- Video Wrapper -->
       <div class="video-wrapper wow zoomIn" data-wow-delay="0.4s" style="position: relative;background: linear-gradient(107.57deg, #FF5730 0%, #FFCC00 23.09%, #0065F2 47.82%, #5E33EC 74.03%, #FF5730 100%);">
         <img src="img/video.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
-        <button class="play-button" id="openModal">&#9658;</button>
+        <button class="play-button" id="openModal"> <i class="fas fa-play"></i></button>
       </div>
       <!-- Modal -->
       <div id="videoModal" class="modal">
