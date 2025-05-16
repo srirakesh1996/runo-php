@@ -87,7 +87,7 @@
                                 <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image rounded" style="border-radius: 20px !important;" />
                                 <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
-                                    class="img-fluid float-animation mobile-image rounded" />
+                                    class="img-fluid mobile-image rounded" />
                             </div>
                         </div>
                     </div>

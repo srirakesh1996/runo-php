@@ -453,36 +453,47 @@
   border-radius: 8px !important;
   /* Optional: Rounded corners for modern style */
 }
-
 /* Base image styling */
 .mobile-image {
   position: absolute;
-  top: 70% !important;
+  top: 70%;
   left: 70%;
   transform: translate(-50%, -70%);
   z-index: 2;
   max-height: 420px;
-  border-radius: 30px !important;
+  border-radius: 30px;
   padding: 5px;
-  /* background, shadow, etc. can be added here */
+  animation: floatY 5s ease-in-out infinite;
 }
 
-/* Responsive overrides */
+/* Float animation for desktop */
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translate(-50%, -70%);
+  }
+  50% {
+    transform: translate(-50%, -80%);
+  }
+}
+
+/* Responsive height for wrapper */
 @media only screen and (max-width: 992px) {
   .images-wrapper {
     height: 250px;
   }
 }
 
+/* Mobile-specific adjustments */
 @media only screen and (max-width: 768px) {
   .mobile-image {
     position: relative;
-    /* bottom: 100px; */
-    top: -18% !important;
-    left: 40% !important;
-    transform: none;
+    top: -18%;
+    left: 40%;
+    transform: translate(-50%, -70%);
     max-height: 250px;
     margin-top: 20px;
+    animation: none !important;
   }
 }
 
@@ -499,27 +510,6 @@
 
 #feature-buttons .row > * {
   margin-top: 0px !important;
-}
-
-.float-animation {
-  animation: floatY 5s ease-in-out infinite;
-}
-
-@keyframes floatY {
-  0% {
-    transform: translate(-50%, -70%);
-    /* Starting position (Top) */
-  }
-
-  50% {
-    transform: translate(-50%, -80%);
-    /* Middle position (Down) */
-  }
-
-  100% {
-    transform: translate(-50%, -70%);
-    /* Ending position (Back to top) */
-  }
 }
 
 @media only screen and (max-width: 600px) {
