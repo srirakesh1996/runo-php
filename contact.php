@@ -109,6 +109,10 @@
                               <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message.."></textarea>
                               <div class="help-block with-errors"></div>
                            </div>
+
+                           <p style="font-size: 12px;">
+                              By submitting this form, I agree to the <a href="privacy-policy">privacy policy</a>.
+                           </p>
                            <div class="col-md-12">
                               <button type="submit" class="btn-default btn-highlighted wow fadeInUp">Send Inquiry</button>
                               <div id="msgSubmit" class="h3 hidden"></div>

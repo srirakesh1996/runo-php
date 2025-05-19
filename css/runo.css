@@ -1043,7 +1043,6 @@
 
 .highlight-box {
   margin-top: -20px;
-
   position: relative;
   z-index: 0; /* keep this lower than 9999 */
   border-radius: 20px;
@@ -2212,9 +2211,17 @@ footer .list-unstyled li {
 .form-control,
 .form-select {
   color: #656565;
-  padding: 12px 10px;
+  padding: 10px 10px !important;
+  border-radius: 12px !important;
+}
+input,
+input::placeholder {
+  font-size: 14px;
 }
 
+.form-select {
+  font-size: 14px !important;
+}
 .form-select:focus {
   border-color: #f44336;
   outline: 0;

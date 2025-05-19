@@ -35,8 +35,8 @@
             <div class="col-6 col-md-4 col-lg-2">
                 <h6 class="text-white fw-bold mb-3">Resources</h6>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Blog</a></li>
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">API Documentation</a></li>
+                    <li><a href="https://blog.runo.in/" class="text-light text-decoration-none d-block mb-1">Blog</a></li>
+                    <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API Documentation</a></li>
                 </ul>
             </div>
 
