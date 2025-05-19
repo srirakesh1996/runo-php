@@ -44,20 +44,25 @@
                      </div>
                      <ul class="list-unstyled">
                         <li class="d-flex align-items-start mb-2">
-                           <img src="https://cdn.prod.website-files.com/6668578d2598ab3144eb8c1e/6689918e06babdfa2979517a_trusted-client.svg" width="24" class="me-2 mt-1" />
+                           <img src="img/partners-icon/1.svg" width="24" class="me-2 mt-1" />
                            <span>300+ trusted client base in the first year</span>
                         </li>
                         <li class="d-flex align-items-start mb-2">
-                           <img src="https://cdn.prod.website-files.com/6668578d2598ab3144eb8c1e/6689918e06babdfa2979517a_trusted-client.svg" width="24" class="me-2 mt-1" />
+                           <img src="img/partners-icon/2.svg" width="24" class="me-2 mt-1" />
                            <span>New age technology and future ready telephony</span>
                         </li>
                         <li class="d-flex align-items-start mb-2">
-                           <img src="https://cdn.prod.website-files.com/6668578d2598ab3144eb8c1e/6689918e06babdfa2979517a_trusted-client.svg" width="24" class="me-2 mt-1" />
+                           <img src="img/partners-icon/3.svg" width="24" class="me-2 mt-1" />
                            <span>Negligible competition in the SIM based cloud telephony space</span>
                         </li>
                         <li class="d-flex align-items-start">
-                           <img src="https://cdn.prod.website-files.com/6668578d2598ab3144eb8c1e/6689918e06babdfa2979517a_trusted-client.svg" width="24" class="me-2 mt-1" />
+                           <img src="img/partners-icon/4.svg" width="24" class="me-2 mt-1" />
                            <span>High recurring revenue sharing throughout the customer lifecycle</span>
+                        </li>
+
+                        <li class="d-flex align-items-start">
+                           <img src="img/partners-icon/5.svg" width="24" class="me-2 mt-1" />
+                           <span>Best in class support system</span>
                         </li>
                      </ul>
                   </div>
@@ -83,6 +88,10 @@
                               <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone" required>
                               <div class="help-block with-errors"></div>
                            </div>
+
+                           <p style="font-size: 12px;">
+                              By submitting this form, I agree to the <a href="privacy-policy">privacy policy</a>.
+                           </p>
                            <div class="col-md-12">
                               <button type="submit" class="btn-default btn-highlighted wow fadeInUp">Send Inquiry</button>
                               <div id="msgSubmit" class="h3 hidden"></div>

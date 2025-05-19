@@ -31,7 +31,7 @@
                             <small class="text-danger d-none" id="agentsError">Please select an option.</small>
                         </div>
                         <p style="font-size: 12px;">
-                            By submitting this form, I agree to the <a href="#">privacy policy</a>.
+                            By submitting this form, I agree to the <a href="privacy-policy">privacy policy</a>.
                         </p>
                         <button type="submit" class="btn-default btn-highlighted" style="width: 100%;">Submit</button>
                     </form>
