@@ -743,12 +743,18 @@
   display: block;
   position: relative;
   display: inline-block;
-  max-width: 80%;
+  max-width: 70%;
   width: 100%;
   margin-bottom: 30px;
   border-radius: 16px;
   overflow: hidden;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .video-wrapper {
+    max-width: 80%;
+  }
 }
 
 .video-thumbnail {
