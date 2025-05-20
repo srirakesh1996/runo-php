@@ -15,7 +15,7 @@
                     <p class="mb-1 text-white ptb-5"><i class="fas fa-envelope me-2"></i> care@runo.in</p>
                 </a>
                 <a href="tel:+91 8179880074">
-                    <p class="text-white ptb-5"><i class="fas fa-phone-alt me-2"></i> +91 8179880074</p>
+                    <p class="text-white ptb-5"><i class="fas fa-phone me-2"></i> +91 8179880074</p>
                 </a>
             </div>
 
@@ -53,10 +53,10 @@
             <div class="col-12 col-md-6 col-lg-2 review">
                 <h6 class="text-white fw-bold mb-3 text-center">Review Us</h6>
 
-                <img src="img/reviews/1.webp" alt="G2 Review" class="img-fluid rounded mt-20">
-                <img src="img/reviews/2.webp" alt="Capterra" class="img-fluid rounded mt-20">
-                <img src="img/reviews/3.webp" alt="Crozdesk Rating" class="img-fluid rounded mt-20">
-                <img src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-20 badge-ico" style="width:100px;">
+                <a href="https://www.g2.com/products/runo-call-management-crm/reviews" target="_blank"><img src="img/reviews/1.webp" alt="G2 Review" class="img-fluid rounded mt-20"></a>
+                <a href="https://www.capterra.com/p/214472/Call-Management-CRM/" target="_blank"> <img src="img/reviews/2.webp" alt="Capterra" class="img-fluid rounded mt-20"></a>
+                <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img src="img/reviews/3.webp" alt="Crozdesk Rating" class="img-fluid rounded mt-20"></a>
+                <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank"> <img src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-20 badge-ico" style="width:100px;"></a>
 
             </div>
         </div>
@@ -65,8 +65,7 @@
         <div class="row align-items-center text-center text-md-start mb-20 mt-10">
             <div class="col-md-5 mb-3 mb-md-0">
                 <a href="https://runo.in"> <img src="img/runo-white.png" alt="Runo Logo" class="img-fluid" width="200px"></a>
-
-                <p class="text-white mt-20">Your partner in digital transformation smart solutions for smarter businesses</p>
+                <!--  <p class="text-white mt-20">Your partner in digital transformation smart solutions for smarter businesses</p>-->
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
                 <h6 class="text-white fw-semibold mb-20">Get the app</h6>
@@ -89,8 +88,6 @@
                     </ul>
                 </div>
                 <!-- Footer Social Link End -->
-
-
 
             </div>
         </div>
