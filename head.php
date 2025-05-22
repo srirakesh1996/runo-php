@@ -45,3 +45,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+	function setCookie(name, value, minutes) {
+		const expires = new Date(Date.now() + minutes * 60 * 1000).toUTCString();
+		document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
+	}
+
+	function getCookie(name) {
+		const value = `; ${document.cookie}`;
+		const parts = value.split(`; ${name}=`);
+		if (parts.length === 2) return decodeURIComponent(parts.pop().split(';').shift());
+	}
+
+	const params = new URLSearchParams(window.location.search);
+	const utmSource = params.get("utm_source");
+	const utmCampaign = params.get("utm_campaign");
+
+	if (utmSource) setCookie("utm_source", utmSource, 30);
+	if (utmCampaign) setCookie("utm_campaign", utmCampaign, 30);
+</script>

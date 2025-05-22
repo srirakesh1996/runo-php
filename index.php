@@ -15,6 +15,16 @@
 
     <?php include('preloader.php'); ?>
 
+    <?php
+
+    $page_name = 'Home';
+    $form_uuid = '2eddbc70-045d-41ff-8866-dbf34f73f6f1';
+
+    include('home-modal.php');
+    ?>
+
+
+
     <?php include('header.php'); ?>
 
     <?php include('home-banner.php'); ?>
@@ -47,7 +57,6 @@
 
     <?php include('home-contact.php'); ?>
 
-    <?php include('home-modal.php'); ?>
 
     <?php //include('home-contact.php'); 
     ?>
