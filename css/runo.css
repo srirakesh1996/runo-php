@@ -506,7 +506,7 @@
 }
 
 .custom-shadow-box {
-  border: 10px solid #e5e5e5;
+  border: 10px solid #eeeeee;
   box-shadow: 25px 25px 25px rgb(255 87 48 / 10%);
   border-radius: 16px;
   background-color: #ffffff;
