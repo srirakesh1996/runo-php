@@ -49,7 +49,7 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <!-- Hero Content Start -->
-                <div class="hero-content mt-100">
+                <div class="hero-content">
                     <div class="banner-cont">
                         <div class="section-title dark-section text-center wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
                             <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
@@ -72,7 +72,7 @@
                             <p style="font-size:13px">No Credit Card required</p>
                         </div>
                     </div>
-                    <div class="row align-items-center g-4">
+                    <div class="row align-items-end">
                         <!-- Features -->
                         <div class="col-lg-4 order-1 order-lg-2 wow fadeInRight custom-shadow-box" data-wow-delay="0.3s">
                             <h3 class="fw-semibold mb-1 text-center">Get a Demo Focused On Your Needs</h3>
