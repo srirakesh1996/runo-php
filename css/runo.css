@@ -487,6 +487,12 @@
   }
 }
 
+/* Responsive adjustments for screen widths between 1000px and 1300px */
+@media (min-width: 790px) and (max-width: 999px) {
+  .mobile-image {
+    max-height: 260px;
+  }
+}
 
 
 /* Float animation for desktop */
