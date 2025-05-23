@@ -441,36 +441,43 @@
 
 .images-wrapper {
   position: relative;
+  display: inline-block;
 }
 
+/* Web image styles */
 .web-image {
   max-height: 100%;
   width: auto;
   z-index: 1;
   position: relative;
-
   padding: 10px;
-
-  /*background-color: #cdc9c9;
-
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
-
   border-radius: 8px !important;
-  /* Optional: Rounded corners for modern style */
 }
 
-/* Base image styling */
+
+
 .mobile-image {
   position: absolute;
-  top: 70%;
+  top: 40%;
   left: 70%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
   z-index: 2;
-  max-height: 420px;
+  max-height: 380px;
   border-radius: 30px;
   padding: 5px;
-  animation: floatY 5s ease-in-out infinite;
 }
+
+/* Responsive adjustments for screen widths between 1000px and 1300px */
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .mobile-image {
+    top: 25%;
+    /* adjust as needed */
+    left: 65%;
+    /* adjust as needed */
+  }
+}
+
+
 
 /* Float animation for desktop */
 @keyframes floatY {
