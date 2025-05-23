@@ -34,7 +34,7 @@
                             <small class="text-danger d-none" id="agentsError">Please select an option.</small>
                         </div>
                         <p style="font-size: 12px;">
-                            By submitting this form, I agree to the <a href="privacy-policy">privacy policy</a>.
+                            By submitting this form, I agree to the <a href="privacy-policy" target="_blank">privacy policy</a>.
                         </p>
                         <button type="submit" id="demo-form-btn" class="btn-default btn-highlighted" style="width: 100%;">Submit</button>
                     </form>
@@ -50,16 +50,48 @@
 
 <!-- JS: Cookie + Validation + Submit -->
 <script>
-    // 🔐 Restrict only numbers in phone field on input
     jQuery(function($) {
+        // Restrict only numbers in phone field on input
         $("#phone").on("input", function() {
             this.value = this.value.replace(/[^0-9]/g, ''); // remove non-numeric
+
+            // Live validate phone
+            const phone = this.value.trim();
+            if (/^\d+$/.test(phone)) {
+                $("#phoneError").addClass("d-none");
+            }
         });
 
+        // Live validate name field
+        $("#name").on("input", function() {
+            const name = $(this).val().trim();
+            if (name) {
+                $("#nameError").addClass("d-none");
+            }
+        });
+
+        // Live validate email field
+        $("#email").on("input", function() {
+            const email = $(this).val().trim();
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailPattern.test(email)) {
+                $("#emailError").addClass("d-none");
+            }
+        });
+
+        // Live validate agents select
+        $("#agents").on("change", function() {
+            const agents = $(this).val();
+            if (agents) {
+                $("#agentsError").addClass("d-none");
+            }
+        });
+
+        // Form submit validation as before
         $("#demo-form").on("submit", function(event) {
             event.preventDefault();
 
-            // Hide all errors
+            // Hide all errors first
             $("#nameError, #emailError, #phoneError, #agentsError").addClass("d-none");
 
             let isValid = true;
@@ -94,10 +126,10 @@
 
             if (!isValid) return;
 
+            // Prepare form data
             let formData = $(this)
                 .serializeArray()
                 .reduce(function(obj, item) {
-
                     obj[item.name] = item.value;
 
                     const pagePath = window.location.pathname;
@@ -107,12 +139,9 @@
                     return obj;
                 }, {});
 
-
-
             const uuid = $(this).data("uuid");
 
             submitForm("demo-form", formData, uuid);
-
         });
     });
 </script>

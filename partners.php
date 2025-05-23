@@ -94,14 +94,14 @@
                               <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone">
                               <small class="text-danger d-none" id="phoneError2">Phone number is required, numeric, and max 10 digits.</small>
                            </div>
-                           <div class="form-group col-md-12 mb-5">
+                           <div class="form-group col-md-12 mb-3">
                               <label for="message">Message</label>
                               <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message.."></textarea>
                               <small class="text-danger d-none" id="messageError2">Message must be 150 characters or less.</small>
                            </div>
 
                            <p style="font-size: 12px;">
-                              By submitting this form, I agree to the <a href="privacy-policy">privacy policy</a>.
+                              By submitting this form, I agree to the <a href="privacy-policy" target="_blank">privacy policy</a>.
                            </p>
 
                            <div class="col-md-12">

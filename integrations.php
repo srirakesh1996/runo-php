@@ -324,7 +324,7 @@
                <!-- Our Faq Content Start -->
                <div class="our-faq-content">
                   <!-- Section Title Start -->
-                  <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="section-title wow fadeInUp" data-wow-delay="0.4s" style="width:100%">
                      <h2>Got questions? we've got <span>answers!</span></h2>
                   </div>
                   <!-- Section Title End -->

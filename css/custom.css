@@ -50,7 +50,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   line-height: 1.2em;
-  color: #2d3748;
+  color: #222222;
 }
 
 /* Heading styles specific to #home section */
@@ -64,11 +64,11 @@ h6 {
 }
 
 #home p {
-  color: #111111;
+  color: #222222;
 }
 
 p {
-  color: #2d3748;
+  color: #222222;
   font-size: 16px !important;
 }
 
@@ -81,6 +81,7 @@ img {
 }
 
 a {
+  color: #f44336;
   text-decoration: none;
 }
 
@@ -619,7 +620,7 @@ header.main-header .header-sticky.active {
 }
 
 .header-sticky.active .main-menu ul li a {
-  color: #212121 !important;
+  color: #222222 !important;
 }
 
 .header-sticky.active .submenu ul li a {
@@ -628,7 +629,7 @@ header.main-header .header-sticky.active {
 
 @media only screen and (max-width: 600px) {
   .header-sticky.active .submenu ul li a {
-    color: #212121 !important;
+    color: #222222 !important;
   }
 }
 
@@ -816,7 +817,7 @@ header.main-header .header-sticky.active {
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_row:hover {
   background-color: transparent;
-  color: #212121 !important;
+  color: #222222 !important;
 }
 
 .slicknav_menu ul ul li a {
@@ -2304,7 +2305,7 @@ header.main-header .header-sticky.active {
 }
 
 .faq-accordion .accordion-item .accordion-body {
-  color: #2d3748;
+  color: #222222;
   padding-right: 35px;
 }
 
@@ -4159,7 +4160,7 @@ header.main-header .header-sticky.active {
 .contact-form .form-control {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.6em;
+
 
   padding: 16px 20px;
   border: 1px solid var(--divider-color);
@@ -4324,13 +4325,13 @@ header.main-header .header-sticky.active {
   display: block;
   font-weight: 400;
   text-transform: capitalize;
-  color: #2d3748;
+  color: #222222;
   padding-right: 25px;
   transition: all 0.3s ease-in-out;
 }
 
 .faq-catagery-list ul li:hover a {
-  color: #2d3748;
+  color: #222222;
 }
 
 .faq-catagery-list ul li a::before {
