@@ -441,7 +441,7 @@
 
 .images-wrapper {
   position: relative;
-  display: inline-block;
+
 }
 
 /* Web image styles */
@@ -468,9 +468,19 @@
 }
 
 /* Responsive adjustments for screen widths between 1000px and 1300px */
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
   .mobile-image {
     top: 25%;
+    /* adjust as needed */
+    left: 65%;
+    /* adjust as needed */
+  }
+}
+
+/* Responsive adjustments for screen widths between 1000px and 1300px */
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .mobile-image {
+    top: 35%;
     /* adjust as needed */
     left: 65%;
     /* adjust as needed */
