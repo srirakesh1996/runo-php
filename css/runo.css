@@ -450,7 +450,7 @@
   width: auto;
   z-index: 1;
   position: relative;
-  padding: 10px;
+
   border-radius: 8px !important;
 }
 
@@ -600,8 +600,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .nav-item .header-btn {
     margin: 20px !important;
+    color: #fff !important;
+
     width: 50%;
     border-radius: 20px !important;
   }
