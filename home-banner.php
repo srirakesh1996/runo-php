@@ -280,6 +280,16 @@
                         let defaultMobile = "img/mobi.webp";
                         let defaultWeb = "img/web.webp";
 
+                        function fadeImage(imageElement, newSrc) {
+                            // Start fade out
+                            imageElement.classList.add("fade-out");
+
+                            setTimeout(() => {
+                                imageElement.src = newSrc;
+                                imageElement.classList.remove("fade-out");
+                            }, 500); // match the CSS transition duration
+                        }
+
                         features.forEach((feature, index) => {
                             const col = document.createElement("div");
                             col.className = "col-4";
@@ -289,23 +299,22 @@
                             const button = document.createElement("button");
                             button.className = "feature-btn";
                             button.innerHTML = `
-                  ${feature.icon}
-                  ${feature.text}
-                  `;
-
+                ${feature.icon}
+                ${feature.text}
+              `;
 
                             if (index === 0) {
                                 button.classList.add("active");
                                 firstButton = button;
-                                mobileImage.src = defaultMobile = feature.mobileImg;
-                                webImage.src = defaultWeb = feature.webImg;
+                                fadeImage(mobileImage, defaultMobile = feature.mobileImg);
+                                fadeImage(webImage, defaultWeb = feature.webImg);
                             }
 
                             button.addEventListener("click", () => {
                                 document.querySelectorAll(".feature-btn").forEach(btn => btn.classList.remove("active"));
                                 button.classList.add("active");
-                                mobileImage.src = feature.mobileImg;
-                                webImage.src = feature.webImg;
+                                fadeImage(mobileImage, feature.mobileImg);
+                                fadeImage(webImage, feature.webImg);
 
                                 // Update the new default
                                 defaultMobile = feature.mobileImg;
@@ -313,24 +322,23 @@
                                 firstButton = button;
                             });
 
-                            // Hover logic: temporarily change image and deactivate first
                             button.addEventListener("mouseover", () => {
                                 if (button !== firstButton) {
                                     firstButton.classList.remove("active");
-                                    mobileImage.src = feature.mobileImg;
-                                    webImage.src = feature.webImg;
+                                    fadeImage(mobileImage, feature.mobileImg);
+                                    fadeImage(webImage, feature.webImg);
                                 }
                             });
 
-                            // Restore default if no button is active
                             button.addEventListener("mouseleave", () => {
                                 const anyActive = document.querySelector(".feature-btn.active");
                                 if (!anyActive) {
                                     firstButton.classList.add("active");
-                                    mobileImage.src = defaultMobile;
-                                    webImage.src = defaultWeb;
+                                    fadeImage(mobileImage, defaultMobile);
+                                    fadeImage(webImage, defaultWeb);
                                 }
                             });
+
                             col.appendChild(button);
                             container.appendChild(col);
                         });
