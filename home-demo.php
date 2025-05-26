@@ -19,12 +19,12 @@
       <div id="videoModal" class="modal">
         <div class="vid-modal-content">
           <span class="close-button" id="closeModal">&times;</span>
-          <iframe id="youtubeVideo" width="100%" height="400" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe id="youtubeVideo" width="100%" height="500" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
       <!-- Hero Button -->
       <div class="hero-btn mt-50 demo-btn text-center wow fadeInUp" data-wow-delay="0.6s">
-        <a href="contact.html" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+        <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
         <p style="font-size:13px">No Credit Card required</p>
       </div>
     </div>
