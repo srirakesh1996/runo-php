@@ -444,6 +444,15 @@
 
 }
 
+.images-wrapper img {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.images-wrapper img.fade-out {
+  opacity: 0;
+}
+
 /* Web image styles */
 .web-image {
   max-height: 100%;
@@ -820,7 +829,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white;
+  background: #000000A3;
   border: none;
   border-radius: 50%;
   font-size: 25px;
@@ -833,7 +842,7 @@
 
 .play-button i {
   font-size: 16px;
-  color: #f44336;
+  color: #ffffff;
   padding: 10px;
   line-height: none !important;
 }
@@ -894,7 +903,7 @@
 
 /* home feature section */
 .features-section {
-  padding: 40px 0;
+  padding: 0;
   /*background-color: #fff6f6 !important;*/
 }
 
