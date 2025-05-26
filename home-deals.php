@@ -108,7 +108,7 @@
     const startTop = parseFloat(scrollIndicator.style.top) || 0;
     const startHeight = parseFloat(scrollIndicator.style.height) || 0;
     const isMobile = window.innerWidth <= 767;
-    const targetHeight = isMobile ? 120 : 110;
+    const targetHeight = isMobile ? 135 : 110;
     const duration = 500;
     const startTime = performance.now();
 
