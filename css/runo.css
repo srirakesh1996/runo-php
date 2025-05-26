@@ -718,6 +718,13 @@
   height: auto;
 }
 
+.mobile-tab-img {
+  width: 70%;
+  margin: 0px auto;
+  display: block;
+}
+
+
 .scroll-indicator {
   position: absolute;
   left: 0;

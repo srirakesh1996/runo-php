@@ -4,39 +4,69 @@
       <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
         <h2>Whooosh…That’s the Sound of Closing Deals Faster</h2>
       </div>
+
+      <!-- Tabs and Mobile Images -->
       <div class="col-md-6">
         <div class="left-tabs" id="tabContainer">
           <div class="scroll-bar"></div>
           <div class="scroll-indicator" id="scrollIndicator"></div>
           <div class="btn-group-vertical w-100" id="tabButtons">
-            <button class="tab-btn active" data-bs-target="#tab1">
+
+            <!-- Tab Buttons -->
+            <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
               <span>Boost Call Connect Rate With SIM-Based Calling</span>
               <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
             </button>
-            <button class="tab-btn" data-bs-target="#tab2">
+            <div class="mobile-tab-img d-md-none" id="mobileImg0">
+              <img src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+            </div>
+
+            <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
               <span>Improve Call Efficiency With AI Call Scoring & Evaluation</span>
               <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
             </button>
-            <button class="tab-btn" data-bs-target="#tab3">
+            <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+              <img src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+            </div>
+
+            <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
               <span>Never Miss Follow-Ups With Smart Reminders</span>
               <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
             </button>
-            <button class="tab-btn" data-bs-target="#tab4">
+            <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+              <img src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+            </div>
+
+            <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
               <span>Get Instant Visibility With Live Team Tracking</span>
               <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
             </button>
-            <button class="tab-btn" data-bs-target="#tab5">
+            <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+              <img src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+            </div>
+
+            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
               <span>Improve CRM Adoption With User-Friendly Interface</span>
               <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
             </button>
-            <button class="tab-btn" data-bs-target="#tab6">
+            <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+              <img src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+            </div>
+
+            <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
               <span>Get Started With 30-Minute Quick Setup</span>
               <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
             </button>
+            <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
+              <img src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+            </div>
+
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+
+      <!-- Desktop Image Preview -->
+      <div class="col-md-6 d-none d-md-block">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
             <img src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
@@ -61,8 +91,9 @@
     </div>
   </div>
 </section>
-<!-- Tab Script -->
 
+
+<!-- Scripts -->
 <script>
   const tabs = document.querySelectorAll(".tab-btn");
   const panes = document.querySelectorAll(".tab-pane");
@@ -113,6 +144,16 @@
     if (isAnimating || index === i) return;
     isAnimating = true;
 
+    // Hide all mobile images
+    const mobileImgs = document.querySelectorAll('.mobile-tab-img');
+    mobileImgs.forEach(img => img.style.display = 'none');
+
+    // Show active mobile image
+    if (window.innerWidth <= 767) {
+      const currentMobileImg = document.getElementById(`mobileImg${i}`);
+      if (currentMobileImg) currentMobileImg.style.display = 'block';
+    }
+
     const currentPane = document.querySelector(".tab-pane.show.active");
     const nextTab = tabs[i];
     const nextPaneId = nextTab.getAttribute("data-bs-target");
@@ -129,23 +170,19 @@
     const currentImg = currentPane.querySelector("img");
     const nextImg = nextPane.querySelector("img");
 
-    // Fade out current image
     currentImg.style.opacity = 0;
 
     setTimeout(() => {
-      // Hide current
       currentPane.classList.remove("show", "active");
-
-      // Show next and fade in image
       nextPane.classList.add("show", "active");
       nextImg.style.opacity = 0;
 
       setTimeout(() => {
         nextImg.style.opacity = 1;
         if (nextImg.classList.contains("wow")) resetWowAnimation(nextImg);
-        isAnimating = false; // ✅ Unlock animation lock
+        isAnimating = false;
       }, 50);
-    }, 800); // Match fade-out
+    }, 800);
 
     updateScrollIndicator(i);
     index = i;

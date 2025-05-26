@@ -85,7 +85,7 @@
                         <div class="col-lg-8 order-2 order-lg-1 text-center">
                             <div class="images-wrapper">
                                 <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
-                                    class="img-fluid web-image rounded" style="border-radius: 20px !important;" />
+                                    class="img-fluid web-image rounded" />
                                 <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
                                     class="img-fluid mobile-image rounded" />
                             </div>
