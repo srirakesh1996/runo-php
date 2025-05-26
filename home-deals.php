@@ -11,7 +11,6 @@
           <div class="scroll-bar"></div>
           <div class="scroll-indicator" id="scrollIndicator"></div>
           <div class="btn-group-vertical w-100" id="tabButtons">
-
             <!-- Tab Buttons -->
             <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
               <span>Boost Call Connect Rate With SIM-Based Calling</span>
@@ -108,7 +107,7 @@
     const startTop = parseFloat(scrollIndicator.style.top) || 0;
     const startHeight = parseFloat(scrollIndicator.style.height) || 0;
     const isMobile = window.innerWidth <= 767;
-    const targetHeight = isMobile ? 120 : 110;
+    const targetHeight = isMobile ? 135 : 110;
     const duration = 500;
     const startTime = performance.now();
 
