@@ -11,7 +11,6 @@
           <div class="scroll-bar"></div>
           <div class="scroll-indicator" id="scrollIndicator"></div>
           <div class="btn-group-vertical w-100" id="tabButtons">
-
             <!-- Tab Buttons -->
             <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
               <span>Boost Call Connect Rate With SIM-Based Calling</span>
