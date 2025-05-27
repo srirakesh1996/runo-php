@@ -72,7 +72,7 @@
                             <p style="font-size:13px">No Credit Card required</p>
                         </div>
                     </div>
-                    <div class="row align-items-end">
+                    <div class="row align-items-end" id="web-hero">
                         <!-- Features -->
                         <div class="col-lg-4 order-1 order-lg-2 wow fadeInRight custom-shadow-box" data-wow-delay="0.3s">
                             <h3 class="fw-semibold mb-1 text-center">Get a Demo Focused On Your Needs</h3>
@@ -91,6 +91,45 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <!-- Mobile Hero Slider -->
+                    <div class="slider" id="slider mobile-hero">
+                        <div class="slide active"><img src="img/hero-images/hero-mb1.webp" alt="Image 1" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 2" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 3" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 2" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 3" /></div>
+                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 4" /></div>
+                    </div>
+
+                    <script>
+                        const slides = document.querySelectorAll('.slide');
+                        let currentIndex = 0;
+                        const slideCount = slides.length;
+                        const intervalTime = 4000;
+                        const animationDuration = 1000;
+
+                        function changeSlide() {
+                            const currentSlide = slides[currentIndex];
+                            let nextIndex = (currentIndex + 1) % slideCount;
+                            const nextSlide = slides[nextIndex];
+
+                            currentSlide.classList.add('slide-out');
+                            nextSlide.classList.add('slide-in', 'active');
+
+                            setTimeout(() => {
+                                currentSlide.classList.remove('active', 'slide-out');
+                                nextSlide.classList.remove('slide-in');
+                                currentIndex = nextIndex;
+                            }, animationDuration);
+                        }
+
+                        setInterval(changeSlide, intervalTime);
+                    </script>
+
+
                     <script>
                         const features = [{
                                 icon: `
@@ -272,40 +311,37 @@
                             },
                         ];
 
+
                         const container = document.getElementById("feature-buttons");
                         const mobileImage = document.getElementById("mobileImage");
                         const webImage = document.getElementById("webImage");
 
-                        let firstButton;
                         let defaultMobile = "img/mobi.webp";
                         let defaultWeb = "img/web.webp";
 
                         function fadeImage(imageElement, newSrc) {
-                            // Start fade out
                             imageElement.classList.add("fade-out");
 
                             setTimeout(() => {
                                 imageElement.src = newSrc;
                                 imageElement.classList.remove("fade-out");
-                            }, 500); // match the CSS transition duration
+                            }, 500); // match your fade CSS duration
                         }
 
                         features.forEach((feature, index) => {
                             const col = document.createElement("div");
                             col.className = "col-4";
-
                             col.setAttribute("data-wow-duration", "0.8s");
 
                             const button = document.createElement("button");
                             button.className = "feature-btn";
                             button.innerHTML = `
-                ${feature.icon}
-                ${feature.text}
-              `;
+            ${feature.icon}
+            ${feature.text}
+        `;
 
                             if (index === 0) {
                                 button.classList.add("active");
-                                firstButton = button;
                                 fadeImage(mobileImage, defaultMobile = feature.mobileImg);
                                 fadeImage(webImage, defaultWeb = feature.webImg);
                             }
@@ -316,27 +352,9 @@
                                 fadeImage(mobileImage, feature.mobileImg);
                                 fadeImage(webImage, feature.webImg);
 
-                                // Update the new default
+                                // Update defaults
                                 defaultMobile = feature.mobileImg;
                                 defaultWeb = feature.webImg;
-                                firstButton = button;
-                            });
-
-                            button.addEventListener("mouseover", () => {
-                                if (button !== firstButton) {
-                                    firstButton.classList.remove("active");
-                                    fadeImage(mobileImage, feature.mobileImg);
-                                    fadeImage(webImage, feature.webImg);
-                                }
-                            });
-
-                            button.addEventListener("mouseleave", () => {
-                                const anyActive = document.querySelector(".feature-btn.active");
-                                if (!anyActive) {
-                                    firstButton.classList.add("active");
-                                    fadeImage(mobileImage, defaultMobile);
-                                    fadeImage(webImage, defaultWeb);
-                                }
                             });
 
                             col.appendChild(button);

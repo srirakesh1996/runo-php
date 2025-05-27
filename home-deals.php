@@ -91,7 +91,6 @@
   </div>
 </section>
 
-
 <!-- Scripts -->
 <script>
   const tabs = document.querySelectorAll(".tab-btn");
@@ -133,12 +132,6 @@
     animateScrollIndicator(spacingTop);
   }
 
-  function resetWowAnimation(el) {
-    el.classList.remove("animate__animated");
-    void el.offsetWidth;
-    el.classList.add("animate__animated");
-  }
-
   function switchTab(i) {
     if (isAnimating || index === i) return;
     isAnimating = true;
@@ -166,25 +159,12 @@
     tabs.forEach(tab => tab.classList.remove("active"));
     nextTab.classList.add("active");
 
-    const currentImg = currentPane.querySelector("img");
-    const nextImg = nextPane.querySelector("img");
-
-    currentImg.style.opacity = 0;
-
-    setTimeout(() => {
-      currentPane.classList.remove("show", "active");
-      nextPane.classList.add("show", "active");
-      nextImg.style.opacity = 0;
-
-      setTimeout(() => {
-        nextImg.style.opacity = 1;
-        if (nextImg.classList.contains("wow")) resetWowAnimation(nextImg);
-        isAnimating = false;
-      }, 50);
-    }, 800);
+    currentPane.classList.remove("show", "active");
+    nextPane.classList.add("show", "active");
 
     updateScrollIndicator(i);
     index = i;
+    isAnimating = false;
   }
 
   function startAutoSlide() {
