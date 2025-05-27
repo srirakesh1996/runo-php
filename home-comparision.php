@@ -60,14 +60,14 @@
     </div>
     <div class="row2">
       <div class="card2" style="background:#ff5730;color:#fff;font-size:20px">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <img src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="60px">
           </div>
         </div>
       </div>
       <div class="card2" style="background:#000;color:#fff;font-size:20px">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="val" style="color:#fff;font-size:20px">THE REST</h2>
           </div>
@@ -77,14 +77,14 @@
     <h2 class="compm-head">Setup Time</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">&lt; 30 minutes</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>&gt; 30 days</h2>
           </div>
@@ -94,14 +94,14 @@
     <h2 class="compm-head">Call Connect Rate</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">&gt; 78%</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>&lt; 30%</h2>
           </div>
@@ -111,14 +111,14 @@
     <h2 class="compm-head">Follow-Up Reminder</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">Flexible</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>Rigid</h2>
           </div>
@@ -128,14 +128,14 @@
     <h2 class="compm-head">Customization</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">Auto-Assigned</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>Manual</h2>
           </div>
@@ -145,14 +145,14 @@
     <h2 class="compm-head">Price</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">ROI-Friendly</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>Expensive</h2>
           </div>
@@ -162,14 +162,14 @@
     <h2 class="compm-head">Reliability</h2>
     <div class="row2">
       <div class="card2">
-        <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+        <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2 class="runo-color">Zero Downtime</h2>
           </div>
         </div>
       </div>
       <div class="card2">
-        <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+        <div class="text-right wow animate__fadeInRight">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
             <h2>Unstable</h2>
           </div>
