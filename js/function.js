@@ -390,8 +390,10 @@
     function submitForm(formId, formData, formToken) {
 
         $(`#${formId}-btn`).prop("disabled", true);
-        const utmSource = getCookie("utm_source");
-        const utmCampaign = getCookie("utm_campaign");
+
+           // Retrieve UTM values from localStorage
+    const utmSource = localStorage.getItem("utm_source");
+    const utmCampaign = localStorage.getItem("utm_campaign");
 
         formData["custom_source"] = "Website Enquiry- IB";
         formData["custom_status"] = "Api Allocation";

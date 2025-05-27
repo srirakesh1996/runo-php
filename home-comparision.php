@@ -5,7 +5,7 @@
       <div class="section-title text-center wow animate__fadeInUp" data-wow-delay="0.2s">
         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
       </div>
-      <div class="col-lg-9 wow animate__fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-9 wow animate__fadeInUp">
         <div class="row g-0 table-wrapper">
           <div class="col-md-4 bg-white rest" style="z-index:0;margin-top: 45px;">
 
