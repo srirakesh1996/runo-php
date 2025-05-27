@@ -11,7 +11,7 @@
         <p>Perfect for lean teams to get started fast.</p>
       </div>
       <!-- Video Wrapper -->
-      <div class="video-wrapper wow zoomIn" data-wow-delay="0.4s" style="position: relative;background: linear-gradient(107.57deg, #FF5730 0%, #FFCC00 23.09%, #0065F2 47.82%, #5E33EC 74.03%, #FF5730 100%);">
+      <div class="video-wrapper" style="position: relative;background: linear-gradient(107.57deg, #FF5730 0%, #FFCC00 23.09%, #0065F2 47.82%, #5E33EC 74.03%, #FF5730 100%);">
         <img src="img/video.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
         <button class="play-button" id="openModal"> <i class="fas fa-play"></i></button>
       </div>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <!-- Hero Button -->
-      <div class="hero-btn mt-50 demo-btn text-center wow fadeInUp" data-wow-delay="0.6s">
+      <div class="hero-btn mt-50 demo-btn text-center wow fadeInUp">
         <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
         <p style="font-size:13px">No Credit Card required</p>
       </div>
