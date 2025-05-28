@@ -1,51 +1,49 @@
 <!-- 
-<header class="main-header">
-    <div class="header-sticky">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container" style="width: 1100px;">
-                <a class="navbar-brand" href="https://runo.in">
-                    <img src="img/logo.png" alt="Logo" style="width: 100px;">
-                </a>
-                <div class="collapse navbar-collapse main-menu" id="home-menu">
-                    <div class="nav-menu-wrapper">
-                        <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item submenu">
-                                <a class="nav-link">Products</a>
-                                <ul>
-                                    <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
-                            <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
-                         
-                            <li class="nav-item">
-                                <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
-                            </li>
-                            <div class="app-header-icons">
-                                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
-                                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-                <div class="navbar-toggle"></div>
-            </div>
-        </nav>
-        <div class="responsive-menu"></div>
-    </div>
-</header>
- -->
-
+   <header class="main-header">
+       <div class="header-sticky">
+           <nav class="navbar navbar-expand-lg">
+               <div class="container" style="width: 1100px;">
+                   <a class="navbar-brand" href="https://runo.in">
+                       <img src="img/logo.png" alt="Logo" style="width: 100px;">
+                   </a>
+                   <div class="collapse navbar-collapse main-menu" id="home-menu">
+                       <div class="nav-menu-wrapper">
+                           <ul class="navbar-nav mr-auto" id="menu">
+                               <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                               <li class="nav-item submenu">
+                                   <a class="nav-link">Products</a>
+                                   <ul>
+                                       <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
+                                   </ul>
+                               </li>
+                               <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                               <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                               <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
+                            
+                               <li class="nav-item">
+                                   <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
+                               </li>
+                               <div class="app-header-icons">
+                                   <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
+                                   <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
+                               </div>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="navbar-toggle"></div>
+               </div>
+           </nav>
+           <div class="responsive-menu"></div>
+       </div>
+   </header>
+    -->
 <div class="hero">
     <div class="container">
         <!-- Header Start -->
-
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <!-- Hero Content Start -->
@@ -60,7 +58,7 @@
                         </div>
                     </div>
                     <!-- Hero Buttons -->
-                    <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.6s" data-wow-duration="1s">
+                    <div class="hero-body wow fadeInUpCustom mt-50 mb-8" data-wow-delay="0.6s" data-wow-duration="1s">
                         <div class="hero-btn">
                             <a href="contact" class="btn-plain">Book a Demo</a>
                             <p class="banner-btn1">&nbsp;</p>
@@ -72,9 +70,9 @@
                             <p style="font-size:13px">No Credit Card required</p>
                         </div>
                     </div>
-                    <div class="row align-items-end" id="web-hero">
+                    <div class="row align-items-end wow zoomIn" id="web-hero">
                         <!-- Features -->
-                        <div class="col-lg-4 order-1 order-lg-2 wow fadeInRight custom-shadow-box" data-wow-delay="0.3s">
+                        <div class="col-lg-4 order-1 order-lg-2 custom-shadow-box" data-wow-delay="0.3s" style="position: relative;right: 40px;">
                             <h3 class="fw-semibold mb-1 text-center">Get a Demo Focused On Your Needs</h3>
                             <div class="row" id="feature-buttons"></div>
                             <div class="text-center mt-12">
@@ -82,28 +80,30 @@
                             </div>
                         </div>
                         <!-- Images -->
-                        <div class="col-lg-8 order-2 order-lg-1 text-center">
+                        <div class="col-lg-8 order-2 order-lg-1 text-center" style="position: relative;left: 40px;z-index: -1;">
                             <div class="images-wrapper">
-                                <img id="webImage" src="img/web.webp" alt="Runo Dashboard"
+                                <img id="webImage" src="img/hero-images/web/1.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image rounded" />
-                                <img id="mobileImage" src="img/mobi.webp" alt="Runo Mobile App"
-                                    class="img-fluid mobile-image rounded" />
+                                <!--     <img id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
+                                    class="img-fluid mobile-image rounded" />-->
                             </div>
                         </div>
                     </div>
-
-
                     <!-- Mobile Hero Slider -->
-                    <div class="slider" id="slider mobile-hero">
-                        <div class="slide active"><img src="img/hero-images/hero-mb1.webp" alt="Image 1" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 2" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 3" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 4" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 2" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 3" /></div>
-                        <div class="slide"><img src="img/hero-images/hero-mb1.webp" alt="Image 4" /></div>
+                    <div class="slider wow zoomIn" id="c mobile-hero">
+                        <div class="slide active"><img src="img/hero-images/mobile-version/call-summary.webp" alt="Image 1" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/sentiment.webp" alt="Image 2" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/assistant.webp" alt="Image 3" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/recording.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/team.webp" alt="Image 2" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/callerid.webp" alt="Image 3" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/remind.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/ad.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/ala.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/lid.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/ca.webp" alt="Image 4" /></div>
+                        <div class="slide"><img src="img/hero-images/mobile-version/wi.webp" alt="Image 4" /></div>
                     </div>
-
                     <script>
                         const slides = document.querySelectorAll('.slide');
                         let currentIndex = 0;
@@ -128,8 +128,6 @@
 
                         setInterval(changeSlide, intervalTime);
                     </script>
-
-
                     <script>
                         const features = [{
                                 icon: `
@@ -139,8 +137,8 @@
                   </svg>
                   `,
                                 text: "AI Call Summaries",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/call-summaryw.webp"
                             },
                             {
                                 icon: `
@@ -155,8 +153,8 @@
                   </svg>
                   `,
                                 text: "AI Sentiment Analysis",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/sentimentw.webp"
                             },
                             {
                                 icon: `
@@ -166,8 +164,8 @@
                   </svg>
                   `,
                                 text: "AI Assistant",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/assistantw.webp"
                             },
                             {
                                 icon: `
@@ -182,8 +180,8 @@
                   </svg>
                   `,
                                 text: "Call Recording",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/recordingw.webp"
                             },
                             {
                                 icon: `
@@ -198,8 +196,8 @@
                   </svg>
                   `,
                                 text: "Live Team Status",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/teamw.webp"
                             },
                             {
                                 icon: `
@@ -214,8 +212,8 @@
                   </svg>
                   `,
                                 text: "Advanced Caller ID",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/calleridw.webp"
                             },
                             {
                                 icon: `
@@ -230,8 +228,8 @@
                   </svg>
                   `,
                                 text: "Follow-Up Reminder",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/remindw.webp"
                             },
                             {
                                 icon: `
@@ -246,8 +244,8 @@
                   </svg>
                   `,
                                 text: "Auto Dialer",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/adw.webp"
                             },
                             {
                                 icon: `
@@ -262,8 +260,8 @@
                   </svg>
                   `,
                                 text: "Auto Lead Allocation",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/alaw.webp"
                             },
                             {
                                 icon: `
@@ -278,8 +276,8 @@
                   </svg>
                   `,
                                 text: "Live Intuitive Dashboard",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/lidw.webp"
                             },
                             {
                                 icon: `
@@ -294,8 +292,8 @@
                   </svg>
                   `,
                                 text: "Call Analytics",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/caw.webp"
                             },
                             {
                                 icon: `
@@ -306,14 +304,14 @@
                   </svg>
                   `,
                                 text: "Biz Whatsapp Integration",
-                                mobileImg: "img/mobi.webp",
-                                webImg: "img/web.webp"
+
+                                webImg: "img/hero-images/web/wiw.webp"
                             },
                         ];
 
 
                         const container = document.getElementById("feature-buttons");
-                        const mobileImage = document.getElementById("mobileImage");
+                        /* const mobileImage = document.getElementById("mobileImage");*/
                         const webImage = document.getElementById("webImage");
 
                         let defaultMobile = "img/mobi.webp";
@@ -336,24 +334,24 @@
                             const button = document.createElement("button");
                             button.className = "feature-btn";
                             button.innerHTML = `
-            ${feature.icon}
-            ${feature.text}
-        `;
+                  ${feature.icon}
+                  ${feature.text}
+                  `;
 
                             if (index === 0) {
                                 button.classList.add("active");
-                                fadeImage(mobileImage, defaultMobile = feature.mobileImg);
+                                /*  fadeImage(mobileImage, defaultMobile = feature.mobileImg);*/
                                 fadeImage(webImage, defaultWeb = feature.webImg);
                             }
 
                             button.addEventListener("click", () => {
                                 document.querySelectorAll(".feature-btn").forEach(btn => btn.classList.remove("active"));
                                 button.classList.add("active");
-                                fadeImage(mobileImage, feature.mobileImg);
+                                /*    fadeImage(mobileImage, feature.mobileImg);*/
                                 fadeImage(webImage, feature.webImg);
 
                                 // Update defaults
-                                defaultMobile = feature.mobileImg;
+                                /* defaultMobile = feature.mobileImg;*/
                                 defaultWeb = feature.webImg;
                             });
 

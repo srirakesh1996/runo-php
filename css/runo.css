@@ -34,6 +34,12 @@
   color: #222222 !important;
 }
 
+.page-div {
+
+  margin: 20px 0px;
+
+}
+
 .ptb-5 {
   padding: 7px 0px;
 }
@@ -48,6 +54,14 @@
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mb-8 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 .mt-10 {
@@ -353,7 +367,7 @@
 .feature-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -381,8 +395,9 @@
 
 .custom-shadow-box h3 {
   color: #222222 !important;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 0px;
+  line-height: 1.7;
 }
 
 @keyframes fadeInUpCustom {
@@ -421,9 +436,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 6px;
+  gap: 5px;
   height: 70px;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .feature-btn i {
@@ -433,7 +448,7 @@
 
 .feature-btn.active,
 .feature-btn:hover {
-  border: 2px solid #ff5722;
+  border: 1px solid #ff5722;
   background: #fff3ef;
   color: #ff5722;
   transform: scale(1.1);
@@ -469,15 +484,15 @@
 .mobile-image {
   position: absolute;
   top: 35%;
-  left: 70%;
+  left: 75%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  max-height: 400px;
+  width: 280px;
   border-radius: 30px;
   padding: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   #slider {
     display: block !important;
   }
@@ -563,6 +578,31 @@
 
 /* Mobile-specific styles */
 
+@media (min-width: 1601px) {
+  .mobile-image {
+    top: 41%;
+    width: 260px;
+  }
+
+  .feature-btn {
+
+    font-size: 12px;
+
+
+  }
+
+  .custom-shadow-box {
+    border: 10px solid #f5f5f5;
+    box-shadow: 25px 25px 25px rgb(255 87 48 / 10%);
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 25px;
+  }
+
+
+}
+
+
 /* Mobile-specific adjustments */
 @media only screen and (max-width: 768px) {
   .mobile-image {
@@ -570,7 +610,7 @@
     top: 60%;
     left: 70%;
     transform: translate(-50%, -70%);
-    max-height: 250px;
+    width: 250px;
     margin-top: 20px;
     animation: none !important;
   }
@@ -580,9 +620,9 @@
 /* Responsive adjustments for screen widths between 1000px and 1300px */
 @media (min-width: 1000px) and (max-width: 1199px) {
   .mobile-image {
-    top: 25%;
+    top: 30%;
     /* adjust as needed */
-    left: 65%;
+    left: 70%;
     /* adjust as needed */
   }
 }
@@ -590,17 +630,52 @@
 /* Responsive adjustments for screen widths between 1000px and 1300px */
 @media (min-width: 1200px) and (max-width: 1300px) {
   .mobile-image {
-    top: 35%;
+    top: 37%;
+    left: 72%;
+    width: 240px;
+  }
+}
+
+/* Responsive adjustments for screen widths between 1000px and 1300px */
+@media (min-width: 1301px) and (max-width: 1399px) {
+  .mobile-image {
+    top: 39%;
+    width: 260px;
+
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .mobile-image {
+    top: 37%;
     /* adjust as needed */
-    left: 65%;
+    left: 75%;
     /* adjust as needed */
   }
+
+  .custom-shadow-box h3 {
+    color: #222222 !important;
+    font-size: 16px;
+    padding: 15px 0px;
+    line-height: 2;
+  }
+
+  .feature-btn {
+
+    font-size: 11px;
+
+    height: 80px;
+
+    line-height: 1.4;
+  }
+
+
 }
 
 /* Responsive adjustments for screen widths between 1000px and 1300px */
 @media (min-width: 769px) and (max-width: 999px) {
   .mobile-image {
-    max-height: 260px;
+    width: 280px;
     top: 60%;
 
   }
@@ -623,6 +698,7 @@
 /* Responsive height for wrapper */
 @media only screen and (max-width: 992px) {
   .images-wrapper {
+
     height: 250px;
   }
 }
@@ -630,7 +706,7 @@
 
 
 .custom-shadow-box {
-  border: 10px solid #eeeeee;
+  border: 10px solid #f5f5f5;
   box-shadow: 25px 25px 25px rgb(255 87 48 / 10%);
   border-radius: 16px;
   background-color: #ffffff;
@@ -638,7 +714,27 @@
 }
 
 #feature-buttons .col-4 {
-  padding: 5px 6px !important;
+  padding: 6px 6px !important;
+}
+
+@media (min-width: 1101px) and (max-width: 1309px) {
+
+  #web-hero {
+    margin-right: -25px !important;
+    margin-left: -25px !important;
+
+  }
+
+  #feature-buttons .col-4 {
+    padding: 6px 5px !important;
+  }
+
+  .custom-shadow-box h3 {
+    color: #222222 !important;
+    font-size: 15px;
+    padding: 8px 0px;
+    line-height: 1.4;
+  }
 }
 
 #feature-buttons .row>* {
@@ -1668,9 +1764,9 @@ th {
 }
 
 .features-section h2 {
-  font-weight: 700;
+
   margin-bottom: 15px;
-  color: #fff;
+
 }
 
 .feature-card-sec h5 {
@@ -1679,7 +1775,7 @@ th {
 }
 
 .features-section p {
-  color: #ccc;
+  color: #111111;
   font-size: 15px;
 }
 
@@ -2393,4 +2489,89 @@ input::placeholder {
 
 input::placeholder {
   color: rgb(133, 133, 133) !important;
+}
+
+
+/* Telecaller Page */
+
+
+.our-tesimonial-page {
+  position: relative;
+  background: linear-gradient(180deg, rgba(245, 243, 237, 0) 0%, #F5F3ED 40%, #F5F3ED 100%);
+
+  padding: 20px 0px 50px 0px;
+  overflow: hidden;
+}
+
+
+
+.telecaller-hero {
+  position: relative;
+  padding: 30px 0px;
+  overflow: hidden;
+  /* ensure pseudo-element stays contained */
+  z-index: 1;
+  background: url("../img/banner-img.svg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.telecaller-hero .banner-cont {
+
+  width: 100% !important;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+
+.telecaller-hero .banner-cont h1 {
+  color: #212121 !important;
+}
+
+.telecaller-hero .banner-cont p {
+
+  color: #212121 !important;
+
+}
+
+
+.telecaller-hero .banner-cont ul {
+
+
+  padding: 1rem !important;
+
+
+}
+
+.telecaller-hero .banner-cont li {
+
+  color: #212121 !important;
+  padding: 5px 0px;
+  ;
+
+
+}
+
+
+.telecaller-hero .hero-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 5px;
+
+}
+
+.telecaller-hero .hero-btn p {
+  margin-top: 5px;
+}
+
+.modal {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+body.modal-open {
+  padding-right: 0 !important;
 }

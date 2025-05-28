@@ -1,0 +1,710 @@
+<?php include('doctype.php'); ?>
+
+<head>
+
+    <!-- Page Title -->
+    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+
+    <?php include('head.php'); ?>
+
+
+</head>
+
+<body>
+
+
+    <?php include('preloader.php'); ?>
+
+    <?php
+
+    $page_name = 'Home';
+    $form_uuid = '2eddbc70-045d-41ff-8866-dbf34f73f6f1';
+
+    include('home-modal.php');
+    ?>
+
+
+
+    <?php include('header.php'); ?>
+
+
+
+
+
+    <div class="telecaller-hero mb-20">
+        <div class="container">
+            <!-- Header Start -->
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Hero Content Start -->
+                    <div class="hero-content">
+                        <div class="banner-cont">
+                            <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
+                                <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
+                                    SIM-Based <br>
+                                    Telecaller App <br>With Built-In CRM
+                                </h1>
+                                <p>Your dialer, CRM, and live call tracker, rolled into one app
+                                </p>
+
+                                <ul>
+                                    <li>SIM-based calling for higher call connection rates</li>
+                                    <li>Designed for businesses with 5 to 500+ agents</li>
+                                    <li>Monitor team activity, follow-ups, and call status in one view</li>
+                                    <li>Works without cloud telephony or PBX setup</li>
+                                    <li>Plug and play in 30 minutes, ideal for mobile-first teams</li>
+                                </ul>
+
+
+                                <!-- Hero Buttons -->
+                                <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.6s" data-wow-duration="1s">
+                                    <div class="hero-btn">
+                                        <a href="contact" class="btn-plain">Book a Demo</a>
+                                        <p class="banner-btn1">&nbsp;</p>
+                                    </div>
+                                    <div class="hero-btn">
+                                        <button class="btn-default btn-highlighted" type="button"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#contactModal">Start 10-day free trial</button>
+                                        <p style="font-size:13px;margin-top:5px;text-align:center">No Credit Card required</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="../img/dummy.png" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+
+
+    <?php include('clients.php'); ?>
+
+
+    <!-- why choose runo-->
+    <section class="deals-section mt-20" id="dealsSection">
+        <div class="container">
+            <div class="row deals-content">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h2>Why Growing Teams Choose Runo</h2>
+                </div>
+
+                <!-- Tabs and Mobile Images -->
+                <div class="col-md-6">
+                    <div class="left-tabs" id="tabContainer">
+                        <div class="scroll-bar"></div>
+                        <div class="scroll-indicator" id="scrollIndicator"></div>
+                        <div class="btn-group-vertical w-100" id="tabButtons">
+                            <!-- Tab Buttons -->
+                            <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                                <span>3x faster lead handling from capture to closure</span>
+                                <p>Leads get auto-allocated, queued for calling, and tracked with follow-ups. No manual work.</p>
+                            </button>
+                            <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                                <img src="../img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+                            </div>
+
+                            <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                                <span>Independent of cloud telephony, IVRs, or PBX</span>
+                                <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
+                            </button>
+                            <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                                <img src="../img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+                            </div>
+
+                            <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                                <span>Get Instant Visibility Into Your Team</span>
+                                <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
+                            </button>
+                            <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                                <img src="../img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+                            </div>
+
+                            <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                                <span>Save up to 60% on infra and tool costs</span>
+                                <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
+                            </button>
+                            <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                                <img src="../img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+                            </div>
+
+                            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                                <span>Zero training. Get Started in 30 minutes</span>
+                                <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
+                            </button>
+                            <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                                <img src="../img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desktop Image Preview -->
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="tab-content text-center">
+                        <div class="tab-pane fade show active" id="tab1">
+                            <img src="../img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+                        </div>
+                        <div class="tab-pane fade" id="tab2">
+                            <img src="../img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+                        </div>
+                        <div class="tab-pane fade" id="tab3">
+                            <img src="../img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+                        </div>
+                        <div class="tab-pane fade" id="tab4">
+                            <img src="../img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+                        </div>
+                        <div class="tab-pane fade" id="tab5">
+                            <img src="../img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+                        </div>
+                        <div class="tab-pane fade" id="tab6">
+                            <img src="../img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script>
+        const tabs = document.querySelectorAll(".tab-btn");
+        const panes = document.querySelectorAll(".tab-pane");
+        const scrollIndicator = document.getElementById("scrollIndicator");
+
+        let index = 0;
+        let autoSlideInterval;
+        let observerStarted = false;
+        let isAnimating = false;
+
+        function animateScrollIndicator(toTop) {
+            const startTop = parseFloat(scrollIndicator.style.top) || 0;
+            const startHeight = parseFloat(scrollIndicator.style.height) || 0;
+            const isMobile = window.innerWidth <= 767;
+            const targetHeight = isMobile ? 138 : 90;
+            const duration = 500;
+            const startTime = performance.now();
+
+            function animate(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const newTop = startTop + (toTop - startTop) * progress;
+                const newHeight = startHeight + (targetHeight - startHeight) * progress;
+
+                scrollIndicator.style.top = `${newTop}px`;
+                scrollIndicator.style.height = `${newHeight}px`;
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        function updateScrollIndicator(i) {
+            const spacingTop = tabs[i].offsetTop + 35;
+            animateScrollIndicator(spacingTop);
+        }
+
+        function switchTab(i) {
+            if (isAnimating || index === i) return;
+            isAnimating = true;
+
+            // Hide all mobile images
+            const mobileImgs = document.querySelectorAll('.mobile-tab-img');
+            mobileImgs.forEach(img => img.style.display = 'none');
+
+            // Show active mobile image
+            if (window.innerWidth <= 767) {
+                const currentMobileImg = document.getElementById(`mobileImg${i}`);
+                if (currentMobileImg) currentMobileImg.style.display = 'block';
+            }
+
+            const currentPane = document.querySelector(".tab-pane.show.active");
+            const nextTab = tabs[i];
+            const nextPaneId = nextTab.getAttribute("data-bs-target");
+            const nextPane = document.querySelector(nextPaneId);
+
+            if (!nextPane) {
+                isAnimating = false;
+                return;
+            }
+
+            tabs.forEach(tab => tab.classList.remove("active"));
+            nextTab.classList.add("active");
+
+            currentPane.classList.remove("show", "active");
+            nextPane.classList.add("show", "active");
+
+            updateScrollIndicator(i);
+            index = i;
+            isAnimating = false;
+        }
+
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(() => {
+                const nextIndex = (index + 1) % tabs.length;
+                switchTab(nextIndex);
+            }, 5000);
+        }
+
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+
+        tabs.forEach((tab, i) => {
+            tab.addEventListener("click", () => {
+                switchTab(i);
+                resetAutoSlide();
+            });
+        });
+
+        function observeSection() {
+            const section = document.getElementById("dealsSection");
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !observerStarted) {
+                        observerStarted = true;
+                        updateScrollIndicator(0);
+                        startAutoSlide();
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            observer.observe(section);
+        }
+
+        document.addEventListener("DOMContentLoaded", observeSection);
+    </script>
+
+    <!-- why choose runo ends-->
+
+
+
+    <!-- spin with your team Section Start -->
+
+    <section class="home-app-cta wow animate__animated animate__fadeInUp mt-20" data-wow-delay="0.2s">
+        <div class="container">
+            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+                Give it a spin with your <br>
+                team today
+            </h2>
+            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+                Start 10-day free trial
+            </button>
+        </div>
+    </section>
+
+
+    <!-- spin with your team Section Ends -->
+
+
+    <section class="features-section mt-70" id="features">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h2>Features Built for High-Volume Telecalling
+                </h2>
+                <p class="feat-text">Features Built for High-Volume Telecalling</p>
+            </div>
+            <!-- Desktop Layout -->
+
+            <div class="row d-none d-md-flex">
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                    <h5>Auto Dialer</h5>
+                    <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.</p>
+                </div>
+
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                    <h5>Call Recording</h5>
+                    <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Lead Management">
+                    <h5>Lead Management</h5>
+                    <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <h5>Follow-Up Alerts</h5>
+                    <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <h5>Auto Lead Allocation</h5>
+                    <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="CRM Integration">
+                    <h5>CRM Integration</h5>
+                    <p class="feat-text">Access lead details, call notes, and previous interactions without leaving the app.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <h5>Real-Time Team Tracking</h5>
+                    <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <h5>Live Performance Dashboard</h5>
+                    <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="WhatsApp Templates">
+                    <h5>WhatsApp Templates</h5>
+                    <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
+                </div>
+            </div>
+            <!-- Desktop Layout -->
+
+            <!-- Mobile Swiper Layout -->
+            <!-- Mobile Swiper Layout (14 Features) -->
+            <div class="swiper-container d-block d-md-none mt-4">
+                <div class="swiper-wrapper text-center">
+                    <!-- Feature Slides -->
+                    <div class="swiper-slide">
+                        <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                        <h5>Auto Dialer</h5>
+                        <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                        <h5>Call Recording</h5>
+                        <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Lead Management">
+                        <h5>Lead Management</h5>
+                        <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <h5>Follow-Up Alerts</h5>
+                        <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <h5>Auto Lead Allocation</h5>
+                        <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="CRM Integration">
+                        <h5>CRM Integration</h5>
+                        <p class="feat-text">Access lead details, call notes, and previous interactions without leaving the app.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <h5>Real-Time Team Tracking</h5>
+                        <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="WhatsApp Templates">
+                        <h5>WhatsApp Templates</h5>
+                        <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
+                    </div>
+
+                </div>
+                <!-- Custom navigation buttons below -->
+                <div class="swiper-nav-buttons text-center">
+                    <button class="swiper-custom-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="swiper-custom-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-custom-next',
+                prevEl: '.swiper-custom-prev',
+            },
+        });
+    </script>
+
+
+
+    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div class="container">
+            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+                Take a closer look at how Runo <br>
+                works for real teams like yours
+            </h2>
+            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+                Book a Demo
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="features-section mt-70" id="features">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h2>Make Smarter Calls With <br>
+                    Runo’s AI Tools
+                </h2>
+                <p class="feat-text">Power up your team with real call intelligence</p>
+            </div>
+            <!-- Desktop Layout -->
+
+            <div class="row d-none d-md-flex">
+                <!-- Feature card 1 -->
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="AI Call Transcripts">
+                    <h5>AI Call Transcripts</h5>
+                    <p class="feat-text">Get a complete, accurate text version of every call. No need to re-listen or take notes.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
+                    <h5>AI Call Summaries</h5>
+                    <p class="feat-text">View the key highlights from each call. Quickly understand what was discussed and what needs to happen next.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
+                    <h5>Sentiment Analysis</h5>
+                    <p class="feat-text">See whether a call went positively or negatively. Spot unhappy leads before they drop off.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Meeting Notes (MoM)">
+                    <h5>Meeting Notes (MoM)</h5>
+                    <p class="feat-text">Captures key takeaways, urgency level, and action items from every call for faster follow-ups.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
+                    <h5>AI Assistant</h5>
+                    <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
+                </div>
+
+
+            </div>
+            <!-- Desktop Layout -->
+
+            <!-- Mobile Swiper Layout -->
+            <!-- Mobile Swiper Layout (14 Features) -->
+            <div class="swiper-container2 d-block d-md-none mt-4">
+                <div class="swiper-wrapper text-center">
+                    <!-- Feature Slides -->
+                    <div class="swiper-slide">
+                        <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="AI Call Transcripts">
+                        <h5>AI Call Transcripts</h5>
+                        <p class="feat-text">Get a complete, accurate text version of every call. No need to re-listen or take notes.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
+                        <h5>AI Call Summaries</h5>
+                        <p class="feat-text">View the key highlights from each call. Quickly understand what was discussed and what needs to happen next.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
+                        <h5>Sentiment Analysis</h5>
+                        <p class="feat-text">See whether a call went positively or negatively. Spot unhappy leads before they drop off.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/5.webp" class="img-fluid mb-2" alt="Meeting Notes (MoM)">
+                        <h5>Meeting Notes (MoM)</h5>
+                        <p class="feat-text">Captures key takeaways, urgency level, and action items from every call for faster follow-ups.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
+                        <h5>AI Assistant</h5>
+                        <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
+                    </div>
+
+                </div>
+                <!-- Custom navigation buttons below -->
+                <div class="swiper-nav-buttons text-center">
+                    <button class="swiper-custom-prev1">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="swiper-custom-next1">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+        var swiper = new Swiper('.swiper-container2', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-custom-next1',
+                prevEl: '.swiper-custom-prev1',
+            },
+        });
+    </script>
+
+
+
+    <?php include('testimonials.php'); ?>
+
+
+
+
+
+    <!-- Page Faqs Start -->
+    <div class="page-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Got Doubts?
+                        Let’s Smash ‘Em Together
+                    </h2>
+                </div>
+                <div class="col-lg-10" style="margin:0 auto">
+                    <div class="page-faqs-catagery">
+                        <div class="faq-accordion page-faq-accordion" id="runo_faqs">
+                            <div class="faq-accordion" id="accordionRuno">
+                                <!-- FAQ Items Start -->
+                                <!-- Repeat and increment id numbers -->
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            Is Runo really the CRM of the future? Or just a fancy gimmick?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Gimmick? Nah. Runo’s like the Terminator of CRMs. It doesn’t just show up, it crushes the competition and takes over. The future is here, and it’s powered by Runo.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            Can Runo handle my sales team’s chaos?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Chaos? Runo thrives on chaos. It’s like a sales team with no brakes, just pure high-octane efficiency. Bring the madness, Runo can handle it.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            Does Runo come with a manual? Because I hate reading.
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            You won’t need one. It’s like the iPhone of CRMs, no instruction manual required. You’re gonna pick it up and be like, “How did I live without this?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            How much of my time is Runo gonna steal?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Don’t worry. Runo’s not a time thief. It gives your time back. It handles the boring stuff so you can focus on the fun stuff (like, you know, making sales).
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading5">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            Will Runo give me superpowers?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Superpowers? You’ll have X-ray vision to see every lead, teleportation to close deals faster, and invisibility to sneak past your old CRM. Basically, you’ll be unstoppable.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading6">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                            How easy is it to switch from my old CRM to Runo?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Easier than changing the channel during a boring commercial. You won’t even miss the old one. Runo’s ready to make the switch smooth like butter.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Accordion End -->
+            </div>
+            <!-- FAQs section End -->
+        </div>
+        <!-- Page FAQs Catagery End -->
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Page Faq End -->
+
+
+    <?php include('home-contact.php'); ?>
+
+
+    <?php include('footer.php'); ?>
+
+    <?php include('footerjs.php'); ?>
+
+
+</body>
+
+</html>

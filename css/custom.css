@@ -50,7 +50,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   line-height: 1.2em;
-  color: #222222;
+  color: #111111;
 }
 
 /* Heading styles specific to #home section */
@@ -64,11 +64,11 @@ h6 {
 }
 
 #home p {
-  color: #222222;
+  color: #111111;
 }
 
 p {
-  color: #222222;
+  color: #111111;
   font-size: 16px !important;
 }
 
