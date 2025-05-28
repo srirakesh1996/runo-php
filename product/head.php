@@ -10,34 +10,34 @@
 <!-- Favicon Icon -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes='16*16'>
 <!-- SlickNav Css -->
-<link href="../css/slicknav.min.css" rel="stylesheet">
+<link href="https://runo-ai-website.onrender.com/css/slicknav.min.css" rel="stylesheet">
 <!-- Swiper Css -->
-<link rel="stylesheet" href="../css/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/swiper-bundle.min.css">
 <!-- Font Awesome Icon Css-->
-<link href="../css/all.min.css" rel="stylesheet" media="screen">
+<link href="https://runo-ai-website.onrender.com/css/all.min.css" rel="stylesheet" media="screen">
 <!-- Animated Css -->
-<link href="../css/animate.css" rel="stylesheet">
+<link href="https://runo-ai-website.onrender.com/css/animate.css" rel="stylesheet">
 <!-- Magnific Popup Core Css File -->
-<link rel="stylesheet" href="../css/magnific-popup.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/magnific-popup.css">
 <!-- Bootstrap Css -->
-<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="https://runo-ai-website.onrender.com/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <!-- Main Custom Css -->
-<link href="../css/custom.css" rel="stylesheet" media="screen">
+<link href="https://runo-ai-website.onrender.com/css/custom.css" rel="stylesheet" media="screen">
 <!-- Main Custom Css -->
-<link href="../css/runo.css" rel="stylesheet" media="screen">
+<link href="https://runo-ai-website.onrender.com/css/runo.css" rel="stylesheet" media="screen">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <!-- Animate.css and WOW.js -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.../css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.https://runo-ai-website.onrender.com/css/4.1.1/animate.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
 	new WOW().init();
 </script>
 <link
 	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/../css/all.min.css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/https://runo-ai-website.onrender.com/css/all.min.css"
 	integrity="sha512-vALH+lMIG+YiQtxv+1BNXz7fhcFt5fhFfQPBKJxK7t0OVP9B16czGmRWef2a9tz+uVplN0u6Qe5Rh6GHmZsEVQ=="
 	crossorigin="anonymous"
 	referrerpolicy="no-referrer" />
