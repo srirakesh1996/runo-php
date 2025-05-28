@@ -386,7 +386,7 @@
 
 })(jQuery);
 
-
+/*
     function submitForm(formId, formData, formToken) {
 
         $(`#${formId}-btn`).prop("disabled", true);
@@ -431,3 +431,4 @@
                 alert("Oops! Something went wrong.");
             });
     }
+*/

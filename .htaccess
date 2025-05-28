@@ -1,8 +1,12 @@
 RewriteEngine On
 
-# If the request is for a file that exists, don't do anything
+# Skip existing files and directories
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Rewrite URLs without file extension to .php files
-RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
+# Internally rewrite clean URLs to .php files in any folder
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# Redirect .php URLs to clean version for canonical URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/(.+?)\.php\sHTTP/
+RewriteRule ^(.+?)\.php$ /$1 [R=301,L]
