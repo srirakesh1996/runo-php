@@ -2585,7 +2585,7 @@ input::placeholder {
 .telecaller-hero .hero-body {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: flex-start;
   gap: 30px;
   margin-top: 5px
 }
