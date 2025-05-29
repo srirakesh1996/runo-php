@@ -4,7 +4,7 @@
            <nav class="navbar navbar-expand-lg">
                <div class="container" style="width: 1100px;">
                    <a class="navbar-brand" href="https://runo.in">
-                       <img src="img/logo.png" alt="Logo" style="width: 100px;">
+                       <img loading="lazy" src="img/logo.png" alt="Logo" style="width: 100px;">
                    </a>
                    <div class="collapse navbar-collapse main-menu" id="home-menu">
                        <div class="nav-menu-wrapper">
@@ -28,8 +28,8 @@
                                    <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
                                </li>
                                <div class="app-header-icons">
-                                   <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img src="img/app-ico.png" width="40px"></a>
-                                   <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img src="img/play-ico.png" width="40px"></a>
+                                   <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" class="zoom-hover"> <img loading="lazy" src="img/app-ico.png" width="40px"></a>
+                                   <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" class="zoom-hover"> <img loading="lazy" src="img/play-ico.png" width="40px"></a>
                                </div>
                            </ul>
                        </div>
@@ -258,9 +258,9 @@
                         <!-- Images -->
                         <div class="col-lg-8 order-2 order-lg-1 text-center" style="position: relative;left: 40px;z-index: -1;">
                             <div class="images-wrapper">
-                                <img id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard"
+                                <img loading="lazy" id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard"
                                     class="img-fluid web-image rounded" />
-                                <!--     <img id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
+                                <!--     <img loading="lazy" id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
                                     class="img-fluid mobile-image rounded" />-->
                             </div>
                         </div>
@@ -320,18 +320,18 @@
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/call-summary.webp" alt="Image 1" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/sentiment.webp" alt="Image 2" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/assistant.webp" alt="Image 3" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/recording.webp" alt="Image 4" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/team.webp" alt="Image 5" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/callerid.webp" alt="Image 6" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/remind.webp" alt="Image 7" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/ad.webp" alt="Image 8" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/ala.webp" alt="Image 9" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/lid.webp" alt="Image 10" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/ca.webp" alt="Image 11" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile-version/wi.webp" alt="Image 12" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/call-summary.webp" alt="Image 1" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/sentiment.webp" alt="Image 2" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/assistant.webp" alt="Image 3" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/recording.webp" alt="Image 4" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/team.webp" alt="Image 5" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/callerid.webp" alt="Image 6" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/remind.webp" alt="Image 7" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ad.webp" alt="Image 8" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ala.webp" alt="Image 9" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/lid.webp" alt="Image 10" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ca.webp" alt="Image 11" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/wi.webp" alt="Image 12" /></div>
                         </div>
                     </div>
 

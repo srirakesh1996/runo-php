@@ -11,7 +11,7 @@
             </div>
             <!-- Video Wrapper -->
             <div>
-                <img src="img/home-lead.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
+                <img loading="lazy" src="img/home-lead.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
             </div>
             <!-- Hero Button -->
             <div class="hero-btn demo-btn text-center wow fadeInUp" data-wow-delay="0.6s">
