@@ -620,7 +620,7 @@ header.main-header .header-sticky.active {
 }
 
 .header-sticky.active .main-menu ul li a {
-  color: #222222 !important;
+  color: #111111 !important;
 }
 
 .header-sticky.active .submenu ul li a {
@@ -629,7 +629,7 @@ header.main-header .header-sticky.active {
 
 @media only screen and (max-width: 600px) {
   .header-sticky.active .submenu ul li a {
-    color: #222222 !important;
+    color: #111111 !important;
   }
 }
 
@@ -817,7 +817,7 @@ header.main-header .header-sticky.active {
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_row:hover {
   background-color: transparent;
-  color: #222222 !important;
+  color: #111111 !important;
 }
 
 .slicknav_menu ul ul li a {
@@ -2176,7 +2176,7 @@ header.main-header .header-sticky.active {
 }
 
 #home .testimonial-header p {
-  color: #212121;
+  color: #111111;
   font-size: 15px !important;
   line-height: 2;
   font-weight: 400;
@@ -2211,14 +2211,14 @@ header.main-header .header-sticky.active {
 }
 
 .author-content h3 {
-  color: #212121;
+  color: #111111;
   font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
 
 .author-content p {
-  color: #212121;
+  color: #111111;
   text-transform: capitalize;
   margin: 0;
 }
@@ -2305,7 +2305,7 @@ header.main-header .header-sticky.active {
 }
 
 .faq-accordion .accordion-item .accordion-body {
-  color: #222222;
+  color: #111111;
   padding-right: 35px;
 }
 
@@ -2398,7 +2398,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .main-footer {
-  background: url(../img/footer-bg.png), #212121;
+  background: url(../img/footer-bg.png), #111111;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
@@ -4325,13 +4325,13 @@ header.main-header .header-sticky.active {
   display: block;
   font-weight: 400;
   text-transform: capitalize;
-  color: #222222;
+  color: #111111;
   padding-right: 25px;
   transition: all 0.3s ease-in-out;
 }
 
 .faq-catagery-list ul li:hover a {
-  color: #222222;
+  color: #111111;
 }
 
 .faq-catagery-list ul li a::before {
