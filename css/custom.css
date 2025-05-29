@@ -971,7 +971,7 @@ header.main-header .header-sticky.active {
 .hero-body {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 30px;
 
@@ -4480,6 +4480,10 @@ header.main-header .header-sticky.active {
     padding: 15px 20px;
   }
 
+  .btn-plain {
+    padding: 15px 20px;
+  }
+
   .topbar-contact-info ul {
     gap: 15px;
   }
@@ -4576,7 +4580,7 @@ header.main-header .header-sticky.active {
   }
 
   .hero-body {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .how-we-work {
