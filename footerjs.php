@@ -33,7 +33,6 @@
       }
    });
 </script>
-
 <!-- Lazy-load PopupSmart Chat Widget after 3s to improve INP -->
 <script>
    window.addEventListener('load', () => {
