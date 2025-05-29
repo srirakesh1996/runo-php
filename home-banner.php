@@ -300,7 +300,7 @@
                                         image.onload = () => {
                                             image.classList.remove('fade-out');
                                         };
-                                    }, 200);
+                                    }, 100);
                                 }
                             });
                         });
