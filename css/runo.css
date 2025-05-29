@@ -2582,15 +2582,13 @@ input::placeholder {
 
 }
 
-
 .telecaller-hero .hero-body {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: 30px;
   margin-top: 5px;
-
 }
 
 .telecaller-hero .hero-btn p {

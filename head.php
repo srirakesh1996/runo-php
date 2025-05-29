@@ -1,7 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Runo - Best Outbound Call Center CRM with Auto Dialer for Telecalling</title>
 
 <!-- SEO Meta -->
 <meta name="description" content="Runo Call Management App to manage calls at SIM level. Get Call Tracking for outbound sales calls with in-built CRM. Try the best telecaller app for Free.">
