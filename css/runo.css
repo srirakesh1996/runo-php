@@ -2585,10 +2585,9 @@ input::placeholder {
 .telecaller-hero .hero-body {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+
   gap: 30px;
-  margin-top: 5px;
+  margin-top: 5px
 }
 
 .telecaller-hero .hero-btn p {
@@ -2602,4 +2601,25 @@ input::placeholder {
 
 body.modal-open {
   padding-right: 0 !important;
+}
+
+.swiper-custom-prev1 i {
+  color: #111111 !important;
+
+}
+
+
+.swiper-custom-next1 i {
+  color: #111111 !important;
+
+}
+
+.swiper-custom-prev i {
+  color: #111111 !important;
+
+}
+
+
+.swiper-custom-next i {
+  color: #111111 !important;
 }
