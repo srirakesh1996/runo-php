@@ -110,8 +110,8 @@
                         <div class="btn-group-vertical w-100" id="tabButtons">
                             <!-- Tab Buttons -->
                             <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
-                                <span>3x faster lead handling from capture to closure</span>
-                                <p>Leads get auto-allocated, queued for calling, and tracked with follow-ups. No manual work.</p>
+                                <span>Connect 3x Faster</span>
+                                <p>No more shuffling through Excel sheets. Leads are auto-assigned and queued for calling, so your agents can start dialing instantly.</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg0">
                                 <img src="../img/deal1.webp" class="img-preview" alt="Tab 1 Image">
@@ -119,23 +119,23 @@
 
                             <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
                                 <span>Independent of cloud telephony, IVRs, or PBX</span>
-                                <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
+                                <p>Call directly from your phone’s SIM without needing a cloud setup or high-speed internet.</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
                                 <img src="../img/deal2.webp" class="img-preview" alt="Tab 2 Image">
                             </div>
 
                             <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-                                <span>Get Instant Visibility Into Your Team</span>
-                                <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
+                                <span>Track Every Call, Follow-Up, and Agent in Real Time</span>
+                                <p>View live call activity, follow-up status, and team performance in one dashboard.</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
                                 <img src="../img/deal3.webp" class="img-preview" alt="Tab 3 Image">
                             </div>
 
                             <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                <span>Save up to 60% on infra and tool costs</span>
-                                <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
+                                <span>Cut Telecalling Costs by 60%</span>
+                                <p>One app replaces your dialer, CRM, and call tracker. No extra tools. No cloud bills.</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
                                 <img src="../img/deal4.webp" class="img-preview" alt="Tab 4 Image">
@@ -143,7 +143,7 @@
 
                             <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
                                 <span>Zero training. Get Started in 30 minutes</span>
-                                <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
+                                <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
                                 <img src="../img/deal5.webp" class="img-preview" alt="Tab 5 Image">
