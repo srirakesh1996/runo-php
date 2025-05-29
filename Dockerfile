@@ -1,9 +1,16 @@
-FROM php:8.2-cli
+FROM php:8.2-apache
 
-WORKDIR /app
+# Enable mod_rewrite
+RUN a2enmod rewrite
 
-COPY . .
+# Set working directory
+WORKDIR /var/www/html
 
-EXPOSE 10000
+# Copy source code
+COPY . /var/www/html/
 
-CMD ["php", "-S", "0.0.0.0:10000", "router.php"]
+# Set proper permissions (optional but good practice)
+RUN chown -R www-data:www-data /var/www/html
+
+# Allow .htaccess overrides
+RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
