@@ -8,7 +8,7 @@
 <meta name="robots" content="no-index, follow">
 <meta name="language" content="English">
 <!-- Favicon Icon -->
-<link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes='16*16'>
+<link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes='16*16'>
 <!-- SlickNav Css -->
 <link href="../css/slicknav.min.css" rel="stylesheet">
 <!-- Swiper Css -->

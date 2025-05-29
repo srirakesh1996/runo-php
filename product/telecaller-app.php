@@ -301,32 +301,13 @@
     <!-- why choose runo ends-->
 
 
-
-    <!-- spin with your team Section Start -->
-
-    <section class="home-app-cta wow animate__animated animate__fadeInUp mt-20" data-wow-delay="0.2s">
-        <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-                Give it a spin with your <br>
-                team today
-            </h2>
-            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
-                Start 10-day free trial
-            </button>
-        </div>
-    </section>
-
-
-    <!-- spin with your team Section Ends -->
-
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
                 <h2>Features Built for High-Volume Telecalling
                 </h2>
-                <p class="feat-text">Features Built for High-Volume Telecalling</p>
+                <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
             </div>
             <!-- Desktop Layout -->
 
@@ -334,10 +315,14 @@
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                     <h5>Auto Dialer</h5>
-                    <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.</p>
+                    <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
                 </div>
 
-
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                    <h5>Advanced Caller ID</h5>
+                    <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
+                </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
@@ -345,9 +330,9 @@
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Lead Management">
-                    <h5>Lead Management</h5>
-                    <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <h5>Live Performance Dashboard</h5>
+                    <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
@@ -355,10 +340,20 @@
                     <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
                 </div>
 
+
+
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Lead Management">
+                    <h5>Lead Management</h5>
+                    <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                </div>
+
+
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>Auto Lead Allocation</h5>
-                    <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time</p>
+                    <p class="feat-text">Distribute leads instantly to the right agent based on pre-set rules.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/dummy2.png" class="img-fluid mb-2" alt="CRM Integration">
@@ -370,11 +365,7 @@
                     <h5>Real-Time Team Tracking</h5>
                     <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
                 </div>
-                <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
-                    <h5>Live Performance Dashboard</h5>
-                    <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
-                </div>
+
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/dummy2.png" class="img-fluid mb-2" alt="WhatsApp Templates">
@@ -392,17 +383,25 @@
                     <div class="swiper-slide">
                         <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                         <h5>Auto Dialer</h5>
-                        <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.</p>
+                        <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
                     </div>
+
+                    <div class="swiper-slide">
+                        <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                        <h5>Advanced Caller ID</h5>
+                        <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
+                    </div>
+
+
                     <div class="swiper-slide">
                         <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
                         <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Lead Management">
-                        <h5>Lead Management</h5>
-                        <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                        <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <h5>Live Performance Dashboard</h5>
+                        <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
                     </div>
                     <div class="swiper-slide">
                         <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
@@ -412,7 +411,7 @@
                     <div class="swiper-slide">
                         <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>Auto Lead Allocation</h5>
-                        <p class="feat-text">Instantly assign new leads to the right reps automatically, improving response time</p>
+                        <p class="feat-text">Distribute leads instantly to the right agent based on pre-set rules.</p>
                     </div>
                     <div class="swiper-slide">
                         <img src="../img/dummy2.png" class="img-fluid mb-2" alt="CRM Integration">
@@ -461,21 +460,22 @@
     </script>
 
 
+    <!-- spin with your team Section Start -->
 
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta wow animate__animated animate__fadeInUp mt-20" data-wow-delay="0.2s">
         <div class="container">
             <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-                Take a closer look at how Runo <br>
-                works for real teams like yours
+                Give it a spin with your <br>
+                team today
             </h2>
             <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
-                Book a Demo
+                Start 10-day free trial
             </button>
         </div>
     </section>
 
 
-
+    <!-- spin with your team Section Ends -->
 
 
 
@@ -516,6 +516,18 @@
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Agent-Customer Talk Ratio">
+                    <h5>Agent-Customer Talk Ratio</h5>
+                    <p class="feat-text">Check how much your agents talk vs how much the customer speaks. Helps improve listening skills and pitch balance.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Call Quality Scoring">
+                    <h5>Call Quality Scoring</h5>
+                    <p class="feat-text">Every call gets a quality score based on clarity, filler words, and interruptions. Use it for coaching & performance reviews.</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
                     <h5>AI Assistant</h5>
                     <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
@@ -550,6 +562,18 @@
                         <h5>Meeting Notes (MoM)</h5>
                         <p class="feat-text">Captures key takeaways, urgency level, and action items from every call for faster follow-ups.</p>
                     </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Agent-Customer Talk Ratio">
+                        <h5>Agent-Customer Talk Ratio</h5>
+                        <p class="feat-text">Check how much your agents talk vs how much the customer speaks. Helps improve listening skills and pitch balance.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../img/dummy2.png" class="img-fluid mb-2" alt="Call Quality Scoring">
+                        <h5>Call Quality Scoring</h5>
+                        <p class="feat-text">Every call gets a quality score based on clarity, filler words, and interruptions. Use it for coaching & performance reviews.</p>
+                    </div>
+
                     <div class="swiper-slide">
                         <img src="../img/feature/4.webp" class="img-fluid mb-2" alt="AI Chat Assistant">
                         <h5>AI Assistant</h5>
@@ -587,10 +611,23 @@
     </script>
 
 
+    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div class="container">
+            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+                Take a closer look at how Runo <br>
+                works for real teams like yours
+            </h2>
+            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+                Book a Demo
+            </button>
+        </div>
+    </section>
+
+
+
+
 
     <?php include('testimonials.php'); ?>
-
-
 
 
 
@@ -599,8 +636,8 @@
         <div class="container">
             <div class="row">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Got Doubts?
-                        Let’s Smash ‘Em Together
+                    <h2>Got Questions?
+                        We’ve Got Answers
                     </h2>
                 </div>
                 <div class="col-lg-10" style="margin:0 auto">
@@ -608,93 +645,163 @@
                         <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                             <div class="faq-accordion" id="accordionRuno">
                                 <!-- FAQ Items Start -->
-                                <!-- Repeat and increment id numbers -->
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            Is Runo really the CRM of the future? Or just a fancy gimmick?
+                                            What is a SIM-based telecaller app?
                                         </button>
                                     </h2>
                                     <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Gimmick? Nah. Runo’s like the Terminator of CRMs. It doesn’t just show up, it crushes the competition and takes over. The future is here, and it’s powered by Runo.
+                                            A SIM-based telecaller app allows your team to make business calls using their phone’s SIM card. It also helps manage leads, track calls, and follow up with prospects, all from within the app, without relying on cloud telephony.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            Can Runo handle my sales team’s chaos?
+                                            How does Runo work for telecalling?
                                         </button>
                                     </h2>
                                     <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Chaos? Runo thrives on chaos. It’s like a sales team with no brakes, just pure high-octane efficiency. Bring the madness, Runo can handle it.
+                                            Runo lets agents call from their own SIM, update lead details, get follow-up reminders, and log calls. Managers can track performance and call activity in real time.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            Does Runo come with a manual? Because I hate reading.
+                                            How is this different from cloud or VoIP apps?
                                         </button>
                                     </h2>
                                     <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            You won’t need one. It’s like the iPhone of CRMs, no instruction manual required. You’re gonna pick it up and be like, “How did I live without this?
+                                            Cloud or VoIP apps rely on internet-based calling using virtual or masked numbers, which often get flagged or ignored by customers. Runo uses your team’s actual SIM numbers, so calls appear like regular mobile calls and are more likely to be answered. Unlike cloud systems, Runo doesn’t need internet, PBX, or complex setup. It works directly from your phone, with better call quality and higher connect rates.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            How much of my time is Runo gonna steal?
+                                            Can I track outgoing and incoming calls?
                                         </button>
                                     </h2>
                                     <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Don’t worry. Runo’s not a time thief. It gives your time back. It handles the boring stuff so you can focus on the fun stuff (like, you know, making sales).
+                                            Yes. Runo tracks and logs both outgoing and incoming calls made through the app.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                            Will Runo give me superpowers?
+                                            Does it support call recording?
                                         </button>
                                     </h2>
                                     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Superpowers? You’ll have X-ray vision to see every lead, teleportation to close deals faster, and invisibility to sneak past your old CRM. Basically, you’ll be unstoppable.
+                                            Yes. All calls are automatically recorded and stored securely for future reference.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                            How easy is it to switch from my old CRM to Runo?
+                                            Does Runo offer CRM integration?
                                         </button>
                                     </h2>
                                     <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Easier than changing the channel during a boring commercial. You won’t even miss the old one. Runo’s ready to make the switch smooth like butter.
+                                            Yes. Runo has a built-in CRM and also integrates with tools like Zoho, LeadSquared, and others.
                                         </div>
                                     </div>
                                 </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading7">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            Can I monitor agent performance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. You can view call activity, follow-up progress, and live agent status in one dashboard.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading8">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            Is this suitable for remote or field teams?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo works anywhere your SIM works, making it perfect for remote and on-the-go teams.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading9">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            Can I automate follow-ups or reminders?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            The app automatically reminds agents when it’s time to follow up on leads.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading10">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                            Is my call data secure?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Yes. Runo encrypts and protects all call logs, recordings, and lead data.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp">
+                                    <h2 class="accordion-header" id="heading11">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                            Who is this app meant for?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionRuno">
+                                        <div class="accordion-body">
+                                            Runo is ideal for any business that depends on telecalling, including sales teams, customer support teams, and telecalling agencies in industries like real estate, finance, education, and healthcare.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FAQ Items End -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- FAQ Accordion End -->
             </div>
-            <!-- FAQs section End -->
         </div>
-        <!-- Page FAQs Catagery End -->
-    </div>
-    </div>
-    </div>
     </div>
     <!-- Page Faq End -->
+
+    <!-- Security Section with WOW animations -->
+    <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+        <div class="row align-items-center">
+            <!-- Left Text -->
+            <div class="col-md-7 security-text">
+                <h2>Committed to the Highest <br> Standards of Data Protection
+                </h2>
+            </div>
+            <!-- Right Image -->
+            <div class="col-md-5 text-md-end text-center security-badges">s
+                <img src="../img/security.webp" alt="ISO Badge" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
 
 
     <?php include('home-contact.php'); ?>
