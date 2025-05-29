@@ -5,7 +5,7 @@
             <div class="container">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="https://runo.in">
-                    <img src="../img/logo.png" alt="Logo" style="width: 100px;">
+                    <img src="https://runo-ai-website.onrender.com/img/logo.png" alt="Logo" style="width: 100px;">
                 </a>
                 <!-- Logo End -->
                 <!-- Main Menu Start -->
@@ -33,9 +33,9 @@
 
                             <div class="app-header-icons">
 
-                                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"> <img src="../img/app-ico.png" width="40px"></a>
+                                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506"> <img src="https://runo-ai-website.onrender.com/img/app-ico.png" width="40px"></a>
 
-                                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"> <img src="../img/play-ico.png" width="40px"></a>
+                                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN"> <img src="https://runo-ai-website.onrender.com/img/play-ico.png" width="40px"></a>
                             </div>
                         </ul>
                     </div>

@@ -29,23 +29,23 @@
 </script>
 
 <!-- Jquery Library File -->
-<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/jquery-3.7.1.min.js"></script>
 <!-- SlickNav js file -->
-<script src="../js/jquery.slicknav.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/jquery.slicknav.js"></script>
 <!-- Swiper js file -->
-<script src="../js/swiper-bundle.min.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/swiper-bundle.min.js"></script>
 <!-- Magnific js file -->
-<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/jquery.magnific-popup.min.js"></script>
 <!-- SmoothScroll -->
-<script src="../js/SmoothScroll.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/SmoothScroll.js"></script>
 <!-- Parallax js -->
-<script src="../js/parallaxie.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/parallaxie.js"></script>
 <!-- Wow js file -->
-<script src="../js/wow.min.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/wow.min.js"></script>
 <!-- Main Custom js file -->
-<script src="../js/function.js"></script>
+<script src="https://runo-ai-website.onrender.com/js/function.js"></script>
 <!-- ✅ Bootstrap 5 JS (Must Be Last) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/../js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/https://runo-ai-website.onrender.com/js/bootstrap.bundle.min.js"></script>
 <script>
    window.addEventListener('scroll', function() {
       const header = document.querySelector('.header-sticky');
