@@ -17,7 +17,7 @@
               <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg0">
-              <img src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+              <img loading="lazy" src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
             </div>
 
             <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
@@ -25,7 +25,7 @@
               <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-              <img src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+              <img loading="lazy" src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
             </div>
 
             <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
@@ -33,7 +33,7 @@
               <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-              <img src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+              <img loading="lazy" src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
             </div>
 
             <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
@@ -41,7 +41,7 @@
               <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-              <img src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+              <img loading="lazy" src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
             </div>
 
             <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
@@ -49,7 +49,7 @@
               <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-              <img src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+              <img loading="lazy" src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
             </div>
 
             <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
@@ -57,7 +57,7 @@
               <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
             </button>
             <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
-              <img src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+              <img loading="lazy" src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
             </div>
 
           </div>
@@ -68,22 +68,22 @@
       <div class="col-md-6 d-none d-md-block">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
-            <img src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+            <img loading="lazy" src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
           </div>
           <div class="tab-pane fade" id="tab2">
-            <img src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+            <img loading="lazy" src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
           </div>
           <div class="tab-pane fade" id="tab3">
-            <img src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+            <img loading="lazy" src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
           </div>
           <div class="tab-pane fade" id="tab4">
-            <img src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+            <img loading="lazy" src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
           </div>
           <div class="tab-pane fade" id="tab5">
-            <img src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+            <img loading="lazy" src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
           </div>
           <div class="tab-pane fade" id="tab6">
-            <img src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+            <img loading="lazy" src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
           </div>
         </div>
       </div>
