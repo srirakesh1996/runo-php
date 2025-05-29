@@ -1,12 +1,12 @@
 RewriteEngine On
 
-# Skip existing files and directories
+# Rewrite rule to handle .php and .html extensions
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-# Internally rewrite clean URLs to .php files in any folder
-RewriteRule ^(.+?)/?$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-# Redirect .php URLs to clean version for canonical URLs
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/(.+?)\.php\sHTTP/
-RewriteRule ^(.+?)\.php$ /$1 [R=301,L]
+
