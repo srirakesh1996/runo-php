@@ -2582,7 +2582,6 @@ input::placeholder {
 
 }
 
-
 .telecaller-hero .hero-body {
   display: flex;
   flex-wrap: wrap;
@@ -2590,7 +2589,6 @@ input::placeholder {
   justify-content: flex-start;
   gap: 30px;
   margin-top: 5px;
-
 }
 
 .telecaller-hero .hero-btn p {

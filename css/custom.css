@@ -194,7 +194,7 @@ body {
   background: var(--accent-color);
   color: var(--accent-secondary-color);
   border-radius: 0;
-  padding: 18px 30px;
+  padding: 16px 30px;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
   z-index: 1;
@@ -239,14 +239,12 @@ body {
   border: 1px solid #f44336;
   color: #f44336;
   border-radius: 12px;
-
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
   line-height: 1em;
   text-transform: capitalize;
-
-  padding: 18px 30px;
+  padding: 16px 30px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -4480,8 +4478,8 @@ header.main-header .header-sticky.active {
     padding: 15px 20px;
   }
 
-  .btn-plain {
-    padding: 15px 20px;
+  .hero-btn .btn-plain {
+    padding: 15px 20px !important;
   }
 
   .topbar-contact-info ul {

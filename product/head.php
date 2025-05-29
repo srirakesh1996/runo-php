@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Runo - Best Outbound Call Center CRM with Auto Dialer for Telecalling</title>
+
 
 <!-- SEO Meta -->
 <meta name="description" content="Runo Call Management App to manage calls at SIM level. Get Call Tracking for outbound sales calls with in-built CRM. Try the best telecaller app for Free.">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Runo - Best Outbound Call Center CRM with Auto Dialer">
 <meta property="og:description" content="Runo Call Management App with Call Tracking, Telecalling CRM, and Auto Dialer.">
-<meta property="og:image" content="img/share-icon.png">
+<meta property="og:image" content="https://runo-ai-website.onrender.com/img/share-icon.png">
 <meta property="og:url" content="https://runo-ai-website.onrender.com/img/share-icon.png">
 
 <!-- Twitter Card -->
@@ -40,8 +40,8 @@
 <link rel="stylesheet" href="../css/all.min.css">
 <link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/animate.css">
 <link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/magnific-popup.css">
-<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/custom.css" media="screen">
-<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/runo.css" media="screen">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/custom.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/runo.css">
 
 <!-- Animate.css and WOW.js -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
