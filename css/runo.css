@@ -2630,3 +2630,28 @@ body.modal-open {
 .swiper-custom-next i {
   color: #111111 !important;
 }
+
+
+.metrics-section {
+
+  padding: 40px 0;
+  text-align: center;
+}
+
+.metrics-section .container {
+  background-color: #eaf1ff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f44336;
+}
+
+.metric-label {
+  font-size: 1rem;
+  color: #212529;
+  margin-top: 10px;
+}
