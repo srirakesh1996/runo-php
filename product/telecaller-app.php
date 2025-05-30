@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="https://runo-ai-website.onrender.com/img/img/telecaller/telecaller.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img src="https://runo-ai-website.onrender.com/img/telecaller/telecaller.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
 
                 </div>
             </div>
@@ -114,7 +114,7 @@
                                 <p>No more shuffling through Excel sheets. Leads are auto-assigned and queued for calling, so your agents can start dialing instantly.</p>
                             </button>
                             <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                <img src="https://runo-ai-website.onrender.com/img/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
                             </div>
 
                             <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
@@ -160,7 +160,7 @@
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="https://runo-ai-website.onrender.com/img/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                            <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
                         </div>
                         <div class="tab-pane fade" id="tab2">
                             <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
@@ -491,9 +491,12 @@
         <div class="container">
             <!-- Section Title -->
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
-                <h2>Make Smarter Calls With <br>
-                    Runo’s AI Tools
+                <h2>
+                    Make Smarter Calls With <br>
+                    <span class="gradient-text" style="background: linear-gradient(92.13deg, #FF5730 32.73%, #5E33EC 43.87%, #0065F2 55%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;display: inline-block;">Runo’s AI</span> Tools
                 </h2>
+
+
                 <p class="feat-text">Power up your team with real call intelligence</p>
             </div>
             <!-- Desktop Layout -->
