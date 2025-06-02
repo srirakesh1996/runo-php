@@ -41,9 +41,9 @@
         </div>
       </div>
     </div>
-    <div class="text-center mt-70 overlap" id="credit">
+    <div class="text-center mt-50 overlap" id="credit">
       <div class="mt-4 wow animate__fadeInUp" data-wow-delay="0.8s">
-        <button class="btn-default btn-highlighted">Start 10-day free trial</button>
+        <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>
         <p>No Credit Card Required</p>
       </div>
     </div>
@@ -178,7 +178,7 @@
     </div>
     <div class="text-center overlap" id="credit">
       <div class="mt-4 wow fadeInUp" data-wow-delay="0.8s">
-        <button class="btn-default btn-highlighted">Start 10-day free trial</button>
+        <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>
         <p>No Credit Card Required</p>
       </div>
     </div>

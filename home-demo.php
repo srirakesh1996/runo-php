@@ -24,7 +24,7 @@
       </div>
       <!-- Hero Button -->
       <div class="hero-btn mt-50 demo-btn text-center wow fadeInUp">
-        <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+        <a href="https://web.runo.in" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
         <p style="font-size:13px">No Credit Card required</p>
       </div>
     </div>

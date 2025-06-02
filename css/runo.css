@@ -55,6 +55,10 @@ h2.gradient-text {
   margin-top: 10px;
 }
 
+.mt-space {
+  margin-top: 15px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -1144,6 +1148,17 @@ h2.gradient-text {
 .features-section img {
   width: 90%;
   margin-bottom: 20px !important;
+}
+
+.feature-mobile img {
+  width: 95% !important;
+  margin: 10px auto !important;
+  display: block;
+
+}
+
+.feature-mobile .card {
+  border-radius: 20px;
 }
 
 .col-md-4 .feat-text {
@@ -2362,6 +2377,7 @@ label {
 
 .home-app-cta h2 {
   color: #fff !important;
+  margin: 10px 0px 40px 0px !important;
 }
 
 .btn-schedule {
@@ -2388,11 +2404,11 @@ label {
 
 .store-buttons img {
   width: 150px;
-  margin: 10px;
+  margin: 50px 0px !important;
 }
 
 .rating {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 18px;
 }
 
@@ -2654,4 +2670,21 @@ body.modal-open {
   font-size: 1rem;
   color: #212529;
   margin-top: 10px;
+}
+
+
+.cta-p {
+
+  color: #fff !important;
+  width: 60%;
+  margin: 30px auto;
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .cta-p {
+    width: 100%;
+
+  }
 }
