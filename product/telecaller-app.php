@@ -494,9 +494,10 @@
                 Give it a spin with your <br>
                 team today
             </h2>
-            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
                 Start 10-day free trial
-            </button>
+
+            </a>
         </div>
     </section>
 

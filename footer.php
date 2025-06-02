@@ -23,11 +23,11 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <h6 class="text-white fw-bold mb-3">Products</h6>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Call Management CRM</a></li>
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Lead Management System</a></li>
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Call Center App</a></li>
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Auto Dialer</a></li>
-                    <li><a href="#" class="text-light text-decoration-none d-block mb-1">Telecaller App</a></li>
+                    <li><a href="product/call-management-crm" class="text-light text-decoration-none d-block mb-1">Call Management CRM</a></li>
+                    <li><a href="product/lead-management-crm" class="text-light text-decoration-none d-block mb-1">Lead Management System</a></li>
+                    <li><a href="product/call-center-app" class="text-light text-decoration-none d-block mb-1">Call Center App</a></li>
+                    <li><a href="product/auto-dialer-software" class="text-light text-decoration-none d-block mb-1">Auto Dialer</a></li>
+                    <li><a href="product/telecaller-app" class="text-light text-decoration-none d-block mb-1">Telecaller App</a></li>
                 </ul>
             </div>
 

@@ -16,11 +16,11 @@
                             <li class="nav-item submenu">
                                 <a class="nav-link">Products</a>
                                 <ul class="submenu-list">
-                                    <li class="nav-item"><a class="nav-link" href="#">Call Management CRM</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Lead Management CRM</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Auto Dialer</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Call Center App</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Telecaller App</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="call-management-crm">Call Management CRM</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="lead-management-crm">Lead Management CRM</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="auto-dialer-software">Auto Dialer</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="call-center-app">Call Center App</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="telecaller-app">Telecaller App</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>

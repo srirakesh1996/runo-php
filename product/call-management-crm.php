@@ -36,8 +36,8 @@
                         <div class="banner-cont">
                             <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
                                 <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
-                                    Call Management App For <br>
-                                    Mobile-First Sales Teams
+                                    Call Management App For
+                                    Mobile-First <br> Sales Teams
                                 </h1>
                                 <p>A mobile-first CRM with SIM-based calling, call tracking, AI summaries, and live lead updates in one app
 
@@ -51,11 +51,11 @@
 
                                 </ul>
 
-
                                 <!-- Hero Buttons -->
                                 <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.6s" data-wow-duration="1s">
                                     <div class="hero-btn">
-                                        <a href="contact" class="btn-plain">Book a Demo</a>
+                                        <a class="btn-plain" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Book a Demo</a>
+
                                         <p class="banner-btn1">&nbsp;</p>
                                     </div>
                                     <div class="hero-btn">
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Trusted by Growing Sales Teams
+                    <h2>Powering high-performance telecalling for 3500+ businesses
 
                     </h2>
                 </div>
@@ -112,58 +112,62 @@
                         <div class="scroll-indicator" id="scrollIndicator"></div>
                         <div class="btn-group-vertical w-100" id="tabButtons">
                             <!-- Tab Buttons -->
-                            <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
-                                <span>Increase Call Pickup Rate with Your Real Number</span>
-                                <p>With SIM integration, every call shows your actual number. No virtual numbers. No masking. Prospects see it's a real person calling, which drives higher pickup rates.
+                            <div class="scroll-bord">
+                                <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                                    <span>Increase Call Pickup Rate with Your Real Number</span>
+                                    <p>With SIM integration, every call shows your actual number. No virtual numbers. No masking. Prospects see it's a real person calling, which drives higher pickup rates.
 
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-                                <span>Better Calling Efficiency with AI Call Quality Scores
-                                </span>
-                                <p>Each call is automatically scored with insights on quality. Your team improves calling efficiency with less guesswork.
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                                    <span>Better Calling Efficiency with AI Call Quality Scores
+                                    </span>
+                                    <p>Each call is automatically scored with insights on quality. Your team improves calling efficiency with less guesswork.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                                </div>
                             </div>
-
-                            <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-                                <span>Keep Your Pipeline Intact With Instant Lead Status Updates
-                                </span>
-                                <p>Every call outcome syncs live into the CRM, so your team always knows what’s done and what’s next.
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                                    <span>Keep Your Pipeline Intact With Instant Lead Status Updates
+                                    </span>
+                                    <p>Every call outcome syncs live into the CRM, so your team always knows what’s done and what’s next.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                                </div>
                             </div>
-
-                            <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                <span>Monitor Sales Momentum with an Intuitive Dashboard
-                                </span>
-                                <p>From call volume to lead status, everything updates in real time. You get a clear view of team performance and sales progress without delay.
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                                    <span>Monitor Sales Momentum with an Intuitive Dashboard
+                                    </span>
+                                    <p>From call volume to lead status, everything updates in real time. You get a clear view of team performance and sales progress without delay.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                                </div>
                             </div>
-
-                            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                <span>Never Miss a Follow-Up with Smart Reminders
-                                </span>
-                                <p>Your team gets smart reminders to follow up at the right time, whether it’s through a call, WhatsApp message, or email. No lead slips through the cracks.
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                                    <span>Never Miss a Follow-Up with Smart Reminders
+                                    </span>
+                                    <p>Your team gets smart reminders to follow up at the right time, whether it’s through a call, WhatsApp message, or email. No lead slips through the cracks.
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                </div>
                             </div>
-
-
-
 
                         </div>
                     </div>
@@ -313,33 +317,67 @@
 
     <section class="metrics-section mt-70">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <div class="metric-value">1 Tap</div>
-                    <div class="metric-label">To auto dial leads without switching screens
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h2 style="font-size:20px;">What Mobile-First Sales Teams Love About Runo</h2>
+
+            </div>
+            <div class=" row justify-content-center" style="margin-top:15px;">
+                <div class=" col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="metric-value">1 Timeline</div>
+                    <div class="metric-label">To track every conversation from start to close
+
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <div class="metric-value">5x</div>
-                    <div class="metric-label">Faster than manual dialing</div>
+                    <div class="metric-value">100%
+                    </div>
+                    <div class="metric-label">Of calls auto-logged and synced to CRM
+                    </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="metric-value">100%</div>
-                    <div class="metric-label">Lead follow-up visibilitys</div>
+                    <div class="metric-value">24/7
+                    </div>
+                    <div class="metric-label">Access to real-time analytics from any device
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
+
+    <section class="cloud-tech-section">
+        <div class="container">
+            <h2 class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                Beyond Cloud Technology:
+                Built for Modern, Personalized Outreach
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Sales teams are shifting to SIM-based calling for one simple reason, it works. Real numbers lead to real conversations. But many teams hit a wall when they try to scale. Without a proper CRM, follow-ups get missed, updates get messy, and leaders lose visibility. The only option they see? Go back to cloud telephony, just to get CRM features they never wanted tied to it.
+                    </p>
+                </div>
+                <div class=" col-md-6">
+                    <p>
+                        Then there are teams already using cloud systems, dealing with low connect rates and virtual numbers that kill trust before the conversation even starts. Runo solves both problems. It combines SIM-based calling with a built-in CRM, no cloud telephony needed. Calls go out from your real number. Leads get updated instantly. Follow-ups land on time. It’s a smarter way to manage calls, built for how sales works today.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
-                <h2>The Essentials for High-Volume Calling
-
+                <h2>Everything a Call-Driven Team Needs in One App
                 </h2>
-                <p class="feat-text">Built for teams that call all day
+                <p class="feat-text">Track, call, follow up, and manage leads, all without breaking your flow.
+
                 </p>
             </div>
             <!-- Desktop Layout -->
@@ -350,34 +388,28 @@
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="https://runo-ai-website.onrender.com/img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                     <h5>Advanced Caller ID</h5>
-                    <p class="feat-text">Stay informed with names, context, and call history before each auto-dialed call
+                    <p class="feat-text">Get name, context, and call history before every outbound call, right on screen
+
                     </p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="https://runo-ai-website.onrender.com/img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
-                    <p class="feat-text">Record auto-dialed calls to review, train, and improve conversations
+                    <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance
+
                     </p>
                 </div>
-
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                    <h5>Auto Dialer</h5>
+                    <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly
+                    </p>
+                </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="https://runo-ai-website.onrender.com/img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
                     <h5>AI Call Summaries</h5>
-                    <p class="feat-text">Skip the replays. Get instant AI-written summaries of every call
-                    </p>
-                </div>
+                    <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call
 
-                <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
-                    <h5>AI Sentiment Analysis</h5>
-                    <p class="feat-text">AI breaks down tone and emotion so you know what worked and what didn’t
-                    </p>
-                </div>
-
-                <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
-                    <h5>Auto Lead Allocation</h5>
-                    <p class="feat-text">Leads go to the right person automatically, speeding up first response time
                     </p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
@@ -387,32 +419,38 @@
                     </p>
                 </div>
 
+
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
-                    <h5>CRM Field Customisation
-                    </h5>
-                    <p class="feat-text">Customise fields and workflows without needing a tech team
+                    <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <h5>Lead Management</h5>
+                    <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion
+
                     </p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
-                    <h5>Live Team Status</h5>
-                    <p class="feat-text">Live Team Status</p>
+                    <h5>Live Status of Team
+                    </h5>
+                    <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.
+                    </p>
                 </div>
 
 
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <h5>Follow-Up Notifications</h5>
+                    <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold
+                    </p>
+                </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                     <h5>Real-Time Dashboards</h5>
-                    <p class="feat-text">See call volume, agent status, and lead progress in real time</p>
+                    <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.
+                    </p>
                 </div>
-                <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
-                    <h5>Follow-Up Notifications</h5>
-                    <p class="feat-text">Timely nudges to follow up with the right lead at the right moment</p>
-                </div>
+
 
 
 
@@ -425,63 +463,74 @@
                 <div class="swiper-wrapper text-center">
                     <!-- Feature Slides -->
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
-                        <h5>Auto Dialer</h5>
-                        <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
-                    </div>
-
-                    <div class="swiper-slide">
                         <img src="https://runo-ai-website.onrender.com/img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                         <h5>Advanced Caller ID</h5>
-                        <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
-                    </div>
+                        <p class="feat-text">Get name, context, and call history before every outbound call, right on screen
 
+                        </p>
+                    </div>
 
                     <div class="swiper-slide">
                         <img src="https://runo-ai-website.onrender.com/img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
-                        <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
-                        <h5>Live Performance Dashboard</h5>
-                        <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
-                        <h5>Follow-Up Alerts</h5>
-                        <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
+                        <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance
+
+                        </p>
                     </div>
 
 
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
-                        <h5>Lead Management</h5>
-                        <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
+                        <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                        <h5>Auto Dialer</h5>
+                        <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly
+                        </p>
                     </div>
+                    <div class="swiper-slide">
+                        <img src="https://runo-ai-website.onrender.com/img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
+                        <h5>AI Call Summaries</h5>
+                        <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call
 
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+                        <h5>Interaction Timeline</h5>
+                        <p class="feat-text">Track the entire conversation history with each lead in one place
+                        </p>
+                    </div>
 
 
                     <div class="swiper-slide">
                         <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
-                        <h5>Auto Lead Allocation</h5>
-                        <p class="feat-text">Distribute leads instantly to the right agent based on pre-set rules.</p>
+                        <h5>Lead Management</h5>
+                        <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion
+
+                        </p>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
-                        <h5>CRM Integration</h5>
-                        <p class="feat-text">Access lead details, call notes, and previous interactions without leaving the app.</p>
-                    </div>
+
                     <div class="swiper-slide">
                         <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
-                        <h5>Real-Time Team Tracking</h5>
-                        <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
+                        <h5>Live Status of Team
+                        </h5>
+                        <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.
+                        </p>
                     </div>
+
+
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
-                        <h5>WhatsApp Templates</h5>
-                        <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
+                        <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <h5>Follow-Up Notifications</h5>
+                        <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold
+                        </p>
                     </div>
+
+                    <div class="swiper-slide">
+                        <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <h5>Real-Time Dashboards</h5>
+                        <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.
+                        </p>
+                    </div>
+
 
                 </div>
                 <!-- Custom navigation buttons below -->
@@ -517,42 +566,21 @@
     <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
         <div class="container">
             <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-                Let your team try it. <br>See the difference.
+                Built for high-performance <br>teams like yours
+
 
             </h2>
-            <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
                 Start 10-day free trial
 
-            </button>
+            </a>
         </div>
     </section>
 
 
-    <section class="lead-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Title -->
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                    <h2>Works With All Your Lead Sources And CRMs
-
-                    </h2>
-                    <p>Sales-ready integrations built in
-                    </p>
-                </div>
-                <!-- Video Wrapper -->
-                <div>
-                    <img loading="lazy" src="../img/home-lead.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
-                </div>
-                <!-- Hero Button -->
-                <div class="hero-btn demo-btn text-center wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Testimonial Section -->
-    <div class="our-tesimonial-page">
+    <div class="our-tesimonial-page mt-space">
 
         <div class="container">
             <!-- Section Title Row with Navigation -->
@@ -560,8 +588,8 @@
                 <div class="col-md-8">
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
-                            We’re Not Saying Runo’s Magic…
-                            But People Think It Is
+                            See What Real Users <br> Have to Say
+
                         </h2>
                     </div>
                 </div>
@@ -577,146 +605,112 @@
         <div class="container">
             <div class="row">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Still Curious? Let’s Clear It Up.
+                    <h2>Got Questions?
+                        We’ve Got Answers
                     </h2>
                 </div>
                 <div class="col-lg-10" style="margin:0 auto">
                     <div class="page-faqs-catagery">
                         <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                             <div class="faq-accordion" id="accordionRuno">
-
-                                <!-- FAQ Items Start -->
+                                <!-- Updated FAQ Items Start -->
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            What is auto dialer software, and why do sales teams use it?
+                                            What is a SIM-based Call Management App?
                                         </button>
                                     </h2>
                                     <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Auto dialer software automatically calls numbers from a list, so reps don’t have to dial manually. It’s used to save time, increase call volume, and connect with more leads faster.
+                                            It’s a mobile-first call management CRM that works with your phone’s SIM card. Your team makes real outbound calls using real numbers, which boosts trust and improves connect rates.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            How does Runo’s auto dialer work?
+                                            How does the AI feature support my team?
                                         </button>
                                     </h2>
                                     <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Runo auto-dials leads through your phone’s SIM, logs every call, and updates lead status in real time. It’s all built into a mobile-first CRM, so your team stays focused on closing — not clicking.
+                                            Runo’s AI call management software listens to calls, generates summaries, scores performance, and sends smart follow-up reminders. It helps agents focus on conversations while the system takes care of tracking and insights.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            How do I set up the auto dialer?
+                                            How does this CRM help with call compliance?
                                         </button>
                                     </h2>
                                     <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Just sign up, install the app, and you’re good to go in under 30 minutes. No hardware, no waiting. Your SIM handles the calls, and Runo handles everything else.
+                                            Runo records all calls, maintains a clear interaction history, and includes DNC scrubbing. You get full visibility and audit readiness without needing extra compliance tools.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            Why choose Runo’s auto dialer over others?
+                                            What are the key benefits of using AI for call management?
                                         </button>
                                     </h2>
                                     <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Because it’s not just an auto dialer. Runo combines smart dialing, CRM, AI features, and mobile-first simplicity, all in one app. Teams see faster follow-ups, better lead tracking, and 2x calling productivity in 2 weeks.
+                                            AI removes the need for manual updates and call logs. It gives your team performance analytics in real time, flags high-priority leads, and helps managers coach reps based on real conversations.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                            Can I integrate Runo with my existing CRM or lead sources?
+                                            Can this CRM integrate with our current lead sources and tools?
                                         </button>
                                     </h2>
                                     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Yes. Runo integrates with popular CRMs like Salesforce, Hubspot, and Zoho, plus lead sources like Facebook, JustDial, and Housing.com.
+                                            Yes. Runo integrates with major CRMs like Zoho, Salesforce, and HubSpot, and connects with lead sources like Facebook, IndiaMart, and your website. It’s designed to work within your existing sales setup.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                            Can I track how my agents are performing?
+                                            Does it offer real-time visibility into team performance?
                                         </button>
                                     </h2>
                                     <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Absolutely. Real-time dashboards show call volume, status, follow-ups, and more, so you know who’s calling, who’s closing, and who’s slacking.
+                                            Absolutely. Runo shows live agent status, call outcomes, and lead progress through a real-time performance dashboard, so you’re always in the loop.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading7">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                            Can I record calls?
+                                            How does this call management app improve our sales call results?
                                         </button>
                                     </h2>
                                     <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Yes, call recording is available as an add-on. You can use it to review conversations, coach your team, and improve call quality.
+                                            By using AI summaries, caller ID context, follow-up nudges, and SIM-based dialing, your team connects faster, follows up smarter, and closes more deals, all from one call management app.
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item wow fadeInUp">
                                     <h2 class="accordion-header" id="heading8">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                                            How much does Runo’s auto dialer cost?
+                                            Can I use this CRM on both mobile and desktop?
                                         </button>
                                     </h2>
                                     <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            Plans start at ₹599 per user per month. Choose from 3-month, 6-month, or 12-month billing options, all include a free trial.
+                                            Yes. Runo offers both a mobile app and a web version, so you can manage leads, monitor team activity, and review call history whether you’re in the office or on the move.
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading9">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                                            Is using an auto dialer legal?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionRuno">
-                                        <div class="accordion-body">
-                                            Yes, Runo helps you stay compliant with DNC scrubbing and proper call tracking. Just make sure you're following local laws and consent rules for outbound calling.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading10">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                                            How many calls can it make in a day?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionRuno">
-                                        <div class="accordion-body">
-                                            It depends on your team’s availability and lead list, but with auto-dialing in place, most reps easily make 100+ calls a day without breaking a sweat.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Items End -->
-
+                                <!-- Updated FAQ Items End -->
                             </div>
                         </div>
                     </div>
@@ -724,7 +718,7 @@
             </div>
         </div>
     </div>
-    s
+
     <!-- Page Faq End -->
 
     <!-- Security Section with WOW animations -->
@@ -732,7 +726,8 @@
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
-                <h2>We Take Security as Seriously <br>as You Take Sales
+                <h2>Enterprise-Grade Security.<br>Built In by Default.
+
 
                 </h2>
             </div>
@@ -744,8 +739,30 @@
     </section>
 
 
+    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div class="container">
+            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+                The CRM Your Sales Team <br>Can Carry in Their Pocket
 
-    <?php include('home-contact.php'); ?>
+
+            </h2>
+
+            <p class="cta-p">Track calls, view insights, and get AI-written summaries in seconds. Runo makes mobile CRM smart, simple, and sales-ready.
+
+            </p>
+
+
+            <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/google-play.webp" alt="Google Play"></a>
+            </div>
+            <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+
+                <span class="stars">★★★★★</span>
+                <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
+            </div>
+        </div>
+    </section>
 
 
     <?php include('footer.php'); ?>
