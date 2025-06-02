@@ -110,6 +110,7 @@
     <!-- Clients Section End -->
 
 
+
     <!-- why choose runo-->
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
@@ -127,67 +128,78 @@
                         <div class="scroll-indicator" id="scrollIndicator"></div>
                         <div class="btn-group-vertical w-100" id="tabButtons">
                             <!-- Tab Buttons -->
-                            <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
-                                <span>70% Lower Operating Cost</span>
-                                <p>Run your call center without PBX, cloud telephony, or expensive software stacks. Save significantly on infrastructure and tool expenses.
+                            <div class="scroll-bord">
+                                <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                                    <span>70% Lower Operating Cost</span>
+                                    <p>Run your call center without PBX, cloud telephony, or expensive software stacks. Save significantly on infrastructure and tool expenses.
 
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-                                <span>No IVR, Cloud Telephony, or ACD Friction
-                                </span>
-                                <p>Skip the menus, routing delays, and robotic experiences. Connect callers directly to real people without drop-offs or confusion
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                                    <span>No IVR, Cloud Telephony, or ACD Friction
+                                    </span>
+                                    <p>Skip the menus, routing delays, and robotic experiences. Connect callers directly to real people without drop-offs or confusion
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-                                <span>2x Higher Call Pickup Rate</span>
-                                <p>Use real SIM-based numbers that customers recognize and trust. No more ignored or flagged calls from masked or virtual lines
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                                    <span>2x Higher Call Pickup Rate</span>
+                                    <p>Use real SIM-based numbers that customers recognize and trust. No more ignored or flagged calls from masked or virtual lines
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                <span>100% Visibility Into Remote Teams
-                                </span>
-                                <p>Track calls, follow-ups, and agent activity in real time. See who’s active, who’s idle, and who needs support across locations
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                                    <span>100% Visibility Into Remote Teams
+                                    </span>
+                                    <p>Track calls, follow-ups, and agent activity in real time. See who’s active, who’s idle, and who needs support across locations
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                <span>One App to Replace Your Dialer, CRM, and Spreadsheets
-                                </span>
-                                <p>Call, track, and manage leads in a single place. Eliminate tool switching and messy data syncs for a smoother, faster workflow
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                                    <span>One App to Replace Your Dialer, CRM, and Spreadsheets
+                                    </span>
+                                    <p>Call, track, and manage leads in a single place. Eliminate tool switching and messy data syncs for a smoother, faster workflow
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                </div>
                             </div>
 
-                            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                <span>30-Minute Setup Time
+                            <div class="scroll-bord">
+                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                                    <span>30-Minute Setup Time
 
-                                </span>
-                                <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes
+                                    </span>
+                                    <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes
 
-                                </p>
-                            </button>
-                            <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
-                                <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                    </p>
+                                </button>
+                                <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
+                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                </div>
                             </div>
-
 
 
 
