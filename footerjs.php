@@ -1,36 +1,31 @@
-<!-- footerjs.php -->
-<!-- Core Libraries -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" defer></script>
+<!-- Core Libraries (Deferred) -->
+<script src="js/jquery-3.7.1.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
-<!-- Plugins -->
+<!-- Plugins (Deferred) -->
 <script src="js/jquery.slicknav.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js" defer></script>
+<!-- Swiper JS (CDN, defer to reduce INP impact) -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
+<script src="js/jquery.magnific-popup.min.js" defer></script>
 <script src="js/SmoothScroll.js" defer></script>
 <script src="js/parallaxie.js" defer></script>
-
-<!-- WOW.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
 <script>
    document.addEventListener("DOMContentLoaded", () => {
-      if (typeof WOW !== "undefined") new WOW().init();
+      new WOW().init();
    });
 </script>
+<!-- Custom JS (Deferred) -->
+<script src="js/function.js" defer></script>
 
 <!-- UTM Tracker -->
 <script>
-   window.addEventListener("load", () => {
-      const params = new URLSearchParams(window.location.search);
-      const utmSource = params.get("utm_source");
-      const utmCampaign = params.get("utm_campaign");
-      if (utmSource) localStorage.setItem("utm_source", utmSource);
-      if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
-   });
+   const params = new URLSearchParams(window.location.search);
+   const utmSource = params.get("utm_source");
+   const utmCampaign = params.get("utm_campaign");
+   if (utmSource) localStorage.setItem("utm_source", utmSource);
+   if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
 </script>
-
-<!-- Custom JS -->
-<script src="js/function.js" defer></script>
 <!-- Sticky Header and Preloader JS -->
 <script>
    window.addEventListener('scroll', function() {
@@ -52,3 +47,43 @@
    });
 </script>
 <!-- Lazy-load PopupSmart Chat Widget after 3s to improve INP -->
+<script>
+   window.addEventListener('load', () => {
+      setTimeout(() => {
+         const script = document.createElement('script');
+         script.src = 'https://popupsmart.com/freechat.js';
+         script.onload = () => {
+            window.start.init({
+               title: 'Hi there ✌️',
+               message: 'How can we help you? Just send us a message now to get assistance.',
+               color: '#F9754E',
+               position: 'right',
+               placeholder: 'Enter your message',
+               withText: 'Write with',
+               viaWhatsapp: 'Or write us directly via Whatsapp',
+               gty: 'Go to your',
+               awu: 'and write us',
+               connect: 'Connect now',
+               button: 'Write us',
+               device: 'everywhere',
+               logo: 'https://d2r80wdbkwti6l.cloudfront.net/YaOSMtQDnhkgfH0fvFI3UkBR8O9UbXl5.jpg',
+               person: 'https://d2r80wdbkwti6l.cloudfront.net/opKdomdwIJtWVF8damvTe0EtjBat61UA.jpg',
+               services: [{
+                     name: 'whatsapp',
+                     content: '+918179880074'
+                  },
+                  {
+                     name: 'mail',
+                     content: 'care@runo.in'
+                  },
+                  {
+                     name: 'phone',
+                     content: '+918179880074'
+                  },
+               ],
+            });
+         };
+         document.body.appendChild(script);
+      }, 3000);
+   });
+</script>
