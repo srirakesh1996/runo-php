@@ -1,17 +1,36 @@
-<!-- Core Libraries (Deferred) -->
-<script src="js/jquery-3.7.1.min.js" defer></script>
+<!-- footerjs.php -->
+<!-- Core Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
-<!-- Plugins (Deferred) -->
+<!-- Plugins -->
 <script src="js/jquery.slicknav.js" defer></script>
-<!-- Plugins (only if still needed) -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" defer></script>
+<script src="js/SmoothScroll.js" defer></script>
+<script src="js/parallaxie.js" defer></script>
 
-<!-- Custom JS (Deferred) -->
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+<script>
+   document.addEventListener("DOMContentLoaded", () => {
+      if (typeof WOW !== "undefined") new WOW().init();
+   });
+</script>
+
+<!-- UTM Tracker -->
+<script>
+   window.addEventListener("load", () => {
+      const params = new URLSearchParams(window.location.search);
+      const utmSource = params.get("utm_source");
+      const utmCampaign = params.get("utm_campaign");
+      if (utmSource) localStorage.setItem("utm_source", utmSource);
+      if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
+   });
+</script>
+
+<!-- Custom JS -->
 <script src="js/function.js" defer></script>
-
 <!-- Sticky Header and Preloader JS -->
 <script>
    window.addEventListener('scroll', function() {
