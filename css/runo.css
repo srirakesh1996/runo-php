@@ -865,7 +865,7 @@ h2.gradient-text {
   background: none;
   border: none;
   width: 100%;
-  padding: 10px 15px 15px 15px;
+  padding: 10px 15px 15px 18px;
   font-weight: bold;
   border-radius: 10px;
   background-color: transparent;
@@ -899,6 +899,7 @@ h2.gradient-text {
   display: block;
 }
 
+/*
 .scroll-bar {
   position: absolute;
   left: 0;
@@ -908,7 +909,7 @@ h2.gradient-text {
   border-radius: 5px;
   z-index: 1;
   height: calc(100% - 55px);
-}
+}*/
 
 @media (min-width: 770px) and (max-width: 1000px) {
   .scroll-bar {
@@ -952,20 +953,29 @@ h2.gradient-text {
 
 .mobile-tab-img {
   width: 70%;
-  margin: 0px auto;
+  margin: 20px auto;
   display: block;
 }
 
 
 .scroll-indicator {
   position: absolute;
-  left: 0;
+  left: 12px;
   width: 6px;
   background: linear-gradient(180deg, #ff5730 0%, #5e33ec 48.08%, #0065f2 100%);
   border-radius: 5px;
   z-index: 2;
   top: 20px;
   height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .scroll-indicator {
+
+    left: 0px;
+
+  }
+
 }
 
 .img-preview {
@@ -2377,7 +2387,7 @@ label {
 
 .home-app-cta h2 {
   color: #fff !important;
-  margin: 10px 0px 40px 0px !important;
+  margin: 10px 0px 25px 0px !important;
 }
 
 .btn-schedule {
@@ -2404,7 +2414,7 @@ label {
 
 .store-buttons img {
   width: 150px;
-  margin: 50px 0px !important;
+  margin: 30px 0px !important;
 }
 
 .rating {
@@ -2650,7 +2660,6 @@ body.modal-open {
 
 .metrics-section {
 
-  padding: 40px 0;
   text-align: center;
 }
 
@@ -2687,4 +2696,13 @@ body.modal-open {
     width: 100%;
 
   }
+}
+
+
+.scroll-bord {
+  width: 100%;
+  border-top: 1px solid #f1f1f1;
+  border-radius: 0px;
+  left: -15px;
+  border-bottom: 1px solid #f1f1f1;
 }

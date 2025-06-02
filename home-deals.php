@@ -12,54 +12,62 @@
           <div class="scroll-indicator" id="scrollIndicator"></div>
           <div class="btn-group-vertical w-100" id="tabButtons">
             <!-- Tab Buttons -->
-            <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
-              <span>Boost Call Connect Rate With SIM-Based Calling</span>
-              <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg0">
-              <img loading="lazy" src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+
+            <div class="scroll-bord">
+              <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                <span>Boost Call Connect Rate With SIM-Based Calling</span>
+                <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                <img loading="lazy" src="img/deal1.webp" class="img-preview" alt="Tab 1 Image">
+              </div>
             </div>
 
-            <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-              <span>Improve Call Efficiency With AI Call Scoring & Evaluation</span>
-              <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-              <img loading="lazy" src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+            <div class="scroll-bord">
+              <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                <span>Improve Call Efficiency With AI Call Scoring & Evaluation</span>
+                <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                <img loading="lazy" src="img/deal2.webp" class="img-preview" alt="Tab 2 Image">
+              </div>
             </div>
-
-            <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-              <span>Never Miss Follow-Ups With Smart Reminders</span>
-              <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-              <img loading="lazy" src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+            <div class="scroll-bord">
+              <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                <span>Never Miss Follow-Ups With Smart Reminders</span>
+                <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                <img loading="lazy" src="img/deal3.webp" class="img-preview" alt="Tab 3 Image">
+              </div>
             </div>
-
-            <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-              <span>Get Instant Visibility With Live Team Tracking</span>
-              <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-              <img loading="lazy" src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+            <div class="scroll-bord">
+              <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                <span>Get Instant Visibility With Live Team Tracking</span>
+                <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                <img loading="lazy" src="img/deal4.webp" class="img-preview" alt="Tab 4 Image">
+              </div>
             </div>
-
-            <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-              <span>Improve CRM Adoption With User-Friendly Interface</span>
-              <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-              <img loading="lazy" src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+            <div class="scroll-bord">
+              <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                <span>Improve CRM Adoption With User-Friendly Interface</span>
+                <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                <img loading="lazy" src="img/deal5.webp" class="img-preview" alt="Tab 5 Image">
+              </div>
             </div>
-
-            <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
-              <span>Get Started With 30-Minute Quick Setup</span>
-              <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
-            </button>
-            <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
-              <img loading="lazy" src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+            <div class="scroll-bord">
+              <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
+                <span>Get Started With 30-Minute Quick Setup</span>
+                <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
+              </button>
+              <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
+                <img loading="lazy" src="img/deal6.webp" class="img-preview" alt="Tab 6 Image">
+              </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -106,7 +114,7 @@
     const startTop = parseFloat(scrollIndicator.style.top) || 0;
     const startHeight = parseFloat(scrollIndicator.style.height) || 0;
     const isMobile = window.innerWidth <= 767;
-    const targetHeight = isMobile ? 135 : 110;
+    const targetHeight = isMobile ? 135 : 88;
     const duration = 500;
     const startTime = performance.now();
 
