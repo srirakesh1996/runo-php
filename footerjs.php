@@ -4,19 +4,17 @@
 
 <!-- Plugins (Deferred) -->
 <script src="js/jquery.slicknav.js" defer></script>
-<!-- Swiper JS (CDN, defer to reduce INP impact) -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
+
 <script src="js/jquery.magnific-popup.min.js" defer></script>
 <script src="js/SmoothScroll.js" defer></script>
 <script src="js/parallaxie.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
-<script>
-   document.addEventListener("DOMContentLoaded", () => {
-      new WOW().init();
-   });
-</script>
+<script src="js/wow.min.js" defer></script>
+
 <!-- Custom JS (Deferred) -->
 <script src="js/function.js" defer></script>
+
+<!-- Swiper JS (CDN, defer to reduce INP impact) -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
 
 <!-- UTM Tracker -->
 <script>

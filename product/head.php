@@ -13,17 +13,17 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Runo - Best Outbound Call Center CRM with Auto Dialer">
 <meta property="og:description" content="Runo Call Management App with Call Tracking, Telecalling CRM, and Auto Dialer.">
-<meta property="og:image" content="../img/share-icon.png">
-<meta property="og:url" content="../img/share-icon.png">
+<meta property="og:image" content="https://runo-ai-website.onrender.com/img/share-icon.png">
+<meta property="og:url" content="https://runo-ai-website.onrender.com/img/share-icon.png">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Runo - Best CRM for Telecalling">
 <meta name="twitter:description" content="Runo CRM helps manage outbound sales calls with in-built CRM & Dialer.">
-<meta name="twitter:image" content="../img/share-icon.png">
+<meta name="twitter:image" content="https://runo-ai-website.onrender.com/img/share-icon.png">
 
 <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes="16x16">
+<link rel="icon" type="image/x-icon" href="https://runo-ai-website.onrender.com/img/favicon.ico" sizes="16x16">
 
 
 <link rel="preload" as="style" href="css/bootstrap.min.css">
@@ -34,14 +34,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
-<link rel="stylesheet" href="../css/slicknav.min.css">
-<link rel="stylesheet" href="../css/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/bootstrap.min.css" media="screen">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/slicknav.min.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/swiper-bundle.min.css">
 <link rel="stylesheet" href="../css/all.min.css">
-<link rel="stylesheet" href="../css/animate.css">
-<link rel="stylesheet" href="../css/magnific-popup.css">
-<link rel="stylesheet" href="../css/custom.css">
-<link rel="stylesheet" href="../css/runo.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/animate.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/magnific-popup.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/custom.css">
+<link rel="stylesheet" href="https://runo-ai-website.onrender.com/css/runo.css">
 
 <!-- Animate.css and WOW.js -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
