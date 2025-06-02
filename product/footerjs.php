@@ -4,14 +4,11 @@
 
 <!-- Plugins (Deferred) -->
 <script src="https://runo-ai-website.onrender.com/js/jquery.slicknav.js" defer></script>
-
-<!-- Plugins (only if still needed) -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" defer></script>
-
-<!-- Custom JS (Deferred) -->
-<script src="js/function.js" defer></script>
+<script src="https://runo-ai-website.onrender.com/js/swiper-bundle.min.js" defer></script>
+<script src="https://runo-ai-website.onrender.com/js/jquery.magnific-popup.min.js" defer></script>
+<script src="https://runo-ai-website.onrender.com/js/SmoothScroll.js" defer></script>
+<script src="https://runo-ai-website.onrender.com/js/parallaxie.js" defer></script>
+<script src="https://runo-ai-website.onrender.com/js/wow.min.js" defer></script>
 
 <!-- Custom JS (Deferred) -->
 <script src="https://runo-ai-website.onrender.com/js/function.js" defer></script>
@@ -34,5 +31,47 @@
          preloader.style.transition = 'opacity 0.5s ease';
          setTimeout(() => (preloader.style.display = 'none'), 400);
       }
+   });
+</script>
+
+<!-- Lazy-load PopupSmart Chat Widget after 3s to improve INP -->
+<script>
+   window.addEventListener('load', () => {
+      setTimeout(() => {
+         const script = document.createElement('script');
+         script.src = 'https://popupsmart.com/freechat.js';
+         script.onload = () => {
+            window.start.init({
+               title: 'Hi there ✌️',
+               message: 'How can we help you? Just send us a message now to get assistance.',
+               color: '#F9754E',
+               position: 'right',
+               placeholder: 'Enter your message',
+               withText: 'Write with',
+               viaWhatsapp: 'Or write us directly via Whatsapp',
+               gty: 'Go to your',
+               awu: 'and write us',
+               connect: 'Connect now',
+               button: 'Write us',
+               device: 'everywhere',
+               logo: 'https://d2r80wdbkwti6l.cloudfront.net/YaOSMtQDnhkgfH0fvFI3UkBR8O9UbXl5.jpg',
+               person: 'https://d2r80wdbkwti6l.cloudfront.net/opKdomdwIJtWVF8damvTe0EtjBat61UA.jpg',
+               services: [{
+                     name: 'whatsapp',
+                     content: '+918179880074'
+                  },
+                  {
+                     name: 'mail',
+                     content: 'care@runo.in'
+                  },
+                  {
+                     name: 'phone',
+                     content: '+918179880074'
+                  },
+               ],
+            });
+         };
+         document.body.appendChild(script);
+      }, 3000);
    });
 </script>
