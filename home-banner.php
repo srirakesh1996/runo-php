@@ -60,13 +60,12 @@
                     <!-- Hero Buttons -->
                     <div class="hero-body wow fadeInUpCustom mt-50 mb-8" data-wow-delay="0.6s" data-wow-duration="1s">
                         <div class="hero-btn">
-                            <a href="contact" class="btn-plain">Book a Demo</a>
+                            <a class="btn-plain" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Book a Demo</a>
+
                             <p class="banner-btn1">&nbsp;</p>
                         </div>
                         <div class="hero-btn">
-                            <button class="btn-default btn-highlighted" type="button"
-                                data-bs-toggle="modal"
-                                data-bs-target="#contactModal">Start 10-day free trial</button>
+                            <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>
                             <p style="font-size:13px">No Credit Card required</p>
                         </div>
                     </div>

@@ -15,7 +15,7 @@
             </div>
             <!-- Hero Button -->
             <div class="hero-btn demo-btn text-center wow fadeInUp" data-wow-delay="0.6s">
-                <a href="contact" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+                <a href="https://web.runo.in" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
             </div>
         </div>
     </div>

@@ -220,8 +220,8 @@
       Get a personalized walkthrough<br>
       of Runo in action
     </h2>
-    <button class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
       Schedule Your Demo
-    </button>
+    </a>
   </div>
 </section>
