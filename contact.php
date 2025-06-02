@@ -11,7 +11,7 @@
 
 
       <?php
-      $form_id = 'demo-form';
+
       $page_name = 'Contact';
       $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
 
@@ -98,7 +98,11 @@
                   <!-- Contact Form Start -->
                   <div class="contact-form wow fadeInRight" data-wow-delay="0.4s">
 
-                     <form id="contact-form" name="contact-form" data-page-name="Contact" data-uuid="540c6a38-0072-4c48-9fac-b443f814a999" method="POST">
+                     <form id="contact-form" name="contact-form" method="POST"
+                        data-page-name="<?php echo htmlspecialchars(!empty($page_name) ? $page_name : 'Others'); ?>"
+                        data-uuid="<?php echo htmlspecialchars(!empty($form_uuid) ? $form_uuid : '540c6a38-0072-4c48-9fac-b443f814a999'); ?>">
+
+
                         <div class="row">
                            <div class="form-group col-md-12 mb-4">
                               <label for="name">Your Name</label>
