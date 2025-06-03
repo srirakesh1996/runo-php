@@ -2717,3 +2717,13 @@ body.modal-open {
   left: -15px;
   border-bottom: 1px solid #f1f1f1;
 }
+
+.section-title h2 span {
+  background: linear-gradient(92.13deg, #FF5730 32.73%, #5E33EC 43.87%, #0065F2 55%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  /* Added for non-webkit browsers */
+  -webkit-text-fill-color: transparent !important;
+  /* Added for non-webkit browsers */
+  display: inline-block !important;
+}
