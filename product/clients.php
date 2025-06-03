@@ -1,21 +1,21 @@
-<div class="row mt-50">
-    <div class="clients-logos-wrapper">
-        <div class="clients-logos">
-            <!-- Logos (first set) -->
-            <img src="https://runo-ai-website.onrender.com/img/clients/hyundai.webp" alt="Client 1">
-            <img src="https://runo-ai-website.onrender.com/img/clients/mer-benz.webp" alt="Client 2">
-            <img src="https://runo-ai-website.onrender.com/img/clients/upstox.webp" alt="Client 3">
-            <img src="https://runo-ai-website.onrender.com/img/clients/ayurveda-logo.webp" alt="Client 4">
-            <img src="https://runo-ai-website.onrender.com/img/clients/indira-logo.webp" alt="Client 5">
-            <img src="https://runo-ai-website.onrender.com/img/clients/pro-grad-logo.webp" alt="Client 6">
+  <div class="row mt-50">
+      <div class="clients-logos-wrapper" style="overflow: hidden; position: relative;">
+          <div class="clients-logos" style="display: flex; gap: 40px; animation: scroll-logos 25s linear infinite; width: max-content;">
+              <!-- Logos (set 1) -->
+              <img loading="lazy" src="../img/clients/hyundai.webp" alt="Hyundai" width="120" height="60">
+              <img loading="lazy" src="../img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60">
+              <img loading="lazy" src="../img/clients/upstox.webp" alt="Upstox" width="120" height="60">
+              <img loading="lazy" src="../img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60">
+              <img loading="lazy" src="../img/clients/indira-logo.webp" alt="Indira" width="120" height="60">
+              <img loading="lazy" src="../img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60">
 
-            <!-- Logos (duplicate set for infinite loop) -->
-            <img src="https://runo-ai-website.onrender.com/img/clients/hyundai.webp" alt="Client 1">
-            <img src="https://runo-ai-website.onrender.com/img/clients/mer-benz.webp" alt="Client 2">
-            <img src="https://runo-ai-website.onrender.com/img/clients/upstox.webp" alt="Client 3">
-            <img src="https://runo-ai-website.onrender.com/img/clients/ayurveda-logo.webp" alt="Client 4">
-            <img src="https://runo-ai-website.onrender.com/img/clients/indira-logo.webp" alt="Client 5">
-            <img src="https://runo-ai-website.onrender.com/img/clients/pro-grad-logo.webp" alt="Client 6">
-        </div>
-    </div>
-</div>
+              <!-- Logos (set 2 - duplicate for infinite loop) -->
+              <img loading="lazy" src="../img/clients/hyundai.webp" alt="Hyundai" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="../img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="../img/clients/upstox.webp" alt="Upstox" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="../img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="../img/clients/indira-logo.webp" alt="Indira" width="120" height="60" aria-hidden="true">
+              <img loading="lazy" src="../img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60" aria-hidden="true">
+          </div>
+      </div>
+  </div>

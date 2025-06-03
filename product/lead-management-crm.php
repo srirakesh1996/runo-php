@@ -1,40 +1,23 @@
 <?php include('doctype.php'); ?>
 
 <head>
-
     <!-- Page Title -->
     <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
-
     <?php include('head.php'); ?>
-
-
 </head>
 
 <body>
-
-
     <?php include('preloader.php'); ?>
-
     <?php
-
-    $page_name = 'Lead Management';
+    $page_name = 'Lead Management CRM';
     $form_uuid = '2eddbc70-045d-41ff-8866-dbf34f73f6f1';
 
     include('home-modal.php');
     ?>
-
-
-
     <?php include('header.php'); ?>
-
-
-
-
-
     <div class="telecaller-hero mb-20">
         <div class="container">
             <!-- Header Start -->
-
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <!-- Hero Content Start -->
@@ -43,12 +26,9 @@
                             <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
                                 <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
                                     Lead Management App <br>That Tracks Every Lead, Every Step
-
                                 </h1>
                                 <p>Track every lead from allocation to closure with a CRM built for real-time updates.
-
                                 </p>
-
                                 <ul>
                                     <li>Capture leads from websites, ads, marketplaces, and other lead sources
                                     </li>
@@ -56,14 +36,11 @@
                                     </li>
                                     <li>Manage your sales funnel in real time with every update tracked
                                     </li>
-
                                 </ul>
-
                                 <!-- Hero Buttons -->
                                 <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.6s" data-wow-duration="1s">
                                     <div class="hero-btn">
                                         <a class="btn-plain" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Book a Demo</a>
-
                                         <p class="banner-btn1">&nbsp;</p>
                                     </div>
                                     <div class="hero-btn">
@@ -72,56 +49,37 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
-
-
                     </div>
                 </div>
-
                 <div class="col-lg-6">
-                    <img src="https://runo-ai-website.onrender.com/img/telecaller/telecaller.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
-
+                    <img src="../img/lead-management/dummy.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero Section End -->
-
-
-
     <!-- Clients Section Start -->
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
                 <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
                     <h2>Trusted by 3500+ Teams to Stay on Top of Their Lead
-
                     </h2>
                 </div>
             </div>
-
-
             <?php include('clients.php'); ?>
-
-
         </div>
     </section>
     <!-- Clients Section End -->
-
-
     <!-- why choose runo-->
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
                     <h2>Convert More Leads With Less Manual Efforts
-
                     </h2>
                 </div>
-
                 <!-- Tabs and Mobile Images -->
                 <div class="col-md-6">
                     <div class="left-tabs" id="tabContainer">
@@ -137,7 +95,7 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                    <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Tab 1 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -147,7 +105,7 @@
                                     <p>New leads are auto-allocated to your sales reps based on source, region, or custom rules, so there’s no waiting, no manual work, and no missed leads</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                                    <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Tab 2 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -158,7 +116,7 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Tab 3 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -168,7 +126,7 @@
                                     <p>Timely reminders help your team follow up before leads lose interest, keeping conversations active and deals moving</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Tab 4 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -179,38 +137,35 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Tab 5 Image">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                            <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Tab 1 Image">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                            <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Tab 2 Image">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                            <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Tab 3 Image">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                            <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Tab 4 Image">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Tab 5 Image">
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Scripts -->
     <script>
         const tabs = document.querySelectorAll(".tab-btn");
@@ -325,28 +280,22 @@
 
         document.addEventListener("DOMContentLoaded", observeSection);
     </script>
-
     <!-- why choose runo ends-->
-
     <section class="metrics-section mt-70">
         <div class="container">
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
-                <h2 style="font-size:20px;">Why Sales Teams Rely on Runo CRM Every Day
+                <h2 style="font-size:25px;">Why Sales Teams Rely on Runo CRM Every Day
                 </h2>
-
             </div>
-            <div class=" row justify-content-center" style="margin-top:15px;">
+            <div class=" row justify-content-center" style="margin-top:35px;">
                 <div class=" col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">8+ Lead Sources
                     </div>
                     <div class="metric-label">Capture leads from multiple sources automatically
-
-
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">Zero Lag Lead Allocation
-
                     </div>
                     <div class="metric-label">Leads are auto-assigned to the right rep based on your rules
                     </div>
@@ -355,14 +304,11 @@
                     <div class="metric-value">100% Real-Time Tracking
                     </div>
                     <div class="metric-label">Monitor every lead’s progress and your team’s activity in real time
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
@@ -373,129 +319,96 @@
                 </p>
             </div>
             <!-- Desktop Layout -->
-
             <div class="row d-none d-md-flex">
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>CSV Upload</h5>
                     <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                     </p>
                 </div>
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>Auto Lead Allocation</h5>
                     <p class="feat-text">Automatically assign leads to the right sales rep based on your custom rules.
-
                     </p>
                 </div>
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                     <h5>Real-Time Lead Tracking</h5>
                     <p class="feat-text">Track lead progress and sales status in real time, ensuring full visibility of your pipeline
                     </p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                     <h5>Follow-Up Reminders</h5>
                     <p class="feat-text">Ensure timely follow-ups with automated reminders, keeping leads warm.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
                     <h5>Live Team Status</h5>
                     <p class="feat-text">Track your team’s real-time activity, such as availability, on-call status, and follow-ups</p>
                 </div>
-
-
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+                    <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                     <h5>Interaction Timeline</h5>
                     <p class="feat-text">Review the entire history of every lead interaction including calls, emails, and notes in one place.
-
                     </p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+                    <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
                     <h5>Customizable CRM Fields
                     </h5>
                     <p class="feat-text">Tailor your CRM fields to match your sales process and data needs
-
                     </p>
                 </div>
-
-
             </div>
             <!-- Desktop Layout -->
-
             <!-- Mobile Swiper Layout -->
             <!-- Mobile Swiper Layout (14 Features) -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
                     <!-- Feature Slides -->
-
-
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>CSV Upload</h5>
                         <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                         </p>
                     </div>
-
-
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>Auto Lead Allocation</h5>
                         <p class="feat-text">Automatically assign leads to the right sales rep based on your custom rules.
-
                         </p>
                     </div>
-
-
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                         <h5>Real-Time Lead Tracking</h5>
                         <p class="feat-text">Track lead progress and sales status in real time, ensuring full visibility of your pipeline
                         </p>
                     </div>
-
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                         <h5>Follow-Up Reminders</h5>
                         <p class="feat-text">Ensure timely follow-ups with automated reminders, keeping leads warm.</p>
                     </div>
-
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
                         <h5>Live Team Status</h5>
                         <p class="feat-text">Track your team’s real-time activity, such as availability, on-call status, and follow-ups</p>
                     </div>
-
                     <div class="swiper-slide">
-                        <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+                        <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                         <h5>Interaction Timeline</h5>
                         <p class="feat-text">Review the entire history of every lead interaction including calls, emails, and notes in one place.
-
                         </p>
                     </div>
-
                     <div class="swiper-slide">
-                        <img loading="lazy" src="https://runo-ai-website.onrender.com/img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+                        <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
                         <h5>Customizable CRM Fields
                         </h5>
                         <p class="feat-text">Tailor your CRM fields to match your sales process and data needs
-
                         </p>
                     </div>
-
                 </div>
                 <!-- Custom navigation buttons below -->
                 <div class="swiper-nav-buttons text-center">
@@ -525,28 +438,18 @@
             },
         });
     </script>
-
-
     <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
         <div class="container">
             <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
                 Lead management <br>that just works
-
-
             </h2>
             <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
                 Start 10-day free trial
-
             </a>
         </div>
     </section>
-
-
-
-
     <!-- Testimonial Section -->
     <div class="our-tesimonial-page mt-space">
-
         <div class="container">
             <!-- Section Title Row with Navigation -->
             <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
@@ -554,18 +457,13 @@
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
                             Success Stories From <br>Teams Like Yours
-
                         </h2>
                     </div>
                 </div>
-
                 <?php include('testimonials.php'); ?>
-
             </div>
         </div>
     </div>
-
-
     <!-- Page Faqs Start -->
     <div class="page-faqs">
         <div class="container">
@@ -696,53 +594,40 @@
             </div>
         </div>
     </div>
-
     <!-- Page Faq End -->
-
     <!-- Security Section with WOW animations -->
     <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
                 <h2>Built-In Security,<br> Trusted by Enterprises.
-
-
                 </h2>
             </div>
             <!-- Right Image -->
             <div class="col-md-5 text-md-end text-center security-badges">s
-                <img src="https://runo-ai-website.onrender.com/img/security.webp" alt="ISO Badge" class="img-fluid">
+                <img src="../img/security.webp" alt="ISO Badge" class="img-fluid">
             </div>
         </div>
     </section>
-
-
     <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
         <div class="container">
             <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-                Track, Assign, and <br>Close Leads from Anywhere </h2>
-
+                Track, Assign, and <br>Close Leads from Anywhere
+            </h2>
             <p class="cta-p">Stay connected to your sales pipeline with instant access to lead information, updates, and actions, anytime.
             </p>
-
             <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
-
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>
         </div>
     </section>
-
-
     <?php include('footer.php'); ?>
-
     <?php include('footerjs.php'); ?>
-
-
 </body>
 
 </html>

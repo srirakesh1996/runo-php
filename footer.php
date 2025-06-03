@@ -60,7 +60,7 @@
                     <img loading="lazy" src="img/reviews/3.webp" alt="Crozdesk Rating" class="img-fluid rounded mt-3">
                 </a>
                 <a href="https://crozdesk.com/software/runo-call-management-crm" target="_blank" rel="noopener">
-                    <img loading="lazy" src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-3" style="width:100px;">
+                    <img loading="lazy" src="img/reviews/4.webp" alt="Crozdesk Badge" class="img-fluid rounded-circle mt-3" style="width: 100px !important;">
                 </a>
             </div>
         </div>

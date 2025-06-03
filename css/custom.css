@@ -2460,7 +2460,7 @@ header.main-header .header-sticky.active {
 
 .footer-social-links ul li a i {
   font-size: 18px;
-  color: inherit;
+  color: #000;
 }
 
 .footer-links h3 {
@@ -2544,6 +2544,11 @@ header.main-header .header-sticky.active {
   border-top: 1px solid var(--dark-divider-color);
   padding: 40px 0;
   /*  margin-top: 60px; */
+}
+
+.footer-copyright p {
+
+  color: #fff !important;
 }
 
 .footer-copyright-text p {

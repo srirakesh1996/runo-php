@@ -319,18 +319,18 @@
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/call-summary.webp" alt="Image 1" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/sentiment.webp" alt="Image 2" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/assistant.webp" alt="Image 3" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/recording.webp" alt="Image 4" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/team.webp" alt="Image 5" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/callerid.webp" alt="Image 6" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/remind.webp" alt="Image 7" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ad.webp" alt="Image 8" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ala.webp" alt="Image 9" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/lid.webp" alt="Image 10" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/ca.webp" alt="Image 11" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile-version/wi.webp" alt="Image 12" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/call-summary.webp" alt="Image 1" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/sentiment.webp" alt="Image 2" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/assistant.webp" alt="Image 3" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/recording.webp" alt="Image 4" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/team.webp" alt="Image 5" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/callerid.webp" alt="Image 6" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/remind.webp" alt="Image 7" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ad.webp" alt="Image 8" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ala.webp" alt="Image 9" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/lid.webp" alt="Image 10" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ca.webp" alt="Image 11" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/wi.webp" alt="Image 12" /></div>
                         </div>
                     </div>
 
