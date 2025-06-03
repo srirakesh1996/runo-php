@@ -1,20 +1,30 @@
 <!-- Core Libraries (Deferred) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/https://runo-ai-website.onrender.com/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
 <!-- Plugins (Deferred) -->
-<script src="https://runo-ai-website.onrender.com/js/jquery.slicknav.js" defer></script>
-<script src="https://runo-ai-website.onrender.com/js/swiper-bundle.min.js" defer></script>
-<script src="https://runo-ai-website.onrender.com/js/jquery.magnific-popup.min.js" defer></script>
-<script src="https://runo-ai-website.onrender.com/js/SmoothScroll.js" defer></script>
-<script src="https://runo-ai-website.onrender.com/js/parallaxie.js" defer></script>
+<script src="../js/jquery.slicknav.js" defer></script>
+
+<script src="../js/jquery.magnific-popup.min.js" defer></script>
+<script src="../js/SmoothScroll.js" defer></script>
+<script src="../js/parallaxie.js" defer></script>
 <!-- WOW.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
-<!-- Custom JS (Deferred) -->
-<script src="https://runo-ai-website.onrender.com/js/function.js" defer></script>
 
-<!-- Sticky Header and Preloader JS -->
+<!-- Custom JS (Deferred) -->
+<script src="../js/function.js" defer></script>
+
+
+<!-- UTM Tracker -->
 <script>
+   const params = new URLSearchParams(window.location.search);
+   const utmSource = params.get("utm_source");
+   const utmCampaign = params.get("utm_campaign");
+   if (utmSource) localStorage.setItem("utm_source", utmSource);
+   if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
+
+   // Sticky Header and Preloader JS
+
    window.addEventListener('scroll', function() {
       const header = document.querySelector('.header-sticky');
       if (window.scrollY > 100) {
@@ -32,10 +42,9 @@
          setTimeout(() => (preloader.style.display = 'none'), 400);
       }
    });
-</script>
 
-<!-- Lazy-load PopupSmart Chat Widget after 3s to improve INP -->
-<script>
+   //Lazy-load PopupSmart Chat Widget after 3s to improve INP 
+
    window.addEventListener('load', () => {
       setTimeout(() => {
          const script = document.createElement('script');
@@ -72,6 +81,6 @@
             });
          };
          document.body.appendChild(script);
-      }, 3000);
+      }, 6000);
    });
 </script>

@@ -65,3 +65,12 @@
 
 <!-- Swiper JS (CDN, defer to reduce INP impact) -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Hero Background Image (used in CSS) -->
+<link rel="preload" as="image" href="/img/banner-img.webp" type="image/webp">
+
+<!-- Initial Hero Web Image (used in <img id="webImage">) -->
+<link rel="preload" as="image" href="/img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)">
+
+<!-- Initial Hero Mobile Image (first swiper slide) -->
+<link rel="preload" as="image" href="/img/hero-images/mobile-version/call-summary.webp" type="image/webp" media="(max-width: 767px)">

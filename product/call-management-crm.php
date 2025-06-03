@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://runo-ai-website.onrender.com/img/telecaller/telecaller.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img src="../img/call-management/call-management.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
                 </div>
             </div>
         </div>
