@@ -17,7 +17,7 @@
                 <div class="swiper-wrapper" data-cursor-text="Drag">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                             <div class="testimonial-header">
                                 <p>RUNO is one unique mobile-based calling solution we came across 3 months
                                     back. It quickly helped us to streamline our sales process and added quality
@@ -43,7 +43,7 @@
                     </div>
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                             <div class="testimonial-header">
                                 <p>As a fast growing organization in edu-tech, always felt the need to manage
                                     business calls for enhanced customer experience.</p>
@@ -69,7 +69,7 @@
                     </div>
                     <!-- Slide 3 (Duplicate as example) -->
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                             <div class="testimonial-header">
                                 <p>Great app! It helps track my telesales team's calls and live status, and the
                                     custom CRM is very useful. The support team responds quickly. We can now
