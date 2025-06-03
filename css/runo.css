@@ -2720,3 +2720,8 @@ body.modal-open {
   /* Added for non-webkit browsers */
   display: inline-block !important;
 }
+
+.list-unstyled {
+
+  font-size: 16px;
+}
