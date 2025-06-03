@@ -273,16 +273,27 @@ h2.gradient-text {
 }
 
 .submenu-list {
-  background: hwb(0 13% 87%) !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: hwb(0deg 100% 0%) !important;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .submenu-list {
+    box-shadow: none !important;
+
+  }
+}
+
+
 
 .submenu-list li {
   color: #fff !important;
 }
 
 .submenu-list li a {
-  color: #fff !important;
+
+
   font-size: 15px;
   font-weight: 500;
   text-align: left !important;
