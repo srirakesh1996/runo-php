@@ -1,5 +1,5 @@
 <!-- Clients Section Start -->
-<section class="clients-section py-80">
+<section class="clients-section py-80" style="overflow: hidden;">
   <div class="container">
     <div class="row">
       <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
@@ -8,23 +8,23 @@
     </div>
 
     <div class="row mt-50">
-      <div class="clients-logos-wrapper">
-        <div class="clients-logos">
-          <!-- Logos (first set) -->
-          <img src="img/clients/hyundai.webp" alt="Client 1">
-          <img src="img/clients/mer-benz.webp" alt="Client 2">
-          <img src="img/clients/upstox.webp" alt="Client 3">
-          <img src="img/clients/ayurveda-logo.webp" alt="Client 4">
-          <img src="img/clients/indira-logo.webp" alt="Client 5">
-          <img src="img/clients/pro-grad-logo.webp" alt="Client 6">
+      <div class="clients-logos-wrapper" style="overflow: hidden; position: relative;">
+        <div class="clients-logos" style="display: flex; gap: 40px; animation: scroll-logos 25s linear infinite; width: max-content;">
+          <!-- Logos (set 1) -->
+          <img loading="lazy" src="img/clients/hyundai.webp" alt="Hyundai" width="120" height="60">
+          <img loading="lazy" src="img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60">
+          <img loading="lazy" src="img/clients/upstox.webp" alt="Upstox" width="120" height="60">
+          <img loading="lazy" src="img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60">
+          <img loading="lazy" src="img/clients/indira-logo.webp" alt="Indira" width="120" height="60">
+          <img loading="lazy" src="img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60">
 
-          <!-- Logos (duplicate set for infinite loop) -->
-          <img src="img/clients/hyundai.webp" alt="Client 1">
-          <img src="img/clients/mer-benz.webp" alt="Client 2">
-          <img src="img/clients/upstox.webp" alt="Client 3">
-          <img src="img/clients/ayurveda-logo.webp" alt="Client 4">
-          <img src="img/clients/indira-logo.webp" alt="Client 5">
-          <img src="img/clients/pro-grad-logo.webp" alt="Client 6">
+          <!-- Logos (set 2 - duplicate for infinite loop) -->
+          <img loading="lazy" src="img/clients/hyundai.webp" alt="Hyundai" width="120" height="60" aria-hidden="true">
+          <img loading="lazy" src="img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60" aria-hidden="true">
+          <img loading="lazy" src="img/clients/upstox.webp" alt="Upstox" width="120" height="60" aria-hidden="true">
+          <img loading="lazy" src="img/clients/ayurveda-logo.webp" alt="Ayurveda" width="120" height="60" aria-hidden="true">
+          <img loading="lazy" src="img/clients/indira-logo.webp" alt="Indira" width="120" height="60" aria-hidden="true">
+          <img loading="lazy" src="img/clients/pro-grad-logo.webp" alt="ProGrad" width="120" height="60" aria-hidden="true">
         </div>
       </div>
     </div>
