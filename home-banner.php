@@ -258,8 +258,7 @@
                         <!-- Images -->
                         <div class="col-lg-8 order-2 order-lg-1 text-center" style="position: relative;left: 40px;z-index: -1;">
                             <div class="images-wrapper">
-                                <img loading="lazy" id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard"
-                                    class="img-fluid web-image rounded" />
+                                <img fetchpriority="high" loading="eager" id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard" class="img-fluid web-image rounded" />
                                 <!--     <img loading="lazy" id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
                                     class="img-fluid mobile-image rounded" />-->
                             </div>

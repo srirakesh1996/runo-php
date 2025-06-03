@@ -22,9 +22,9 @@
    const utmCampaign = params.get("utm_campaign");
    if (utmSource) localStorage.setItem("utm_source", utmSource);
    if (utmCampaign) localStorage.setItem("utm_campaign", utmCampaign);
-</script>
-<!-- Sticky Header and Preloader JS -->
-<script>
+
+   // Sticky Header and Preloader JS
+
    window.addEventListener('scroll', function() {
       const header = document.querySelector('.header-sticky');
       if (window.scrollY > 100) {
@@ -42,9 +42,9 @@
          setTimeout(() => (preloader.style.display = 'none'), 400);
       }
    });
-</script>
-<!-- Lazy-load PopupSmart Chat Widget after 3s to improve INP -->
-<script>
+
+   //Lazy-load PopupSmart Chat Widget after 3s to improve INP 
+
    window.addEventListener('load', () => {
       setTimeout(() => {
          const script = document.createElement('script');
@@ -81,6 +81,6 @@
             });
          };
          document.body.appendChild(script);
-      }, 3000);
+      }, 6000);
    });
 </script>
