@@ -2720,8 +2720,3 @@ body.modal-open {
   /* Added for non-webkit browsers */
   display: inline-block !important;
 }
-
-.list-inline-item a {
-
-  color: #fff !important;
-}
