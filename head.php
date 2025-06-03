@@ -3,8 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- SEO Meta -->
-<meta name="description" content="Runo Call Management App to manage calls at SIM level. Get Call Tracking for outbound sales calls with in-built CRM. Try the best telecaller app for Free.">
-<meta name="keywords" content="Call Management CRM, Telecalling CRM, Outbound CRM, Call Center CRM, Auto Dialer, Telecalling App, Dialer App">
 <meta name="robots" content="no-index, follow">
 <meta name="language" content="English">
 

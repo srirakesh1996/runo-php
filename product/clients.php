@@ -1,6 +1,6 @@
   <div class="row mt-50">
       <div class="clients-logos-wrapper" style="overflow: hidden; position: relative;">
-          <div class="clients-logos" style="display: flex; gap: 40px; animation: scroll-logos 25s linear infinite; width: max-content;">
+          <div class="clients-logos">
               <!-- Logos (set 1) -->
               <img loading="lazy" src="../img/clients/hyundai.webp" alt="Hyundai" width="120" height="60">
               <img loading="lazy" src="../img/clients/mer-benz.webp" alt="Mercedes Benz" width="120" height="60">

@@ -1,8 +1,10 @@
 <?php include('doctype.php'); ?>
 
 <head>
-    <!-- Page Title -->
-    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+
+    <title>Lead Management CRM App – Real-Time Sales Tracking</title>
+    <meta name="description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
+
     <?php include('head.php'); ?>
 </head>
 

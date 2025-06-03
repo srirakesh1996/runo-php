@@ -2,8 +2,8 @@
 
 <head>
 
-  <!-- Page Title -->
-  <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+  <title>Runo – World’s First AI-Powered SIM-Based Call CRM</title>
+  <meta name="description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
 
   <?php include('head.php'); ?>
 
