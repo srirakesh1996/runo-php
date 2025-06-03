@@ -512,7 +512,7 @@
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
                 <h2>
                     Make Smarter Calls With <br>
-                    <span class="gradient-text" style="background: linear-gradient(92.13deg, #FF5730 32.73%, #5E33EC 43.87%, #0065F2 55%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">
+                    <span class="gradient-text">
                         Runo’s AI
                     </span> Tools
 
