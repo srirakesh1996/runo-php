@@ -622,7 +622,7 @@ header.main-header .header-sticky.active {
 }
 
 .header-sticky.active .submenu ul li a {
-  color: #fff !important;
+  color: #111111 !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -712,7 +712,7 @@ header.main-header .header-sticky.active {
 
 .main-menu ul ul li a:hover,
 .main-menu ul ul li a:focus {
-  color: var(--white-color);
+  color: #111111;
   background-color: transparent;
   padding: 8px 20px 8px 23px !important;
 }
