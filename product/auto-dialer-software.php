@@ -1,8 +1,10 @@
 <?php include('doctype.php'); ?>
 
 <head>
-    <!-- Page Title -->
-    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+
+    <title>Auto Dialer Software for SIM-Based Calling with CRM</title>
+    <meta name="description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
+
     <?php include('head.php'); ?>
 </head>
 

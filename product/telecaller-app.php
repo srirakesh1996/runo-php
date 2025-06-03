@@ -2,8 +2,9 @@
 
 <head>
 
-    <!-- Page Title -->
-    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+    <title>SIM-Based Telecaller App with Built-In CRM</title>
+    <meta name="description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+
 
     <?php include('head.php'); ?>
 

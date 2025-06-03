@@ -2,8 +2,8 @@
 
 <head>
 
-    <!-- Page Title -->
-    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+    <title>Call Center App for Sales Calling with CRM & Tracking</title>
+    <meta name="description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
 
     <?php include('head.php'); ?>
 

@@ -1,8 +1,9 @@
 <?php include('doctype.php'); ?>
 
 <head>
-    <!-- Page Title -->
-    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+    <title>AI-Enabled SIM-Based Call Management CRM App</title>
+    <meta name="description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
+
     <?php include('head.php'); ?>
 </head>
 
