@@ -64,11 +64,5 @@
 <!-- Swiper JS (CDN, defer to reduce INP impact) -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-<!-- Hero Background Image (used in CSS) -->
-<link rel="preload" as="image" href="img/banner-img.webp" type="image/webp">
 
-<!-- Initial Hero Web Image (used in <img id="webImage">) -->
-<link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)">
-
-<!-- Initial Hero Mobile Image (first swiper slide) -->
-<link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" media="(max-width: 767px)">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
