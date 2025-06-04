@@ -50,12 +50,8 @@
 </script>
 
 <!-- Font Awesome (CDN) -->
-<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-	integrity="sha512-vALH+lMIG+YiQtxv+1BNXz7fhcFt5fhFfQPBKJxK7t0OVP9B16czGmRWef2a9tz+uVplN0u6Qe5Rh6GHmZsEVQ=="
-	crossorigin="anonymous"
-	referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
 
 <!-- Swiper CSS (from CDN) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">

@@ -82,17 +82,17 @@
                         <div class="row">
                            <div class="form-group col-md-12 mb-4">
                               <label for="name">Your Name</label>
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                              <input type="text" name="your_name" class="form-control" id="name" placeholder="Your Name">
                               <small class="text-danger d-none" id="nameError2">Name is required and must be less than 30 characters.</small>
                            </div>
                            <div class="form-group col-md-12 mb-4">
                               <label for="email">Your Email</label>
-                              <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+                              <input type="email" name="your_email" class="form-control" id="email" placeholder="Your Email">
                               <small class="text-danger d-none" id="emailError2">Valid email is required.</small>
                            </div>
                            <div class="form-group col-md-12 mb-4">
                               <label for="phone">Your Phone</label>
-                              <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone">
+                              <input type="text" name="your_phone" class="form-control" id="phone" placeholder="Your Phone">
                               <small class="text-danger d-none" id="phoneError2">Phone number is required, numeric, and max 10 digits.</small>
                            </div>
                            <div class="form-group col-md-12 mb-3">
