@@ -51,14 +51,6 @@
 	});
 </script>
 
-<!-- Font Awesome (CDN) -->
-<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-	integrity="sha512-vALH+lMIG+YiQtxv+1BNXz7fhcFt5fhFfQPBKJxK7t0OVP9B16czGmRWef2a9tz+uVplN0u6Qe5Rh6GHmZsEVQ=="
-	crossorigin="anonymous"
-	referrerpolicy="no-referrer" />
-
 <!-- Swiper CSS (from CDN) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 
@@ -67,3 +59,5 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />

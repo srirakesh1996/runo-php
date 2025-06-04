@@ -13,11 +13,11 @@
                         data-uuid="<?php echo htmlspecialchars(!empty($form_uuid) ? $form_uuid : '540c6a38-0072-4c48-9fac-b443f814a999'); ?>">
 
                         <div class="mb-3">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" />
+                            <input type="text" name="your_name" class="form-control" id="name" placeholder="Name" />
                             <small class="text-danger d-none" id="nameError">Name is required.</small>
                         </div>
                         <div class="mb-3">
-                            <input type="email" name="email" class="form-control" id="email" placeholder="Email Address" />
+                            <input type="email" name="your_email" class="form-control" id="email" placeholder="Email Address" />
                             <small class="text-danger d-none" id="emailError">Valid email is required.</small>
                         </div>
                         <div class="mb-3">
@@ -134,7 +134,7 @@
 
                     const pagePath = window.location.pathname;
                     let cleanedPath = pagePath.replace(/^\/|\/$/g, ""); // remove leading/trailing slashes
-                    obj["custom_page"] = cleanedPath ? cleanedPath : "Others";
+                    obj["custom_page"] = cleanedPath ? cleanedPath : "Home";
 
                     return obj;
                 }, {});
