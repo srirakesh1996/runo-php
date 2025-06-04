@@ -4,6 +4,7 @@
 
     <title>Lead Management CRM App – Real-Time Sales Tracking</title>
     <meta name="description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
+    <link rel="canonical" href="https://www.runo.ai/product/lead-management-crm" />
 
     <?php include('head.php'); ?>
 </head>
@@ -54,8 +55,23 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-lg-6" style="margin: 40px 0px;">
+                    <div class="image-wrapper">
+                    
+                        <img src="../img/lead-management/sales-team.webp" alt="Main Portrait" class="pcenter-image wow fadeIn" data-wow-delay="0.2s">
+                    
+                        <img src="../img/lead-management/sales-exec.webp" alt="Left Floating Box"
+                            class="pside-image pleft-image wow fadeInLeft" data-wow-delay="0.4s">
+                        <img src="../img/lead-management/sales-graph.webp" alt="Right Floating Box"
+                            class="pside-image pright-image wow fadeInRight" data-wow-delay="0.4s">
+                        <img src="../img/lead-management/progress.webp" alt="Right Floating Box"
+                            class="pside-image pbottom-image wow fadeInRight" data-wow-delay="0.4s">
+                    </div>
+
+                </div>-->
                 <div class="col-lg-6">
-                    <img src="../img/lead-management/dummy.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img src="../img/lead-management/lead-management.webp" class="pro-img img-fluid" alt="Runo Call Center CRM">
+
                 </div>
             </div>
         </div>

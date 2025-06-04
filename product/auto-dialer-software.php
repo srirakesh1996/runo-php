@@ -5,6 +5,9 @@
     <title>Auto Dialer Software for SIM-Based Calling with CRM</title>
     <meta name="description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
 
+    <link rel="canonical" href="https://www.runo.ai/product/auto-dialer-software" />
+
+
     <?php include('head.php'); ?>
 </head>
 
@@ -52,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="../img/auto-dialer/dummy.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img src="../img/auto-dialer/auto-dialer.webp" class="pro-img img-fluid" alt="Runo Auto Dialer CRM">
                 </div>
             </div>
         </div>

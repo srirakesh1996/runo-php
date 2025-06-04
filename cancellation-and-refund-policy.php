@@ -34,24 +34,37 @@
          <div class="container legal-content">
             <div class="row">
                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
-                  <p>Our watch-word is total customer satisfaction. In case you are not satisfied with the services provided, your money will be refunded, after due investigation and provided the reasons attributed by you are genuine.</p>
-                  <p>The fine print provides all relevant details about the Product or Services which you purchase, and we request you to go through the fine print carefully before your procurement.</p>
-                  <h4>Cancellation Policy</h4>
+
+                  <p>Our watch-word is total customer satisfaction. In case you are not satisfied with the services provided, your money will be refunded, after due investigation and provided the reasons attributed by you are genuine. The fine print provides all relevant details about the Product or Services which you purchase, and we request you to go through the fine print carefully before your procurement.</p>
+
+                  <p>In case you are displeased with our Product / Services, you have a right to cancel your Order and request for a refund from us. Details of our Policy for cancellation and refund will be as under:</p>
+
+                  <h4>CANCELLATION POLICY</h4>
+
                   <p>For cancellation of your Order, please check in our App for the “contact us” link, quoting a valid reason AND also by providing your unique reference number.</p>
-                  <p>Please note that renewal after the validity period is NOT automatic, unless payment is made in advance, and the same is realized/received by our Company.</p>
-                  <p>Request for renewal received later than 3 business days prior to the end of the current contract/service period will result in a cancellation of services for the next renewal/service period.</p>
-                  <p>However, the Contract will be renewed within 3 working days on receipt of your Request and on receipt of specified Service Charges.</p>
-                  <h4>Refund Policy</h4>
+
+                  <p>Please note that renewal after the validity period is <strong>NOT automatic</strong>, unless payment is made in advance, and the same is realized/received by our Company.</p>
+
+                  <p>Request for renewal received later than <strong>3 business days prior</strong> to the end of the current contract/service period will result in a cancellation of services for the next renewal/service period.</p>
+
+                  <p>However, the Contract will be renewed within <strong>3 working days</strong> on receipt of your Request and on receipt of specified Service Charges.</p>
+
+                  <h4>REFUND POLICY</h4>
+
                   <p>We will try our best to create suitable design concepts for our Clients, within the frame of our Company Policy on the subject.</p>
-                  <p>In any case, if you are not satisfied with our product/services, we will try our best to measure up to your level of expectation, and still, if dissatisfaction persists, we will provide a refund, within two weeks of agreement for such Refund.</p>
-                  <p>The refund will be made in the same mode as we received the payment i.e. in case of payment:</p>
+
+                  <p>In any case, if you are not satisfied with our product/services, we will try our best to measure up to your level of expectation, and still, if dissatisfaction persists, we will provide a refund, within <strong>two weeks</strong> of agreement for such Refund.</p>
+
+                  <p>The refund will be made in the same mode as we received the payment. For example:</p>
+
                   <ul>
-                     <li>Through Credit Card, a refund will be made to the same credit card used at the time of purchase;</li>
-                     <li>Through Payment Gateway, a refund will be made to the same Bank account;</li>
-                     <li>Through Cheque / DD, a refund will be made by way of a crossed Cheque in your favour.</li>
+                     <li><strong>Credit Card:</strong> A refund will be made to the same credit card used at the time of purchase.</li>
+                     <li><strong>Payment Gateway:</strong> A refund will be made to the same Bank account.</li>
+                     <li><strong>Cheque / DD:</strong> A refund will be made by way of a crossed Cheque in your favour.</li>
                   </ul>
-                  <p>Note: For any further clarifications on the subject, we request you to seek clarification/s, in writing, before making your final decision to procure the product/services.</p>
-                  <p>2024 © Rutakshi Technologies Private Limited. All Rights Reserved.</p>
+
+                  <p><strong>Note:</strong> For any further clarifications on the subject, we request you to seek clarification(s), in writing, before making your final decision to procure the product/services.</p>
+                  <p><strong>2024 © Rutakshi Technologies Private Limited. All Rights Reserved</strong></p>
                </div>
             </div>
          </div>

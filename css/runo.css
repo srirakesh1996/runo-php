@@ -12,6 +12,44 @@
   font-size: 12px !important;
 }
 
+#phone {
+  padding-left: 100px !important;
+}
+
+#phone2 {
+  padding-left: 100px !important;
+}
+
+
+.iti {
+
+  width: 100% !important;
+}
+
+.iti__country-list {
+  width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .iti__country-list {
+    width: 250px;
+  }
+}
+
+
+.iti--separate-dial-code .iti__selected-dial-code {
+  color: #646464;
+  margin-left: 6px;
+}
+
+.iti__country-name,
+.iti__flag-box {
+  color: #424242;
+  margin-right: 6px;
+}
+
+
+
 #freechatpopup {
   margin-bottom: 30px !important;
 
@@ -2724,4 +2762,93 @@ body.modal-open {
 .list-unstyled {
 
   font-size: 16px;
+}
+
+.pcenter-image {
+  width: 80%;
+}
+
+.pside-image {
+  position: absolute;
+  width: 170px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: UpDown 2s ease-in-out infinite;
+}
+
+.pleft-image {
+  left: 0px;
+  top: 55%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+
+.pright-image {
+  right: -0px;
+  top: 60%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.pbottom-image {
+  width: 70%;
+  bottom: -25%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+@keyframes UpDown {
+
+  0%,
+  100% {
+    transform: translateY(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50%) translateY(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .pbottom-image {
+    width: 80% !important;
+
+  }
+
+  .pside-image {
+    width: 35%;
+  }
+
+  .pleft-image {
+    left: 0px;
+  }
+
+  .pright-image {
+    right: 0px;
+  }
+
+  .pcenter-image {
+    width: 90%;
+  }
+}
+
+.pro-img {
+
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+
+}
+
+@media (max-width: 768px) {
+  .pro-img {
+
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+  }
+
 }

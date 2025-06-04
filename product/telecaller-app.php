@@ -4,6 +4,7 @@
 
     <title>SIM-Based Telecaller App with Built-In CRM</title>
     <meta name="description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+    <link rel="canonical" href="https://www.runo.ai/product/telecaller-app" />
 
 
     <?php include('head.php'); ?>
@@ -81,7 +82,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="https://runo-ai-website.onrender.com/img/telecaller/telecaller.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img src="../img/telecaller/telecaller.webp" class="pro-img img-fluid" alt="Runo Telecaller CRM">
 
                 </div>
             </div>
@@ -129,7 +130,7 @@
                                     <p>No more shuffling through Excel sheets. Leads are auto-assigned and queued for calling, so your agents can start dialing instantly.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                                    <img src="../img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -138,7 +139,7 @@
                                     <p>Call directly from your phone’s SIM without needing a cloud setup or high-speed internet.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                                    <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Tab 2 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -147,7 +148,7 @@
                                     <p>View live call activity, follow-up status, and team performance in one dashboard.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Tab 3 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -156,7 +157,7 @@
                                     <p>One app replaces your dialer, CRM, and call tracker. No extra tools. No cloud bills.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img src="../img/telecaller/cost.webp" class="img-preview" alt="Tab 4 Image">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -165,7 +166,7 @@
                                     <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Tab 5 Image">
                                 </div>
                             </div>
 
@@ -179,19 +180,19 @@
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
+                            <img src="../img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/cloud.webp" class="img-preview" alt="Tab 2 Image">
+                            <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Tab 2 Image">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/team.webp" class="img-preview" alt="Tab 3 Image">
+                            <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Tab 3 Image">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/cut60.webp" class="img-preview" alt="Tab 4 Image">
+                            <img src="../img/telecaller/cost.webp" class="img-preview" alt="Tab 4 Image">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img src="https://runo-ai-website.onrender.com/img/telecaller/zero.webp" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Tab 5 Image">
                         </div>
 
                     </div>
@@ -330,29 +331,29 @@
 
             <div class="row d-none d-md-flex">
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                    <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                     <h5>Auto Dialer</h5>
                     <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                    <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                     <h5>Advanced Caller ID</h5>
                     <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                    <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
                     <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                     <h5>Live Performance Dashboard</h5>
                     <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                     <h5>Follow-Up Alerts</h5>
                     <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
                 </div>
@@ -361,31 +362,31 @@
 
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
+                    <img src="../img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
                     <h5>Lead Management</h5>
                     <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                 </div>
 
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>Auto Lead Allocation</h5>
                     <p class="feat-text">Distribute leads instantly to the right agent based on pre-set rules.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
+                    <img src="../img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
                     <h5>CRM Integration</h5>
                     <p class="feat-text">Access lead details, call notes, and previous interactions without leaving the app.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
                     <h5>Real-Time Team Tracking</h5>
                     <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
                 </div>
 
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
+                    <img src="../img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
                     <h5>WhatsApp Templates</h5>
                     <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
                 </div>
@@ -398,37 +399,37 @@
                 <div class="swiper-wrapper text-center">
                     <!-- Feature Slides -->
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                        <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                         <h5>Auto Dialer</h5>
                         <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
+                        <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                         <h5>Advanced Caller ID</h5>
                         <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
                     </div>
 
 
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
+                        <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
                         <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                         <h5>Live Performance Dashboard</h5>
                         <p class="feat-text">Track daily calling metrics, follow-ups, and lead movement with visual reports.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <img src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                         <h5>Follow-Up Alerts</h5>
                         <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
                     </div>
 
 
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
+                        <img src="../img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
                         <h5>Lead Management</h5>
                         <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                     </div>
@@ -436,22 +437,22 @@
 
 
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>Auto Lead Allocation</h5>
                         <p class="feat-text">Distribute leads instantly to the right agent based on pre-set rules.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
+                        <img src="../img/feature/crm.webp" class="img-fluid mb-2" alt="CRM Integration">
                         <h5>CRM Integration</h5>
                         <p class="feat-text">Access lead details, call notes, and previous interactions without leaving the app.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
                         <h5>Real-Time Team Tracking</h5>
                         <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
+                        <img src="../img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
                         <h5>WhatsApp Templates</h5>
                         <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
                     </div>
@@ -531,7 +532,7 @@
                         <p class="feat-text">Get a complete, accurate text version of every call. No need to re-listen or take notes.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/ts.webp" class="img-fluid" alt="AI Call Transcripts">
+                        <img src="../img/feature/ts.webp" class="img-fluid" alt="AI Call Transcripts">
                     </div>
                 </div>
 
@@ -542,7 +543,7 @@
                         <p class="feat-text">View the key highlights from each call. Quickly understand what was discussed and what needs to happen next.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/8.webp" class="img-fluid" alt="AI Call Summaries">
+                        <img src="../img/feature/8.webp" class="img-fluid" alt="AI Call Summaries">
                     </div>
                 </div>
 
@@ -553,7 +554,7 @@
                         <p class="feat-text">See whether a call went positively or negatively. Spot unhappy leads before they drop off.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/5.webp" class="img-fluid" alt="AI Sentiment Analysis">
+                        <img src="../img/feature/5.webp" class="img-fluid" alt="AI Sentiment Analysis">
                     </div>
                 </div>
 
@@ -564,7 +565,7 @@
                         <p class="feat-text">Captures key takeaways, urgency level, and action items from every call for faster follow-ups.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/mom.webp" class="img-fluid" alt="Meeting Notes (MoM)">
+                        <img src="../img/feature/mom.webp" class="img-fluid" alt="Meeting Notes (MoM)">
                     </div>
                 </div>
 
@@ -575,7 +576,7 @@
                         <p class="feat-text">Check how much your agents talk vs how much the customer speaks. Helps improve listening skills and pitch balance.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/dummy2.png" class="img-fluid" alt="Agent-Customer Talk Ratio">
+                        <img src="../img/feature/agent-customer.webp" class="img-fluid" alt="Agent-Customer Talk Ratio">
                     </div>
                 </div>
 
@@ -586,7 +587,7 @@
                         <p class="feat-text">Every call gets a quality score based on clarity, filler words, and interruptions. Use it for coaching & performance reviews.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/dummy2.png" class="img-fluid" alt="Call Quality Scoring">
+                        <img src="../img/feature/call-quality.webp" class="img-fluid" alt="Call Quality Scoring">
                     </div>
                 </div>
 
@@ -597,7 +598,7 @@
                         <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://runo-ai-website.onrender.com/img/feature/4.webp" class="img-fluid" alt="AI Assistant">
+                        <img src="../img/feature/4.webp" class="img-fluid" alt="AI Assistant">
                     </div>
                 </div>
             </div>
@@ -607,49 +608,49 @@
             <div class="feature-mobile d-block d-md-none mt-4" style="background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 9.63%, rgba(255, 255, 255, 0) 16.05%);">
                 <!-- Feature Cards -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/ts.webp" class="card-img-top img-fluid mb-3" alt="AI Call Transcripts">
+                    <img src="../img/feature/ts.webp" class="card-img-top img-fluid mb-3" alt="AI Call Transcripts">
                     <div class="card-body">
                         <h5 class="card-title">AI Call Transcripts</h5>
                         <p class="feat-text">Get a complete, accurate text version of every call. No need to re-listen or take notes.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/8.webp" class="card-img-top img-fluid mb-3" alt="AI Call Summaries">
+                    <img src="../img/feature/8.webp" class="card-img-top img-fluid mb-3" alt="AI Call Summaries">
                     <div class="card-body">
                         <h5 class="card-title">AI Call Summaries</h5>
                         <p class="feat-text">View the key highlights from each call. Quickly understand what was discussed and what needs to happen next.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/5.webp" class="card-img-top img-fluid mb-3" alt="Sentiment Analysis">
+                    <img src="../img/feature/5.webp" class="card-img-top img-fluid mb-3" alt="Sentiment Analysis">
                     <div class="card-body">
                         <h5 class="card-title">Sentiment Analysis</h5>
                         <p class="feat-text">See whether a call went positively or negatively. Spot unhappy leads before they drop off.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/mom.webp" class="card-img-top img-fluid mb-3" alt="Meeting Notes (MoM)">
+                    <img src="../img/feature/mom.webp" class="card-img-top img-fluid mb-3" alt="Meeting Notes (MoM)">
                     <div class="card-body">
                         <h5 class="card-title">Meeting Notes (MoM)</h5>
                         <p class="feat-text">Captures key takeaways, urgency level, and action items from every call for faster follow-ups.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/dummy2.png" class="card-img-top img-fluid mb-3" alt="Agent-Customer Talk Ratio">
+                    <img src="../img/feature/agent-customer.webp" class="card-img-top img-fluid mb-3" alt="Agent-Customer Talk Ratio">
                     <div class="card-body">
                         <h5 class="card-title">Agent-Customer Talk Ratio</h5>
                         <p class="feat-text">Check how much your agents talk vs how much the customer speaks. Helps improve listening skills and pitch balance.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/dummy2.png" class="card-img-top img-fluid mb-3" alt="Call Quality Scoring">
+                    <img src="../img/feature/call-quality.webp" class="card-img-top img-fluid mb-3" alt="Call Quality Scoring">
                     <div class="card-body">
                         <h5 class="card-title">Call Quality Scoring</h5>
                         <p class="feat-text">Every call gets a quality score based on clarity, filler words, and interruptions. Use it for coaching & performance reviews.</p>
                     </div>
                 </div>
                 <div class="card border-0 shadow-sm mb-4 text-center">
-                    <img src="https://runo-ai-website.onrender.com/img/feature/4.webp" class="card-img-top img-fluid mb-3" alt="AI Assistant">
+                    <img src="../img/feature/4.webp" class="card-img-top img-fluid mb-3" alt="AI Assistant">
                     <div class="card-body">
                         <h5 class="card-title">AI Assistant</h5>
                         <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
@@ -861,7 +862,7 @@
             </div>
             <!-- Right Image -->
             <div class="col-md-5 text-md-end text-center security-badges">s
-                <img src="https://runo-ai-website.onrender.com/img/security.webp" alt="ISO Badge" class="img-fluid">
+                <img src="../img/security.webp" alt="ISO Badge" class="img-fluid">
             </div>
         </div>
     </section>
@@ -879,8 +880,8 @@
 
 
             <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="https://runo-ai-website.onrender.com/img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
 
