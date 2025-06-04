@@ -4,6 +4,7 @@
 
   <title>Runo – World’s First AI-Powered SIM-Based Call CRM</title>
   <meta name="description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
+  <link rel="canonical" href="https://www.runo.ai/" />
 
   <?php include('head.php'); ?>
 

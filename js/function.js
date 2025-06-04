@@ -168,9 +168,11 @@
   }
   /* How It Work Active End */
 })(jQuery);
-
 function submitForm(formId, formData, formToken) {
-  $(`#${formId}-btn`).prop("disabled", true);
+  const $form = $(`#${formId}`);
+  const $btn = $form.find("button[type='submit']");
+
+  $btn.prop("disabled", true);
 
   // Retrieve UTM values from localStorage
   const utmSource = localStorage.getItem("utm_source");
@@ -181,7 +183,6 @@ function submitForm(formId, formData, formToken) {
   if (utmSource) formData["custom_utm source"] = utmSource;
   if (utmCampaign) formData["custom_utm campaign"] = utmCampaign;
 
-  // ✅ Print data to console
   console.log("Submitting form:", formId);
   console.log("Form Data Sent to API:", formData);
 
@@ -189,26 +190,28 @@ function submitForm(formId, formData, formToken) {
     type: "POST",
     url: `https://api-call-crm.runo.in/integration/webhook/wb/5d70a2816082af4daf1e377e/${formToken}`,
     data: JSON.stringify(formData),
+    contentType: "application/json",
     headers: {
       "Content-Type": "application/json",
     },
-    contentType: "application/json",
   })
     .done(function (data) {
       console.log("✅ Success:", data);
-      $(`#${formId}`)[0].reset();
-      $(`#${formId}-btn`).prop("disabled", false);
-      $("#requestDemoModal").modal("hide");
-      // Show thank you modal after a short delay
-      setTimeout(function () {
-        $("#thankYouModal").modal("show");
-      }, 50);
+      $form[0].reset();
+      $btn.prop("disabled", false);
+
+      // Check if form is inside a modal and close it if yes
+      const $modal = $form.closest(".modal");
+      if ($modal.length) {
+        $modal.modal("hide");
+      }
+
+      // Show thank you modal always
+      $("#thankYouModal").modal("show");
     })
-    .fail(function (a, b) {
-      console.log("✅ Problem is:", data);
-      console.log("❌ Error:", a, b);
-      $(`#${formId}`)[0].reset();
-      $(`#${formId}-btn`).prop("disabled", false);
+    .fail(function (jqXHR, textStatus, errorThrown) {
+      console.log("❌ Error:", textStatus, errorThrown);
+      $btn.prop("disabled", false);
       alert("Oops! Something went wrong.");
     });
 }
