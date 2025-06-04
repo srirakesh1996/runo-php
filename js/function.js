@@ -205,6 +205,7 @@ function submitForm(formId, formData, formToken) {
       }, 50);
     })
     .fail(function (a, b) {
+      console.log("✅ Problem is:", data);
       console.log("❌ Error:", a, b);
       $(`#${formId}`)[0].reset();
       $(`#${formId}-btn`).prop("disabled", false);
