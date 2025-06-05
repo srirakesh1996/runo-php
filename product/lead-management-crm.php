@@ -123,7 +123,7 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Tab 1 Image">
+                                    <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Multi-Source Lead Capture Illustration">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -133,7 +133,7 @@
                                     <p>New leads are auto-allocated to your sales reps based on source, region, or custom rules, so there’s no waiting, no manual work, and no missed leads</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Tab 2 Image">
+                                    <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Instant Lead Allocation Graphic">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -144,7 +144,7 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Real-Time Lead Tracking Visual">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -154,7 +154,7 @@
                                     <p>Timely reminders help your team follow up before leads lose interest, keeping conversations active and deals moving</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Follow-Up Reminder Notification">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -165,7 +165,7 @@
                                     </p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Live Team Tracking Dashboard">
                                 </div>
                             </div>
                         </div>
@@ -175,22 +175,23 @@
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Tab 1 Image">
+                            <img src="../img/lead-management/lead-capture.webp" class="img-preview" alt="Multi-Source Lead Capture Illustration">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Tab 2 Image">
+                            <img src="../img/lead-management/lead-allocation.webp" class="img-preview" alt="Instant Lead Allocation Graphic">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Tab 3 Image">
+                            <img src="../img/lead-management/real-time-tracking.webp" class="img-preview" alt="Real-Time Lead Tracking Visual">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Tab 4 Image">
+                            <img src="../img/lead-management/follow-up.webp" class="img-preview" alt="Follow-Up Reminder Notification">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/lead-management/team-status.webp" class="img-preview" alt="Live Team Tracking Dashboard">
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -349,7 +350,7 @@
             <!-- Desktop Layout -->
             <div class="row d-none d-md-flex">
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img src="../img/feature/csv-upload.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>CSV Upload</h5>
                     <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                     </p>
@@ -397,7 +398,7 @@
                 <div class="swiper-wrapper text-center">
                     <!-- Feature Slides -->
                     <div class="swiper-slide">
-                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img src="../img/feature/csv-upload.webp" class=" img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>CSV Upload</h5>
                         <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                         </p>

@@ -55,24 +55,28 @@
     jQuery(function($) {
         const phoneInput = document.querySelector("#phone");
         const iti = window.intlTelInput(phoneInput, {
+            initialCountry: "auto", // <-- add this line
             geoIpLookup: function(callback) {
+
                 fetch('https://ipapi.co/json/')
-                    .then(function(res) {
+                    .then(res => {
+
                         return res.json();
                     })
-                    .then(function(data) {
+                    .then(data => {
+
                         const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+
                         callback(countryCode);
                     })
-                    .catch(function() {
+                    .catch(err => {
+                        console.error("geoIpLookup error:", err);
                         callback('in');
                     });
             },
-
             separateDialCode: true,
             utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
         });
-
         const fakeNumbers = [
             "1234567890", "0000000000", "1111111111", "2222222222",
             "3333333333", "4444444444", "5555555555", "6666666666",
@@ -124,6 +128,14 @@
             const allowedLengths = countryLengthMap[countryCode];
             return allowedLengths ? Math.max(...allowedLengths) : 15; // fallback to max 15 digits
         }
+
+        let phoneTouched = false;
+
+        $("#phone").on("focus input", function() {
+            phoneTouched = true;
+            validatePhone();
+        });
+
         // Restrict phone input to digits only and max length live
         phoneInput.addEventListener("input", () => {
             phoneInput.value = phoneInput.value.replace(/\D/g, "");
@@ -168,7 +180,10 @@
             const phoneNational = phoneInput.value;
             const selectedCountry = iti.getSelectedCountryData().iso2;
             const validLengths = countryLengthMap[selectedCountry];
-
+            if (!phoneTouched) {
+                $("#phoneError").addClass("d-none");
+                return false;
+            }
             if (!iti.isValidNumber()) {
                 $("#phoneError").text("Please enter a valid phone number.").removeClass("d-none");
                 return false;

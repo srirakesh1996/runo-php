@@ -367,7 +367,7 @@
                     <p class="feat-text">One timeline to view all past calls, messages, notes, and lead status updates.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Management">
+                    <img loading="lazy" src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                     <h5>Lead Management</h5>
                     <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion</p>
                 </div>
@@ -417,7 +417,7 @@
                         <p class="feat-text">Track the entire conversation history with each lead in one place</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Management">
+                        <img loading="lazy" src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                         <h5>Lead Management</h5>
                         <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion</p>
                     </div>

@@ -53,76 +53,89 @@
     jQuery(function($) {
         const phoneInput = document.querySelector("#phone");
         const iti = window.intlTelInput(phoneInput, {
+            initialCountry: "auto", // <-- add this line
             geoIpLookup: function(callback) {
+
                 fetch('https://ipapi.co/json/')
-                    .then(function(res) {
+                    .then(res => {
+
                         return res.json();
                     })
-                    .then(function(data) {
+                    .then(data => {
+
                         const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+
                         callback(countryCode);
                     })
-                    .catch(function() {
+                    .catch(err => {
+                        console.error("geoIpLookup error:", err);
                         callback('in');
                     });
             },
-
             separateDialCode: true,
             utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
         });
+
         const fakeNumbers = [
             "1234567890", "0000000000", "1111111111", "2222222222",
             "3333333333", "4444444444", "5555555555", "6666666666",
             "7777777777", "8888888888", "9999999999"
         ];
         const countryLengthMap = {
-            in: [10], // India
-            ae: [9], // United Arab Emirates
-            us: [10], // United States
-            ca: [10], // Canada
-            gb: [10, 11], // United Kingdom
-            sa: [9], // Saudi Arabia
-            ph: [10], // Philippines
-            id: [10, 11], // Indonesia
-            sg: [8], // Singapore
-            au: [9], // Australia
-            nz: [8, 9], // New Zealand
-            pk: [10], // Pakistan
-            bd: [10], // Bangladesh
-            lk: [9], // Sri Lanka
-            ng: [10, 11], // Nigeria
-            ke: [9], // Kenya
-            za: [9, 10], // South Africa
-            my: [9, 10], // Malaysia
-            th: [9, 10], // Thailand
-            vn: [9, 10], // Vietnam
-            kr: [9, 10, 11], // South Korea
-            jp: [10, 11], // Japan
-            cn: [11], // China
-            hk: [8], // Hong Kong
-            tw: [9, 10], // Taiwan
-            de: [10, 11], // Germany
-            fr: [9, 10], // France
-            it: [10], // Italy
-            es: [9], // Spain
-            br: [10, 11], // Brazil
-            mx: [10], // Mexico
-            ar: [10, 11], // Argentina
-            ru: [10], // Russia
-            tr: [10], // Turkey
-            eg: [10, 11], // Egypt
-            iq: [10], // Iraq
-            gt: [8] // Guatemala
+            in: [10],
+            ae: [9],
+            us: [10],
+            ca: [10],
+            gb: [10, 11],
+            sa: [9],
+            ph: [10],
+            id: [10, 11],
+            sg: [8],
+            au: [9],
+            nz: [8, 9],
+            pk: [10],
+            bd: [10],
+            lk: [9],
+            ng: [10, 11],
+            ke: [9],
+            za: [9, 10],
+            my: [9, 10],
+            th: [9, 10],
+            vn: [9, 10],
+            kr: [9, 10, 11],
+            jp: [10, 11],
+            cn: [11],
+            hk: [8],
+            tw: [9, 10],
+            de: [10, 11],
+            fr: [9, 10],
+            it: [10],
+            es: [9],
+            br: [10, 11],
+            mx: [10],
+            ar: [10, 11],
+            ru: [10],
+            tr: [10],
+            eg: [10, 11],
+            iq: [10],
+            gt: [8]
         };
 
         function getMaxLengthForCountry() {
             const countryCode = iti.getSelectedCountryData().iso2;
             const allowedLengths = countryLengthMap[countryCode];
-            return allowedLengths ? Math.max(...allowedLengths) : 15; // fallback to max 15 digits
+            return allowedLengths ? Math.max(...allowedLengths) : 15;
         }
+        let phoneTouched = false;
+
+        $("#phone").on("focus input", function() {
+            phoneTouched = true;
+            validatePhone();
+        });
+
 
         phoneInput.addEventListener("input", () => {
-            phoneInput.value = phoneInput.value.replace(/\D/g, ""); // only digits
+            phoneInput.value = phoneInput.value.replace(/\D/g, "");
             const maxLength = getMaxLengthForCountry();
             if (phoneInput.value.length > maxLength) {
                 phoneInput.value = phoneInput.value.slice(0, maxLength);
@@ -161,7 +174,10 @@
             const phoneNational = phoneInput.value;
             const selectedCountry = iti.getSelectedCountryData().iso2;
             const validLengths = countryLengthMap[selectedCountry];
-
+            if (!phoneTouched) {
+                $("#phoneError").addClass("d-none");
+                return false;
+            }
             if (!iti.isValidNumber()) {
                 $("#phoneError").text("Please enter a valid phone number.").removeClass("d-none");
                 return false;
