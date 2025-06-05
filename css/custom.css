@@ -2169,6 +2169,15 @@ header.main-header .header-sticky.active {
   border-radius: 20px;
 }
 
+@media (min-width: 990px) and (max-width: 1150px) {
+  .testimonial-item {
+    height: 520px;
+
+  }
+}
+
+
+
 .testimonial-header {
   margin-bottom: 20px;
 }
@@ -4894,7 +4903,7 @@ header.main-header .header-sticky.active {
   }
 
   .testimonial-item {
-    height: 520px;
+    height: 480px;
     padding: 30px;
   }
 

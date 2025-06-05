@@ -19,6 +19,57 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                             <div class="testimonial-header">
+                                <p>Our calling process was fairly straightforward, but we felt there was room to improve how we tracked calls and follow-ups. Runo helped us bring in that extra layer of structure without complicating anything.</p>
+
+                            </div>
+                            <div class="testimonial-body">
+                                <div class="testimonial-line"></div>
+                                <div class="people">
+                                    <div class="author-image">
+                                        <figure class="image-anime">
+                                            <img src="../img/testimonials/anas-rahman.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="author-content">
+                                        <h3>Anas Rahman Junaid
+                                        </h3>
+                                        <p>Founder & Chief Researcher, Hurun India
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="testimonial-header">
+                                <p>Runo has transformed the way we manage our sales operations. The live dashboard and real-time tracking have made our processes more efficient and customer-focused.
+                                </p>
+                            </div>
+                            <div class="testimonial-body">
+                                <div class="testimonial-line"></div>
+                                <div class="people">
+                                    <div class="author-image">
+                                        <figure class="image-anime">
+                                            <img src="../img/testimonials/monish-patel.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="author-content">
+                                        <h3>Monish Patel</h3>
+                                        <p>Founder and MD, MSwipe
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="testimonial-header">
                                 <p>RUNO is one unique mobile-based calling solution we came across 3 months
                                     back. It quickly helped us to streamline our sales process and added quality
                                     to sales pitch.</p>
@@ -30,7 +81,7 @@
                                 <div class="people">
                                     <div class="author-image">
                                         <figure class="image-anime">
-                                            <img src="../img/review2.webp" alt="">
+                                            <img src="../img/testimonials/surendranath.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="author-content">
@@ -41,56 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="testimonial-header">
-                                <p>As a fast growing organization in edu-tech, always felt the need to manage
-                                    business calls for enhanced customer experience.</p>
-                                <p>We did reach out to a few cloud based service providers, but somehow, due to
-                                    very high pricing and calls originating from virtual numbers, was not very
-                                    convincing.</p>
-                            </div>
-                            <div class="testimonial-body">
-                                <div class="testimonial-line"></div>
-                                <div class="people">
-                                    <div class="author-image">
-                                        <figure class="image-anime">
-                                            <img src="../img/review1.webp" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="author-content">
-                                        <h3>ISHAN GUPTA</h3>
-                                        <p>Founder, Q-in-1</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slide 3 (Duplicate as example) -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="testimonial-header">
-                                <p>Great app! It helps track my telesales team's calls and live status, and the
-                                    custom CRM is very useful. The support team responds quickly. We can now
-                                    manage our leads easily. Thanks, Runo Call Manager.</p>
-                            </div>
-                            <div class="testimonial-body">
-                                <div class="testimonial-line"></div>
-                                <div class="people">
-                                    <div class="author-image">
-                                        <figure class="image-anime">
-                                            <img src="../img/review3.webp" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="author-content">
-                                        <h3>Skylinks Consultancy</h3>
-                                        <p>Founder, Skylinks Consultancy</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
                 <!-- End swiper-wrapper -->
             </div>
