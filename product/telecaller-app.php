@@ -371,7 +371,7 @@
 
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
+                    <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                     <h5>Lead Management</h5>
                     <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                 </div>
@@ -439,7 +439,7 @@
 
 
                     <div class="swiper-slide">
-                        <img src="../img/feature/lm.webp" class="img-fluid mb-2" alt="Lead Management">
+                        <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                         <h5>Lead Management</h5>
                         <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                     </div>

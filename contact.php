@@ -142,26 +142,28 @@
                         jQuery(function($) {
                            const phoneInput = document.querySelector("#phone2");
                            const iti = window.intlTelInput(phoneInput, {
+                              initialCountry: "auto", // <-- add this line
                               geoIpLookup: function(callback) {
+
                                  fetch('https://ipapi.co/json/')
-                                    .then(function(res) {
+                                    .then(res => {
+
                                        return res.json();
                                     })
-                                    .then(function(data) {
+                                    .then(data => {
+
                                        const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+
                                        callback(countryCode);
                                     })
-                                    .catch(function() {
+                                    .catch(err => {
+                                       console.error("geoIpLookup error:", err);
                                        callback('in');
                                     });
                               },
-
                               separateDialCode: true,
                               utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
                            });
-
-
-
                            const fakeNumbers = [
                               "1234567890", "0000000000", "1111111111", "2222222222",
                               "3333333333", "4444444444", "5555555555", "6666666666",
@@ -208,11 +210,20 @@
                               gt: [8] // Guatemala
                            };
 
+
+                           let phoneTouched = false;
+
+                           $("#phone2").on("focus input", function() {
+                              phoneTouched = true;
+                              validatePhone();
+                           });
+
                            function getMaxLengthForCountry() {
                               const countryCode = iti.getSelectedCountryData().iso2;
                               const allowedLengths = countryLengthMap[countryCode];
                               return allowedLengths ? Math.max(...allowedLengths) : 15; // fallback to max 15 digits
                            }
+
 
                            // phone input restrictions (numbers only, max length)
                            phoneInput.addEventListener("input", () => {
@@ -260,6 +271,11 @@
                               const phoneNational = phoneInput.value;
                               const selectedCountry = iti.getSelectedCountryData().iso2;
                               const validLengths = countryLengthMap[selectedCountry];
+
+                              if (!phoneTouched) {
+                                 $("#phoneError2").addClass("d-none");
+                                 return false;
+                              }
 
                               if (!iti.isValidNumber()) {
                                  $("#phoneError2").text("Please enter a valid phone number.").removeClass("d-none");
