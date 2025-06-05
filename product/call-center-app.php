@@ -5,6 +5,14 @@
     <title>Call Center App for Sales Calling with CRM & Tracking</title>
     <meta name="description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
 
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="Call Center App for Sales Calling with CRM & Tracking">
+    <meta property="og:description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
+
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="Call Center App for Sales Calling with CRM & Tracking">
+    <meta name="twitter:description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
+
     <link rel="canonical" href="https://www.runo.ai/product/call-center-app" />
 
     <?php include('head.php'); ?>
@@ -317,7 +325,7 @@
             autoSlideInterval = setInterval(() => {
                 const nextIndex = (index + 1) % tabs.length;
                 switchTab(nextIndex);
-            }, 5000);
+            }, 8000);
         }
 
         function resetAutoSlide() {

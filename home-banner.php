@@ -258,7 +258,7 @@
                         <!-- Images -->
                         <div class="col-lg-8 order-2 order-lg-1 text-center" style="position: relative;left: 40px;z-index: -1;">
                             <div class="images-wrapper">
-                                <img fetchpriority="high" loading="eager" id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard" class="img-fluid web-image rounded" />
+                                <img fetchpriority="high" id="webImage" src="img/hero-images/web/call-summaryw.webp" alt="Runo Dashboard" class="img-fluid web-image rounded" />
                                 <!--     <img loading="lazy" id="mobileImage" src="img/hero-images/mobile/1.webp" alt="Runo Mobile App"
                                     class="img-fluid mobile-image rounded" />-->
                             </div>
@@ -267,18 +267,54 @@
 
                     <script>
                         const featureMap = {
-                            "AI Call Summaries": "img/hero-images/web/call-summaryw.webp",
-                            "AI Sentiment Analysis": "img/hero-images/web/sentimentw.webp",
-                            "AI Assistant": "img/hero-images/web/assistantw.webp",
-                            "Call Recording": "img/hero-images/web/recordingw.webp",
-                            "Live Team Status": "img/hero-images/web/teamw.webp",
-                            "Advanced Caller ID": "img/hero-images/web/calleridw.webp",
-                            "Follow-Up Reminder": "img/hero-images/web/remindw.webp",
-                            "Auto Dialer": "img/hero-images/web/adw.webp",
-                            "Auto Lead Allocation": "img/hero-images/web/alaw.webp",
-                            "Live Intuitive Dashboard": "img/hero-images/web/lidw.webp",
-                            "Call Analytics": "img/hero-images/web/caw.webp",
-                            "Biz Whatsapp Integration": "img/hero-images/web/wiw.webp"
+                            "AI Call Summaries": {
+                                src: "img/hero-images/web/call-summaryw.webp",
+                                alt: "AI Call Summaries"
+                            },
+                            "AI Sentiment Analysis": {
+                                src: "img/hero-images/web/sentimentw.webp",
+                                alt: "AI Sentiment Analysis"
+                            },
+                            "AI Assistant": {
+                                src: "img/hero-images/web/assistantw.webp",
+                                alt: "AI Assistant"
+                            },
+                            "Call Recording": {
+                                src: "img/hero-images/web/recordingw.webp",
+                                alt: "Call Recording"
+                            },
+                            "Live Team Status": {
+                                src: "img/hero-images/web/teamw.webp",
+                                alt: "Live Team Status"
+                            },
+                            "Advanced Caller ID": {
+                                src: "img/hero-images/web/calleridw.webp",
+                                alt: "Advanced Caller ID"
+                            },
+                            "Follow-Up Reminder": {
+                                src: "img/hero-images/web/remindw.webp",
+                                alt: "Follow-Up Reminder"
+                            },
+                            "Auto Dialer": {
+                                src: "img/hero-images/web/adw.webp",
+                                alt: "Auto Dialer"
+                            },
+                            "Auto Lead Allocation": {
+                                src: "img/hero-images/web/alaw.webp",
+                                alt: "Auto Lead Allocation"
+                            },
+                            "Live Intuitive Dashboard": {
+                                src: "img/hero-images/web/lidw.webp",
+                                alt: "Live Intuitive Dashboard"
+                            },
+                            "Call Analytics": {
+                                src: "img/hero-images/web/caw.webp",
+                                alt: "Call Analytics"
+                            },
+                            "Biz Whatsapp Integration": {
+                                src: "img/hero-images/web/wiw.webp",
+                                alt: "Biz Whatsapp Integration"
+                            }
                         };
 
                         const buttons = document.querySelectorAll('#feature-buttons .feature-btn');
@@ -286,16 +322,20 @@
 
                         buttons.forEach(btn => {
                             btn.addEventListener('click', () => {
+                                // Remove 'active' class from all buttons
                                 buttons.forEach(b => b.classList.remove('active'));
+                                // Add 'active' to the clicked one
                                 btn.classList.add('active');
 
                                 const text = btn.textContent.trim();
-                                const newSrc = featureMap[text];
+                                const feature = featureMap[text];
 
-                                if (newSrc) {
+                                if (feature) {
                                     image.classList.add('fade-out');
+
                                     setTimeout(() => {
-                                        image.src = newSrc;
+                                        image.src = feature.src;
+                                        image.alt = feature.alt;
                                         image.onload = () => {
                                             image.classList.remove('fade-out');
                                         };
@@ -304,33 +344,36 @@
                             });
                         });
 
-                        // Load initial image based on the active button
+                        // Set the initial image and alt based on the active button
                         window.addEventListener('DOMContentLoaded', () => {
                             const activeBtn = document.querySelector('.feature-btn.active');
                             if (activeBtn) {
                                 const text = activeBtn.textContent.trim();
-                                const newSrc = featureMap[text];
-                                if (newSrc) {
-                                    image.src = newSrc;
+                                const feature = featureMap[text];
+                                if (feature) {
+                                    image.src = feature.src;
+                                    image.alt = feature.alt;
                                 }
                             }
                         });
                     </script>
+
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/call-summary.webp" alt="Image 1" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/sentiment.webp" alt="Image 2" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/assistant.webp" alt="Image 3" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/recording.webp" alt="Image 4" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/team.webp" alt="Image 5" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/callerid.webp" alt="Image 6" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/remind.webp" alt="Image 7" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ad.webp" alt="Image 8" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ala.webp" alt="Image 9" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/lid.webp" alt="Image 10" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/ca.webp" alt="Image 11" /></div>
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/wi.webp" alt="Image 12" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/sentiment.webp" alt="Sentiment Analysis" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/assistant.webp" alt="Call Assistant" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/recording.webp" alt="Call Recording" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/team.webp" alt="Team Status" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/callerid.webp" alt="Caller ID" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/remind.webp" alt="Reminder" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/auto-dialer.webp" alt="Auto Dialer" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/auto-lead-allocation.webp" alt="Auto Lead Allocation" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/dashboard.webp" alt="Dashboard" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/call-analytics.webp" alt="Call Analytics" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/whatsapp-integration.webp" alt="Whatsapp Integration" /></div>
+
                         </div>
                     </div>
 

@@ -30,9 +30,9 @@
   width: 400px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .iti__country-list {
-    width: 250px;
+    width: 200px !important;
   }
 }
 
@@ -1491,6 +1491,112 @@
       #f5f3ed 100%) !important;
 }
 
+
+.comparison-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.comparison-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  overflow: hidden;
+}
+
+.col-feature,
+.col-runo,
+.col-rest {
+  flex: 1;
+  padding: 0.55rem;
+  text-align: center;
+  font-size: 0.8rem;
+
+}
+
+.col-runo,
+.col-rest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-feature {
+  background-color: rgb(210, 210, 210);
+
+  color: #343a40;
+}
+
+.col-runo {
+  background: #fa3c3217;
+  /*  background-color: #fa3c32;*/
+  color: #343a40;
+  font-weight: 700;
+  flex-direction: column;
+  border-left: none;
+  border-right: none;
+}
+
+.col-rest {
+  background: #3a40470a !important;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.header-row .col-feature,
+.header-row .col-rest {
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.header-row .col-runo {
+  /* background-color: #fa3c32;*/
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 8px 20px rgba(250, 60, 50, 0.25);
+}
+
+
+.header-row .col-rest {
+  /* background-color: #fa3c32;*/
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 8px 20px rgba(250, 60, 50, 0.25);
+}
+
+.footer-row .col-runo {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.footer-row .col-rest {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.comparison-row:not(.header-row):not(.footer-row) .col-runo {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.comparison-row:not(.header-row) .col-feature,
+.comparison-row:not(.header-row) .col-rest {
+  background-color: #fff;
+}
+
+.col-feature {
+  word-break: break-word;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-row {
+
+  border-bottom: none !important;
+}
+
 /* home comparison mobile */
 
 .why-choose-us-item h3 {
@@ -2452,6 +2558,13 @@ label {
   background-color: #d84323;
   border: 1px solid #fff;
   color: #fff;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .store-buttons img {

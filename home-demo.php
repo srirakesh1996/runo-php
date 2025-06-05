@@ -12,7 +12,7 @@
       </div>
       <!-- Video Wrapper -->
       <div class="video-wrapper" style="position: relative;background: linear-gradient(107.57deg, #FF5730 0%, #FFCC00 23.09%, #0065F2 47.82%, #5E33EC 74.03%, #FF5730 100%);">
-        <img loading="lazy" src="img/video.webp" alt="Demo Video" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
+        <img loading="lazy" src="img/runo-video.webp" alt="Runo AI in Action" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
         <button class="play-button" id="openModal"> <i class="fas fa-play"></i></button>
       </div>
       <!-- Modal -->

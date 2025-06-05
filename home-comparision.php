@@ -58,7 +58,63 @@
         Runo vs The Rest
       </h2>
     </div>
-    <div class="row2">
+
+    <div class="comparison-wrapper">
+      <!-- Header -->
+      <div class="comparison-row header-row">
+
+        <div class="col-runo" style="background:#fa3c32; color:#fff">Runo</div>
+        <div class="col-feature" style="font-size: 26px;">vs</div>
+        <div class="col-rest" style="background:#343a40 !important; color:#fff">The Rest</div>
+      </div>
+
+      <!-- Rows -->
+      <div class="comparison-row">
+
+        <div class="col-runo">&lt; 30 minutes</div>
+        <div class="col-feature">Setup Time</div>
+        <div class="col-rest">&gt; 30 days</div>
+      </div>
+
+      <div class="comparison-row">
+
+        <div class="col-runo">&gt; 78%</div>
+        <div class="col-feature">Call Connect Rate</div>
+        <div class="col-rest">&lt; 30%</div>
+      </div>
+
+      <div class="comparison-row">
+
+        <div class="col-runo">Flexible</div>
+        <div class="col-feature">Customization</div>
+        <div class="col-rest">Rigid</div>
+      </div>
+
+      <div class="comparison-row">
+
+        <div class="col-runo">Auto-Assigned</div>
+        <div class="col-feature">Lead Allocation</div>
+        <div class="col-rest">Manual</div>
+      </div>
+
+      <div class="comparison-row">
+
+        <div class="col-runo">ROI-Friendly</div>
+        <div class="col-feature">Price</div>
+        <div class="col-rest">Expensive</div>
+      </div>
+
+      <div class="comparison-row footer-row">
+
+        <div class="col-runo">Zero Downtime</div>
+        <div class="col-feature">Reliability</div>
+        <div class="col-rest">Unstable</div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="row2">
       <div class="card2" style="background:#ff5730;color:#fff;font-size:20px">
         <div class="text-left wow animate__fadeInLeft">
           <div class="wow fadeInUp" data-wow-delay="0.25s">
@@ -175,7 +231,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="text-center overlap" id="credit">
       <div class="mt-4 wow fadeInUp" data-wow-delay="0.8s">
         <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>

@@ -4,6 +4,14 @@
 
     <title>Auto Dialer Software for SIM-Based Calling with CRM</title>
     <meta name="description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
+    <meta name="keywords" content="Call Management CRM, Telecalling CRM, Outbound CRM, Call Center CRM, Auto Dialer, Telecalling App, Dialer App">
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="Auto Dialer Software for SIM-Based Calling with CRM">
+    <meta property="og:description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
+
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="Auto Dialer Software for SIM-Based Calling with CRM">
+    <meta name="twitter:description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
 
     <link rel="canonical" href="https://www.runo.ai/product/auto-dialer-software" />
 
@@ -88,76 +96,93 @@
                         <div class="scroll-bar"></div>
                         <div class="scroll-indicator" id="scrollIndicator"></div>
                         <div class="btn-group-vertical w-100" id="tabButtons">
-                            <!-- Tab Buttons -->
+
+                            <!-- Tab 1 -->
                             <div class="scroll-bord">
                                 <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
                                     <span>2x Calling Productivity</span>
-                                    <p>Auto-dial the next lead, log every call instantly, and update lead status without manual effort. Agents stay focused on conversations instead of backend tasks.
-                                    </p>
+                                    <p>Auto-dial the next lead, log every call instantly, and update lead status without manual effort. Agents stay focused on conversations instead of backend tasks.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="../img/auto-dialer/2x-productvity.webp" class="img-preview" alt="Tab 1 Image">
+                                    <img src="../img/auto-dialer/2x-productvity.webp" class="img-preview" alt="2x Calling Productivity">
                                 </div>
                             </div>
+
+                            <!-- Tab 2 -->
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
                                     <span>Higher Call Connect Rate</span>
                                     <p>Place calls through your phone’s SIM so your number appears real and familiar. This builds trust and makes people more likely to answer.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="../img/auto-dialer/call-connect.webp" class="img-preview" alt="Tab 2 Image">
+                                    <img src="../img/auto-dialer/call-connect.webp" class="img-preview" alt="Higher Call Connect Rate">
                                 </div>
                             </div>
+
+                            <!-- Tab 3 -->
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
                                     <span>Zero Gap in Lead Flow</span>
                                     <p>Leads are assigned instantly, updates happen in real time, and your team always knows who’s next in line.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="../img/auto-dialer/lead-flow.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img src="../img/auto-dialer/lead-flow.webp" class="img-preview" alt="Zero Gap in Lead Flow">
                                 </div>
                             </div>
+
+                            <!-- Tab 4 -->
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
                                     <span>No Missed Follow Ups</span>
                                     <p>Automated reminders help your team stay on top of every lead with timely follow-ups through calls or WhatsApp.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="../img/auto-dialer/follow-up.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img src="../img/auto-dialer/follow-up.webp" class="img-preview" alt="No Missed Follow Ups">
                                 </div>
                             </div>
+
+                            <!-- Tab 5 -->
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
                                     <span>Call Quality Score, Powered by AI</span>
                                     <p>Calls can be transcribed and analyzed with AI to highlight sentiment, talk-time balance, and quality scores.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="../img/auto-dialer/call-quality.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/auto-dialer/call-quality.webp" class="img-preview" alt="Call Quality Score, Powered by AI">
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
+
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
+
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="../img/auto-dialer/2x-productivity.webp" class="img-preview" alt="Tab 1 Image">
+                            <img src="../img/auto-dialer/2x-productvity.webp" class="img-preview" alt="2x Calling Productivity">
                         </div>
+
                         <div class="tab-pane fade" id="tab2">
-                            <img src="../img/auto-dialer/call-connect.webp" class="img-preview" alt="Tab 2 Image">
+                            <img src="../img/auto-dialer/call-connect.webp" class="img-preview" alt="Higher Call Connect Rate">
                         </div>
+
                         <div class="tab-pane fade" id="tab3">
-                            <img src="../img/auto-dialer/lead-flow.webp" class="img-preview" alt="Tab 3 Image">
+                            <img src="../img/auto-dialer/lead-flow.webp" class="img-preview" alt="Zero Gap in Lead Flow">
                         </div>
+
                         <div class="tab-pane fade" id="tab4">
-                            <img src="../img/auto-dialer/follow-up.webp" class="img-preview" alt="Tab 4 Image">
+                            <img src="../img/auto-dialer/follow-up.webp" class="img-preview" alt="No Missed Follow Ups">
                         </div>
+
                         <div class="tab-pane fade" id="tab5">
-                            <img src="../img/auto-dialer/call-quality.webp" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/auto-dialer/call-quality.webp" class="img-preview" alt="Call Quality Score, Powered by AI">
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -241,7 +266,7 @@
             autoSlideInterval = setInterval(() => {
                 const nextIndex = (index + 1) % tabs.length;
                 switchTab(nextIndex);
-            }, 5000);
+            }, 8000);
         }
 
         function resetAutoSlide() {
@@ -278,7 +303,11 @@
     <!-- why choose runo ends-->
     <section class="metrics-section mt-70">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h2 style="font-size:25px;">What Mobile-First Sales Teams Love About Runo
+                </h2>
+            </div>
+            <div class="row justify-content-center" style="margin-top:35px;">
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">1 Tap</div>
                     <div class="metric-label">To auto dial leads without switching screens
@@ -309,118 +338,138 @@
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                     <h5>Advanced Caller ID</h5>
-                    <p class="feat-text">Stay informed with names, context, and call history before each auto-dialed call
-                    </p>
+                    <p class="feat-text">Stay informed with names, context, and call history before each auto-dialed call</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
-                    <p class="feat-text">Record auto-dialed calls to review, train, and improve conversations
-                    </p>
+                    <p class="feat-text">Record auto-dialed calls to review, train, and improve conversations</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
                     <h5>AI Call Summaries</h5>
-                    <p class="feat-text">Skip the replays. Get instant AI-written summaries of every call
-                    </p>
+                    <p class="feat-text">Skip the replays. Get instant AI-written summaries of every call</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
                     <h5>AI Sentiment Analysis</h5>
-                    <p class="feat-text">AI breaks down tone and emotion so you know what worked and what didn’t
-                    </p>
+                    <p class="feat-text">AI breaks down tone and emotion so you know what worked and what didn’t</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>Auto Lead Allocation</h5>
-                    <p class="feat-text">Leads go to the right person automatically, speeding up first response time
-                    </p>
+                    <p class="feat-text">Leads go to the right person automatically, speeding up first response time</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                     <h5>Interaction Timeline</h5>
-                    <p class="feat-text">Track the entire conversation history with each lead in one place
-                    </p>
+                    <p class="feat-text">Track the entire conversation history with each lead in one place</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
-                    <h5>CRM Field Customisation
-                    </h5>
-                    <p class="feat-text">Customise fields and workflows without needing a tech team
-                    </p>
+                    <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Field Customisation">
+                    <h5>CRM Field Customisation</h5>
+                    <p class="feat-text">Customise fields and workflows without needing a tech team</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Team Status">
                     <h5>Live Team Status</h5>
-                    <p class="feat-text">Track every agent’s live status to manage your team better
+                    <p class="feat-text">Track every agent’s live status to manage your team better</p>
+                </div>
+
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+                    <h5>Real-Time Dashboards</h5>
+                    <p class="feat-text">See call volume, agent status, and lead progress in real time</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center zoom-hover">
+                    <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <h5>Follow-Up Notifications</h5>
+                    <p class="feat-text">Timely nudges to follow up with the right lead at the right moment
                     </p>
                 </div>
             </div>
-            <!-- Desktop Layout -->
+
             <!-- Mobile Swiper Layout -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
-                    <!-- Feature Slides -->
+
+                    <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                         <h5>Advanced Caller ID</h5>
-                        <p class="feat-text">Stay informed with names, context, and call history before each auto-dialed call
-                        </p>
+                        <p class="feat-text">Stay informed with names, context, and call history before each auto-dialed call</p>
                     </div>
+
+                    <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
-                        <p class="feat-text">Record auto-dialed calls to review, train, and improve conversations
-                        </p>
+                        <p class="feat-text">Record auto-dialed calls to review, train, and improve conversations</p>
                     </div>
+
+                    <!-- Slide 3 -->
                     <div class="swiper-slide">
                         <img src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
                         <h5>AI Call Summaries</h5>
-                        <p class="feat-text">Skip the replays. Get instant AI-written summaries of every call
-                        </p>
+                        <p class="feat-text">Skip the replays. Get instant AI-written summaries of every call</p>
                     </div>
+
+                    <!-- Slide 4 -->
                     <div class="swiper-slide">
                         <img src="../img/feature/5.webp" class="img-fluid mb-2" alt="AI Sentiment Analysis">
                         <h5>AI Sentiment Analysis</h5>
-                        <p class="feat-text">AI breaks down tone and emotion so you know what worked and what didn’t
-                        </p>
+                        <p class="feat-text">AI breaks down tone and emotion so you know what worked and what didn’t</p>
                     </div>
+
+                    <!-- Slide 5 -->
                     <div class="swiper-slide">
                         <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>Auto Lead Allocation</h5>
-                        <p class="feat-text">Leads go to the right person automatically, speeding up first response time
-                        </p>
+                        <p class="feat-text">Leads go to the right person automatically, speeding up first response time</p>
                     </div>
+
+                    <!-- Slide 6 -->
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                         <h5>Interaction Timeline</h5>
-                        <p class="feat-text">Track the entire conversation history with each lead in one place
-                        </p>
+                        <p class="feat-text">Track the entire conversation history with each lead in one place</p>
                     </div>
+
+                    <!-- Slide 7 -->
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
-                        <h5>CRM Field Customisation
-                        </h5>
-                        <p class="feat-text">Customise fields and workflows without needing a tech team
-                        </p>
+                        <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Field Customisation">
+                        <h5>CRM Field Customisation</h5>
+                        <p class="feat-text">Customise fields and workflows without needing a tech team</p>
                     </div>
+
+                    <!-- Slide 8 -->
                     <div class="swiper-slide">
-                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Team Status">
                         <h5>Live Team Status</h5>
-                        <p class="feat-text">Track every agent’s live status to manage your team better
+                        <p class="feat-text">Track every agent’s live status to manage your team better</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+                        <h5>Real-Time Dashboards</h5>
+                        <p class="feat-text">See call volume, agent status, and lead progress in real time</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <h5>Follow-Up Notifications</h5>
+                        <p class="feat-text">Timely nudges to follow up with the right lead at the right moment
                         </p>
                     </div>
+
                 </div>
-                <!-- Custom navigation buttons below -->
+
+                <!-- Navigation Buttons -->
                 <div class="swiper-nav-buttons text-center">
-                    <button class="swiper-custom-prev">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="swiper-custom-next">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
+                    <button class="swiper-custom-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="swiper-custom-next"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
+
         </div>
         </div>
     </section>

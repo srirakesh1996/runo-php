@@ -1,9 +1,16 @@
 <?php include('doctype.php'); ?>
 
 <head>
-
     <title>SIM-Based Telecaller App with Built-In CRM</title>
     <meta name="description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="SIM-Based Telecaller App with Built-In CRM">
+    <meta property="og:description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
+
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="SIM-Based Telecaller App with Built-In CRM">
+    <meta name="twitter:description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
     <link rel="canonical" href="https://www.runo.ai/product/telecaller-app" />
 
 
@@ -117,86 +124,76 @@
                     <h2>Why Growing Teams Choose Runo</h2>
                 </div>
 
-                <!-- Tabs and Mobile Images -->
-                <div class="col-md-6">
-                    <div class="left-tabs" id="tabContainer">
-                        <div class="scroll-bar"></div>
-                        <div class="scroll-indicator" id="scrollIndicator"></div>
-                        <div class="btn-group-vertical w-100" id="tabButtons">
-                            <!-- Tab Buttons -->
-                            <div class="scroll-bord">
-                                <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
-                                    <span>Connect 3x Faster</span>
-                                    <p>No more shuffling through Excel sheets. Leads are auto-assigned and queued for calling, so your agents can start dialing instantly.</p>
-                                </button>
-                                <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="../img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
-                                </div>
-                            </div>
-                            <div class="scroll-bord">
-                                <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-                                    <span>Independent of cloud telephony, IVRs, or PBX</span>
-                                    <p>Call directly from your phone’s SIM without needing a cloud setup or high-speed internet.</p>
-                                </button>
-                                <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Tab 2 Image">
-                                </div>
-                            </div>
-                            <div class="scroll-bord">
-                                <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-                                    <span>Track Every Call, Follow-Up, and Agent in Real Time</span>
-                                    <p>View live call activity, follow-up status, and team performance in one dashboard.</p>
-                                </button>
-                                <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Tab 3 Image">
-                                </div>
-                            </div>
-                            <div class="scroll-bord">
-                                <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                    <span>Cut Telecalling Costs by 60%</span>
-                                    <p>One app replaces your dialer, CRM, and call tracker. No extra tools. No cloud bills.</p>
-                                </button>
-                                <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="../img/telecaller/cost.webp" class="img-preview" alt="Tab 4 Image">
-                                </div>
-                            </div>
-                            <div class="scroll-bord">
-                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                    <span>Zero training. Get Started in 30 minutes</span>
-                                    <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes</p>
-                                </button>
-                                <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Tab 5 Image">
-                                </div>
-                            </div>
+                <!-- Mobile Images -->
+                <div class="scroll-bord">
+                    <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
+                        <span>Connect 3x Faster</span>
+                        <p>No more shuffling through Excel sheets. Leads are auto-assigned and queued for calling, so your agents can start dialing instantly.</p>
+                    </button>
+                    <div class="mobile-tab-img d-md-none" id="mobileImg0">
+                        <img src="../img/telecaller/3x.webp" class="img-preview" alt="Connect 3x Faster with Auto Lead Assignment">
+                    </div>
+                </div>
 
+                <div class="scroll-bord">
+                    <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
+                        <span>Independent of cloud telephony, IVRs, or PBX</span>
+                        <p>Call directly from your phone’s SIM without needing a cloud setup or high-speed internet.</p>
+                    </button>
+                    <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
+                        <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Call Without Cloud Telephony or PBX">
+                    </div>
+                </div>
 
+                <div class="scroll-bord">
+                    <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
+                        <span>Track Every Call, Follow-Up, and Agent in Real Time</span>
+                        <p>View live call activity, follow-up status, and team performance in one dashboard.</p>
+                    </button>
+                    <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
+                        <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Real-Time Call and Agent Tracking Dashboard">
+                    </div>
+                </div>
 
-                        </div>
+                <div class="scroll-bord">
+                    <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
+                        <span>Cut Telecalling Costs by 60%</span>
+                        <p>One app replaces your dialer, CRM, and call tracker. No extra tools. No cloud bills.</p>
+                    </button>
+                    <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
+                        <img src="../img/telecaller/cost.webp" class="img-preview" alt="Reduce Telecalling Costs by 60%">
+                    </div>
+                </div>
+
+                <div class="scroll-bord">
+                    <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
+                        <span>Zero training. Get Started in 30 minutes</span>
+                        <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes</p>
+                    </button>
+                    <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
+                        <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Get Started with Telecalling in 30 Minutes">
                     </div>
                 </div>
 
                 <!-- Desktop Image Preview -->
-                <div class="col-md-6 d-none d-md-block">
-                    <div class="tab-content text-center">
-                        <div class="tab-pane fade show active" id="tab1">
-                            <img src="../img/telecaller/3x.webp" class="img-preview" alt="Tab 1 Image">
-                        </div>
-                        <div class="tab-pane fade" id="tab2">
-                            <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Tab 2 Image">
-                        </div>
-                        <div class="tab-pane fade" id="tab3">
-                            <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Tab 3 Image">
-                        </div>
-                        <div class="tab-pane fade" id="tab4">
-                            <img src="../img/telecaller/cost.webp" class="img-preview" alt="Tab 4 Image">
-                        </div>
-                        <div class="tab-pane fade" id="tab5">
-                            <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Tab 5 Image">
-                        </div>
-
+                <div class="tab-content text-center">
+                    <div class="tab-pane fade show active" id="tab1">
+                        <img src="../img/telecaller/3x.webp" class="img-preview" alt="Connect 3x Faster with Auto Lead Assignment">
+                    </div>
+                    <div class="tab-pane fade" id="tab2">
+                        <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Call Without Cloud Telephony or PBX">
+                    </div>
+                    <div class="tab-pane fade" id="tab3">
+                        <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Real-Time Call and Agent Tracking Dashboard">
+                    </div>
+                    <div class="tab-pane fade" id="tab4">
+                        <img src="../img/telecaller/cost.webp" class="img-preview" alt="Reduce Telecalling Costs by 60%">
+                    </div>
+                    <div class="tab-pane fade" id="tab5">
+                        <img src="../img/telecaller/zero-training.webp" class="img-preview" alt="Get Started with Telecalling in 30 Minutes">
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -281,7 +278,7 @@
             autoSlideInterval = setInterval(() => {
                 const nextIndex = (index + 1) % tabs.length;
                 switchTab(nextIndex);
-            }, 5000);
+            }, 8000);
         }
 
         function resetAutoSlide() {

@@ -10,7 +10,7 @@
       </div>
       <!-- Right Image -->
       <div class="col-md-5 text-md-end text-center security-badges">
-        <img src="img/security.webp" alt="ISO Badge" class="img-fluid">
+        <img src="img/security.webp" alt="Securitys" class="img-fluid">
       </div>
     </div>
   </section>
