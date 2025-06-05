@@ -4,7 +4,7 @@
 
     <title>Call Center App for Sales Calling with CRM & Tracking</title>
     <meta name="description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
-
+    <meta name="keywords" content="call center app, call center mobile app, mobile call center app, best call center apps, call center app for iphone, call center app store, mobile app call center, call center crm systems, call center phone systems, call center systems">
     <!-- Updated Open Graph tags -->
     <meta property="og:title" content="Call Center App for Sales Calling with CRM & Tracking">
     <meta property="og:description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
@@ -141,78 +141,62 @@
                             <div class="scroll-bord">
                                 <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
                                     <span>70% Lower Operating Cost</span>
-                                    <p>Run your call center without PBX, cloud telephony, or expensive software stacks. Save significantly on infrastructure and tool expenses.
-
-                                    </p>
+                                    <p>Run your call center without PBX, cloud telephony, or expensive software stacks. Save significantly on infrastructure and tool expenses.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 1 Image">
+                                    <img src="../img/call-center/low-operating.webp" class="img-preview" alt="70% Lower Operating Cost">
                                 </div>
                             </div>
 
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-                                    <span>No IVR, Cloud Telephony, or ACD Friction
-                                    </span>
-                                    <p>Skip the menus, routing delays, and robotic experiences. Connect callers directly to real people without drop-offs or confusion
-                                    </p>
+                                    <span>No IVR, Cloud Telephony, or ACD Friction</span>
+                                    <p>Skip the menus, routing delays, and robotic experiences. Connect callers directly to real people without drop-offs or confusion</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 2 Image">
+                                    <img src="../img/call-center/cloud-telephony.webp" class="img-preview" alt="No IVR, Cloud Telephony, or ACD Friction">
                                 </div>
                             </div>
 
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
                                     <span>2x Higher Call Pickup Rate</span>
-                                    <p>Use real SIM-based numbers that customers recognize and trust. No more ignored or flagged calls from masked or virtual lines
-                                    </p>
+                                    <p>Use real SIM-based numbers that customers recognize and trust. No more ignored or flagged calls from masked or virtual lines</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img src="../img/call-center/higher-call.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img src="../img/call-center/higher-call.webp" class="img-preview" alt="2x Higher Call Pickup Rate">
                                 </div>
                             </div>
 
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                    <span>100% Visibility Into Remote Teams
-                                    </span>
-                                    <p>Track calls, follow-ups, and agent activity in real time. See who’s active, who’s idle, and who needs support across locations
-                                    </p>
+                                    <span>100% Visibility Into Remote Teams</span>
+                                    <p>Track calls, follow-ups, and agent activity in real time. See who’s active, who’s idle, and who needs support across locations</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img src="../img/call-center/visibility.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img src="../img/call-center/visibility.webp" class="img-preview" alt="100% Visibility Into Remote Teams">
                                 </div>
                             </div>
 
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                    <span>One App to Replace Your Dialer, CRM, and Spreadsheets
-                                    </span>
-                                    <p>Call, track, and manage leads in a single place. Eliminate tool switching and messy data syncs for a smoother, faster workflow
-                                    </p>
+                                    <span>One App to Replace Your Dialer, CRM, and Spreadsheets</span>
+                                    <p>Call, track, and manage leads in a single place. Eliminate tool switching and messy data syncs for a smoother, faster workflow</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/call-center/all-in-one.webp" class="img-preview" alt="One App to Replace Your Dialer, CRM, and Spreadsheets">
                                 </div>
                             </div>
 
                             <div class="scroll-bord">
-                                <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                    <span>30-Minute Setup Time
-
-                                    </span>
-                                    <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes
-
-                                    </p>
+                                <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
+                                    <span>30-Minute Setup Time</span>
+                                    <p>Get started quickly with no IT help. Set up, onboard your team, and start calling in under 30 minutes</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
-                                    <img src="../img/call-center/30-min.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img src="../img/call-center/30-min.webp" class="img-preview" alt="30-Minute Setup Time">
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
@@ -221,26 +205,26 @@
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 1 Image">
+                            <img src="../img/call-center/low-operating.webp" class="img-preview" alt="70% Lower Operating Cost">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 2 Image">
+                            <img src="../img/call-center/cloud-telephony.webp" class="img-preview" alt="No IVR, Cloud Telephony, or ACD Friction">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img src="../img/call-center/higher-call.webp" class="img-preview" alt="Tab 3 Image">
+                            <img src="../img/call-center/higher-call.webp" class="img-preview" alt="2x Higher Call Pickup Rate">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img src="../img/call-center/visibility.webp" class="img-preview" alt="Tab 4 Image">
+                            <img src="../img/call-center/visibility.webp" class="img-preview" alt="100% Visibility Into Remote Teams">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img src="../img/call-center/dummy.png" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/call-center/all-in-one.webp" class="img-preview" alt="One App to Replace Your Dialer, CRM, and Spreadsheets">
                         </div>
                         <div class="tab-pane fade" id="tab6">
-                            <img src="../img/call-center/30-min.webp" class="img-preview" alt="Tab 5 Image">
+                            <img src="../img/call-center/30-min.webp" class="img-preview" alt="30-Minute Setup Time">
                         </div>
-
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -373,9 +357,7 @@
                 </p>
             </div>
             <!-- Desktop Layout -->
-
             <div class="row d-none d-md-flex">
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                     <h5>Auto Dialer</h5>
@@ -389,52 +371,45 @@
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+                    <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Call Tracking">
                     <h5>Real-Time Call Tracking</h5>
                     <p class="feat-text">See every call status, duration, and outcome instantly</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
-                    <h5> Lead Auto Allocation</h5>
-                    <p class="feat-text">Assign leads instantly based on source, region, or rules you set.
-                    </p>
+                    <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Auto Allocation">
+                    <h5>Lead Auto Allocation</h5>
+                    <p class="feat-text">Assign leads instantly based on source, region, or rules you set.</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                    <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Reminders">
                     <h5>Follow-Up Reminders</h5>
                     <p class="feat-text">Get notified when it’s time to call back or check in on a lead.</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+                    <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="Built-in CRM">
                     <h5>Built-in CRM</h5>
                     <p class="feat-text">No switching between tools, CRM is built right in.</p>
                 </div>
 
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                    <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Agent Status">
                     <h5>Live Agent Status</h5>
                     <p class="feat-text">Know who’s active, available, or idle at any given moment.</p>
                 </div>
+
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                     <h5>Interaction Timeline</h5>
-                    <p class="feat-text">Access full call history and notes for every lead instant
-                    </p>
+                    <p class="feat-text">Access full call history and notes for every lead instant</p>
                 </div>
-
-
-
             </div>
-            <!-- Desktop Layout -->
 
             <!-- Mobile Swiper Layout -->
-            <!-- Mobile Swiper Layout (14 Features) -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
-                    <!-- Feature Slides -->
                     <div class="swiper-slide">
                         <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                         <h5>Auto Dialer</h5>
@@ -447,48 +422,44 @@
                         <p class="feat-text">Record every call for training, compliance, and quality checks</p>
                     </div>
 
-
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
+                        <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Call Tracking">
                         <h5>Real-Time Call Tracking</h5>
                         <p class="feat-text">See every call status, duration, and outcome instantly</p>
                     </div>
+
                     <div class="swiper-slide">
-                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
-                        <h5> Lead Auto Allocation</h5>
-                        <p class="feat-text">Assign leads instantly based on source, region, or rules you set.
-                        </p>
+                        <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Auto Allocation">
+                        <h5>Lead Auto Allocation</h5>
+                        <p class="feat-text">Assign leads instantly based on source, region, or rules you set.</p>
                     </div>
+
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
+                        <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Reminders">
                         <h5>Follow-Up Reminders</h5>
                         <p class="feat-text">Get notified when it’s time to call back or check in on a lead.</p>
                     </div>
 
-
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="CRM Customisation">
+                        <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="Built-in CRM">
                         <h5>Built-in CRM</h5>
                         <p class="feat-text">No switching between tools, CRM is built right in.</p>
                     </div>
 
-
-
                     <div class="swiper-slide">
-                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
+                        <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Agent Status">
                         <h5>Live Agent Status</h5>
                         <p class="feat-text">Know who’s active, available, or idle at any given moment.</p>
                     </div>
+
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                         <h5>Interaction Timeline</h5>
-                        <p class="feat-text">Access full call history and notes for every lead instant
-                        </p>
+                        <p class="feat-text">Access full call history and notes for every lead instant</p>
                     </div>
-
-
                 </div>
-                <!-- Custom navigation buttons below -->
+
+                <!-- Custom navigation buttons -->
                 <div class="swiper-nav-buttons text-center">
                     <button class="swiper-custom-prev">
                         <i class="fas fa-chevron-left"></i>
@@ -498,6 +469,7 @@
                     </button>
                 </div>
             </div>
+
         </div>
         </div>
     </section>
