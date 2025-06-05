@@ -1,9 +1,19 @@
 <?php include('doctype.php'); ?>
 
 <head>
-
     <title>Lead Management CRM App – Real-Time Sales Tracking</title>
     <meta name="description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
+    <meta name="keywords" content="lead management app, Lead management software, lead management crm, lead management system, lead management and crm, crm for lead management and nurturing, best crm for lead management, crm for lead management, crm lead management software">
+
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="Lead Management CRM App – Real-Time Sales Tracking">
+    <meta property="og:description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
+
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="Lead Management CRM App – Real-Time Sales Tracking">
+    <meta name="twitter:description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
+
+
     <link rel="canonical" href="https://www.runo.ai/product/lead-management-crm" />
 
     <?php include('head.php'); ?>
@@ -264,7 +274,7 @@
             autoSlideInterval = setInterval(() => {
                 const nextIndex = (index + 1) % tabs.length;
                 switchTab(nextIndex);
-            }, 5000);
+            }, 8000);
         }
 
         function resetAutoSlide() {

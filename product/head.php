@@ -2,25 +2,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<!-- SEO Meta -->
-<meta name="description" content="Runo Call Management App to manage calls at SIM level. Get Call Tracking for outbound sales calls with in-built CRM. Try the best telecaller app for Free.">
-<meta name="keywords" content="Call Management CRM, Telecalling CRM, Outbound CRM, Call Center CRM, Auto Dialer, Telecalling App, Dialer App">
-<meta name="robots" content="no-index, follow">
-<meta name="language" content="English">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Runo - Best Outbound Call Center CRM with Auto Dialer">
-<meta property="og:description" content="Runo Call Management App with Call Tracking, Telecalling CRM, and Auto Dialer.">
-<meta property="og:image" content="../img/share-icon.png">
-<meta property="og:url" content="../img/share-icon.png">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Runo - Best CRM for Telecalling">
-<meta name="twitter:description" content="Runo CRM helps manage outbound sales calls with in-built CRM & Dialer.">
-<meta name="twitter:image" content="../img/share-icon.png">
-
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes="16x16">
 

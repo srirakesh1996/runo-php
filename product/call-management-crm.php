@@ -3,7 +3,14 @@
 <head>
     <title>AI-Enabled SIM-Based Call Management CRM App</title>
     <meta name="description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
+    <meta name="keywords" content="Call Management CRM, Call Management App, call management, call management software, inbound call management software, sales call management software, business call management system, call center management in crm">
+    <!-- Updated Open Graph tags -->
+    <meta property="og:title" content="AI-Enabled SIM-Based Call Management CRM App">
+    <meta property="og:description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
 
+    <!-- Updated Twitter tags -->
+    <meta name="twitter:title" content="AI-Enabled SIM-Based Call Management CRM App">
+    <meta name="twitter:description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
 
     <link rel="canonical" href="https://www.runo.ai/product/call-management-crm" />
 
@@ -31,7 +38,7 @@
                             <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
                                 <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
                                     Call Management App For
-                                    Mobile-First <br> Sales Teams
+                                    Mobile-First Sales Teams
                                 </h1>
                                 <p>A mobile-first CRM with SIM-based calling, call tracking, AI summaries, and live lead updates in one app
                                 </p>
@@ -56,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img loading="lazy" src="../img/call-management/call-management.webp" class="img-fluid" alt="Runo Telecaller CRM" style="width: 80%;margin: 0 auto;display: block;">
+                    <img loading="lazy" src="../img/call-management/call-management.webp" class="img-fluid" alt="Runo Call Management CRM" style="width: 80%;margin: 0 auto;display: block;">
                 </div>
             </div>
         </div>
@@ -67,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Powering high-performance telecalling for 3500+ businesses
+                    <h2>Trusted by Growing Sales Teams
                     </h2>
                 </div>
             </div>
@@ -92,80 +99,73 @@
                             <div class="scroll-bord">
                                 <button class="tab-btn active" data-tab-index="0" data-bs-target="#tab1">
                                     <span>Increase Call Pickup Rate with Your Real Number</span>
-                                    <p>With SIM integration, every call shows your actual number. No virtual numbers. No masking. Prospects see it's a real person calling, which drives higher pickup rates.
-                                    </p>
+                                    <p>With SIM integration, every call shows your actual number. No virtual numbers. No masking. Prospects see it's a real person calling, which drives higher pickup rates.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Tab 1 Image">
+                                    <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
                                 </div>
                             </div>
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
-                                    <span>Better Calling Efficiency with AI Call Quality Scores
-                                    </span>
-                                    <p>Each call is automatically scored with insights on quality. Your team improves calling efficiency with less guesswork.
-                                    </p>
+                                    <span>Better Calling Efficiency with AI Call Quality Scores</span>
+                                    <p>Each call is automatically scored with insights on quality. Your team improves calling efficiency with less guesswork.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="Tab 2 Image">
+                                    <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
                                 </div>
                             </div>
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
-                                    <span>Keep Your Pipeline Intact With Instant Lead Status Updates
-                                    </span>
-                                    <p>Every call outcome syncs live into the CRM, so your team always knows what’s done and what’s next.
-                                    </p>
+                                    <span>Keep Your Pipeline Intact With Instant Lead Status Updates</span>
+                                    <p>Every call outcome syncs live into the CRM, so your team always knows what’s done and what’s next.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Tab 3 Image">
+                                    <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
                                 </div>
                             </div>
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
-                                    <span>Monitor Sales Momentum with an Intuitive Dashboard
-                                    </span>
-                                    <p>From call volume to lead status, everything updates in real time. You get a clear view of team performance and sales progress without delay.
-                                    </p>
+                                    <span>Monitor Sales Momentum with an Intuitive Dashboard</span>
+                                    <p>From call volume to lead status, everything updates in real time. You get a clear view of team performance and sales progress without delay.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Tab 4 Image">
+                                    <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
                                 </div>
                             </div>
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
-                                    <span>Never Miss a Follow-Up with Smart Reminders
-                                    </span>
-                                    <p>Your team gets smart reminders to follow up at the right time, whether it’s through a call, WhatsApp message, or email. No lead slips through the cracks.
-                                    </p>
+                                    <span>Never Miss a Follow-Up with Smart Reminders</span>
+                                    <p>Your team gets smart reminders to follow up at the right time, whether it’s through a call, WhatsApp message, or email. No lead slips through the cracks.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Tab 5 Image">
+                                    <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Tab 1 Image">
+                            <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="Tab 2 Image">
+                            <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Tab 3 Image">
+                            <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Tab 4 Image">
+                            <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Tab 5 Image">
+                            <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -249,7 +249,7 @@
             autoSlideInterval = setInterval(() => {
                 const nextIndex = (index + 1) % tabs.length;
                 switchTab(nextIndex);
-            }, 5000);
+            }, 8000);
         }
 
         function resetAutoSlide() {
@@ -289,7 +289,7 @@
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
                 <h2 style="font-size:25px;">What Mobile-First Sales Teams Love About Runo</h2>
             </div>
-            <div class=" row justify-content-center" style="margin-top:35px;">
+            <div class="row justify-content-center" style="margin-top:35px;">
                 <div class=" col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">1 Timeline</div>
                     <div class="metric-label">To track every conversation from start to close
@@ -344,122 +344,100 @@
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                     <h5>Advanced Caller ID</h5>
-                    <p class="feat-text">Get name, context, and call history before every outbound call, right on screen
-                    </p>
+                    <p class="feat-text">Get name, context, and call history before every outbound call, right on screen</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
-                    <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance
-                    </p>
+                    <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" loading="lazy" src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                    <img loading="lazy" src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                     <h5>Auto Dialer</h5>
-                    <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly
-                    </p>
+                    <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
                     <h5>AI Call Summaries</h5>
-                    <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call
-                    </p>
+                    <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+                    <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                     <h5>Interaction Timeline</h5>
-                    <p class="feat-text">Track the entire conversation history with each lead in one place
-                    </p>
+                    <p class="feat-text">One timeline to view all past calls, messages, notes, and lead status updates.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Management">
                     <h5>Lead Management</h5>
-                    <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion
-                    </p>
+                    <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
-                    <h5>Live Status of Team
-                    </h5>
-                    <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.
-                    </p>
+                    <img loading="lazy" src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Status of Team">
+                    <h5>Live Status of Team</h5>
+                    <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                     <h5>Follow-Up Notifications</h5>
-                    <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold
-                    </p>
+                    <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold</p>
                 </div>
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                    <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
                     <h5>Real-Time Dashboards</h5>
-                    <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.
-                    </p>
+                    <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.</p>
                 </div>
             </div>
-            <!-- Desktop Layout -->
+
             <!-- Mobile Swiper Layout -->
-            <!-- Mobile Swiper Layout (14 Features) -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
-                    <!-- Feature Slides -->
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                         <h5>Advanced Caller ID</h5>
-                        <p class="feat-text">Get name, context, and call history before every outbound call, right on screen
-                        </p>
+                        <p class="feat-text">Get name, context, and call history before every outbound call, right on screen</p>
                     </div>
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
-                        <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance
-                        </p>
+                        <p class="feat-text">Record every conversation automatically for coaching, reviews, and compliance</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" loading="lazy" src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
+                        <img loading="lazy" src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
                         <h5>Auto Dialer</h5>
-                        <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly
-                        </p>
+                        <p class="feat-text">One tap to call the next lead, log the interaction, and update CRM instantly</p>
                     </div>
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/8.webp" class="img-fluid mb-2" alt="AI Call Summaries">
                         <h5>AI Call Summaries</h5>
-                        <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call
-                        </p>
+                        <p class="feat-text">Skip the replays. Get instant, AI-written summaries after every call</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
+                        <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                         <h5>Interaction Timeline</h5>
-                        <p class="feat-text">Track the entire conversation history with each lead in one place
-                        </p>
+                        <p class="feat-text">Track the entire conversation history with each lead in one place</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img loading="lazy" src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Management">
                         <h5>Lead Management</h5>
-                        <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion
-                        </p>
+                        <p class="feat-text">Assign, prioritize, and move leads through your funnel with zero confusion</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/3.webp" class="img-fluid mb-2" alt="Real-Time Team Tracking">
-                        <h5>Live Status of Team
-                        </h5>
-                        <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.
-                        </p>
+                        <img loading="lazy" src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Status of Team">
+                        <h5>Live Status of Team</h5>
+                        <p class="feat-text">See which reps are on calls, idle, or falling behind, all in real time.</p>
                     </div>
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Notifications">
                         <h5>Follow-Up Notifications</h5>
-                        <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold
-                        </p>
+                        <p class="feat-text">Get nudged at the right moment to reconnect with leads before they go cold</p>
                     </div>
                     <div class="swiper-slide">
-                        <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
+                        <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Dashboards">
                         <h5>Real-Time Dashboards</h5>
-                        <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.
-                        </p>
+                        <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.</p>
                     </div>
                 </div>
-                <!-- Custom navigation buttons below -->
+                <!-- Navigation Buttons -->
                 <div class="swiper-nav-buttons text-center">
                     <button class="swiper-custom-prev">
                         <i class="fas fa-chevron-left"></i>
@@ -469,6 +447,7 @@
                     </button>
                 </div>
             </div>
+
         </div>
         </div>
     </section>
