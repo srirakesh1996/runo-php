@@ -120,9 +120,20 @@
 
                      <script>
                         jQuery(function($) {
-                           const phoneInput = document.querySelector("#phone2");
+                           const phoneInput = document.querySelector("#phone");
+
                            const iti = window.intlTelInput(phoneInput, {
-                              initialCountry: "in",
+                              geoIpLookup: function(callback) {
+                                 fetch('https://ipapi.co/json/')
+                                    .then((res) => res.json())
+                                    .then((data) => {
+                                       const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+                                       callback(countryCode);
+                                    })
+                                    .catch(() => {
+                                       callback('in'); // Fallback if IP lookup fails
+                                    });
+                              },
                               separateDialCode: true,
                               utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
                            });
