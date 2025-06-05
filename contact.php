@@ -140,30 +140,27 @@
 
                      <script>
                         jQuery(function($) {
-                           // Default fallback country
-                           let defaultCountry = "in";
+                           const phoneInput = document.querySelector("#phone2");
+                           const iti = window.intlTelInput(phoneInput, {
+                              geoIpLookup: function(callback) {
+                                 fetch('https://ipapi.co/json/')
+                                    .then(function(res) {
+                                       return res.json();
+                                    })
+                                    .then(function(data) {
+                                       const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+                                       callback(countryCode);
+                                    })
+                                    .catch(function() {
+                                       callback('in');
+                                    });
+                              },
 
-                           $.ajax({
-                              url: "https://geolocation-db.com/json/d802faa0-10bd-11ec-b2fe-47a0872c6708",
-                              dataType: "json",
-                              success: function(location) {
-                                 if (location && location.country_code) {
-                                    defaultCountry = location.country_code.toLowerCase();
-                                 }
-                              },
-                              error: function() {
-                                 // fallback stays 'in'
-                              },
-                              complete: function() {
-                                 // Initialize intlTelInput after country code is ready
-                                 const phoneInput = document.querySelector("#phone2");
-                                 window.iti = window.intlTelInput(phoneInput, {
-                                    initialCountry: defaultCountry,
-                                    separateDialCode: true,
-                                    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
-                                 });
-                              }
+                              separateDialCode: true,
+                              utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
                            });
+
+
 
                            const fakeNumbers = [
                               "1234567890", "0000000000", "1111111111", "2222222222",
