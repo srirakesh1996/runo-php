@@ -143,21 +143,25 @@
                            const phoneInput = document.querySelector("#phone");
 
                            const iti = window.intlTelInput(phoneInput, {
+                              initialCountry: localStorage.getItem("countryOverride") || "auto",
                               geoIpLookup: function(callback) {
-                                 fetch('https://ipapi.co/json/')
+                                 fetch("https://ipinfo.io/json?token=5b60e6f9dcdf16")
                                     .then((res) => res.json())
                                     .then((data) => {
-                                       const countryCode = (data && data.country_code) ? data.country_code.toLowerCase() : 'in';
+                                       const countryCode = (data && data.country) ? data.country.toLowerCase() : "in";
                                        callback(countryCode);
                                     })
-                                    .catch(() => {
-                                       callback('in'); // Fallback if IP lookup fails
-                                    });
+                                    .catch(() => callback("in"));
                               },
                               separateDialCode: true,
-                              utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
+                              utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js"
                            });
 
+                           // Save override if user manually changes
+                           phoneInput.addEventListener("countrychange", function() {
+                              const selectedCountry = iti.getSelectedCountryData().iso2;
+                              localStorage.setItem("countryOverride", selectedCountry);
+                           });
 
                            const fakeNumbers = [
                               "1234567890", "0000000000", "1111111111", "2222222222",
