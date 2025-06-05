@@ -140,27 +140,29 @@
 
                      <script>
                         jQuery(function($) {
-                           const phoneInput = document.querySelector("#phone");
+                           // Default fallback country
+                           let defaultCountry = "in";
 
-                           const iti = window.intlTelInput(phoneInput, {
-                              initialCountry: localStorage.getItem("countryOverride") || "auto",
-                              geoIpLookup: function(callback) {
-                                 fetch("https://ipinfo.io/json?token=5b60e6f9dcdf16")
-                                    .then((res) => res.json())
-                                    .then((data) => {
-                                       const countryCode = (data && data.country) ? data.country.toLowerCase() : "in";
-                                       callback(countryCode);
-                                    })
-                                    .catch(() => callback("in"));
+                           $.ajax({
+                              url: "https://geolocation-db.com/json/d802faa0-10bd-11ec-b2fe-47a0872c6708",
+                              dataType: "json",
+                              success: function(location) {
+                                 if (location && location.country_code) {
+                                    defaultCountry = location.country_code.toLowerCase();
+                                 }
                               },
-                              separateDialCode: true,
-                              utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js"
-                           });
-
-                           // Save override if user manually changes
-                           phoneInput.addEventListener("countrychange", function() {
-                              const selectedCountry = iti.getSelectedCountryData().iso2;
-                              localStorage.setItem("countryOverride", selectedCountry);
+                              error: function() {
+                                 // fallback stays 'in'
+                              },
+                              complete: function() {
+                                 // Initialize intlTelInput after country code is ready
+                                 const phoneInput = document.querySelector("#phone2");
+                                 window.iti = window.intlTelInput(phoneInput, {
+                                    initialCountry: defaultCountry,
+                                    separateDialCode: true,
+                                    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js",
+                                 });
+                              }
                            });
 
                            const fakeNumbers = [
