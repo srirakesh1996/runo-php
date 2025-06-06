@@ -338,7 +338,7 @@
                               }, {});
 
                               formData["your_phone"] = iti.getNumber();
-                              formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
+                              formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Contact";
 
                               const uuid = $(this).data("uuid");
 

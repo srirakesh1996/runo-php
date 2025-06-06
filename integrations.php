@@ -9,7 +9,14 @@
 <body>
    <div>
       <?php include('preloader.php'); ?>
-      <?php include('home-modal.php'); ?>
+      <?php
+
+      $page_name = 'Others';
+      $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
+
+      include('home-modal.php');
+      ?>
+
       <?php include('header.php'); ?>
       <!-- Page Header Start -->
       <div class="page-title">
@@ -412,44 +419,7 @@
       </div>
    </div>
    <!-- Our Faqs Section End -->
-   <section class="app-section py-5 text-white">
-      <div class="container">
-         <div class="row align-items-center text-center text-md-start">
-            <!-- Text Section -->
-            <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.2s">
-               <div class="d-flex gap-5 justify-content-center justify-content-md-start">
-                  <div>
-                     <h2 class="fw-bold">50k<sup>+</sup></h2>
-                     <p class="mb-0">Downloads</p>
-                  </div>
-                  <div>
-                     <h2 class="fw-bold">4.9<sup>+</sup></h2>
-                     <p class="mb-0">Users Rating</p>
-                  </div>
-                  <div>
-                     <h2 class="fw-bold">15k<sup>+</sup></h2>
-                     <p class="mb-0">Subscriptions</p>
-                  </div>
-               </div>
-            </div>
-            <!-- Image Section -->
-            <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
-               <img src="img/mobile.webp" alt="App Preview" class="img-fluid" style="width:80%">
-            </div>
-            <!-- App Icons Section -->
-            <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">
-               <div class="d-flex flex-column align-items-center gap-3">
-                  <a href="#" class="store-badge">
-                     <img src="img/apple.png" alt="Apple Store">
-                  </a>
-                  <a href="#" class="store-badge">
-                     <img src="img/playstore.png" alt="Google Play">
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
+   <?php include('home-contact.php'); ?>
    </div>
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>

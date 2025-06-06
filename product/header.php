@@ -26,10 +26,13 @@
                             <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
 
-                            <li class="nav-item"><a class="header-btn-plain" href="https://web.runo.in/">Login</a></li>
+
+                            <li class="nav-item"><a class="header-btn-plain track-btn" data-label="Login - Header" href="https://web.runo.in/">Login</a></li>
                             <li class="nav-item">
-                                <a class="header-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal">Request a Demo</a>
+                                <a class="header-btn track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Home Header">Request a Demo</a>
                             </li>
+
+
 
                             <div class="app-header-icons">
 

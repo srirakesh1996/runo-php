@@ -1,7 +1,7 @@
 <section class="features-section" id="features">
   <div class="container">
     <!-- Section Title -->
-    <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+    <div class="section-title text-center wow fadeInUp">
       <h2>Built for Doers, Dreamers, and
         Deal Closers: Peep In.
       </h2>
@@ -220,8 +220,8 @@
       Get a personalized walkthrough<br>
       of Runo in action
     </h2>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
-      Schedule Your Demo
-    </a>
+
+    <a class="btn-schedule wow animate__animated animate__zoomIn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Home CTA 1">Schedule Your Demo</a>
+
   </div>
 </section>

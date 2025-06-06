@@ -31,9 +31,9 @@
                         <div class="mb-3">
                             <select name="agents" class="form-select" id="agents">
                                 <option value="" disabled selected style="color: #858585;">Number of Calling Agents</option>
-                                <option value="1-5">1–5</option>
-                                <option value="6-10">6–10</option>
-                                <option value="11+">11+</option>
+                                <option value="50+">50+</option>
+                                <option value="11-50">11-50</option>
+                                <option value="1-10">1-10</option>
                             </select>
                             <small class="text-danger d-none" id="agentsError">Please select an option.</small>
                         </div>
@@ -239,7 +239,7 @@
             }, {});
 
             formData["your_phone"] = iti.getNumber(); // international phone
-            formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
+            formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Landing Pages";
 
             const uuid = $(this).data("uuid");
 

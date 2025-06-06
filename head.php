@@ -8,12 +8,13 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:image" content="img/share-icon.png">
-<meta property="og:url" content="img/share-icon.png">
+
+<meta property="og:image" content="https://runo.in/images/Runo-logo.png">
+<meta property="og:url" content="https://runo.in">
 
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="img/share-icon.png">
+<meta name="twitter:image" content="https://runo.in/images/Runo-logo.png">
+
 
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">

@@ -10,8 +10,8 @@
       <?php include('preloader.php'); ?>
       <?php
 
-      $page_name = 'Contact';
-      $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
+      $page_name = 'Partners';
+      $form_uuid = '5fcdd0a1-f308-42a0-939d-ed88680f6ad7';
 
       include('home-modal.php');
       ?>
@@ -320,7 +320,7 @@
                               }, {});
 
                               formData["your_phone"] = iti.getNumber();
-                              formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
+                              formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Partners";
 
                               const uuid = $(this).data("uuid");
 
