@@ -885,7 +885,7 @@
             </p>
 
 
-            <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
+            <div class="store-buttons">
                 <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
                 <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
