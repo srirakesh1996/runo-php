@@ -71,7 +71,7 @@
                   <h4>DISCLAIMER OF CONSEQUENTIAL DAMAGES</h4>
                   <p>In no event shall the Seller or any parties, organizations or entities associated with the corporate brand name RUNO or otherwise, be liable for any damages whatsoever (including, without limitations, incidental and consequential damages, lost profits, or damage to computer hardware or loss of data information or business interruption) resulting from the use or inability to use the App and the Website material, whether based on warranty, contract, tort, or any other legal theory, and whether or not, the Seller or its entities were advised of the possibility of such damages.</p>
 
-                  <p>2024 © Rutakshi Technologies Private Limited. All Rights Reserved</p>
+                  <p>2025 © Rutakshi Technologies Private Limited. All Rights Reserved</p>
 
                </div>
             </div>

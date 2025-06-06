@@ -1,7 +1,7 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>About Us</title>
+   <title>About Us - Runo </title>
    <?php include('head.php'); ?>
 
    <style>

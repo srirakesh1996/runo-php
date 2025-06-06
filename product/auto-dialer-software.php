@@ -4,8 +4,6 @@
 
     <title>Auto Dialer Software for SIM-Based Calling with CRM</title>
     <meta name="description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
-    <meta name="keywords" content="Call Management CRM, Telecalling CRM, Outbound CRM, Call Center CRM, Auto Dialer, Telecalling App, Dialer App">
-    <!-- Updated Open Graph tags -->
     <meta property="og:title" content="Auto Dialer Software for SIM-Based Calling with CRM">
     <meta property="og:description" content="Automated SIM-based auto dialer for call centers and outbound sales. Integrated with Runo CRM to boost outreach, productivity, lead tracking, and call efficiency.">
 

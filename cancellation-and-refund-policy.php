@@ -1,7 +1,7 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Cancellation and Refund Policy - Runo by Rutakshi Technologies Pvt Ltd</title>
+   <title>Cancellation and Refund Policy - Runo</title>
    <?php include('head.php'); ?>
 </head>
 
@@ -71,7 +71,7 @@
                   </ul>
 
                   <p><strong>Note:</strong> For any further clarifications on the subject, we request you to seek clarification(s), in writing, before making your final decision to procure the product/services.</p>
-                  <p><strong>2024 © Rutakshi Technologies Private Limited. All Rights Reserved</strong></p>
+                  <p><strong>2025 © Rutakshi Technologies Private Limited. All Rights Reserved</strong></p>
                </div>
             </div>
          </div>

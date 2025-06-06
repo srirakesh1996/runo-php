@@ -80,7 +80,7 @@
 
                 </div>-->
                 <div class="col-lg-6">
-                    <img src="../img/lead-management/lead-management.webp" class="pro-img img-fluid" alt="Runo Call Center CRM">
+                    <img src="../img/lead-management/lead-management.webp" class="pro-img img-fluid" alt="Runo Lead Management CRM">
 
                 </div>
             </div>
@@ -350,7 +350,7 @@
             <!-- Desktop Layout -->
             <div class="row d-none d-md-flex">
                 <div class="col-md-4 mb-4 text-center zoom-hover">
-                    <img src="../img/feature/csv-upload.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
+                    <img src="../img/feature/csv-upload.webp" class="img-fluid mb-2" alt="CSV Upload">
                     <h5>CSV Upload</h5>
                     <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                     </p>
@@ -398,7 +398,7 @@
                 <div class="swiper-wrapper text-center">
                     <!-- Feature Slides -->
                     <div class="swiper-slide">
-                        <img src="../img/feature/csv-upload.webp" class=" img-fluid mb-2" alt="Auto Lead Allocation">
+                        <img src="../img/feature/csv-upload.webp" class=" img-fluid mb-2" alt="CSV Upload">
                         <h5>CSV Upload</h5>
                         <p class="feat-text">Upload your lead or customer data in bulk and start managing them instantly
                         </p>
