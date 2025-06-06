@@ -320,31 +320,23 @@
                         const buttons = document.querySelectorAll('#feature-buttons .feature-btn');
                         const image = document.getElementById('webImage');
 
+                        // Handle feature button clicks (no fade)
                         buttons.forEach(btn => {
                             btn.addEventListener('click', () => {
-                                // Remove 'active' class from all buttons
                                 buttons.forEach(b => b.classList.remove('active'));
-                                // Add 'active' to the clicked one
                                 btn.classList.add('active');
 
                                 const text = btn.textContent.trim();
                                 const feature = featureMap[text];
 
                                 if (feature) {
-                                    image.classList.add('fade-out');
-
-                                    setTimeout(() => {
-                                        image.src = feature.src;
-                                        image.alt = feature.alt;
-                                        image.onload = () => {
-                                            image.classList.remove('fade-out');
-                                        };
-                                    }, 10);
+                                    image.src = feature.src;
+                                    image.alt = feature.alt;
                                 }
                             });
                         });
 
-                        // Set the initial image and alt based on the active button
+                        // Set initial image on page load
                         window.addEventListener('DOMContentLoaded', () => {
                             const activeBtn = document.querySelector('.feature-btn.active');
                             if (activeBtn) {
@@ -356,7 +348,18 @@
                                 }
                             }
                         });
+
+                        // Lazy preload images after full page load
+                        window.addEventListener('load', () => {
+                            setTimeout(() => {
+                                Object.values(featureMap).forEach(feature => {
+                                    const img = new Image();
+                                    img.src = feature.src;
+                                });
+                            }, 500); // Delay to not block banner load
+                        });
                     </script>
+
 
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
