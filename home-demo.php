@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <!-- Section Title -->
-      <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+      <div class="section-title text-center wow fadeInUp">
         <h2>Experience Runo AI in Action: Try Our Interactive Demo</h2>
         <p>Perfect for lean teams to get started fast.</p>
       </div>
@@ -23,8 +23,9 @@
         </div>
       </div>
       <!-- Hero Button -->
-      <div class="hero-btn mt-50 demo-btn text-center wow fadeInUp">
-        <a href="https://web.runo.in" class="btn-default btn-highlighted">Start Your 10-Day Free Trial</a>
+      <div class="hero-btn mt-50 demo-btn text-center">
+        <a class="btn-default btn-highlighted track-btn" href="https://web.runo.in" data-label="Start 10-day free trial - Home Demo">Start 10-day free trial</a>
+
         <p style="font-size:13px">No Credit Card required</p>
       </div>
     </div>

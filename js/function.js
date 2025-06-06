@@ -46,45 +46,6 @@
     });
   }
 
-  /* Hero Slider Layout JS */
-  const hero_slider_layout = new Swiper(".hero-slider-layout .swiper", {
-    slidesPerView: 1,
-    speed: 1000,
-    spaceBetween: 0,
-    loop: true,
-    autoplay: {
-      delay: 4000,
-    },
-    pagination: {
-      el: ".hero-pagination",
-      clickable: true,
-    },
-  });
-
-  /* Company Client Slider JS */
-  if ($(".company-client-slider").length) {
-    const testimonial_company_slider = new Swiper(
-      ".company-client-slider .swiper",
-      {
-        slidesPerView: 5,
-        speed: 2000,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-          delay: 5000,
-        },
-        breakpoints: {
-          768: {
-            slidesPerView: 5,
-          },
-          991: {
-            slidesPerView: 5,
-          },
-        },
-      }
-    );
-  }
-
   /* testimonial Slider JS */
   if ($(".testimonial-slider").length) {
     const testimonial_slider = new Swiper(".testimonial-slider .swiper", {
@@ -114,24 +75,23 @@
     document.querySelectorAll(".track-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         const label = this.getAttribute("data-label");
-        console.log("Button clicked:", label);
+        const pagePath = window.location.pathname;
 
-        // Example for Google Analytics 4 (GA4)
+        //    console.log("Button clicked:", label);
+        //   console.log("Page path:", pagePath);
+
+        // Send GA4 event with page path
         gtag("event", "button_click", {
           event_category: "CTA",
           event_label: label,
+          page_path: pagePath, // Custom dimension (optional for GA4)
         });
 
-        // Optional: prevent default if needed for testing
+        // Optional: prevent default for debugging
         // event.preventDefault();
       });
     });
   });
-
-  /* Youtube Background Video JS */
-  if ($("#herovideo").length) {
-    var myPlayer = $("#herovideo").YTPlayer();
-  }
 
   /* Animated Wow Js */
   new WOW().init();
@@ -146,27 +106,6 @@
       fixedContentPos: true,
     });
   }
-
-  /* How It Work Active Start */
-  var $process_steps_list = $(".process-steps-list");
-  if ($process_steps_list.length) {
-    var $steps_items = $process_steps_list.find(".process-step-box");
-
-    if ($steps_items.length) {
-      $steps_items.on({
-        mouseenter: function () {
-          if (!$(this).hasClass("active")) {
-            $steps_items.removeClass("active");
-            $(this).addClass("active");
-          }
-        },
-        mouseleave: function () {
-          // Optional: Add logic for mouse leave if needed
-        },
-      });
-    }
-  }
-  /* How It Work Active End */
 })(jQuery);
 function submitForm(formId, formData, formToken) {
   const $form = $(`#${formId}`);
@@ -183,8 +122,8 @@ function submitForm(formId, formData, formToken) {
   if (utmSource) formData["custom_utm source"] = utmSource;
   if (utmCampaign) formData["custom_utm campaign"] = utmCampaign;
 
-  console.log("Submitting form:", formId);
-  console.log("Form Data Sent to API:", formData);
+  // console.log("Submitting form:", formId);
+  // console.log("Form Data Sent to API:", formData);
 
   $.ajax({
     type: "POST",
@@ -197,7 +136,7 @@ function submitForm(formId, formData, formToken) {
     },
   })
     .done(function (data) {
-      console.log("✅ Success:", data);
+      //  console.log("✅ Success:", data);
       $form[0].reset();
       $btn.prop("disabled", false);
 
@@ -211,7 +150,7 @@ function submitForm(formId, formData, formToken) {
       $("#thankYouModal").modal("show");
     })
     .fail(function (jqXHR, textStatus, errorThrown) {
-      console.log("❌ Error:", textStatus, errorThrown);
+      //  console.log("❌ Error:", textStatus, errorThrown);
       $btn.prop("disabled", false);
       alert("Oops! Something went wrong.");
     });

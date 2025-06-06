@@ -3,7 +3,7 @@
         <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
             One App To Manage Calls, <br> Follow-ups, and Sales
         </h2>
-        <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" class="btn-schedule wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Start 10-day free trial - Home CTA 2" class="btn-schedule track-btn wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
             Schedule Your Demo
         </a>
         <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">

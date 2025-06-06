@@ -1,7 +1,7 @@
 <section class="deals-section" id="dealsSection">
   <div class="container">
     <div class="row deals-content">
-      <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+      <div class="section-title text-center wow fadeInUp">
         <h2>Whooosh…That’s the Sound of Closing Deals Faster</h2>
       </div>
 

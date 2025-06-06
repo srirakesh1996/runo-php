@@ -1,6 +1,6 @@
 <section class="cloud-tech-section">
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="0.3s">
+        <h2 class="wow fadeInUp">
             Beyond Cloud Technology:
             Built for Modern, Personalized Outreach
         </h2>

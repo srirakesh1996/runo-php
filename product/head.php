@@ -5,6 +5,19 @@
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes="16x16">
 
+<!-- SEO Meta -->
+<meta name="robots" content="no-index, follow">
+<meta name="language" content="English">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="https://runo.in/images/Runo-logo.png">
+<meta property="og:url" content="https://runo.in">
+
+<!-- Twitter Card -->
+<meta name="twitter:image" content="https://runo.in/images/Runo-logo.png">
+
 
 <link rel="preload" as="style" href="css/bootstrap.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">

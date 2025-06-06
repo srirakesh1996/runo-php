@@ -2,7 +2,7 @@
 <section class="compare-web">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="section-title text-center wow animate__fadeInUp" data-wow-delay="0.2s">
+      <div class="section-title text-center wow animate__fadeInUp">
         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
       </div>
       <div class="col-lg-9 wow animate__fadeInUp">
@@ -233,8 +233,8 @@
       </div>
     </div> -->
     <div class="text-center overlap" id="credit">
-      <div class="mt-4 wow fadeInUp" data-wow-delay="0.8s">
-        <a href="https://web.runo.in" class="btn-default btn-highlighted">Start 10-day free trial</a>
+      <div class="mt-4">
+        <a href="https://web.runo.in" class="btn-default btn-highlighted track-btn" data-label="Book a Demo - Home Comparision">Start 10-day free trial</a>
         <p>No Credit Card Required</p>
       </div>
     </div>
