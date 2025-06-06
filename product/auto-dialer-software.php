@@ -34,9 +34,9 @@
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <div class="banner-cont">
-                            <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
-                                <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
-                                    SIM-Based Auto Dialer<br> That Ends Manual Calling for Good
+                            <div class="section-title dark-section Custom" data--delay="0.3s" style="width: 100%">
+                                <h1 class=" fadeInUpCustom" data--delay="0.4s">
+                                    SIM-Based Auto Dialer That Ends Manual Calling for Good
                                 </h1>
                                 <p>Integrated with Runo’s Call Management CRM, it speeds up outreach and helps your team stay on track with every lead.
                                 </p>
@@ -46,7 +46,7 @@
                                     <li>Live call updates in the CRM</li>
                                 </ul>
                                 <!-- Hero Buttons -->
-                                <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.3s" data-wow-duration="0.7s">
+                                <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
                                         <a class="btn-plain track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Auto Dialer Banner">Book a Demo</a>
                                         <p class="banner-btn1">&nbsp;</p>
@@ -71,7 +71,7 @@
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
-                <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="clients-title text-center " data--delay="0.2s">
                     <h2>Trusted by 3500+ Growing Businesses
                     </h2>
                 </div>
@@ -84,7 +84,7 @@
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <div class="section-title text-center " data--delay="0.3s">
                     <h2>The Only Auto Dialer with a Built-In AI-Powered CRM
                     </h2>
                 </div>
@@ -301,23 +301,23 @@
     <!-- why choose runo ends-->
     <section class="metrics-section mt-70">
         <div class="container">
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2 style="font-size:25px;">What Mobile-First Sales Teams Love About Runo
                 </h2>
             </div>
             <div class="row justify-content-center" style="margin-top:35px;">
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">1 Tap</div>
-                    <div class="metric-label">To auto dial leads without switching screens
+                    <div class="metric-label">to auto dial leads without switching screens
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">5x</div>
-                    <div class="metric-label">Faster than manual dialing</div>
+                    <div class="metric-label">faster than manual dialing</div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="metric-value">100%</div>
-                    <div class="metric-label">Lead follow-up visibilitys</div>
+                    <div class="metric-label">lead follow-up visibilitys</div>
                 </div>
             </div>
         </div>
@@ -325,7 +325,7 @@
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2>The Essentials for High-Volume Calling
                 </h2>
                 <p class="feat-text">Built for teams that call all day
@@ -486,12 +486,12 @@
             },
         });
     </script>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Let your team try it. <br>See the difference.
             </h2>
-            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
             </a>
         </div>
@@ -500,7 +500,7 @@
         <div class="container">
             <div class="row">
                 <!-- Section Title -->
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <div class="section-title text-center " data--delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <h2>Works With All Your Lead Sources And CRMs
                     </h2>
                     <p>Sales-ready integrations built in
@@ -511,7 +511,7 @@
                     <img loading="lazy" src="../img/auto-dialer/lead.webp" alt="Lead Source" class="video-thumbnail" style="width: 100%; height: auto; border-radius: 12px;">
                 </div>
                 <!-- Hero Button -->
-                <div class="hero-btn demo-btn text-center wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                <div class="hero-btn demo-btn text-center " data--delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
                     <a href="https://web.runo.in" class="btn-default btn-highlighted">
                         Start Your 10-Day Free Trial
                     </a>
@@ -523,7 +523,7 @@
     <div class="our-tesimonial-page">
         <div class="container">
             <!-- Section Title Row with Navigation -->
-            <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
                 <div class="col-md-8">
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
@@ -539,7 +539,7 @@
     <div class="page-faqs">
         <div class="container">
             <div class="row">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="section-title text-center " data--delay="0.2s">
                     <h2>Still Curious? Let’s Clear It Up.
                     </h2>
                 </div>
@@ -548,7 +548,7 @@
                         <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                             <div class="faq-accordion" id="accordionRuno">
                                 <!-- FAQ Items Start -->
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                             What is auto dialer software, and why do sales teams use it?
@@ -560,7 +560,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                             How does Runo’s auto dialer work?
@@ -572,7 +572,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                             How do I set up the auto dialer?
@@ -584,7 +584,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                             Why choose Runo’s auto dialer over others?
@@ -596,7 +596,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                             Can I integrate Runo with my existing CRM or lead sources?
@@ -608,7 +608,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                             Can I track how my agents are performing?
@@ -620,7 +620,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading7">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                             Can I record calls?
@@ -632,7 +632,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading8">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                             How much does Runo’s auto dialer cost?
@@ -644,7 +644,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading9">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                                             Is using an auto dialer legal?
@@ -656,7 +656,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading10">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                                             How many calls can it make in a day?
@@ -678,8 +678,8 @@
     </div>
     s
     <!-- Page Faq End -->
-    <!-- Security Section with WOW animations -->
-    <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+    <!-- Security Section with  animations -->
+    <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
@@ -692,20 +692,19 @@
             </div>
         </div>
     </section>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
-                Auto-Dial Smarter. <br>
-                Close Faster. <br>
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
+                Auto-Dial Smarter. Close Faster. <br>
                 With Runo.
             </h2>
             <p class="cta-p">All-in-one SIM-based Auto Dialer with built-in CRM, live call tracking, WhatsApp templates, and, follow-up reminders. Perfect for mobile-first sales teams.
             </p>
-            <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+            <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
                 <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
                 <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
-            <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+            <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>

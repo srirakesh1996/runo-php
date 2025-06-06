@@ -50,8 +50,8 @@
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <div class="banner-cont">
-                            <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
-                                <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
+                            <div class="section-title dark-section Custom" data--delay="0.3s" style="width: 100%">
+                                <h1 class=" fadeInUpCustom" data--delay="0.4s">
                                     Call Center App With <br>
                                     No Complex Infrastructure
                                 </h1>
@@ -68,7 +68,7 @@
 
 
                                 <!-- Hero Buttons -->
-                                <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.3s" data-wow-duration="0.7s">
+                                <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
                                         <a class="btn-plain track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Call Center Banner">Book a Demo</a>
                                         <p class="banner-btn1">&nbsp;</p>
@@ -103,7 +103,7 @@
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
-                <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="clients-title text-center " data--delay="0.2s">
                     <h2>Backed by call-focused teams across sales and support
 
                     </h2>
@@ -124,7 +124,7 @@
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <div class="section-title text-center " data--delay="0.3s">
                     <h2>Why Growing Teams Choose Runo for Call Center Needs
 
                     </h2>
@@ -348,7 +348,7 @@
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2>Features Built for High-Performance Calling Teams
                 </h2>
                 <p class="feat-text">Simplifies how your team calls and converts
@@ -489,14 +489,14 @@
     </script>
 
 
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Manage your entire call flow <br> without the clutter
 
 
             </h2>
-            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
 
             </a>
@@ -510,11 +510,11 @@
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2>
                     Make Better Calls With <br>
                     <span class="gradient-text">
-                        Runo’s AI-Powered
+                        Runo’s </span> <span class="gradient-text"> AI-Powered
                     </span> Tools
 
                 </h2>
@@ -655,13 +655,13 @@
     </script>
 
 
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Ready to see what smart <br> calling actually feels like?
 
             </h2>
-            <a class="btn-schedule wow animate__animated animate__zoomIn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"> Book a Demo</a>
+            <a class="btn-schedule  animate__animated animate__zoomIn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"> Book a Demo</a>
 
         </div>
     </section>
@@ -671,7 +671,7 @@
     <div class="our-tesimonial-page mt-space">
         <div class="container">
             <!-- Section Title Row with Navigation -->
-            <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
                 <div class="col-md-8">
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
@@ -691,7 +691,7 @@
     <div class="page-faqs">
         <div class="container">
             <div class="row">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="section-title text-center " data--delay="0.2s">
                     <h2>Everything You’re Wondering, Answered
                     </h2>
                 </div>
@@ -700,7 +700,7 @@
                         <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                             <div class="faq-accordion" id="accordionRuno">
                                 <!-- Updated FAQ Items Start -->
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                             What is a call center app?
@@ -712,7 +712,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                             How does Runo work for call centers?
@@ -724,7 +724,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                             Does the app support call tracking and analytics?
@@ -736,7 +736,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                             Can I record calls using Runo?
@@ -748,7 +748,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                             How does the auto-dialer work?
@@ -760,7 +760,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                             How does lead management work in the app?
@@ -772,7 +772,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading7">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                             Can I integrate this app with other business tools?
@@ -784,7 +784,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading8">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                             Does the app support WhatsApp integration?
@@ -796,7 +796,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading9">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                                             How easy is it to connect with my existing CRM?
@@ -808,7 +808,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading10">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                                             Is the app secure and compliant with regulations?
@@ -820,7 +820,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading11">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                                             Is there a free trial available?
@@ -832,7 +832,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading12">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
                                             Who is this SIM-based call center app for?
@@ -858,8 +858,8 @@
 
     <!-- Page Faq End -->
 
-    <!-- Security Section with WOW animations -->
-    <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+    <!-- Security Section with  animations -->
+    <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
@@ -876,9 +876,9 @@
 
 
 
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 A Call Center App <br>Built for Mobile Teams
 
             </h2>
@@ -887,11 +887,11 @@
             </p>
 
 
-            <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+            <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
                 <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
                 <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
-            <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+            <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
 
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>

@@ -2,7 +2,7 @@
 <div class="page-faqs">
     <div class="container">
         <div class="row">
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+            <div class="section-title text-center">
                 <h2>Got Doubts?
                     Let’s Smash ‘Em Together
                 </h2>

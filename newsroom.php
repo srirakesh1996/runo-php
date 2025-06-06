@@ -21,13 +21,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content  fadeIn" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Newsroom</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline  fadeInDown" data--delay="0.4s">Newsroom</div>
+                     <h2 class="text-anime-style-2  fadeInUp" data--delay="0.6s" data-cursor="-opaque">
                         Stay Updated with the Latest from Runo
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Explore our latest announcements, press releases, and media coverage to see how Runo is making headlines in business communication.
                      </p>
                   </div>
@@ -39,7 +39,7 @@
       <div class="container" style="margin:40px auto">
          <div class="row g-4">
             <div class="col-md-1"></div>
-            <div class="col-md-5 wow animate__animated animate__fadeInUp">
+            <div class="col-md-5  animate__animated animate__fadeInUp">
                <div class="news-card bg-white">
                   <img src="img/bl.svg" alt="The Hindu BusinessLine" class="news-img">
                   <div class="news-content">
@@ -52,7 +52,7 @@
                </div>
             </div>
             <!-- Card 2 -->
-            <div class="col-md-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-5  animate__animated animate__fadeInUp" data--delay="0.2s">
                <div class="news-card bg-white">
                   <img src="img/et.svg" alt="The Economic Times" class="news-img">
                   <div class="news-content">

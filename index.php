@@ -52,7 +52,8 @@
 
     <?php include('home-cloud.php'); ?>
 
-    <?php include('home-demo.php'); ?>
+    <?php // include('home-demo.php'); 
+    ?>
 
     <?php include('home-features.php'); ?>
 

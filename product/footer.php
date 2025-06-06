@@ -31,17 +31,8 @@
                 </ul>
             </div>
 
-            <!-- Resources -->
-            <div class="col-6 col-md-4 col-lg-2">
-                <h6 class="text-white fw-bold mb-3">RESOURCES</h6>
-                <ul class="list-unstyled">
-                    <li><a href="https://blog.runo.in/" class="text-light text-decoration-none d-block mb-1">Blog</a></li>
-                    <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API Documentation</a></li>
-                </ul>
-            </div>
-
             <!-- Support -->
-            <div class="col-6 col-md-6 col-lg-2">
+            <div class="col-6 col-md-4 col-lg-2">
                 <h6 class="text-white fw-bold mb-3">SUPPORT</h6>
                 <ul class="list-unstyled">
                     <li><a href="../contact" class="text-light text-decoration-none d-block mb-1">Contact sales</a></li>
@@ -49,6 +40,15 @@
                 </ul>
             </div>
 
+            <!-- Resources -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <h6 class="text-white fw-bold mb-3">RESOURCES</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://blog.runo.in/" class="text-light text-decoration-none d-block mb-1">Blog</a></li>
+                    <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API Documentation</a></li>
+                    <li><a href="../integrations" class="text-light text-decoration-none d-block mb-1">Integrations</a></li>
+                </ul>
+            </div>
             <!-- Review Images -->
             <div class="col-12 col-md-6 col-lg-2 review">
                 <h6 class="text-white fw-bold mb-3 text-center">Review Us</h6>

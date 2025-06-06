@@ -287,7 +287,7 @@ body {
 
 .btn-default.btn-highlighted:hover {
   transform: scale(1.04);
-  box-shadow: 0 8px 20px rgba(0, 101, 242, 0.35);
+
 }
 
 .btn-default.btn-highlighted:hover::before {
@@ -354,7 +354,7 @@ body {
 }
 
 .section-row {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .section-row .section-title {
@@ -377,7 +377,7 @@ body {
 }
 
 .section-title {
-  width: 70%;
+  width: 80%;
   margin: 0px auto 30px auto;
 }
 
@@ -416,13 +416,13 @@ body {
 }
 
 .section-title h1 {
-  font-size: 45px;
+  font-size: 42px;
   font-weight: 800;
   margin-bottom: 0;
 }
 
 .section-title h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 800;
   margin-bottom: 0;
 }
@@ -2164,7 +2164,7 @@ header.main-header .header-sticky.active {
   position: relative;
   z-index: -1;
 
-  padding: 40px;
+  padding: 30px;
   background: #e1e1e1;
   border-radius: 20px;
 }
@@ -2193,7 +2193,7 @@ header.main-header .header-sticky.active {
 
 .testimonial-body {
   position: absolute;
-  width: 80%;
+  width: 85%;
   bottom: 35px;
 }
 
@@ -2227,6 +2227,7 @@ header.main-header .header-sticky.active {
 .author-content p {
   color: #111111;
   text-transform: capitalize;
+  font-size: 14px;
   margin: 0;
 }
 

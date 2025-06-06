@@ -22,13 +22,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content  fadeIn" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Integrations</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline" data--delay="0.4s">Integrations</div>
+                     <h2 class="text-anime-style-2" data--delay="0.6s" data-cursor="-opaque">
                         Multiple Integrations, Seamless Efficiency
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Connect with essential tools effortlessly. Enhance workflows and boost productivity with Runo's robust integration capabilities.
                      </p>
                   </div>
@@ -43,8 +43,8 @@
             <div class="row section-row align-items-center">
                <div class="col-lg-12 text-center">
                   <!-- Section Title Start -->
-                  <div class="section-title wow fadeInDown" data-wow-delay="0.1s">
-                     <h2 class="text-anime-style-2" data-cursor="-opaque">WhatsApp</h2>
+                  <div class="section-title" data--delay="0.1s">
+                     <h2>WhatsApp</h2>
                      <p>Stay Connected on the Most Popular Messaging Platform</p>
                   </div>
                   <!-- Section Title End -->
@@ -55,19 +55,19 @@
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
                      <!-- Mission Vision Items -->
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="mission-vision-item" data--delay="0.2s">
                         <div class="mission-vision-content">
                            <h3>Instant Messaging</h3>
                            <p>Communicate with your customers in real-time directly through WhatsApp for swift and efficient responses.</p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.4s">
+                     <div class="mission-vision-item" data--delay="0.4s">
                         <div class="mission-vision-content">
                            <h3>Automated Notifications</h3>
                            <p>Set up automated WhatsApp notifications for follow-ups, reminders, and updates to keep your customers informed and engaged.</p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                     <div class="mission-vision-item" data--delay="0.6s">
                         <div class="mission-vision-content">
                            <h3>Media Sharing</h3>
                            <p>Easily share documents, images, and videos with customers to provide detailed information and enhance interactions.</p>
@@ -79,12 +79,12 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int1.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int1.webp" alt="Main Portrait" class="center-image  fadeIn" data--delay="0.2s">
                      <!-- Floating Images -->
                      <img src="img/int2.webp" alt="Left Floating Box"
-                        class="side-image left-image wow fadeInLeft" data-wow-delay="0.4s">
+                        class="side-image left-image" data--delay="0.4s">
                      <img src="img/int3.webp" alt="Right Floating Box"
-                        class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
+                        class="side-image right-image" data--delay="0.4s">
                   </div>
                </div>
             </div>
@@ -97,8 +97,8 @@
             <div class="row section-row align-items-center">
                <div class="col-lg-12 text-center">
                   <!-- Section Title Start -->
-                  <div class="section-title wow fadeInDown" data-wow-delay="0.1s">
-                     <h2 class="text-anime-style-2" data-cursor="-opaque">Lead Source
+                  <div class="section-title" data--delay="0.1s">
+                     <h2>Lead Source
                      </h2>
                      <p>Optimize Your Lead Management
                      </p>
@@ -110,19 +110,19 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int4.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int4.webp" alt="Main Portrait" class="center-image  fadeIn" data--delay="0.2s">
                      <!-- Floating Images -->
                      <img src="img/int5.webp" alt="Left Floating Box"
-                        class="side-image left-image wow fadeInLeft" data-wow-delay="0.4s">
+                        class="side-image left-image" data--delay="0.4s">
                      <img src="img/int6.webp" alt="Right Floating Box"
-                        class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
+                        class="side-image right-image" data--delay="0.4s">
                   </div>
                </div>
                <div class="col-lg-6 mt-5">
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
                      <!-- Mission Vision Items -->
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="mission-vision-item" data--delay="0.2s">
                         <div class="mission-vision-content">
                            <h3>Automatic Lead Capture
                            </h3>
@@ -130,7 +130,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.4s">
+                     <div class="mission-vision-item" data--delay="0.4s">
                         <div class="mission-vision-content">
                            <h3>Real-Time Lead Allocation
                            </h3>
@@ -138,7 +138,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                     <div class="mission-vision-item" data--delay="0.6s">
                         <div class="mission-vision-content">
                            <h3>Lead Enrichment
                            </h3>
@@ -146,7 +146,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                     <div class="mission-vision-item" data--delay="0.6s">
                         <div class="mission-vision-content">
                            <h3>Analytics and Reporting
                            </h3>
@@ -167,8 +167,8 @@
             <div class="row section-row align-items-center">
                <div class="col-lg-12 text-center">
                   <!-- Section Title Start -->
-                  <div class="section-title wow fadeInDown" data-wow-delay="0.1s">
-                     <h2 class="text-anime-style-2" data-cursor="-opaque">External CRMs
+                  <div class="section-title" data--delay="0.1s">
+                     <h2>External CRMs
                      </h2>
                      <p>Seamless Data Synchronization
                      </p>
@@ -181,7 +181,7 @@
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
                      <!-- Mission Vision Items -->
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="mission-vision-item" data--delay="0.2s">
                         <div class="mission-vision-content">
                            <h3>Bidirectional Sync
                            </h3>
@@ -189,7 +189,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.4s">
+                     <div class="mission-vision-item" data--delay="0.4s">
                         <div class="mission-vision-content">
                            <h3>Unified Customer View
                            </h3>
@@ -197,7 +197,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                     <div class="mission-vision-item" data--delay="0.6s">
                         <div class="mission-vision-content">
                            <h3>Automated Workflows
                            </h3>
@@ -205,7 +205,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                     <div class="mission-vision-item" data--delay="0.6s">
                         <div class="mission-vision-content">
                            <h3>Custom Field Mapping
                            </h3>
@@ -219,9 +219,9 @@
                <div class="col-lg-6">
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
-                     <img src="img/int4.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                     <img src="img/int4.webp" alt="Main Portrait" class="center-image  fadeIn" data--delay="0.2s">
                      <img src="img/int7.webp" alt="Right Floating Box"
-                        class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
+                        class="side-image right-image" data--delay="0.4s">
                   </div>
                </div>
             </div>
@@ -235,8 +235,8 @@
          <div class="row section-row align-items-center">
             <div class="col-lg-12 text-center">
                <!-- Section Title Start -->
-               <div class="section-title wow fadeInDown" data-wow-delay="0.1s">
-                  <h2 class="text-anime-style-2" data-cursor="-opaque">Google Sheets/Google Analytics
+               <div class="section-title" data--delay="0.1s">
+                  <h2>Google Sheets/Google Analytics
                   </h2>
                   <p>Powerful Data Management and Insights
                   </p>
@@ -248,17 +248,17 @@
             <div class="col-lg-6">
                <div class="image-wrapper">
                   <!-- Main Image with FadeIn -->
-                  <img src="img/int8.webp" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
+                  <img src="img/int8.webp" alt="Main Portrait" class="center-image  fadeIn" data--delay="0.2s">
                   <!-- Floating Images -->
                   <img src="img/int9.webp" alt="Right Floating Box"
-                     class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
+                     class="side-image right-image" data--delay="0.4s">
                </div>
             </div>
             <div class="col-lg-6 mt-5">
                <!-- Our Approach Content Start -->
                <div class="our-approach-content">
                   <!-- Mission Vision Items -->
-                  <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="mission-vision-item" data--delay="0.2s">
                      <div class="mission-vision-content">
                         <h3>Data Export to Google Sheets
                         </h3>
@@ -266,7 +266,7 @@
                         </p>
                      </div>
                   </div>
-                  <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="mission-vision-item" data--delay="0.4s">
                      <div class="mission-vision-content">
                         <h3>Real-Time Analytics
                         </h3>
@@ -274,14 +274,14 @@
                         </p>
                      </div>
                   </div>
-                  <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="mission-vision-item" data--delay="0.6s">
                      <div class="mission-vision-content">
                         <h3>Custom Dashboards
                         </h3>
                         <p>Create custom dashboards in Google Sheets or Google Data Studio, combining data from Runo with other sources for comprehensive business insights.</p>
                      </div>
                   </div>
-                  <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="mission-vision-item" data--delay="0.6s">
                      <div class="mission-vision-content">
                         <h3>Automated Reports
                         </h3>
@@ -297,41 +297,35 @@
    </div>
    <!-- Our Approach Section End -->
    <!-- Demo CTA Section -->
-   <section class="demo-section wow fadeInUp" data-wow-delay="0.3s">
+   <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
       <div class="container">
-         <div class="row align-items-center">
-            <div class="col-md-6 demo-img text-center mb-4 mb-md-0">
-               <img src="img/cta-pic.webp" alt="Woman pointing">
-            </div>
-            <div class="col-md-6 demo-text">
-               <h2 class="wow fadeInUp" data-wow-delay="0.4s">
-                  Unlock Effortless Integrations: Connect & Go!
-               </h2>
-               <p class="mt-4 wow fadeInUp" data-wow-delay="0.5s">
-                  Connect. Automate. Grow with Runo.
-               </p>
-               <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
-                  <div class="hero-btn">
-                     <a href="contact.html" class="btn-orange">Book a Demo</a>
-                  </div>
-                  <div class="hero-btn">
-                     <a href="contact.html" class="btn-default btn-highlighted">Start 10-day free trial</a>
-                  </div>
-               </div>
-            </div>
+         <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
+            One App To Manage Calls, <br> Follow-ups, and Sales
+         </h2>
+         <a href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Start 10-day free trial - Inetgrations CTA 2" class="btn-schedule track-btn  animate__animated animate__zoomIn" data--delay="0.6s">
+            Schedule Your Demo
+         </a>
+         <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
+            <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="img/ios.webp" alt="App Store" /></a>
+            <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="img/google-play.webp" alt="Google Play"></a>
+         </div>
+         <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
+
+            <span class="stars">★★★★★</span>
+            <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
          </div>
       </div>
    </section>
    <!-- Our Faqs Section Start -->
-   <div class="our-faqs">
+   <div class="our-faqs mt-space">
       <div class="container">
          <div class="row">
             <!-- Left Column -->
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="col-lg-6" data--delay="0.2s">
                <!-- Our Faq Content Start -->
                <div class="our-faq-content">
                   <!-- Section Title Start -->
-                  <div class="section-title wow fadeInUp" data-wow-delay="0.4s" style="width:100%">
+                  <div class="section-title" data--delay="0.4s" style="width:100%;margin-top:60px">
                      <h2>Got questions? we've got <span>answers!</span></h2>
                   </div>
                   <!-- Section Title End -->
@@ -343,7 +337,7 @@
                <!-- FAQ Accordion Start -->
                <div class="faq-accordion" id="accordion">
                   <!-- FAQ Item Start -->
-                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="accordion-item" data--delay="0.3s">
                      <h2 class="accordion-header" id="heading1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                            How do Runo’s integrations improve workflow efficiency?
@@ -357,7 +351,7 @@
                   </div>
                   <!-- FAQ Item End -->
                   <!-- FAQ Item Start -->
-                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="accordion-item" data--delay="0.5s">
                      <h2 class="accordion-header" id="heading2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                            Can I customize the integration settings?
@@ -371,7 +365,7 @@
                   </div>
                   <!-- FAQ Item End -->
                   <!-- FAQ Item Start -->
-                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="accordion-item" data--delay="0.7s">
                      <h2 class="accordion-header" id="heading3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                            Is data transfer secure with these integrations?
@@ -385,7 +379,7 @@
                   </div>
                   <!-- FAQ Item End -->
                   <!-- FAQ Item Start -->
-                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
+                  <div class="accordion-item" data--delay="0.9s">
                      <h2 class="accordion-header" id="heading4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                            Do these integrations support real-time data updates?
@@ -399,7 +393,7 @@
                   </div>
                   <!-- FAQ Item End -->
                   <!-- FAQ Item Start -->
-                  <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
+                  <div class="accordion-item" data--delay="1.1s">
                      <h2 class="accordion-header" id="heading5">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                            How easy is it to set up these integrations?
@@ -419,7 +413,7 @@
       </div>
    </div>
    <!-- Our Faqs Section End -->
-   <?php include('home-contact.php'); ?>
+
    </div>
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>

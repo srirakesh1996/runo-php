@@ -35,8 +35,8 @@
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <div class="banner-cont">
-                            <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
-                                <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
+                            <div class="section-title dark-section Custom" data--delay="0.3s" style="width: 100%">
+                                <h1 class=" fadeInUpCustom" data--delay="0.4s">
                                     Call Management App For
                                     Mobile-First Sales Teams
                                 </h1>
@@ -48,7 +48,7 @@
                                     <li>Get full conversation history, no more lost context</li>
                                 </ul>
                                 <!-- Hero Buttons -->
-                                <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.3s" data-wow-duration="0.7s">
+                                <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
                                         <a class="btn-plain track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Call CRMs Banner">Book a Demo</a>
                                         <p class="banner-btn1">&nbsp;</p>
@@ -73,7 +73,7 @@
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
-                <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="clients-title text-center " data--delay="0.2s">
                     <h2>Trusted by Growing Sales Teams
                     </h2>
                 </div>
@@ -86,7 +86,7 @@
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <div class="section-title text-center " data--delay="0.3s">
                     <h2>Designed for how sales should work today</h2>
                 </div>
                 <!-- Tabs and Mobile Images -->
@@ -286,25 +286,25 @@
     <!-- why choose runo ends-->
     <section class="metrics-section mt-70">
         <div class="container">
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2 style="font-size:25px;">What Mobile-First Sales Teams Love About Runo</h2>
             </div>
             <div class="row justify-content-center" style="margin-top:35px;">
                 <div class=" col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">1 Timeline</div>
-                    <div class="metric-label">To track every conversation from start to close
+                    <div class="metric-label">to track every conversation from start to close
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">100%
                     </div>
-                    <div class="metric-label">Of calls auto-logged and synced to CRM
+                    <div class="metric-label">of calls auto-logged and synced to CRM
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="metric-value">24/7
                     </div>
-                    <div class="metric-label">Access to real-time analytics from any device
+                    <div class="metric-label">access to real-time analytics from any device
                     </div>
                 </div>
             </div>
@@ -312,7 +312,7 @@
     </section>
     <section class="cloud-tech-section">
         <div class="container">
-            <h2 class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <h2 class=" fadeInUp" data--delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                 Beyond Cloud Technology:
                 Built for Modern, Personalized Outreach
             </h2>
@@ -333,7 +333,7 @@
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2>Everything a Call-Driven Team Needs in One App
                 </h2>
                 <p class="feat-text">Track, call, follow up, and manage leads, all without breaking your flow.
@@ -466,12 +466,12 @@
             },
         });
     </script>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Built for high-performance <br>teams like yours
             </h2>
-            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
             </a>
         </div>
@@ -480,7 +480,7 @@
     <div class="our-tesimonial-page mt-space">
         <div class="container">
             <!-- Section Title Row with Navigation -->
-            <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
                 <div class="col-md-8">
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
@@ -496,7 +496,7 @@
     <div class="page-faqs">
         <div class="container">
             <div class="row">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="section-title text-center " data--delay="0.2s">
                     <h2>Got Questions?
                         We’ve Got Answers
                     </h2>
@@ -506,7 +506,7 @@
                         <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                             <div class="faq-accordion" id="accordionRuno">
                                 <!-- Updated FAQ Items Start -->
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                             What is a SIM-based Call Management App?
@@ -518,7 +518,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                             How does the AI feature support my team?
@@ -530,7 +530,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                             How does this CRM help with call compliance?
@@ -542,7 +542,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                             What are the key benefits of using AI for call management?
@@ -554,7 +554,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                             Can this CRM integrate with our current lead sources and tools?
@@ -566,7 +566,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                             Does it offer real-time visibility into team performance?
@@ -578,7 +578,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading7">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                             How does this call management app improve our sales call results?
@@ -590,7 +590,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="heading8">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                             Can I use this CRM on both mobile and desktop?
@@ -611,8 +611,8 @@
         </div>
     </div>
     <!-- Page Faq End -->
-    <!-- Security Section with WOW animations -->
-    <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+    <!-- Security Section with  animations -->
+    <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
@@ -625,18 +625,18 @@
             </div>
         </div>
     </section>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 The CRM Your Sales Team <br>Can Carry in Their Pocket
             </h2>
             <p class="cta-p">Track calls, view insights, and get AI-written summaries in seconds. Runo makes mobile CRM smart, simple, and sales-ready.
             </p>
-            <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+            <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
                 <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/ios.webp" alt="App Store" /></a>
                 <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/google-play.webp" alt="Google Play"></a>
             </div>
-            <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+            <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>

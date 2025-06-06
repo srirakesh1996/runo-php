@@ -2,10 +2,10 @@
 <section class="compare-web">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="section-title text-center wow animate__fadeInUp">
+      <div class="section-title text-center">
         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
       </div>
-      <div class="col-lg-9 wow animate__fadeInUp">
+      <div class="col-lg-9">
         <div class="row g-0 table-wrapper">
           <div class="col-md-4 bg-white rest" style="z-index:0;margin-top: 45px;">
 

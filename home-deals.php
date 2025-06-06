@@ -1,7 +1,7 @@
 <section class="deals-section" id="dealsSection">
   <div class="container">
     <div class="row deals-content">
-      <div class="section-title text-center wow fadeInUp">
+      <div class="section-title text-center">
         <h2>Whooosh…That’s the Sound of Closing Deals Faster</h2>
       </div>
 
@@ -184,7 +184,7 @@
     autoSlideInterval = setInterval(() => {
       const nextIndex = (index + 1) % tabs.length;
       switchTab(nextIndex);
-    }, 8000);
+    }, 6500);
   }
 
   function resetAutoSlide() {

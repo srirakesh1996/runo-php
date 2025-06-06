@@ -21,13 +21,13 @@
         <div class="page-title">
             <div class="container">
                 <div class="row">
-                    <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+                    <div class="title-content  fadeIn" data--delay="0.3s">
                         <div class="col-lg-12">
-                            <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Legal</div>
-                            <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                            <div class="tagline  fadeInDown" data--delay="0.4s">Legal</div>
+                            <h2 class="text-anime-style-2  fadeInUp" data--delay="0.6s" data-cursor="-opaque">
                                 Privacy Policy
                                 </h4>
-                                <p class="wow fadeInUp" data-wow-delay="0.8s">
+                                <p class=" fadeInUp" data--delay="0.8s">
                                     Please read this privacy policy carefully before using our services.
                                 </p>
                         </div>
@@ -40,7 +40,7 @@
         <section class="py-5">
             <div class="container legal-content">
                 <div class="row">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-12  fadeInUp" data--delay="0.2s">
                         <p><strong>Last Updated :</strong> 28th May 2024</p>
 
                         <p>Thank you for choosing to be part of our company i.e. Runo by Rutakshi Technologies Private Limited (“company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at Quadrant 1, Cyber Towers, Hitech City, Madhapur, Hyderabad, Telangana, India or send us email to care@runo.in</p>
