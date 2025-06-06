@@ -320,36 +320,21 @@
                         const buttons = document.querySelectorAll('#feature-buttons .feature-btn');
                         const image = document.getElementById('webImage');
 
-                        // Preload all images
-                        const preloadImages = () => {
-                            Object.values(featureMap).forEach(feature => {
-                                const img = new Image();
-                                img.src = feature.src;
-                            });
-                        };
-
-                        // Set up button click handlers
                         buttons.forEach(btn => {
                             btn.addEventListener('click', () => {
+                                // Remove 'active' class from all buttons
                                 buttons.forEach(b => b.classList.remove('active'));
+                                // Add 'active' to the clicked one
                                 btn.classList.add('active');
 
                                 const text = btn.textContent.trim();
                                 const feature = featureMap[text];
 
-                                if (feature) {
-                                    image.classList.add('fade-out');
-                                    setTimeout(() => {
-                                        image.src = feature.src;
-                                        image.alt = feature.alt;
-                                        image.onload = () => {
-                                            image.classList.remove('fade-out');
-                                        };
-                                    }, 0);
-                                }
+
                             });
                         });
 
+                        // Set the initial image and alt based on the active button
                         window.addEventListener('DOMContentLoaded', () => {
                             const activeBtn = document.querySelector('.feature-btn.active');
                             if (activeBtn) {
@@ -360,11 +345,8 @@
                                     image.alt = feature.alt;
                                 }
                             }
-
-                            preloadImages(); // ✅ Preload all images on load
                         });
                     </script>
-
 
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
