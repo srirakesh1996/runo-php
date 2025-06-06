@@ -12,12 +12,12 @@
 <!-- Testimonial Slider -->
 <div class="row">
     <div class="col-lg-12">
-        <div class="testimonial-slider wow fadeInUp" data-wow-delay="0.3s">
+        <div class="testimonial-slider  fadeInUp" data--delay="0.3s">
             <div class="swiper">
                 <div class="swiper-wrapper" data-cursor-text="Drag">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="testimonial-item  fadeInUp" data--delay="0.3s">
                             <div class="testimonial-header">
                                 <p>Our calling process was fairly straightforward, but we felt there was room to improve how we tracked calls and follow-ups. Runo helped us bring in that extra layer of structure without complicating anything.</p>
 
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="testimonial-item  fadeInUp" data--delay="0.3s">
                             <div class="testimonial-header">
                                 <p>Runo has transformed the way we manage our sales operations. The live dashboard and real-time tracking have made our processes more efficient and customer-focused.
                                 </p>
@@ -68,7 +68,7 @@
 
 
                     <div class="swiper-slide">
-                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="testimonial-item  fadeInUp" data--delay="0.3s">
                             <div class="testimonial-header">
                                 <p>RUNO is one unique mobile-based calling solution we came across 3 months
                                     back. It quickly helped us to streamline our sales process and added quality

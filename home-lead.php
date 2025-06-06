@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp">
+            <div class="section-title text-center">
                 <h2>Multiple Lead Sources? Or Existing
                     CRM? Worry Not!
                 </h2>

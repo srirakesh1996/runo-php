@@ -2,7 +2,7 @@
 <section class="clients-section py-80" style="overflow: hidden;">
   <div class="container">
     <div class="row">
-      <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
+      <div class="clients-title text-center">
         <h2>Big Names? Yeah, They’re All On Board</h2>
       </div>
     </div>

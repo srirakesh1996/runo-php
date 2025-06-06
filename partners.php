@@ -21,13 +21,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content  fadeIn" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Partners</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline  fadeInDown" data--delay="0.4s">Partners</div>
+                     <h2 class="text-anime-style-2  fadeInUp" data--delay="0.6s" data-cursor="-opaque">
                         Collaborate with Runo to Transform Business Communication
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Join our growing network of partners and unlock new opportunities to deliver innovative SIM-based call management solutions to businesses worldwide.
                      </p>
                   </div>
@@ -42,10 +42,10 @@
             <div class="row align-items-center">
                <div class="col-lg-6 py-3">
                   <!-- Contact Us Content Start -->
-                  <div class="contact-us-content wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="contact-us-content  fadeInLeft" data--delay="0.2s">
                      <div class="section-title" style="width:100%">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Runo Partnership Program</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.3s">
+                        <p class=" fadeInUp" data--delay="0.3s">
                            We would love to see you partner with us in the growth story of future of outbound cloud telephony.
                         </p>
                      </div>
@@ -77,7 +77,7 @@
                </div>
                <div class="col-lg-6">
                   <!-- Contact Form Start -->
-                  <div class="contact-form wow fadeInRight" data-wow-delay="0.4s">
+                  <div class="contact-form  fadeInRight" data--delay="0.4s">
                      <form id="partnersForm" method="POST"
                         data-page-name="<?php echo htmlspecialchars(!empty($page_name) ? $page_name : 'Others'); ?>"
                         data-uuid="<?php echo htmlspecialchars(!empty($form_uuid) ? $form_uuid : '540c6a38-0072-4c48-9fac-b443f814a999'); ?>">
@@ -112,7 +112,7 @@
                            </p>
 
                            <div class="col-md-12">
-                              <button type="submit" id="partnersForm-btn" class="btn-default btn-highlighted wow fadeInUp">Send Inquiry</button>
+                              <button type="submit" id="partnersForm-btn" class="btn-default btn-highlighted  fadeInUp">Become a Partner</button>
                            </div>
                         </div>
                      </form>

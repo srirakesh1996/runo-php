@@ -21,13 +21,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content  fadeIn" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Legal</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline  fadeInDown" data--delay="0.4s">Legal</div>
+                     <h2 class="text-anime-style-2  fadeInUp" data--delay="0.6s" data-cursor="-opaque">
                         Cancellation and Refund Policy
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Please read this cancellation and refund policy carefully before making your purchase.
                      </p>
                   </div>
@@ -40,7 +40,7 @@
       <section class="py-5">
          <div class="container legal-content">
             <div class="row">
-               <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
+               <div class="col-lg-12  fadeInUp" data--delay="0.2s">
 
                   <p>Our watch-word is total customer satisfaction. In case you are not satisfied with the services provided, your money will be refunded, after due investigation and provided the reasons attributed by you are genuine. The fine print provides all relevant details about the Product or Services which you purchase, and we request you to go through the fine print carefully before your procurement.</p>
 

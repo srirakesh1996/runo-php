@@ -36,9 +36,9 @@
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <div class="banner-cont">
-                            <div class="section-title dark-section wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
-                                <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
-                                    Lead Management App <br>That Tracks Every Lead, Every Step
+                            <div class="section-title dark-section Custom" data--delay="0.3s" style="width: 100%">
+                                <h1 class=" fadeInUpCustom" data--delay="0.4s">
+                                    Lead Management App That Tracks Every Lead, Every Step
                                 </h1>
                                 <p>Track every lead from allocation to closure with a CRM built for real-time updates.
                                 </p>
@@ -51,7 +51,7 @@
                                     </li>
                                 </ul>
                                 <!-- Hero Buttons -->
-                                <div class="hero-body wow fadeInUpCustom mt-50" data-wow-delay="0.3s" data-wow-duration="0.7s">
+                                <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
                                         <a class="btn-plain track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Lead Management CRM Banner">Book a Demo</a>
                                         <p class="banner-btn1">&nbsp;</p>
@@ -68,14 +68,14 @@
                 <!-- <div class="col-lg-6" style="margin: 40px 0px;">
                     <div class="image-wrapper">
                     
-                        <img src="../img/lead-management/sales-team.webp" alt="Main Portrait" class="pcenter-image wow fadeIn" data-wow-delay="0.2s">
+                        <img src="../img/lead-management/sales-team.webp" alt="Main Portrait" class="pcenter-image  fadeIn" data--delay="0.2s">
                     
                         <img src="../img/lead-management/sales-exec.webp" alt="Left Floating Box"
-                            class="pside-image pleft-image wow fadeInLeft" data-wow-delay="0.4s">
+                            class="pside-image pleft-image  fadeInLeft" data--delay="0.4s">
                         <img src="../img/lead-management/sales-graph.webp" alt="Right Floating Box"
-                            class="pside-image pright-image wow fadeInRight" data-wow-delay="0.4s">
+                            class="pside-image pright-image  fadeInRight" data--delay="0.4s">
                         <img src="../img/lead-management/progress.webp" alt="Right Floating Box"
-                            class="pside-image pbottom-image wow fadeInRight" data-wow-delay="0.4s">
+                            class="pside-image pbottom-image  fadeInRight" data--delay="0.4s">
                     </div>
 
                 </div>-->
@@ -91,7 +91,7 @@
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
-                <div class="clients-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="clients-title text-center " data--delay="0.2s">
                     <h2>Trusted by 3500+ Teams to Stay on Top of Their Lead
                     </h2>
                 </div>
@@ -104,7 +104,7 @@
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                <div class="section-title text-center " data--delay="0.3s">
                     <h2>Convert More Leads With Less Manual Efforts
                     </h2>
                 </div>
@@ -312,7 +312,7 @@
     <!-- why choose runo ends-->
     <section class="metrics-section mt-70">
         <div class="container">
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2 style="font-size:25px;">Why Sales Teams Rely on Runo CRM Every Day
                 </h2>
             </div>
@@ -320,19 +320,19 @@
                 <div class=" col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">8+ Lead Sources
                     </div>
-                    <div class="metric-label">Capture leads from multiple sources automatically
+                    <div class="metric-label">capture leads from multiple sources automatically
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <div class="metric-value">Zero Lag Lead Allocation
                     </div>
-                    <div class="metric-label">Leads are auto-assigned to the right rep based on your rules
+                    <div class="metric-label">leads are auto-assigned to the right rep based on your rules
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="metric-value">100% Real-Time Tracking
                     </div>
-                    <div class="metric-label">Monitor every lead’s progress and your team’s activity in real time
+                    <div class="metric-label">monitor every lead’s progress and your team’s activity in real time
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
-            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="section-title text-center " data--delay="0.3s">
                 <h2>The Best Features for Managing Leads and Closing Deals
                 </h2>
                 <p class="feat-text">Lead Management Made Simple
@@ -467,12 +467,12 @@
             },
         });
     </script>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Lead management <br>that just works
             </h2>
-            <a href="https://web.runo.in" class="btn-schedule wow animate__animated animate__zoomIn mt-20" data-wow-delay="0.6s">
+            <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
             </a>
         </div>
@@ -481,7 +481,7 @@
     <div class="our-tesimonial-page mt-space">
         <div class="container">
             <!-- Section Title Row with Navigation -->
-            <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
                 <div class="col-md-8">
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
@@ -497,7 +497,7 @@
     <div class="page-faqs">
         <div class="container">
             <div class="row">
-                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="section-title text-center " data--delay="0.2s">
                     <h2>Lead Management Software FAQs</h2>
                 </div>
                 <div class="col-lg-10" style="margin:0 auto">
@@ -505,7 +505,7 @@
                         <div class="faq-accordion page-faq-accordion" id="lead_faqs">
                             <div class="faq-accordion" id="accordionLead">
                                 <!-- Lead Management FAQs Start -->
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading1">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse1" aria-expanded="true" aria-controls="leadCollapse1">
                                             What is Lead Management Software?
@@ -517,7 +517,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading2">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse2" aria-expanded="false" aria-controls="leadCollapse2">
                                             How is this different from just a CRM system?
@@ -531,7 +531,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading3">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse3" aria-expanded="false" aria-controls="leadCollapse3">
                                             How does Runo’s Lead Management CRM App work?
@@ -543,7 +543,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading4">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse4" aria-expanded="false" aria-controls="leadCollapse4">
                                             How easy is it to set up and implement?
@@ -555,7 +555,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading5">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse5" aria-expanded="false" aria-controls="leadCollapse5">
                                             How does Runo combine Lead Management and Mobile CRM?
@@ -567,7 +567,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading6">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse6" aria-expanded="false" aria-controls="leadCollapse6">
                                             Is Runo compatible with iOS and Android devices?
@@ -579,7 +579,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading7">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse7" aria-expanded="false" aria-controls="leadCollapse7">
                                             Can I track lead sources and conversion rates in real time?
@@ -591,7 +591,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading8">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse8" aria-expanded="false" aria-controls="leadCollapse8">
                                             How can lead analytics help improve my sales performance?
@@ -603,7 +603,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fadeInUp">
+                                <div class="accordion-item ">
                                     <h2 class="accordion-header" id="leadHeading9">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadCollapse9" aria-expanded="false" aria-controls="leadCollapse9">
                                             Is there a free trial available?
@@ -624,8 +624,8 @@
         </div>
     </div>
     <!-- Page Faq End -->
-    <!-- Security Section with WOW animations -->
-    <section class="security-section wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
+    <!-- Security Section with  animations -->
+    <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
@@ -638,18 +638,18 @@
             </div>
         </div>
     </section>
-    <section class="home-app-cta wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+    <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
-            <h2 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+            <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Track, Assign, and <br>Close Leads from Anywhere
             </h2>
             <p class="cta-p">Stay connected to your sales pipeline with instant access to lead information, updates, and actions, anytime.
             </p>
-            <div class="store-buttons wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+            <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
                 <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
                 <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
-            <div class="rating wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+            <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>

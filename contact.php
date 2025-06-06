@@ -24,13 +24,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content  fadeIn" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Contact Us</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline  fadeInDown" data--delay="0.4s">Contact Us</div>
+                     <h2 class="text-anime-style-2  fadeInUp" data--delay="0.6s" data-cursor="-opaque">
                         We're Here to Help — Let’s Connect
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Whether you have questions, need support, or want to explore a partnership, the Runo team is ready to assist you. Reach out and let's start the conversation.
                      </p>
                   </div>
@@ -45,10 +45,10 @@
             <div class="row align-items-center">
                <div class="col-lg-6 py-3">
                   <!-- Contact Us Content Start -->
-                  <div class="contact-us-content wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="contact-us-content  fadeInLeft" data--delay="0.2s">
                      <div class="section-title" style="width: 100%;">
                         <h2 class=" text-anime-style-2" data-cursor="-opaque">We’d Always Love to Hear From You</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.3s">
+                        <p class=" fadeInUp" data--delay="0.3s">
                            Have any questions about RUNO, product demo or support? Shoot them away here.
                         </p>
                      </div>
@@ -96,7 +96,7 @@
                </div>
                <div class="col-lg-6">
                   <!-- Contact Form Start -->
-                  <div class="contact-form wow fadeInRight" data-wow-delay="0.4s">
+                  <div class="contact-form  fadeInRight" data--delay="0.4s">
 
                      <form id="contact-form" name="contact-form" method="POST"
                         data-page-name="<?php echo htmlspecialchars(!empty($page_name) ? $page_name : 'Others'); ?>"
@@ -132,7 +132,7 @@
                            </p>
 
                            <div class="col-md-12">
-                              <button type="submit" id="contact-form-btn" class="btn-default btn-highlighted wow fadeInUp">Send Inquiry</button>
+                              <button type="submit" id="contact-form-btn" class="btn-default btn-highlighted  fadeInUp">Contact Us</button>
                            </div>
                         </div>
                      </form>

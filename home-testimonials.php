@@ -1,7 +1,7 @@
 <!-- Testimonial Section -->
 <div class="our-tesimonial">
   <!-- Security Section with WOW animations -->
-  <section class="security-section wow fadeInUp" data-wow-delay="0.2s">
+  <section class="security-section">
     <div class="row align-items-center">
       <!-- Left Text -->
       <div class="col-md-7 security-text">
