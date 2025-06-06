@@ -330,17 +330,7 @@
                                 const text = btn.textContent.trim();
                                 const feature = featureMap[text];
 
-                                if (feature) {
-                                    image.classList.add('fade-out');
 
-                                    setTimeout(() => {
-                                        image.src = feature.src;
-                                        image.alt = feature.alt;
-                                        image.onload = () => {
-                                            image.classList.remove('fade-out');
-                                        };
-                                    }, 0);
-                                }
                             });
                         });
 
