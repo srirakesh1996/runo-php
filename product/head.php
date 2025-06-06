@@ -11,7 +11,6 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-
 <meta property="og:image" content="https://runo.in/images/Runo-logo.png">
 <meta property="og:url" content="https://runo.in">
 
