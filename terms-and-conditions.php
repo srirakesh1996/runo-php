@@ -21,13 +21,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content" data-wow-delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">Legal</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline" data-wow-delay="0.4s">Legal</div>
+                     <h2 class="text-anime-style-2Up" data-wow-delay="0.6s" data-cursor="-opaque">
                         Terms and Conditions
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class="wowUp" data-wow-delay="0.8s">
                         Please read these terms and conditions carefully before using our services.
                      </p>
                   </div>
@@ -40,7 +40,7 @@
       <section class="py-5">
          <div class="container legal-content">
             <div class="row">
-               <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
+               <div class="col-lg-12Up" data-wow-delay="0.2s">
 
                   <p>
                      The terms “We” / “Us” / “Our”/”Company” individually and collectively refer to the Seller .and the terms “Visitor” ”User” refers to the Buyer of the product/services.</p>

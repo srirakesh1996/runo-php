@@ -13,13 +13,13 @@
       <div class="page-title">
          <div class="container">
             <div class="row">
-               <div class="title-content wow fadeIn" data-wow-delay="0.3s">
+               <div class="title-content" data--delay="0.3s">
                   <div class="col-lg-12">
-                     <div class="tagline wow fadeInDown" data-wow-delay="0.4s">FAQs</div>
-                     <h2 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.6s" data-cursor="-opaque">
+                     <div class="tagline">FAQs</div>
+                     <h2>
                         Everything You Need to Know, All in One Place
                      </h2>
-                     <p class="wow fadeInUp" data-wow-delay="0.8s">
+                     <p class=" fadeInUp" data--delay="0.8s">
                         Find quick answers to common questions and get the clarity you need to make the most of our platform.
                      </p>
                   </div>
@@ -38,7 +38,7 @@
                         <div class="faq-accordion" id="accordionRuno">
                            <!-- FAQ Items Start -->
                            <!-- Repeat and increment id numbers -->
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading1">
                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                     What is Runo?
@@ -50,7 +50,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading2">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                     How does Runo work?
@@ -62,7 +62,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading3">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                     What are the key features of Runo?
@@ -74,7 +74,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading4">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                     How can Runo benefit my business?
@@ -86,7 +86,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading5">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                     Can Runo CRM integrate with Facebook, IndiaMart, JustDial, etc.?
@@ -98,7 +98,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading6">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                     Can I upload data to team members centrally?
@@ -110,7 +110,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading7">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                     Where is all the data stored?
@@ -122,7 +122,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading8">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                     Is Runo available on the Apple Store?
@@ -134,7 +134,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading9">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                                     Is there a web version of Runo?
@@ -146,7 +146,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading10">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                                     Can I export data in Excel?
@@ -159,7 +159,7 @@
                               </div>
                            </div>
                            <!-- 1 to 10 already added above -->
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading11">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                                     Can I customize the CRM fields in Runo as per my business needs?
@@ -171,7 +171,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading12">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
                                     Does Runo record personal calls as well?
@@ -183,7 +183,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading13">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
                                     Can I run multiple processes/campaigns for the same organization using Runo?
@@ -195,7 +195,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading14">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
                                     Can I auto-dial calls from the Runo CRM?
@@ -207,7 +207,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading15">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
                                     Does Runo consume space on mobile devices to store call recordings?
@@ -219,7 +219,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading16">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
                                     For how long does Runo store call recordings?
@@ -231,7 +231,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading17">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
                                     Can Runo be integrated with other popular CRMs?
@@ -243,7 +243,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading18">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
                                     Is Runo useful for inbound processes?
@@ -255,7 +255,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading19">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
                                     Can my team initiate outbound calling from the same number for all callers?
@@ -267,7 +267,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading20">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
                                     Can Runo track calls from multiple SIM cards in the same phone?
@@ -279,7 +279,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="accordion-item wow fadeInUp">
+                           <div class="accordion-item">
                               <h2 class="accordion-header" id="heading21">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
                                     Is it possible to track calls only from the customer database and not unknown numbers?

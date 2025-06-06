@@ -51,7 +51,7 @@
                     <div class="banner-cont">
                         <div class="section-title dark-section text-center wow fadeInUpCustom" data-wow-delay="0.3s" style="width: 100%">
                             <h1 class="wow fadeInUpCustom" data-wow-delay="0.4s">
-                                AI-Powered SIM-Based Call Management CRM
+                                AI-Powered SIM-Based <br>Call Management CRM
                             </h1>
                             <p>2x Calling Productivity in Just 2 Weeks. Earn Trust on Every Call.
                             </p>
@@ -320,11 +320,18 @@
                         const buttons = document.querySelectorAll('#feature-buttons .feature-btn');
                         const image = document.getElementById('webImage');
 
+                        // Preload all images
+                        const preloadImages = () => {
+                            Object.values(featureMap).forEach(feature => {
+                                const img = new Image();
+                                img.src = feature.src;
+                            });
+                        };
+
+                        // Set up button click handlers
                         buttons.forEach(btn => {
                             btn.addEventListener('click', () => {
-                                // Remove 'active' class from all buttons
                                 buttons.forEach(b => b.classList.remove('active'));
-                                // Add 'active' to the clicked one
                                 btn.classList.add('active');
 
                                 const text = btn.textContent.trim();
@@ -332,7 +339,6 @@
 
                                 if (feature) {
                                     image.classList.add('fade-out');
-
                                     setTimeout(() => {
                                         image.src = feature.src;
                                         image.alt = feature.alt;
@@ -344,7 +350,6 @@
                             });
                         });
 
-                        // Set the initial image and alt based on the active button
                         window.addEventListener('DOMContentLoaded', () => {
                             const activeBtn = document.querySelector('.feature-btn.active');
                             if (activeBtn) {
@@ -355,8 +360,11 @@
                                     image.alt = feature.alt;
                                 }
                             }
+
+                            preloadImages(); // ✅ Preload all images on load
                         });
                     </script>
+
 
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
