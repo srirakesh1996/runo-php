@@ -10,7 +10,7 @@
       </div>
       <!-- Right Image -->
       <div class="col-md-5 text-md-end text-center security-badges">
-        <img src="img/security.webp" alt="Securitys" class="img-fluid">
+        <img src="img/security.webp" loading='lazy' alt="Securitys" class="img-fluid">
       </div>
     </div>
   </section>
@@ -53,7 +53,7 @@
                     <div class="people">
                       <div class="author-image">
                         <figure class="image-anime">
-                          <img src="img/testimonials/anas-rahman.webp" alt="">
+                          <img src="img/testimonials/anas-rahman.webp" loading='lazy' alt="">
                         </figure>
                       </div>
                       <div class="author-content">
@@ -77,7 +77,7 @@
                     <div class="people">
                       <div class="author-image">
                         <figure class="image-anime">
-                          <img src="img/testimonials/monish-patel.webp" alt="">
+                          <img src="img/testimonials/monish-patel.webp" loading='lazy' alt="">
                         </figure>
                       </div>
                       <div class="author-content">
@@ -105,7 +105,7 @@
                     <div class="people">
                       <div class="author-image">
                         <figure class="image-anime">
-                          <img src="img/testimonials/surendranath.webp" alt="">
+                          <img src="img/testimonials/surendranath.webp" loading='lazy' alt="">
                         </figure>
                       </div>
                       <div class="author-content">
