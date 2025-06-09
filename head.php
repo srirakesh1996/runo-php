@@ -15,10 +15,8 @@
 <!-- Twitter Card -->
 <meta name="twitter:image" content="https://runo.in/images/Runo-logo.png">
 
-
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">
-
 
 <link rel="preload" as="style" href="css/bootstrap.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,13 +36,13 @@
 <link rel="stylesheet" href="css/runo.css">
 
 <!-- Animate.css and WOW.js -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
 <script>
 	document.addEventListener("DOMContentLoaded", () => {
 		new WOW().init();
 	});
-</script>
+</script>-->
 
 <!-- Font Awesome (CDN) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
