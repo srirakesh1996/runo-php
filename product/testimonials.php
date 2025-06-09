@@ -27,7 +27,7 @@
                                 <div class="people">
                                     <div class="author-image">
                                         <figure class="image-anime">
-                                            <img src="../img/testimonials/anas-rahman.webp" alt="">
+                                            <img loading='lazy' src="../img/testimonials/anas-rahman.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="author-content">
@@ -52,7 +52,7 @@
                                 <div class="people">
                                     <div class="author-image">
                                         <figure class="image-anime">
-                                            <img src="../img/testimonials/monish-patel.webp" alt="">
+                                            <img loading='lazy' src="../img/testimonials/monish-patel.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="author-content">
@@ -81,7 +81,7 @@
                                 <div class="people">
                                     <div class="author-image">
                                         <figure class="image-anime">
-                                            <img src="../img/testimonials/surendranath.webp" alt="">
+                                            <img loading='lazy' src="../img/testimonials/surendranath.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="author-content">
