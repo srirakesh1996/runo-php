@@ -102,7 +102,7 @@
                                     <p>With SIM integration, every call shows your actual number. No virtual numbers. No masking. Prospects see it's a real person calling, which drives higher pickup rates.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                                    <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
+                                    <img src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -111,7 +111,7 @@
                                     <p>Each call is automatically scored with insights on quality. Your team improves calling efficiency with less guesswork.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
+                                    <img src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -120,7 +120,7 @@
                                     <p>Every call outcome syncs live into the CRM, so your team always knows what’s done and what’s next.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
+                                    <img src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -129,7 +129,7 @@
                                     <p>From call volume to lead status, everything updates in real time. You get a clear view of team performance and sales progress without delay.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
+                                    <img src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
                                 </div>
                             </div>
                             <div class="scroll-bord">
@@ -138,7 +138,7 @@
                                     <p>Your team gets smart reminders to follow up at the right time, whether it’s through a call, WhatsApp message, or email. No lead slips through the cracks.</p>
                                 </button>
                                 <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                                    <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
+                                    <img src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
                                 </div>
                             </div>
                         </div>
@@ -149,19 +149,19 @@
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
-                            <img loading="lazy" src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
+                            <img src="../img/call-management/call-pickup.webp" class="img-preview" alt="Increase Call Pickup Rate with Real Number">
                         </div>
                         <div class="tab-pane fade" id="tab2">
-                            <img loading="lazy" src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
+                            <img src="../img/call-management/call-quality.webp" class="img-preview" alt="AI Call Quality Scoring for Efficient Calling">
                         </div>
                         <div class="tab-pane fade" id="tab3">
-                            <img loading="lazy" src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
+                            <img src="../img/call-management/lead-status.webp" class="img-preview" alt="Instant Lead Status Updates in CRM">
                         </div>
                         <div class="tab-pane fade" id="tab4">
-                            <img loading="lazy" src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
+                            <img src="../img/call-management/monitor-status.webp" class="img-preview" alt="Real-Time Sales Monitoring Dashboard">
                         </div>
                         <div class="tab-pane fade" id="tab5">
-                            <img loading="lazy" src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
+                            <img src="../img/call-management/follow-up.webp" class="img-preview" alt="Smart Reminders for Follow-Ups">
                         </div>
                     </div>
                 </div>

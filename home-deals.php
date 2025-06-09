@@ -18,7 +18,7 @@
                 <p>No virtual or random numbers. Just your real number for calling, which means more trust and better pickup rates.</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg0">
-                <img loading="lazy" src="img/call-connect.webp" class="img-preview" alt="SIM-based calling for better call connect rates">
+                <img src="img/call-connect.webp" class="img-preview" alt="SIM-based calling for better call connect rates">
               </div>
             </div>
 
@@ -28,7 +28,7 @@
                 <p>Calls are recorded, transcribed, and summarized, with AI providing sentiment analysis and quality scores.</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg1" style="display:none;">
-                <img loading="lazy" src="img/call-efficiency.webp" class="img-preview" alt="AI call scoring and transcription for efficiency">
+                <img src="img/call-efficiency.webp" class="img-preview" alt="AI call scoring and transcription for efficiency">
               </div>
             </div>
 
@@ -38,7 +38,7 @@
                 <p>Get automated reminders to ensure timely follow-ups for every lead on calls or WhatsApp.</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg2" style="display:none;">
-                <img loading="lazy" src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
+                <img src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
               </div>
             </div>
 
@@ -48,7 +48,7 @@
                 <p>Stay on top of your team’s activity with real-time status updates for active, idle, offline and on-call</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg3" style="display:none;">
-                <img loading="lazy" src="img/live-tracking.webp" class="img-preview" alt="Live team tracking with real-time status updates">
+                <img src="img/live-tracking.webp" class="img-preview" alt="Live team tracking with real-time status updates">
               </div>
             </div>
 
@@ -58,7 +58,7 @@
                 <p>Get your team to adopt CRM faster with a simple, sales-friendly interface that’s easy to learn and use every day</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg4" style="display:none;">
-                <img loading="lazy" src="img/user-friendly.webp" class="img-preview" alt="Easy-to-use CRM interface for faster adoption">
+                <img src="img/user-friendly.webp" class="img-preview" alt="Easy-to-use CRM interface for faster adoption">
               </div>
             </div>
 
@@ -68,7 +68,7 @@
                 <p>Set up Runo in under 30 minutes and start managing calls, leads, and follow-ups without any delays.</p>
               </button>
               <div class="mobile-tab-img d-md-none" id="mobileImg5" style="display:none;">
-                <img loading="lazy" src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
+                <img src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
               </div>
             </div>
 
@@ -80,22 +80,22 @@
       <div class="col-md-6 d-none d-md-block">
         <div class="tab-content text-center">
           <div class="tab-pane fade show active" id="tab1">
-            <img loading="lazy" src="img/call-connect.webp" class="img-preview" alt="SIM-based calling for better call connect rates">
+            <img src="img/call-connect.webp" class="img-preview" alt="SIM-based calling for better call connect rates">
           </div>
           <div class="tab-pane fade" id="tab2">
-            <img loading="lazy" src="img/call-efficiency.webp" class="img-preview" alt="AI call scoring and transcription for efficiency">
+            <img src="img/call-efficiency.webp" class="img-preview" alt="AI call scoring and transcription for efficiency">
           </div>
           <div class="tab-pane fade" id="tab3">
-            <img loading="lazy" src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
+            <img src="img/follow-ups.webp" class="img-preview" alt="Automated follow-up reminders for leads">
           </div>
           <div class="tab-pane fade" id="tab4">
-            <img loading="lazy" src="img/live-tracking.webp" class="img-preview" alt="Live team tracking with real-time status updates">
+            <img src="img/live-tracking.webp" class="img-preview" alt="Live team tracking with real-time status updates">
           </div>
           <div class="tab-pane fade" id="tab5">
-            <img loading="lazy" src="img/user-friendly.webp" class="img-preview" alt="Easy-to-use CRM interface for faster adoption">
+            <img src="img/user-friendly.webp" class="img-preview" alt="Easy-to-use CRM interface for faster adoption">
           </div>
           <div class="tab-pane fade" id="tab6">
-            <img loading="lazy" src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
+            <img src="img/30-min-setup.webp" class="img-preview" alt="Quick 30-minute CRM setup and onboarding">
           </div>
         </div>
       </div>
