@@ -54,7 +54,7 @@
       spaceBetween: 30,
       loop: true,
       autoplay: {
-        delay: 500000000000,
+        delay: 5000,
       },
       navigation: {
         nextEl: ".testimonial-next-btn",
