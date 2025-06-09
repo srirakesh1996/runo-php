@@ -1,7 +1,18 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+   <title>Runo Newsroom – Latest Announcements & Media Coverage</title>
+
+   <meta name="description" content="Stay updated with the latest news, media mentions, press releases, and announcements from Runo CRM for telecalling and outbound sales.">
+
+   <!-- Updated Open Graph tags -->
+   <meta property="og:title" content="Runo Newsroom – Latest Announcements & Media Coverage">
+   <meta property="og:description" content="Stay updated with the latest news, media mentions, press releases, and announcements from Runo CRM for telecalling and outbound sales.">
+
+   <!-- Updated Twitter tags -->
+   <meta name="twitter:title" content="Runo Newsroom – Latest Announcements & Media Coverage">
+   <meta name="twitter:description" content="Stay updated with the latest news, media mentions, press releases, and announcements from Runo CRM for telecalling and outbound sales.">
+
    <?php include('head.php'); ?>
 </head>
 

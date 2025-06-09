@@ -1,8 +1,18 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Boost Productivity with Runo’s Seamless Integrations
-   </title>
+   <title>Integrations - Runo</title>
+
+   <meta name="description" content="Explore Runo's powerful integrations with CRMs, lead sources, and webhooks. Seamlessly connect your sales stack to boost productivity and lead tracking.">
+
+   <!-- Open Graph tags -->
+   <meta property="og:title" content="Integrations - Runo">
+   <meta property="og:description" content="Explore Runo's powerful integrations with CRMs, lead sources, and webhooks. Seamlessly connect your sales stack to boost productivity and lead tracking.">
+
+   <!-- Twitter tags -->
+   <meta name="twitter:title" content="Integrations - Runo">
+   <meta name="twitter:description" content="Explore Runo's powerful integrations with CRMs, lead sources, and webhooks. Seamlessly connect your sales stack to boost productivity and lead tracking.">
+
    <?php include('head.php'); ?>
 </head>
 
