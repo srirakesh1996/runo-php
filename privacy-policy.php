@@ -1,7 +1,17 @@
 <?php include('doctype.php'); ?>
 
 <head>
-    <title>Privacy Policy - Runo CRM</title>
+    <title>Privacy Policy - Runo</title>
+
+    <meta name="description" content="This Privacy Policy is meant to help you understand how we manage your information to keep it safe.">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Privacy Policy | Runo">
+    <meta property="og:description" content="This Privacy Policy is meant to help you understand how we manage your information to keep it safe.">
+
+    <!-- Twitter tags -->
+    <meta name="twitter:title" content="Privacy Policy | Runo">
+    <meta name="twitter:description" content="This Privacy Policy is meant to help you understand how we manage your information to keep it safe.">
     <?php include('head.php'); ?>
 </head>
 

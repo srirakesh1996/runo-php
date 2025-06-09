@@ -1,8 +1,16 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Runo – World’s First AI-Powered SIM-Based Call CRM</title>
-   <meta name="description" content="Contact us with any questions or feedback, Here to help you with any query related to sales and support">
+   <title>Contact Us - Runo</title>
+   <meta name="description" content="Contact the Runo team for any questions or feedback. We're here to help with any sales or support-related queries.">
+
+   <!-- Updated Open Graph tags -->
+   <meta property="og:title" content="Contact Us - Runo">
+   <meta property="og:description" content="Contact the Runo team for any questions or feedback. We're here to help with any sales or support-related queries.">
+
+   <!-- Updated Twitter tags -->
+   <meta name="twitter:title" content="Contact Us - Runo">
+   <meta name="twitter:description" content="Contact the Runo team for any questions or feedback. We're here to help with any sales or support-related queries.">
 
    <?php include('head.php'); ?>
 </head>

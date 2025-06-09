@@ -1,29 +1,20 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>About Us - Runo </title>
+   <title>About Us - Runo</title>
+
+   <meta name="description" content="Learn more about Runo – our mission, journey, and how we’re transforming outbound sales with AI-powered, SIM-based CRM built for mobile-first teams.">
+
+   <!-- Updated Open Graph tags -->
+   <meta property="og:title" content="About Us - Runo">
+   <meta property="og:description" content="Learn more about Runo – our mission, journey, and how we’re transforming outbound sales with AI-powered, SIM-based CRM built for mobile-first teams.">
+
+   <!-- Updated Twitter tags -->
+   <meta name="twitter:title" content="About Us - Runo">
+   <meta name="twitter:description" content="Learn more about Runo – our mission, journey, and how we’re transforming outbound sales with AI-powered, SIM-based CRM built for mobile-first teams.">
+
    <?php include('head.php'); ?>
 
-   <style>
-      .demo-section {
-         padding: 60px 0;
-         background-color: #fff6f6;
-      }
-
-      .demo-text h2 {
-         font-weight: 700;
-         color: #2e0e3a;
-      }
-
-      .demo-text p {
-         color: #5a3e5e;
-         font-size: 18px;
-      }
-
-      .demo-img img {
-         max-width: 100%;
-      }
-   </style>
 </head>
 
 <body>

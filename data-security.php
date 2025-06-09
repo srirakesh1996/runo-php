@@ -1,7 +1,19 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Data Security - Runo CRM</title>
+   <title>Data Security | Runo</title>
+
+   <meta name="title" content="Data Security | Runo">
+   <meta name="description" content="Runo protects your data securely by storing it in multiple layers of a robust system with data access controls.">
+
+   <!-- Open Graph tags -->
+   <meta property="og:title" content="Data Security | Runo">
+   <meta property="og:description" content="Runo protects your data securely by storing it in multiple layers of a robust system with data access controls.">
+
+   <!-- Twitter tags -->
+   <meta name="twitter:title" content="Data Security | Runo">
+   <meta name="twitter:description" content="Runo protects your data securely by storing it in multiple layers of a robust system with data access controls.">
+
    <?php include('head.php'); ?>
 </head>
 

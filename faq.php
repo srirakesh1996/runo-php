@@ -1,7 +1,20 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+   <title>Frequently Asked Questions - Runo</title>
+
+   <meta name="description" content="Find quick answers to common questions about Runo’s SIM-based CRM, features, setup, integrations, pricing, and support. Get the help you need, fast.">
+
+   <!-- Updated Open Graph tags -->
+   <meta property="og:title" content="Contact Us - Runo">
+   <meta property="og:description" content="Find quick answers to common questions about Runo’s SIM-based CRM, features, setup, integrations, pricing, and support. Get the help you need, fast.">
+
+   <!-- Updated Twitter tags -->
+   <meta name="twitter:title" content="Contact Us - Runo">
+   <meta name="twitter:description" content="Find quick answers to common questions about Runo’s SIM-based CRM, features, setup, integrations, pricing, and support. Get the help you need, fast.">
+
+
+
    <?php include('head.php'); ?>
 </head>
 

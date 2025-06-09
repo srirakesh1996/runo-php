@@ -1,7 +1,18 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Cancellation and Refund Policy - Runo</title>
+   <title>Cancellation & Refund Policy - Runo</title>
+
+   <meta name="description" content="Runo cancellations and refund policy for our Call Management CRM, POS CRM, Field CRM">
+
+   <!-- Open Graph tags -->
+   <meta property="og:title" content="Cancellation & Refund Policy | Runo">
+   <meta property="og:description" content="Runo cancellations and refund policy for our Call Management CRM, POS CRM, Field CRM">
+
+   <!-- Twitter tags -->
+   <meta name="twitter:title" content="Cancellation & Refund Policy | Runo">
+   <meta name="twitter:description" content="Runo cancellations and refund policy for our Call Management CRM, POS CRM, Field CRM">
+
    <?php include('head.php'); ?>
 </head>
 

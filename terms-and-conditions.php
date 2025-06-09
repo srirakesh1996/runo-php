@@ -1,7 +1,18 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Terms and Conditions - Runo CRM</title>
+   <title>Terms and Conditions | Runo</title>
+
+   <meta name="description" content="Runo terms and conditions for our Call Management CRM, POS CRM, Field CRM.">
+
+   <!-- Open Graph tags -->
+   <meta property="og:title" content="Terms and Conditions | Runo">
+   <meta property="og:description" content="Runo terms and conditions for our Call Management CRM, POS CRM, Field CRM.">
+
+   <!-- Twitter tags -->
+   <meta name="twitter:title" content="Terms and Conditions | Runo">
+   <meta name="twitter:description" content="Runo terms and conditions for our Call Management CRM, POS CRM, Field CRM.">
+
    <?php include('head.php'); ?>
 </head>
 
