@@ -9,13 +9,11 @@
    <div>
       <?php include('preloader.php'); ?>
       <?php
-
       $page_name = 'Others';
       $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
 
       include('home-modal.php');
       ?>
-
       <?php include('header.php'); ?>
       <!-- Page Header Start -->
       <div class="page-title">

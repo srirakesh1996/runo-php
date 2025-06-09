@@ -1,24 +1,21 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+   <title>Runo – World’s First AI-Powered SIM-Based Call CRM</title>
+   <meta name="description" content="Contact us with any questions or feedback, Here to help you with any query related to sales and support">
+
    <?php include('head.php'); ?>
 </head>
 
 <body>
    <div>
       <?php include('preloader.php'); ?>
-
-
       <?php
-
       $page_name = 'Contact';
       $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
 
       include('home-modal.php');
       ?>
-
-
       <?php include('header.php'); ?>
       <!-- Page Header Start -->
       <div class="page-title">
@@ -97,47 +94,38 @@
                <div class="col-lg-6">
                   <!-- Contact Form Start -->
                   <div class="contact-form  fadeInRight" data--delay="0.4s">
-
                      <form id="contact-form" name="contact-form" method="POST"
                         data-page-name="<?php echo htmlspecialchars(!empty($page_name) ? $page_name : 'Others'); ?>"
                         data-uuid="<?php echo htmlspecialchars(!empty($form_uuid) ? $form_uuid : '540c6a38-0072-4c48-9fac-b443f814a999'); ?>">
-
                         <div class="row">
                            <div class="form-group col-md-12 mb-4">
                               <label for="name">Your Name</label>
                               <input type="text" name="your_name" class="form-control" id="cname" placeholder="Your Name" maxlength="30" />
                               <small class="text-danger d-none" id="nameError2">Name is required and must be less than 30 characters.</small>
                            </div>
-
                            <div class="form-group col-md-12 mb-4">
                               <label for="email">Your Email</label>
                               <input type="email" name="your_email" class="form-control" id="cemail" placeholder="Your Email" />
                               <small class="text-danger d-none" id="emailError2">Valid email is required.</small>
                            </div>
-
                            <div class="form-group col-md-12 mb-4">
                               <label for="phone">Your Phone</label>
                               <input type="text" name="your_phone" class="form-control" id="phone2" placeholder="Your Phone" />
                               <small class="text-danger d-none" id="phoneError2">Phone number is required, numeric, and max 10 digits.</small>
                            </div>
-
                            <div class="form-group col-md-12 mb-3">
                               <label for="message">Message</label>
                               <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message.." maxlength="150"></textarea>
                               <small class="text-danger d-none" id="messageError2">Message must be 150 characters or less and only allow letters, numbers, commas, periods, and spaces.</small>
                            </div>
-
                            <p style="font-size: 12px;">
                               By submitting this form, I agree to the <a href="privacy-policy" target="_blank">privacy policy</a>.
                            </p>
-
                            <div class="col-md-12">
                               <button type="submit" id="contact-form-btn" class="btn-default btn-highlighted  fadeInUp">Contact Us</button>
                            </div>
                         </div>
                      </form>
-
-
                      <script>
                         jQuery(function($) {
                            const phoneInput = document.querySelector("#phone2");
@@ -347,7 +335,6 @@
 
                         });
                      </script>
-
                   </div>
                   <!-- Contact Form End -->
                </div>
@@ -369,12 +356,8 @@
       </div>
       <!-- Google Map End -->
    </div>
-
-
-
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>
 </body>
-
 
 </html>

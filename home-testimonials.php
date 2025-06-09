@@ -47,7 +47,6 @@
                 <div class="testimonial-item">
                   <div class="testimonial-header">
                     <p>Our calling process was fairly straightforward, but we felt there was room to improve how we tracked calls and follow-ups. Runo helped us bring in that extra layer of structure without complicating anything.</p>
-
                   </div>
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
@@ -67,7 +66,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="testimonial-header">
@@ -91,17 +89,16 @@
                   </div>
                 </div>
               </div>
-
-
-
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="testimonial-header">
                     <p>RUNO is one unique mobile-based calling solution we came across 3 months
                       back. It quickly helped us to streamline our sales process and added quality
-                      to sales pitch.</p>
+                      to sales pitch.
+                    </p>
                     <p>With the monitoring tools, our conversation rates have moved up by 120
-                      percent. Our overall team experience was enhanced in all directions...</p>
+                      percent. Our overall team experience was enhanced in all directions...
+                    </p>
                   </div>
                   <div class="testimonial-body">
                     <div class="testimonial-line"></div>
@@ -119,7 +116,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <!-- End swiper-wrapper -->
           </div>

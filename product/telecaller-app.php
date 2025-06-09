@@ -7,43 +7,25 @@
     <!-- Updated Open Graph tags -->
     <meta property="og:title" content="SIM-Based Telecaller App with Built-In CRM">
     <meta property="og:description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
-
     <!-- Updated Twitter tags -->
     <meta name="twitter:title" content="SIM-Based Telecaller App with Built-In CRM">
     <meta name="twitter:description" content="AI-powered SIM-based telecaller app with CRM, call analytics, automated dialer, and performance tracking to boost sales and improve customer engagement.">
-    <link rel="canonical" href="https://www.runo.ai/product/telecaller-app" />
-
 
     <?php include('head.php'); ?>
-
-
 </head>
 
 <body>
-
-
     <?php include('preloader.php'); ?>
-
     <?php
-
     $page_name = 'Tele Caller';
     $form_uuid = '2eddbc70-045d-41ff-8866-dbf34f73f6f1';
 
     include('home-modal.php');
     ?>
-
-
-
     <?php include('header.php'); ?>
-
-
-
-
-
     <div class="telecaller-hero mb-20">
         <div class="container">
             <!-- Header Start -->
-
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <!-- Hero Content Start -->
@@ -56,7 +38,6 @@
                                 </h1>
                                 <p>Your dialer, CRM, and live call tracker, rolled into one app
                                 </p>
-
                                 <ul>
                                     <li>SIM-based calling for higher call connection rates</li>
                                     <li>Designed for businesses with 5 to 500+ agents</li>
@@ -64,8 +45,6 @@
                                     <li>Works without cloud telephony or PBX setup</li>
                                     <li>Plug and play in 30 minutes, ideal for mobile-first teams</li>
                                 </ul>
-
-
                                 <!-- Hero Buttons -->
                                 <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
@@ -78,22 +57,16 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-
                 <div class="col-lg-6">
                     <img src="../img/telecaller/telecaller.webp" class="pro-img img-fluid" alt="Runo Telecaller CRM">
-
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero Section End -->
-
-
     <!-- Clients Section Start -->
     <section class="clients-section py-80">
         <div class="container">
@@ -102,16 +75,10 @@
                     <h2>Powering high-performance telecalling for 3500+ businesses</h2>
                 </div>
             </div>
-
-
             <?php include('clients.php'); ?>
-
-
         </div>
     </section>
     <!-- Clients Section End -->
-
-
     <!-- why choose runo-->
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
@@ -135,7 +102,6 @@
                                     <img src="../img/telecaller/3x.webp" class="img-preview" alt="Connect 3x Faster with Auto Lead Assignment">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
                                     <span>Independent of cloud telephony, IVRs, or PBX</span>
@@ -145,7 +111,6 @@
                                     <img src="../img/telecaller/cloud-telephony.webp" class="img-preview" alt="Call Without Cloud Telephony or PBX">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
                                     <span>Track Every Call, Follow-Up, and Agent in Real Time</span>
@@ -155,7 +120,6 @@
                                     <img src="../img/telecaller/instant-visibility.webp" class="img-preview" alt="Real-Time Call and Agent Tracking Dashboard">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
                                     <span>Cut Telecalling Costs by 60%</span>
@@ -165,7 +129,6 @@
                                     <img src="../img/telecaller/cost.webp" class="img-preview" alt="Reduce Telecalling Costs by 60%">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
                                     <span>Zero training. Get Started in 30 minutes</span>
@@ -178,10 +141,8 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
-
                     <div class="tab-content text-center">
                         <div class="tab-pane fade show active" id="tab1">
                             <img src="../img/telecaller/3x.webp" class="img-preview" alt="Connect 3x Faster with Auto Lead Assignment">
@@ -200,11 +161,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
     <!-- Scripts -->
     <script>
         const tabs = document.querySelectorAll(".tab-btn");
@@ -319,10 +278,7 @@
 
         document.addEventListener("DOMContentLoaded", observeSection);
     </script>
-
     <!-- why choose runo ends-->
-
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
@@ -332,7 +288,6 @@
                 <p class="feat-text">Designed to make your daily calling smoother and smarter</p>
             </div>
             <!-- Desktop Layout -->
-
             <div class="row d-none d-md-flex">
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/7.webp" class="img-fluid mb-2" alt="Auto Dialer">
@@ -340,7 +295,6 @@
                     <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.
                     </p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                     <h5>Advanced Caller ID</h5>
@@ -351,7 +305,6 @@
                     <h5>Call Recording</h5>
                     <p class="feat-text">Record every call automatically for training, compliance, and audit purposes.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/9.webp" class="img-fluid mb-2" alt="Live Performance Dashboard">
                     <h5>Live Performance Dashboard</h5>
@@ -362,17 +315,11 @@
                     <h5>Follow-Up Alerts</h5>
                     <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
                 </div>
-
-
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                     <h5>Lead Management</h5>
                     <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                 </div>
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                     <h5>Auto Lead Allocation</h5>
@@ -388,8 +335,6 @@
                     <h5>Real-Time Team Tracking</h5>
                     <p class="feat-text">Monitor agent activity live. See who is calling, who is idle, and who is behind on follow-ups.</p>
                 </div>
-
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/wa.webp" class="img-fluid mb-2" alt="WhatsApp Templates">
                     <h5>WhatsApp Templates</h5>
@@ -397,7 +342,6 @@
                 </div>
             </div>
             <!-- Desktop Layout -->
-
             <!-- Mobile Swiper Layout -->
             <!-- Mobile Swiper Layout (14 Features) -->
             <div class="swiper-container d-block d-md-none mt-4">
@@ -409,14 +353,11 @@
                         <p class="feat-text">Call leads back-to-back without dialing manually. Boost call speed and focus.
                         </p>
                     </div>
-
                     <div class="swiper-slide">
                         <img src="../img/feature/1.webp" class="img-fluid mb-2" alt="Advanced Caller ID">
                         <h5>Advanced Caller ID</h5>
                         <p class="feat-text">See the lead’s name, last interaction, and notes before every call</p>
                     </div>
-
-
                     <div class="swiper-slide">
                         <img src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
@@ -432,16 +373,11 @@
                         <h5>Follow-Up Alerts</h5>
                         <p class="feat-text">Get automatic reminders for pending follow-ups to avoid losing hot leads.</p>
                     </div>
-
-
                     <div class="swiper-slide">
                         <img src="../img/feature/14.webp" class="img-fluid mb-2" alt="Lead Management">
                         <h5>Lead Management</h5>
                         <p class="feat-text">Capture, track, and update every lead in real time from a single dashboard.</p>
                     </div>
-
-
-
                     <div class="swiper-slide">
                         <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Auto Lead Allocation">
                         <h5>Auto Lead Allocation</h5>
@@ -462,7 +398,6 @@
                         <h5>WhatsApp Templates</h5>
                         <p class="feat-text">Send pre-approved WhatsApp templates directly from the app after each call.</p>
                     </div>
-
                 </div>
                 <!-- Custom navigation buttons below -->
                 <div class="swiper-nav-buttons text-center">
@@ -492,10 +427,7 @@
             },
         });
     </script>
-
-
     <!-- spin with your team Section Start -->
-
     <section class="home-app-cta  animate__animated animate__fadeInUp mt-20" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
@@ -504,16 +436,10 @@
             </h2>
             <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
-
             </a>
         </div>
     </section>
-
-
     <!-- spin with your team Section Ends -->
-
-
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
@@ -523,10 +449,7 @@
                     <span class="gradient-text">
                         Runo’s AI
                     </span> Tools
-
                 </h2>
-
-
                 <p class="feat-text">Power up your team with real call intelligence</p>
             </div>
             <!-- Desktop Layout -->
@@ -541,7 +464,6 @@
                         <img src="../img/feature/ts.webp" class="img-fluid" alt="AI Call Transcripts">
                     </div>
                 </div>
-
                 <!-- Feature 2 -->
                 <div class="row align-items-center mb-5 flex-md-row-reverse">
                     <div class="col-md-6">
@@ -552,7 +474,6 @@
                         <img src="../img/feature/8.webp" class="img-fluid" alt="AI Call Summaries">
                     </div>
                 </div>
-
                 <!-- Feature 3 -->
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -563,7 +484,6 @@
                         <img src="../img/feature/5.webp" class="img-fluid" alt="AI Sentiment Analysis">
                     </div>
                 </div>
-
                 <!-- Feature 4 -->
                 <div class="row align-items-center mb-5 flex-md-row-reverse">
                     <div class="col-md-6">
@@ -574,7 +494,6 @@
                         <img src="../img/feature/mom.webp" class="img-fluid" alt="Meeting Notes (MoM)">
                     </div>
                 </div>
-
                 <!-- Feature 5 -->
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -585,7 +504,6 @@
                         <img src="../img/feature/agent-customer.webp" class="img-fluid" alt="Agent-Customer Talk Ratio">
                     </div>
                 </div>
-
                 <!-- Feature 6 -->
                 <div class="row align-items-center mb-5 flex-md-row-reverse">
                     <div class="col-md-6">
@@ -596,7 +514,6 @@
                         <img src="../img/feature/call-quality.webp" class="img-fluid" alt="Call Quality Scoring">
                     </div>
                 </div>
-
                 <!-- Feature 7 -->
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -609,7 +526,6 @@
                 </div>
             </div>
             <!-- Desktop Layout End -->
-
             <!-- Mobile Layout -->
             <div class="feature-mobile d-block d-md-none mt-4" style="background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 9.63%, rgba(255, 255, 255, 0) 16.05%);">
                 <!-- Feature Cards -->
@@ -664,11 +580,9 @@
                 </div>
             </div>
             <!-- Mobile Layout End -->
-
         </div>
         </div>
     </section>
-
     <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
@@ -677,13 +591,10 @@
             </h2>
             </h2>
             <a class="btn-schedule  animate__animated animate__zoomIn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"> Book a Demo</a>
-
         </div>
     </section>
-
     <!-- Testimonial Section -->
     <div class="our-tesimonial-page mt-space">
-
         <div class="container">
             <!-- Section Title Row with Navigation -->
             <div class="row section-row align-items-center justify-content-between mb-4 " data--delay="0.2s">
@@ -695,13 +606,10 @@
                         </h2>
                     </div>
                 </div>
-
                 <?php include('testimonials.php'); ?>
-
             </div>
         </div>
     </div>
-
     <!-- Page Faqs Start -->
     <div class="page-faqs">
         <div class="container">
@@ -857,7 +765,6 @@
         </div>
     </div>
     <!-- Page Faq End -->
-
     <!-- Security Section with  animations -->
     <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
@@ -872,37 +779,25 @@
             </div>
         </div>
     </section>
-
-
     <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Simplify Your <br>Telecalling Operations
-
             </h2>
-
             <p class="cta-p">Streamline your telecalling workflow. Runo simplifies call management, lead tracking, and team monitoring in one app.
             </p>
-
-
             <div class="store-buttons">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
-
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>
         </div>
     </section>
-
-
     <?php include('footer.php'); ?>
-
     <?php include('footerjs.php'); ?>
-
-
 </body>
 
 </html>

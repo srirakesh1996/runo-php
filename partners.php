@@ -1,8 +1,11 @@
 <?php include('doctype.php'); ?>
 
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+
+   <title>Welcome to Runo CRM Partnership Program</title>
+   <meta name="description" content="Join Runo Partnership Program and experience the fastest growth story with the future of mobile call management CRM">
    <?php include('head.php'); ?>
+
 </head>
 
 <body>

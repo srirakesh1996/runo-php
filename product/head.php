@@ -57,3 +57,17 @@
 <!-- intl-tel-input -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/css/intlTelInput.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+
+<?php
+function getCurrentCanonicalURL()
+{
+	$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https" : "http";
+	$host = $_SERVER['HTTP_HOST'];
+	$uri = strtok($_SERVER['REQUEST_URI'], '?'); // Removes query parameters
+
+	return $scheme . '://' . $host . $uri;
+}
+?>
+
+<!-- In your HTML <head> -->
+<link rel="canonical" href="<?= htmlspecialchars(getCurrentCanonicalURL(), ENT_QUOTES, 'UTF-8') ?>" />

@@ -1,50 +1,31 @@
 <?php include('doctype.php'); ?>
 
 <head>
-
     <title>Call Center App for Sales Calling with CRM & Tracking</title>
     <meta name="description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
     <meta name="keywords" content="call center app, call center mobile app, mobile call center app, best call center apps, call center app for iphone, call center app store, mobile app call center, call center crm systems, call center phone systems, call center systems">
     <!-- Updated Open Graph tags -->
     <meta property="og:title" content="Call Center App for Sales Calling with CRM & Tracking">
     <meta property="og:description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
-
     <!-- Updated Twitter tags -->
     <meta name="twitter:title" content="Call Center App for Sales Calling with CRM & Tracking">
     <meta name="twitter:description" content="AI-powered call center app for outbound sales teams, with mobile CRM, automated dialer, call recording, agent tracking, and lead management for call centers.">
 
-    <link rel="canonical" href="https://www.runo.ai/product/call-center-app" />
-
     <?php include('head.php'); ?>
-
-
 </head>
 
 <body>
-
-
     <?php include('preloader.php'); ?>
-
     <?php
-
     $page_name = 'Call Center App';
     $form_uuid = '2eddbc70-045d-41ff-8866-dbf34f73f6f1';
 
     include('home-modal.php');
     ?>
-
-
-
     <?php include('header.php'); ?>
-
-
-
-
-
     <div class="telecaller-hero mb-20">
         <div class="container">
             <!-- Header Start -->
-
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <!-- Hero Content Start -->
@@ -56,17 +37,13 @@
                                     No Complex Infrastructure
                                 </h1>
                                 <p>Run high-performance call operations with 2x calling productivity</p>
-
                                 <ul>
                                     <li> SIM-based calling without IVR drop-offs </li>
                                     <li>Real-time call, follow-up, and lead tracking</li>
                                     <li>Auto lead allocation with no manual effort</li>
                                     <li>Call recording, monitoring, and CRM built in</li>
                                     <li>Remote-ready with zero setup cost & infrastructure overhead</li>
-
                                 </ul>
-
-
                                 <!-- Hero Buttons -->
                                 <div class="hero-body Custom mt-50" data--delay="0.3s" data--duration="0.7s">
                                     <div class="hero-btn">
@@ -79,57 +56,37 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
-
-
                     </div>
                 </div>
-
                 <div class="col-lg-6">
                     <img src="../img/call-center/call-center.webp" class="pro-img img-fluid" alt="Runo Call Center CRM">
-
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero Section End -->
-
-
-
     <!-- Clients Section Start -->
     <section class="clients-section py-80">
         <div class="container">
             <div class="row">
                 <div class="clients-title text-center " data--delay="0.2s">
                     <h2>Backed by call-focused teams across sales and support
-
                     </h2>
                 </div>
             </div>
-
-
             <?php include('clients.php'); ?>
-
-
         </div>
     </section>
     <!-- Clients Section End -->
-
-
-
     <!-- why choose runo-->
     <section class="deals-section mt-20" id="dealsSection">
         <div class="container">
             <div class="row deals-content">
                 <div class="section-title text-center " data--delay="0.3s">
                     <h2>Why Growing Teams Choose Runo for Call Center Needs
-
                     </h2>
                 </div>
-
                 <!-- Tabs and Mobile Images -->
                 <div class="col-md-6">
                     <div class="left-tabs" id="tabContainer">
@@ -146,7 +103,6 @@
                                     <img src="../img/call-center/low-operating.webp" class="img-preview" alt="70% Lower Operating Cost">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="1" data-bs-target="#tab2">
                                     <span>No IVR, Cloud Telephony, or ACD Friction</span>
@@ -156,7 +112,6 @@
                                     <img src="../img/call-center/cloud-telephony.webp" class="img-preview" alt="No IVR, Cloud Telephony, or ACD Friction">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="2" data-bs-target="#tab3">
                                     <span>2x Higher Call Pickup Rate</span>
@@ -166,7 +121,6 @@
                                     <img src="../img/call-center/higher-call.webp" class="img-preview" alt="2x Higher Call Pickup Rate">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="3" data-bs-target="#tab4">
                                     <span>100% Visibility Into Remote Teams</span>
@@ -176,7 +130,6 @@
                                     <img src="../img/call-center/visibility.webp" class="img-preview" alt="100% Visibility Into Remote Teams">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="4" data-bs-target="#tab5">
                                     <span>One App to Replace Your Dialer, CRM, and Spreadsheets</span>
@@ -186,7 +139,6 @@
                                     <img src="../img/call-center/all-in-one.webp" class="img-preview" alt="One App to Replace Your Dialer, CRM, and Spreadsheets">
                                 </div>
                             </div>
-
                             <div class="scroll-bord">
                                 <button class="tab-btn" data-tab-index="5" data-bs-target="#tab6">
                                     <span>30-Minute Setup Time</span>
@@ -199,7 +151,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
@@ -223,11 +174,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
     <!-- Scripts -->
     <script>
         const tabs = document.querySelectorAll(".tab-btn");
@@ -342,9 +291,7 @@
 
         document.addEventListener("DOMContentLoaded", observeSection);
     </script>
-
     <!-- why choose runo ends-->
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
@@ -352,7 +299,6 @@
                 <h2>Features Built for High-Performance Calling Teams
                 </h2>
                 <p class="feat-text">Simplifies how your team calls and converts
-
                 </p>
             </div>
             <!-- Desktop Layout -->
@@ -362,50 +308,42 @@
                     <h5>Auto Dialer</h5>
                     <p class="feat-text">Call faster without manual dialing between calls.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                     <h5>Call Recording</h5>
                     <p class="feat-text">Record every call for training, compliance, and quality checks</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Call Tracking">
                     <h5>Real-Time Call Tracking</h5>
                     <p class="feat-text">See every call status, duration, and outcome instantly</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Auto Allocation">
                     <h5>Lead Auto Allocation</h5>
                     <p class="feat-text">Assign leads instantly based on source, region, or rules you set.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Reminders">
                     <h5>Follow-Up Reminders</h5>
                     <p class="feat-text">Get notified when it’s time to call back or check in on a lead.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="Built-in CRM">
                     <h5>Built-in CRM</h5>
                     <p class="feat-text">No switching between tools, CRM is built right in.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Agent Status">
                     <h5>Live Agent Status</h5>
                     <p class="feat-text">Know who’s active, available, or idle at any given moment.</p>
                 </div>
-
                 <div class="col-md-4 mb-4 text-center zoom-hover">
                     <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                     <h5>Interaction Timeline</h5>
                     <p class="feat-text">Access full call history and notes for every lead instant</p>
                 </div>
             </div>
-
             <!-- Mobile Swiper Layout -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
@@ -414,50 +352,42 @@
                         <h5>Auto Dialer</h5>
                         <p class="feat-text">Call faster without manual dialing between calls.</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/2.webp" class="img-fluid mb-2" alt="Call Recording">
                         <h5>Call Recording</h5>
                         <p class="feat-text">Record every call for training, compliance, and quality checks</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/9.webp" class="img-fluid mb-2" alt="Real-Time Call Tracking">
                         <h5>Real-Time Call Tracking</h5>
                         <p class="feat-text">See every call status, duration, and outcome instantly</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img src="../img/feature/10.webp" class="img-fluid mb-2" alt="Lead Auto Allocation">
                         <h5>Lead Auto Allocation</h5>
                         <p class="feat-text">Assign leads instantly based on source, region, or rules you set.</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/6.webp" class="img-fluid mb-2" alt="Follow-Up Reminders">
                         <h5>Follow-Up Reminders</h5>
                         <p class="feat-text">Get notified when it’s time to call back or check in on a lead.</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/13.webp" class="img-fluid mb-2" alt="Built-in CRM">
                         <h5>Built-in CRM</h5>
                         <p class="feat-text">No switching between tools, CRM is built right in.</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img src="../img/feature/3.webp" class="img-fluid mb-2" alt="Live Agent Status">
                         <h5>Live Agent Status</h5>
                         <p class="feat-text">Know who’s active, available, or idle at any given moment.</p>
                     </div>
-
                     <div class="swiper-slide">
                         <img loading="lazy" src="../img/feature/12.webp" class="img-fluid mb-2" alt="Interaction Timeline">
                         <h5>Interaction Timeline</h5>
                         <p class="feat-text">Access full call history and notes for every lead instant</p>
                     </div>
                 </div>
-
                 <!-- Custom navigation buttons -->
                 <div class="swiper-nav-buttons text-center">
                     <button class="swiper-custom-prev">
@@ -468,7 +398,6 @@
                     </button>
                 </div>
             </div>
-
         </div>
         </div>
     </section>
@@ -487,26 +416,16 @@
             },
         });
     </script>
-
-
     <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Manage your entire call flow <br> without the clutter
-
-
             </h2>
             <a href="https://web.runo.in" class="btn-schedule  animate__animated animate__zoomIn mt-20" data--delay="0.6s">
                 Start 10-day free trial
-
             </a>
         </div>
     </section>
-
-
-
-
-
     <section class="features-section mt-70" id="features">
         <div class="container">
             <!-- Section Title -->
@@ -516,15 +435,11 @@
                     <span class="gradient-text">
                         Runo’s </span> <span class="gradient-text"> AI-Powered
                     </span> Tools
-
                 </h2>
-
-
                 <p class="feat-text">Turn talk into insight
                 </p>
             </div>
             <!-- Desktop Layout -->
-
             <div class="d-none d-md-block">
                 <!-- Feature 1 -->
                 <div class="row align-items-center mb-5">
@@ -536,7 +451,6 @@
                         <img src="../img/feature/ts.webp" class="img-fluid" alt="AI Call Transcripts">
                     </div>
                 </div>
-
                 <!-- Feature 2 -->
                 <div class="row align-items-center mb-5 flex-md-row-reverse">
                     <div class="col-md-6">
@@ -548,7 +462,6 @@
                         <img src="../img/feature/8.webp" class="img-fluid" alt="AI Call Summaries">
                     </div>
                 </div>
-
                 <!-- Feature 3 -->
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -560,7 +473,6 @@
                         <img src="../img/feature/5.webp" class="img-fluid" alt="AI Sentiment Analysis">
                     </div>
                 </div>
-
                 <!-- Feature 4 -->
                 <div class="row align-items-center mb-5 flex-md-row-reverse">
                     <div class="col-md-6">
@@ -571,7 +483,6 @@
                         <img src="../img/feature/mom.webp" class="img-fluid" alt="Meeting Notes (MoM)">
                     </div>
                 </div>
-
                 <!-- Feature 5 -->
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -583,11 +494,8 @@
                     </div>
                 </div>
             </div>
-
             <!-- Desktop Layout -->
-
             <!-- Mobile Layout -->
-
             <div class="feature-mobile d-block d-md-none mt-4" style="background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 9.63%, rgba(255, 255, 255, 0) 16.05%);">
                 <!-- Feature 1 -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
@@ -597,7 +505,6 @@
                         <p class="feat-text">Converts spoken conversations into accurate, readable text.</p>
                     </div>
                 </div>
-
                 <!-- Feature 2 -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
                     <img src="../img/feature/8.webp" class="card-img-top img-fluid mb-3" alt="Call Summaries">
@@ -606,7 +513,6 @@
                         <p class="feat-text">Highlights the key points from each call, so managers and reps don’t have to replay or take notes.</p>
                     </div>
                 </div>
-
                 <!-- Feature 3 -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
                     <img src="../img/feature/5.webp" class="card-img-top img-fluid mb-3" alt="Sentiment Analysis">
@@ -615,7 +521,6 @@
                         <p class="feat-text">Detects the emotional tone of the conversation (positive, neutral, negative) to flag at-risk leads or unhappy customers.</p>
                     </div>
                 </div>
-
                 <!-- Feature 4 -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
                     <img src="../img/feature/mom.webp" class="card-img-top img-fluid mb-3" alt="Meeting Notes (MoM)">
@@ -624,7 +529,6 @@
                         <p class="feat-text">Automatically pulls out action items, urgency, and assignees from the call.</p>
                     </div>
                 </div>
-
                 <!-- Feature 5 -->
                 <div class="card border-0 shadow-sm mb-4 text-center">
                     <img src="../img/feature/4.webp" class="card-img-top img-fluid mb-3" alt="AI Assistant">
@@ -634,7 +538,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         </div>
     </section>
@@ -653,20 +556,14 @@
             },
         });
     </script>
-
-
     <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 Ready to see what smart <br> calling actually feels like?
-
             </h2>
             <a class="btn-schedule  animate__animated animate__zoomIn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal"> Book a Demo</a>
-
         </div>
     </section>
-
-
     <!-- Testimonial Section -->
     <div class="our-tesimonial-page mt-space">
         <div class="container">
@@ -676,17 +573,13 @@
                     <div class="section-title" style="text-align:left;width:100%">
                         <h2>
                             Runo in the Words of <br>Our Customers
-
                         </h2>
                     </div>
                 </div>
-
                 <?php include('testimonials.php'); ?>
-
             </div>
         </div>
     </div>
-
     <!-- Page Faqs Start -->
     <div class="page-faqs">
         <div class="container">
@@ -854,17 +747,13 @@
             </div>
         </div>
     </div>
-
-
     <!-- Page Faq End -->
-
     <!-- Security Section with  animations -->
     <section class="security-section " data--delay="0.2s" style="background: #F5F3ED;margin: 0px auto 50px auto;">
         <div class="row align-items-center">
             <!-- Left Text -->
             <div class="col-md-7 security-text">
                 <h2>Data Protection You Can Count On
-
                 </h2>
             </div>
             <!-- Right Image -->
@@ -873,36 +762,25 @@
             </div>
         </div>
     </section>
-
-
-
     <section class="home-app-cta  animate__animated animate__fadeInUp" data--delay="0.2s">
         <div class="container">
             <h2 class=" animate__animated animate__fadeInDown" data--delay="0.4s">
                 A Call Center App <br>Built for Mobile Teams
-
             </h2>
-
             <p class="cta-p">Stay connected to every call and every rep, whether you're in the office or on the move. Track lead activity, assign follow-ups, and monitor team performance directly from your phone using Runo’s SIM-based call center app. No desktops, no delays.
             </p>
-
-
             <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
-
                 <span class="stars">★★★★★</span>
                 <span>4.7 Star</span> &nbsp; | &nbsp; <span>50K+ Downloads</span>
             </div>
         </div>
     </section>
     <?php include('footer.php'); ?>
-
     <?php include('footerjs.php'); ?>
-
-
 </body>
 
 </html>
