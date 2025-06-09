@@ -1,6 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/allminjs@latest/allmin.min.js"></script>
-
-
 <!-- Demo Section Start -->
 <section class="demo-section">
   <div class="container">

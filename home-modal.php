@@ -8,26 +8,21 @@
                         <h5>Get in touch now!</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-
                     <form id="demo-form" method="POST"
                         data-page-name="<?php echo htmlspecialchars(!empty($page_name) ? $page_name : 'Others'); ?>"
                         data-uuid="<?php echo htmlspecialchars(!empty($form_uuid) ? $form_uuid : '540c6a38-0072-4c48-9fac-b443f814a999'); ?>">
-
                         <div class="mb-3">
                             <input type="text" name="your_name" class="form-control" id="name" placeholder="Name" />
                             <small class="text-danger d-none" id="nameError">Name is required.</small>
                         </div>
-
                         <div class="mb-3">
                             <input type="email" name="your_email" class="form-control" id="email" placeholder="Email Address" />
                             <small class="text-danger d-none" id="emailError">Valid email is required.</small>
                         </div>
-
                         <div class="mb-3">
                             <input type="tel" name="your_phone" class="form-control" id="phone" placeholder="Phone Number" autocomplete="tel" />
                             <small class="text-danger d-none" id="phoneError">Enter a valid phone number.</small>
                         </div>
-
                         <div class="mb-3">
                             <select name="agents" class="form-select" id="agents">
                                 <option value="" disabled selected style="color: #858585;">Number of Calling Agents</option>
@@ -37,11 +32,9 @@
                             </select>
                             <small class="text-danger d-none" id="agentsError">Please select an option.</small>
                         </div>
-
                         <p style="font-size: 12px;">
                             By submitting this form, I agree to the <a href="privacy-policy" target="_blank">privacy policy</a>.
                         </p>
-
                         <button type="submit" id="demo-form-btn" class="btn-default btn-highlighted" style="width: 100%;">Submit</button>
                     </form>
                 </div>
@@ -236,7 +229,6 @@
         });
     });
 </script>
-
 <!-- Thank You Modal -->
 <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">

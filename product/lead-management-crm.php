@@ -4,17 +4,12 @@
     <title>Lead Management CRM App – Real-Time Sales Tracking</title>
     <meta name="description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
     <meta name="keywords" content="lead management app, Lead management software, lead management crm, lead management system, lead management and crm, crm for lead management and nurturing, best crm for lead management, crm for lead management, crm lead management software">
-
     <!-- Updated Open Graph tags -->
     <meta property="og:title" content="Lead Management CRM App – Real-Time Sales Tracking">
     <meta property="og:description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
-
     <!-- Updated Twitter tags -->
     <meta name="twitter:title" content="Lead Management CRM App – Real-Time Sales Tracking">
     <meta name="twitter:description" content="AI-enabled lead management CRM app that tracks every lead from allocation to closure, providing real-time updates to boost sales efficiency for SMB teams.">
-
-
-    <link rel="canonical" href="https://www.runo.ai/product/lead-management-crm" />
 
     <?php include('head.php'); ?>
 </head>
@@ -66,22 +61,21 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-6" style="margin: 40px 0px;">
-                    <div class="image-wrapper">
-                    
-                        <img src="../img/lead-management/sales-team.webp" alt="Main Portrait" class="pcenter-image  fadeIn" data--delay="0.2s">
-                    
-                        <img src="../img/lead-management/sales-exec.webp" alt="Left Floating Box"
-                            class="pside-image pleft-image  fadeInLeft" data--delay="0.4s">
-                        <img src="../img/lead-management/sales-graph.webp" alt="Right Floating Box"
-                            class="pside-image pright-image  fadeInRight" data--delay="0.4s">
-                        <img src="../img/lead-management/progress.webp" alt="Right Floating Box"
-                            class="pside-image pbottom-image  fadeInRight" data--delay="0.4s">
-                    </div>
-
-                </div>-->
+               <div class="image-wrapper">
+               
+                   <img src="../img/lead-management/sales-team.webp" alt="Main Portrait" class="pcenter-image  fadeIn" data--delay="0.2s">
+               
+                   <img src="../img/lead-management/sales-exec.webp" alt="Left Floating Box"
+                       class="pside-image pleft-image  fadeInLeft" data--delay="0.4s">
+                   <img src="../img/lead-management/sales-graph.webp" alt="Right Floating Box"
+                       class="pside-image pright-image  fadeInRight" data--delay="0.4s">
+                   <img src="../img/lead-management/progress.webp" alt="Right Floating Box"
+                       class="pside-image pbottom-image  fadeInRight" data--delay="0.4s">
+               </div>
+               
+               </div>-->
                 <div class="col-lg-6">
                     <img src="../img/lead-management/lead-management.webp" class="pro-img img-fluid" alt="Runo Lead Management CRM">
-
                 </div>
             </div>
         </div>
@@ -191,7 +185,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -646,8 +639,8 @@
             <p class="cta-p">Stay connected to your sales pipeline with instant access to lead information, updates, and actions, anytime.
             </p>
             <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>

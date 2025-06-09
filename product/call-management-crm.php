@@ -7,13 +7,9 @@
     <!-- Updated Open Graph tags -->
     <meta property="og:title" content="AI-Enabled SIM-Based Call Management CRM App">
     <meta property="og:description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
-
     <!-- Updated Twitter tags -->
     <meta name="twitter:title" content="AI-Enabled SIM-Based Call Management CRM App">
     <meta name="twitter:description" content="AI-powered mobile-first Call Management CRM App with SIM-based calling, automated dialer, call tracking, AI call summaries, and live lead status in one app.">
-
-    <link rel="canonical" href="https://www.runo.ai/product/call-management-crm" />
-
 
     <?php include('head.php'); ?>
 </head>
@@ -144,7 +140,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Desktop Image Preview -->
                 <div class="col-md-6 d-none d-md-block">
                     <div class="tab-content text-center">
@@ -165,7 +160,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -387,7 +381,6 @@
                     <p class="feat-text">Track calls, conversions, and rep activity as it happens, no waiting for reports.</p>
                 </div>
             </div>
-
             <!-- Mobile Swiper Layout -->
             <div class="swiper-container d-block d-md-none mt-4">
                 <div class="swiper-wrapper text-center">
@@ -447,7 +440,6 @@
                     </button>
                 </div>
             </div>
-
         </div>
         </div>
     </section>
@@ -633,8 +625,8 @@
             <p class="cta-p">Track calls, view insights, and get AI-written summaries in seconds. Runo makes mobile CRM smart, simple, and sales-ready.
             </p>
             <div class="store-buttons">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" loading="lazy" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" loading="lazy" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>
