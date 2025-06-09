@@ -364,7 +364,7 @@
                     <!-- Mobile Hero Swiper -->
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide mobile-hero-slide"><img loading="lazy" importance="high" src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" /></div>
+                            <div class="swiper-slide mobile-hero-slide"><img loading="eager" fetchpriority="high" src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" /></div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/sentiment.webp" alt="Sentiment Analysis" /></div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/assistant.webp" alt="Call Assistant" /></div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/recording.webp" alt="Call Recording" /></div>
