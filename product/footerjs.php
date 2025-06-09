@@ -38,7 +38,7 @@
       if (preloader) {
          preloader.style.opacity = '0';
          preloader.style.transition = 'opacity 0.5s ease';
-         setTimeout(() => (preloader.style.display = 'none'), 400);
+         setTimeout(() => (preloader.style.display = 'none'), 350);
       }
    });
 
