@@ -15,13 +15,13 @@
   <?php include('head.php'); ?>
 
   <!-- Hero Background Image (used in CSS) -->
-  <link rel="preload" as="image" href="img/banner-img.webp" type="image/webp">
+  <link rel="preload" as="image" href="img/banner-img.webp" type="image/webp" fetchpriority="low">
 
-  <!-- Initial Hero Web Image (used in <img id="webImage">) -->
-  <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)">
+  <!-- Initial Hero Web Image (used in <img id="webImage"> for desktop LCP) -->
+  <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)" fetchpriority="high">
 
-  <!-- Initial Hero Mobile Image (first swiper slide) -->
-  <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" media="(max-width: 767px)">
+  <!-- Initial Hero Mobile Image (first swiper slide & LCP) -->
+  <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" media="(max-width: 767px)" fetchpriority="high">
 
 </head>
 

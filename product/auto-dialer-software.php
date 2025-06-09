@@ -668,8 +668,8 @@
             <p class="cta-p">All-in-one SIM-based Auto Dialer with built-in CRM, live call tracking, WhatsApp templates, and, follow-up reminders. Perfect for mobile-first sales teams.
             </p>
             <div class="store-buttons  animate__animated animate__fadeIn" data--delay="0.8s">
-                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/ios.webp" alt="App Store" /></a>
-                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" loading="lazy" target="_blank" class="zoom-hover"> <img src="../img/google-play.webp" alt="Google Play"></a>
+                <a href="https://apps.apple.com/us/app/runo-outbound-call-center-crm/id1528004506" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/ios.webp" alt="App Store" /></a>
+                <a href="https://play.google.com/store/apps/details?id=in.runo.call_crm&hl=en_IN" target="_blank" class="zoom-hover"> <img loading="lazy" src="../img/google-play.webp" alt="Google Play"></a>
             </div>
             <div class="rating  animate__animated animate__fadeInUp" data--delay="1s">
                 <span class="stars">★★★★★</span>
