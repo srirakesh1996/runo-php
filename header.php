@@ -23,7 +23,7 @@
                                     <li class="nav-item"><a class="nav-link" href="product/telecaller-app">Telecaller App</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
                             <li class="nav-item"><a class="header-btn-plain track-btn" data-label="Login - Header" href="https://web.runo.in/">Login</a></li>
                             <li class="nav-item">
