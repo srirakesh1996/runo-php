@@ -93,6 +93,10 @@
   margin-bottom: 20px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -2485,12 +2489,13 @@ label {
 }
 
 .security-text h2 {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .security-text p {
   font-size: 1rem;
   color: #111111;
+  margin-top: 7px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -2958,4 +2963,262 @@ body.modal-open {
 
   }
 
+}
+
+
+/* 404 Section Styling */
+.error-404 {
+  min-height: 80vh;
+  background: #f8f9fa;
+}
+
+.error-404 h1 {
+  font-size: 10rem;
+  line-height: 1;
+}
+
+.error-content {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Optional fadeIn animation if not using WOW.js */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Pricing page css */
+
+.pricing-section {
+
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  /* ensure pseudo-element stays contained */
+  z-index: 1;
+  background: url("../img/banner-img.webp") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.popular-card {
+
+  border: 2px solid #dc3545;
+}
+
+.pricing-card {
+
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Image Background */
+
+
+.card-top-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+
+.blue-bg {
+  position: relative;
+  height: 150px;
+  background-image: url('../img/blue.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.gold-bg {
+  position: relative;
+  height: 150px;
+  background-image: url('../img/gold.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
+.green-bg {
+  position: relative;
+  height: 150px;
+  background-image: url('../img/green.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.most-popular {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #009EF7;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.discount {
+  padding: 12px;
+  background-color: #57BF73;
+  color: white;
+  font-size: 0.75rem;
+  margin-left: 6px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+/* Gradient Button */
+.btn-gradient {
+  background: linear-gradient(90deg, #d41fbd, #1f6bf7);
+  color: #fff;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.top-content {
+
+  text-align: left;
+  padding: 70px 20px 40px 20px;
+  position: absolute;
+  z-index: 5;
+
+}
+
+.card-body {
+  margin-top: -30px;
+  z-index: 9;
+
+}
+
+.tenure {
+  text-align: left;
+  margin-bottom: 10px;
+
+  font-size: 20px !important;
+}
+
+.details {
+  position: relative;
+  text-align: left;
+  padding: 20px;
+}
+
+.details a {
+  width: 100%;
+  text-align: center;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.price-card {
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .price-card {
+    width: 100%;
+  }
+
+}
+
+.text-muted {
+
+  margin: 20px 0px;
+}
+
+.pricing-section h5 strong {
+  font-size: 25px !important;
+}
+
+.addon-section {
+  padding: 60px 0;
+  background: #fef9f6;
+  background: url("../img/banner-img.webp") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.addon-card {
+  border-radius: 20px;
+  padding: 24px;
+  height: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  color: #000;
+  position: relative;
+}
+
+.addon-card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.addon-card p {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.addon-card .price-tag {
+  background: white;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.gradient-purple {
+  background: linear-gradient(181deg, rgba(234, 230, 255, 0.5) 60%, rgba(187, 173, 255, 0.5) 130%);
+  border: 1px solid #BBADFF;
+}
+
+.gradient-green {
+  background: linear-gradient(180deg, rgba(230, 255, 239, 0.5) 60%, rgba(150, 227, 178, 0.5) 130%);
+  border: 1px solid #96E3B2;
+}
+
+.gradient-blue {
+  background: linear-gradient(180deg, rgba(225, 241, 255, 0.5) 60%, rgba(130, 193, 251, 0.5) 130%);
+  border: 1px solid #82C1FB;
+}
+
+.gradient-pink {
+  background: linear-gradient(180deg, rgba(249, 223, 255, 0.5) 60%, rgba(237, 163, 255, 0.5) 130%);
+  border: 1px solid #EDA3FF;
+}
+
+.gradient-orange {
+  background: linear-gradient(180deg, rgba(255, 229, 223, 0.5) 60%, rgba(255, 173, 154, 0.5) 130%);
+  border: 1px solid #FFAD9A;
 }

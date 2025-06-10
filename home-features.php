@@ -218,6 +218,6 @@
       Get a personalized walkthrough<br>
       of Runo in action
     </h2>
-    <a class="btn-schedule" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Home CTA 1">Schedule Your Demo</a>
+    <a class="btn-schedule track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Book a Demo - Home CTA 1">Schedule Your Demo</a>
   </div>
 </section>
