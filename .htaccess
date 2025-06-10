@@ -1,10 +1,18 @@
 RewriteEngine On
 
-# Rewrite rule to handle .php and .html extensions
+# Redirect non-www to www
+#RewriteCond %{HTTP_HOST} ^runo\.ai [NC]
+#RewriteRule ^(.*)$ https://www.runo.ai/$1 [L,R=301]
+
+# Rewrite rule to handle .php extensions
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+# Rewrite rule to handle .html extensions
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Custom 404 Error Page
+ErrorDocument 404 /404.php

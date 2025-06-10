@@ -244,8 +244,9 @@
 <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content text-center p-4">
+            <img src="../img/success.webp" alt="success" style="margin:10px auto; display:block;width:50px">
             <h5 class="mb-3">Thank you!</h5>
-            <p>Your submission has been received. We'll be in touch shortly.</p>
+            <p style="margin-bottom:5px">Your submission has been received. Our team will get back to you shortly.</p>
             <button type="button" class="btn-default btn-highlighted mt-3" data-bs-dismiss="modal">Close</button>
         </div>
     </div>

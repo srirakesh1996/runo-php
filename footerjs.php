@@ -16,6 +16,25 @@
 
 <!-- UTM Tracker -->
 <script>
+   /*Testimonials Slider */
+   function updateNavState(swiper) {
+      const prevBtn = document.querySelector(".testimonial-prev-btn");
+      const nextBtn = document.querySelector(".testimonial-next-btn");
+
+      if (swiper.isBeginning) {
+         prevBtn.classList.add("swiper-button-disabled");
+      } else {
+         prevBtn.classList.remove("swiper-button-disabled");
+      }
+
+      if (swiper.isEnd) {
+         nextBtn.classList.add("swiper-button-disabled");
+      } else {
+         nextBtn.classList.remove("swiper-button-disabled");
+      }
+   }
+
+
    const params = new URLSearchParams(window.location.search);
    const utmSource = params.get("utm_source");
    const utmCampaign = params.get("utm_campaign");

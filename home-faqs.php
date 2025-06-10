@@ -7,7 +7,7 @@
                     Let’s Smash ‘Em Together
                 </h2>
             </div>
-            <div class="col-lg-10" style="margin:0 auto">
+            <div class="col-lg-10" style="margin:10px auto">
                 <div class="page-faqs-catagery">
                     <div class="faq-accordion page-faq-accordion" id="runo_faqs">
                         <div class="faq-accordion" id="accordionRuno">
