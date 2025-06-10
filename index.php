@@ -13,20 +13,15 @@
   <meta name="twitter:description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
 
   <?php include('head.php'); ?>
-
-  <!-- Hero Background Image (used in CSS) -->
+  <!-- Preload hero background image only if visible above the fold -->
   <link rel="preload" as="image" href="img/banner-img.webp" type="image/webp" fetchpriority="low">
 
-  <!-- Initial Hero Web Image (used in <img id="webImage"> for desktop LCP) -->
-  <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)" fetchpriority="high">
+  <!-- Desktop LCP image (shown inside <img id="webImage">) -->
+  <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp">
 
-  <!-- Preload LCP image -->
-  <link
-    rel="preload"
-    as="image"
-    href="img/hero-images/mobile/call-summary.webp"
-    type="image/webp"
-    fetchpriority="high" />
+  <!-- Mobile LCP image (first image in Swiper) -->
+  <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" fetchpriority="high">
+
 </head>
 
 <body>
