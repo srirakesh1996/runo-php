@@ -362,9 +362,25 @@
 
 
                     <!-- Mobile Hero Swiper -->
+
+                    <!-- ✅ Static LCP Image for Mobile (Improves LCP Score) -->
+                    <div class="mobile-lcp-wrapper d-block d-lg-none text-center mb-3">
+                        <img
+                            src="img/hero-images/mobile/call-summary.webp"
+                            alt="Call Summary"
+                            class="img-fluid"
+                            width="360"
+                            height="400"
+                            style="max-width: 100%; height: auto;"
+                            loading="eager"
+                            fetchpriority="high" />
+                    </div>
+
                     <div class="swiper mobile-hero-swiper wow zoomIn" id="mobile-hero">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide mobile-hero-slide"><img loading="eager" fetchpriority="high" src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" /></div>
+                            <div class="swiper-slide mobile-hero-slide">
+                                <img loading="lazy" src="img/hero-images/mobile/call-summary.webp" alt="Call Summary" />
+                            </div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/sentiment.webp" alt="Sentiment Analysis" /></div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/assistant.webp" alt="Call Assistant" /></div>
                             <div class="swiper-slide mobile-hero-slide"><img loading="lazy" src="img/hero-images/mobile/recording.webp" alt="Call Recording" /></div>
@@ -385,14 +401,21 @@
 
                     <!-- Swiper Init Script -->
                     <script>
-                        new Swiper('.mobile-hero-swiper', {
+                        const swiper = new Swiper('.mobile-hero-swiper', {
                             loop: true,
                             autoplay: {
                                 delay: 4000,
                                 disableOnInteraction: false,
                             },
-                            allowTouchMove: true, // Enables drag/swipe left ↔ right
-                            speed: 600, // Optional: animation speed in ms
+                            allowTouchMove: true,
+                            speed: 600,
+                            on: {
+                                init: function() {
+                                    // Hide static LCP image after Swiper loads
+                                    const lcpImage = document.querySelector('.mobile-lcp-wrapper');
+                                    if (lcpImage) lcpImage.style.display = 'none';
+                                }
+                            }
                         });
                     </script>
                 </div>

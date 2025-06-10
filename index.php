@@ -20,9 +20,13 @@
   <!-- Initial Hero Web Image (used in <img id="webImage"> for desktop LCP) -->
   <link rel="preload" as="image" href="img/hero-images/web/call-summaryw.webp" type="image/webp" media="(min-width: 768px)" fetchpriority="high">
 
-  <!-- Initial Hero Mobile Image (first swiper slide & LCP) -->
-  <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" media="(max-width: 767px)" fetchpriority="high">
-
+  <!-- Preload LCP image -->
+  <link
+    rel="preload"
+    as="image"
+    href="img/hero-images/mobile/call-summary.webp"
+    type="image/webp"
+    fetchpriority="high" />
 </head>
 
 <body>
