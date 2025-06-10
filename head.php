@@ -19,7 +19,7 @@
 <link rel="icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">
 
 <link rel="preload" as="style" href="css/bootstrap.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <!-- Google Fonts -->
@@ -67,3 +67,13 @@ function getCurrentCanonicalURL()
 
 <!-- In your HTML <head> -->
 <link rel="canonical" href="<?= htmlspecialchars(getCurrentCanonicalURL(), ENT_QUOTES, 'UTF-8') ?>" />
+<style>
+	.hero {
+		position: relative;
+		padding: 0;
+		overflow: hidden;
+		z-index: 1;
+		background: url('img/banner-img.webp') no-repeat center center;
+		background-size: cover;
+	}
+</style>

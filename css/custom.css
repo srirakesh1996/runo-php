@@ -865,18 +865,19 @@ header.main-header .header-sticky.active {
 /************************************/
 /***        04. Hero css	      ***/
 /************************************/
-
+/*
 .hero {
   position: relative;
   padding: 0px;
   overflow: hidden;
-  /* ensure pseudo-element stays contained */
-  z-index: 1;
-  background: url("../img/banner-img.webp") no-repeat;
-  background-position: center center;
-  background-size: cover;
+ 
+z-index: 1;
+background: url("../img/banner-img.webp") no-repeat;
+background-position: center center;
+background-size: cover;
 }
 
+*/
 .hero.hero-image {
   position: relative;
   background: url("../images/hero-bg.jpg") no-repeat;

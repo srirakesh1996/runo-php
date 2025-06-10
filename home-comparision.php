@@ -18,7 +18,7 @@
           <div class="col-md-4 zoom-hover">
             <div class="highlight-box h-100">
               <div class="highlight-inner d-flex flex-column h-100">
-                <div class="highlight-cell" style="background:#F44336;border-radius: 17px 17px 0px 0px;"> <img src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
+                <div class="highlight-cell" style="background:#F44336;border-radius: 17px 17px 0px 0px;"> <img loading="lazy" src="img/runo-white.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
                 <div class="highlight-cell">&lt;30 minutes</div>
                 <div class="highlight-cell">&gt;78%</div>
                 <div class="highlight-cell">Flexible</div>
