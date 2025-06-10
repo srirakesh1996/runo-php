@@ -661,9 +661,9 @@ header.main-header .header-sticky.active {
   margin: 0;
   list-style: none;
   width: 230px;
-  border-radius: 0;
+  border-radius: 20px;
   position: absolute;
-  left: 0;
+  left: -30px;
   top: 100%;
   background-color: var(--accent-secondary-color);
   transition: all 0.3s ease-in-out;
@@ -2160,18 +2160,23 @@ header.main-header .header-sticky.active {
 }
 
 .testimonial-item {
-  height: 400px;
+  height: 450px;
   position: relative;
   z-index: -1;
 
-  padding: 30px;
+  padding: 20px;
   background: #e1e1e1;
   border-radius: 20px;
 }
 
+.testimonial-header p {
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
+
 @media (min-width: 990px) and (max-width: 1150px) {
   .testimonial-item {
-    height: 520px;
+    height: 550px;
 
   }
 }
@@ -2193,7 +2198,7 @@ header.main-header .header-sticky.active {
 
 .testimonial-body {
   position: absolute;
-  width: 85%;
+  width: 90%;
   bottom: 35px;
 }
 
@@ -4904,7 +4909,7 @@ header.main-header .header-sticky.active {
   }
 
   .testimonial-item {
-    height: 480px;
+    height: 400px;
     padding: 30px;
   }
 
@@ -4913,7 +4918,7 @@ header.main-header .header-sticky.active {
   }
 
   .testimonial-body {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;*/
     padding-bottom: 20px;
   }
 

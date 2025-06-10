@@ -49,22 +49,20 @@
   /* testimonial Slider JS */
   if ($(".testimonial-slider").length) {
     const testimonial_slider = new Swiper(".testimonial-slider .swiper", {
-      slidesPerView: 1,
+      slidesPerView: 1, // Default: 1 slide on mobile and tablet
       speed: 1000,
       spaceBetween: 30,
       loop: true,
       autoplay: {
-        delay: 5000,
+        delay: 500000,
       },
       navigation: {
         nextEl: ".testimonial-next-btn",
         prevEl: ".testimonial-prev-btn",
       },
       breakpoints: {
-        768: {
-          slidesPerView: 2,
-        },
-        991: {
+        // From 992px and above, show 2 slides
+        992: {
           slidesPerView: 2,
         },
       },

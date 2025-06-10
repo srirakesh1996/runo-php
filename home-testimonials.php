@@ -94,10 +94,9 @@
                   <div class="testimonial-header">
                     <p>RUNO is one unique mobile-based calling solution we came across 3 months
                       back. It quickly helped us to streamline our sales process and added quality
-                      to sales pitch.
-                    </p>
-                    <p>With the monitoring tools, our conversation rates have moved up by 120
-                      percent. Our overall team experience was enhanced in all directions...
+                      to sales pitch.</p>
+                    <p>
+                      With the monitoring tools, our conversation rates have moved up by 120 percent. Our overall team experience was enhanced in all directions. This contributed towards a clearer focus on the goals, easier team management, in-depth data analysis, and more that eventually yielded better conversion rates. The support we received from the team has been very good throughout. All the very best to your entire team.
                     </p>
                   </div>
                   <div class="testimonial-body">
