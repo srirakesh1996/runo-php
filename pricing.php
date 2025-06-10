@@ -1,14 +1,20 @@
 <?php include('doctype.php'); ?>
 
 <head>
-    <title>Runo – Pricings</title>
-    <meta name="description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
-    <!-- Updated Open Graph tags -->
-    <meta property="og:title" content="Runo – World’s First AI-Powered SIM-Based Call CRM">
-    <meta property="og:description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
-    <!-- Updated Twitter tags -->
-    <meta name="twitter:title" content="Runo – World’s First AI-Powered SIM-Based Call CRM">
-    <meta name="twitter:description" content="Runo is an AI-powered, mobile-first CRM with SIM-based call management. No cloud telephony. Auto-log calls, track leads, add notes, get AI summaries & manage sales workflow.">
+    <title>Plans & Pricing | Runo</title>
+
+    <meta name="title" content="Plans & Pricing | Runo">
+    <meta name="description" content="Experience Runo with full access during your 10-day free trial. Choose a pricing plan that fits your business needs across quarterly, half yearly or yearly options.">
+    <meta name="keywords" content="Runo pricing, Runo plans, call management software pricing, call CRM plans, SIM-based call CRM pricing, free trial CRM, mobile CRM for SMBs, affordable CRM, CRM with full access trial">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Plans & Pricing | Runo">
+    <meta property="og:description" content="Experience Runo with full access during your 10-day free trial. Choose a pricing plan that fits your business needs across quarterly, half yearly or yearly options.">
+
+    <!-- Twitter tags -->
+    <meta name="twitter:title" content="Plans & Pricing | Runo">
+    <meta name="twitter:description" content="Experience Runo with full access during your 10-day free trial. Choose a pricing plan that fits your business needs across quarterly, half yearly or yearly options.">
+
     <?php include('head.php'); ?>
 </head>
 
@@ -285,7 +291,7 @@
     </section>
     <!-- Clients Section End -->
     <!-- Testimonial Section -->
-    <div class="our-tesimonial mt-space" style="background:none !important">
+    <div class="our-tesimonial mt-space" style="background:url('img/testimonial-background.webp') !important">
         <!-- Security Section with WOW animations -->
         <div class="container">
             <!-- Section Title Row with Navigation -->
@@ -380,7 +386,7 @@
                                     </h2>
                                     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionRuno">
                                         <div class="accordion-body">
-                                            No. Runo setup is completely free and takes less than 30 minutes. If your team needs personalised help with setup, CRM customisation, or training, we offer an optional guided onboarding starting at ₹xxxx.
+                                            No. Runo setup is completely free and takes less than 30 minutes. If your team needs personalised help with setup, CRM customisation, or training, we offer an optional guided onboarding.
                                         </div>
                                     </div>
                                 </div>
