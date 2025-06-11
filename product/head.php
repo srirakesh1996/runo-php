@@ -6,14 +6,23 @@
 <meta name="robots" content="no-index, follow">
 <meta name="language" content="English">
 
+<?php
+// Dynamically get base URL 
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$domain = $_SERVER['HTTP_HOST'];
+$baseUrl = $protocol . $domain;
+$ogImage = $baseUrl . "/img/share-image.png";
+?>
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-
-<meta property="og:image" content="https://runo.in/images/Runo-logo.png">
-<meta property="og:url" content="https://runo.in">
+<meta property="og:image" content="<?= $ogImage ?>">
+<meta property="og:url" content="<?= $baseUrl ?>">
 
 <!-- Twitter Card -->
-<meta name="twitter:image" content="https://runo.in/images/Runo-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="<?= $ogImage ?>">
+<meta name="twitter:url" content="<?= $baseUrl ?>">
 
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="../img/favicon.ico" sizes="16x16">
