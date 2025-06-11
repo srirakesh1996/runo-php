@@ -29,8 +29,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 <link rel="stylesheet" href="css/slicknav.min.css">
 <link rel="stylesheet" href="css/all.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/magnific-popup.css">
+
+
 <link rel="stylesheet" href="css/custom.css">
 <link rel="stylesheet" href="css/runo.css">
 
