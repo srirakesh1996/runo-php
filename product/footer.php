@@ -6,9 +6,9 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <h6 class="text-white fw-bold mb-3">ABOUT</h6>
                 <ul class="list-unstyled">
-                    <li><a href="../about-us" class="text-light text-decoration-none d-block mb-1">About Us</a></li>
-                    <li><a href="../newsroom" class="text-light text-decoration-none d-block mb-1">Newsroom</a></li>
-                    <li><a href="../partners" class="text-light text-decoration-none d-block mb-1">Become a Partner</a></li>
+                    <li><a href="/about-us" class="text-light text-decoration-none d-block mb-1">About Us</a></li>
+                    <li><a href="/newsroom" class="text-light text-decoration-none d-block mb-1">Newsroom</a></li>
+                    <li><a href="/partners" class="text-light text-decoration-none d-block mb-1">Become a Partner</a></li>
                 </ul>
                 <h6 class="fw-bold mt-4 mb-2 text-white">Contact</h6>
                 <a href="mailto:care@runo.in">
@@ -35,8 +35,8 @@
             <div class="col-6 col-md-4 col-lg-2">
                 <h6 class="text-white fw-bold mb-3">SUPPORT</h6>
                 <ul class="list-unstyled">
-                    <li><a href="../contact" class="text-light text-decoration-none d-block mb-1">Contact sales</a></li>
-                    <li><a href="../faq" class="text-light text-decoration-none d-block mb-1">FAQ</a></li>
+                    <li><a href="/contact" class="text-light text-decoration-none d-block mb-1">Contact sales</a></li>
+                    <li><a href="/faq" class="text-light text-decoration-none d-block mb-1">FAQ</a></li>
                 </ul>
             </div>
 
@@ -46,7 +46,7 @@
                 <ul class="list-unstyled">
                     <li><a href="https://blog.runo.in/" class="text-light text-decoration-none d-block mb-1">Blog</a></li>
                     <li><a href="https://docs.runo.in/" class="text-light text-decoration-none d-block mb-1">API Documentation</a></li>
-                    <li><a href="../integrations" class="text-light text-decoration-none d-block mb-1">Integrations</a></li>
+                    <li><a href="/integrations" class="text-light text-decoration-none d-block mb-1">Integrations</a></li>
                 </ul>
             </div>
             <!-- Review Images -->
@@ -102,10 +102,10 @@
                 <div class="col-md-7">
                     <div class="footer-menu">
                         <ul>
-                            <li><a href="../terms-and-conditions">Terms & Conditions</a></li>
-                            <li><a href="../privacy-policy">Privacy Policy</a></li>
-                            <li><a href="../cancellation-and-refund-policy">Usage Policy</a></li>
-                            <li><a href="../data-security">Data Security</a></li>
+                            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/cancellation-and-refund-policy">Usage Policy</a></li>
+                            <li><a href="/data-security">Data Security</a></li>
                         </ul>
                     </div>
                 </div>
