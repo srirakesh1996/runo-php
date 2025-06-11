@@ -22,9 +22,6 @@
   <!-- Mobile only -->
   <link rel="preload" as="image" href="img/hero-images/mobile/call-summary.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
 
-  <link rel="preload" as="image" href="img/hero-images/mobile/sentiment.webp" type="image/webp" media="(max-width: 768px)">
-  <link rel="preload" as="image" href="img/hero-images/mobile/assistant.webp" type="image/webp" media="(max-width: 768px)">
-
 
 </head>
 
