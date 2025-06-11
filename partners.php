@@ -323,7 +323,7 @@
                               }, {});
 
                               formData["your_phone"] = iti.getNumber();
-                              formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Partners";
+                              formData["custom_Page Name"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Partners";
 
                               const uuid = $(this).data("uuid");
 

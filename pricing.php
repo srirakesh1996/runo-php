@@ -23,7 +23,7 @@
         <?php include('preloader.php'); ?>
         <?php
         $page_name = 'Pricing';
-        $form_uuid = '540c6a38-0072-4c48-9fac-b443f814a999';
+        $form_uuid = 'e1117e15-c66c-4255-97c9-b3caaf4737de';
 
         include('home-modal.php');
         ?>

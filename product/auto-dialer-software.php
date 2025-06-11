@@ -16,7 +16,7 @@
     <?php include('preloader.php'); ?>
     <?php
     $page_name = 'Auto Dialer';
-    $form_uuid = 'bbe7e5e2-737b-403d-9ec9-e68e8ec51e87';
+    $form_uuid = '0ae890a6-689b-4299-8092-72d0ceecb519';
 
     include('home-modal.php');
     ?>
