@@ -574,8 +574,9 @@
                 <div class="card border-0 shadow-sm mb-4 text-center">
                     <img src="../img/feature/4.webp" class="card-img-top img-fluid mb-3" alt="AI Assistant">
                     <div class="card-body">
-                        <h5 class="card-title">AI Assistant</h5>
-                        <p class="feat-text">Ask questions like “show me missed follow-ups” or “how many positive calls today” and get instant answers from your call data.</p>
+                        <h5 class="card-title">AI Sales Assistant </h5>
+                        <p class="feat-text">Runo's AI Sales Assistant leverages LLMs and proprietary data to deliver instant insights, sales coaching, and streamlined workflows for enhanced productivity.
+                        </p>
                     </div>
                 </div>
             </div>

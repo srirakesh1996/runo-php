@@ -307,6 +307,26 @@
   color: #ffffff !important;
 }
 
+.submenu-list li a {
+
+  width: 95% !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+
+
+}
+
+.submenu-list li a:hover {
+  background: #EDEDED !important;
+  width: 95% !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 18px !important;
+
+}
+
 .submenu-list {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: hwb(0deg 100% 0%) !important;
@@ -2863,7 +2883,7 @@ body.modal-open {
 }
 
 .section-title h2 span {
-  background: linear-gradient(156deg, #FF5730 2.5%, #5E33EC 45%, #0065F2 100%) !important;
+  background: linear-gradient(90deg, #FF5730 40%, #5E33EC 75%, #0065F2 54.42%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   /* Added for non-webkit browsers */

@@ -73,7 +73,7 @@
                     <div class="row align-items-end wow zoomIn" id="web-hero">
                         <!-- Features -->
                         <div class="col-lg-4 order-1 order-lg-2 custom-shadow-box" data-wow-delay="0.3s" style="position: relative;right: 40px;">
-                            <h3 class="fw-semibold mb-1 text-center">Get a Demo Focused On Your Needs</h3>
+                            <h3 class="fw-semibold mb-1 text-center">All That You Need in One App</h3>
                             <div class="row" id="feature-buttons">
 
                                 <div class="col-4" data-wow-duration="0.8s">
@@ -252,7 +252,7 @@
                                 </div>
                             </div>
                             <div class="text-center mt-12">
-                                <a href="#features" class="btn-default btn-highlighted">See Features Live</a>
+                                <a href="#features" class="btn-default btn-highlighted">See All Features</a>
                             </div>
                         </div>
                         <!-- Images -->
@@ -379,7 +379,7 @@
 
                         </div>
                         <div class="text-center mt-30">
-                            <a href="#features" class="btn-default btn-highlighted">See Features Live</a>
+                            <a href="#features" class="btn-default btn-highlighted">See All Features</a>
                         </div>
                     </div>
 

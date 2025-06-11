@@ -617,20 +617,20 @@ header.main-header .header-sticky.active {
   padding: 10px 18px !important;
   color: #303030;
   text-transform: capitalize;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;*/
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1299px) {
   .main-menu ul li a {
-    font-size: 13px;
-    padding: 10px 15px !important;
+    font-size: 16px;
+    padding: 10px 18px !important;
   }
 }
 
 @media screen and (min-width: 1299px) and (max-width: 1400px) {
   .main-menu ul li a {
-    font-size: 14px;
-    padding: 10px 15px !important;
+    font-size: 16px;
+    padding: 10px 18px !important;
   }
 }
 
@@ -666,24 +666,30 @@ header.main-header .header-sticky.active {
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus {
-  color: #303030;
+  color: #f44336;
+}
+
+.header-sticky.active .main-menu ul li a:hover {
+  color: #f44336;
+
+
 }
 
 .main-menu ul ul {
   visibility: hidden;
   opacity: 0;
-  transform: scaleY(0.8);
+  /*  transform: scaleY(1);*/
   transform-origin: top;
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 230px;
+  width: 235px;
   border-radius: 20px;
   position: absolute;
   left: -30px;
   top: 100%;
   background-color: var(--accent-secondary-color);
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;*/
   text-align: left;
 }
 
@@ -700,8 +706,8 @@ header.main-header .header-sticky.active {
 .main-menu ul li:hover>ul {
   visibility: visible;
   opacity: 1;
-  transform: scaleY(1);
-  padding: 5px 0;
+  /* transform: scaleY(1);
+  padding: 5px 0;*/
 }
 
 .main-menu ul li.submenu ul li.submenu>a:after {
@@ -716,22 +722,22 @@ header.main-header .header-sticky.active {
 
 .main-menu ul ul li a {
   color: var(--accent-color);
-  padding: 8px 20px !important;
-  transition: all 0.3s ease-in-out;
+
+  /* transition: all 0.3s ease-in-out;*/
 }
 
 .main-menu ul li:hover>ul {
   visibility: visible;
   opacity: 1;
-  transform: scaleY(1);
+  /*transform: scaleY(1);*/
   padding: 5px 0;
 }
 
 .main-menu ul ul li a:hover,
 .main-menu ul ul li a:focus {
   color: #111111;
-  background-color: transparent;
-  padding: 8px 20px 8px 23px !important;
+  /* background-color: transparent;*/
+  padding: 10px 18px !important;
 }
 
 .main-menu ul li.highlighted-menu {
@@ -825,7 +831,7 @@ header.main-header .header-sticky.active {
   line-height: normal;
   margin: 0;
   border-radius: 0 !important;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;*/
 }
 
 .slicknav_nav a:hover,
@@ -836,7 +842,7 @@ header.main-header .header-sticky.active {
 }
 
 .slicknav_menu ul ul li a {
-  padding: 8px 20px 8px 30px;
+  /*  padding: 8px 20px 8px 30px;*/
 }
 
 .slicknav_arrow {
