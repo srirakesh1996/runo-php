@@ -49,7 +49,7 @@
                                     <p class="tenure">Billed Quarterly</p>
                                     <h3 class="price">₹ 899</h3>
                                     <p class="text-muted small">per user/month</p>
-                                    <a class="btn-runo track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 3 Months">Get Started</a>
+                                    <a class="btn-runo track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 3 Months">Start 10-Day Free Trial</a>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                     <p class="tenure">Billed Half Yearly</p>
                                     <h3 class="price">₹ 699 <del class="text-muted fs-6">₹ 899</del></h3>
                                     <p class="text-muted small">per user/month</p>
-                                    <a class="btn-default btn-highlighted track-btn" style="margin-top: -5px;" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 3 Months">Get Started</a>
+                                    <a class="btn-default btn-highlighted track-btn" style="margin-top: -5px;" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 6 Months">Start 10-Day Free Trial</a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                     <p class="tenure">Billed Yearly</p>
                                     <h3 class="price">₹ 599 <del class="text-muted fs-6">₹ 899</del></h3>
                                     <p class="text-muted small">per user/month</p>
-                                    <a class="btn-runo track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 3 Months">Get Started</a>
+                                    <a class="btn-runo track-btn" href="#" data-bs-toggle="modal" data-bs-target="#requestDemoModal" data-label="Pricing - 12 Months">Start 10-Day Free Trial</a>
                                 </div>
                             </div>
                         </div>
