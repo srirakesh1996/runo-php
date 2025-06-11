@@ -841,10 +841,11 @@ header.main-header .header-sticky.active {
   color: #111111 !important;
 }
 
+/*
 .slicknav_menu ul ul li a {
-  /*  padding: 8px 20px 8px 30px;*/
+  padding: 8px 20px 8px 30px;
 }
-
+*/
 .slicknav_arrow {
   font-size: 0 !important;
 }
