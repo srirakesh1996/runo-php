@@ -222,7 +222,7 @@
             }, {});
 
             formData["your_phone"] = iti.getNumber(); // international format
-            formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
+            formData["custom_Page Name"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Home";
             const uuid = $(this).data("uuid");
 
             submitForm("demo-form", formData, uuid);

@@ -230,7 +230,7 @@
             }, {});
 
             formData["your_phone"] = iti.getNumber(); // international phone
-            formData["custom_page"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Landing Pages";
+            formData["custom_Page Name"] = window.location.pathname.replace(/^\/|\/$/g, "") || "Landing Pages";
 
             const uuid = $(this).data("uuid");
 
