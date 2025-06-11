@@ -13,24 +13,6 @@
 <!-- Custom JS (Deferred) -->
 <script src="js/function.js" defer></script>
 
-<script>
-   document.getElementById('startTrialBtn').addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent default click
-
-      const baseUrl = this.getAttribute('href');
-      const utm_source = localStorage.getItem('utm_source');
-      const utm_campaign = localStorage.getItem('utm_campaign');
-
-      const params = new URLSearchParams();
-
-      if (utm_source) params.set('utm_source', utm_source);
-      if (utm_campaign) params.set('utm_campaign', utm_campaign);
-
-      const finalUrl = params.toString() ? `${baseUrl}?${params}` : baseUrl;
-
-      window.location.href = finalUrl; // Redirect with UTM
-   });
-</script>
 
 <!-- UTM Tracker -->
 <script>
