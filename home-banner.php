@@ -65,7 +65,7 @@
                         </div>
 
                         <div class="hero-btn">
-                            <a id="startTrialBtn" class="btn-default btn-highlighted track-btn" href="https://web.runo.in" data-label="Start 10-day free trial - Home Banner">Start 10-day free trial</a>
+                            <a class="btn-default btn-highlighted track-btn" href="https://web.runo.in" data-label="Start 10-day free trial - Home Banner">Start 10-day free trial</a>
                             <p style="font-size:13px">No Credit Card required</p>
                         </div>
 
